@@ -1,0 +1,37 @@
+name: chatbot_test
+
+services:
+  vector_api:
+    build: ./vector_database
+    depends_on:
+      - qdrant_test
+    ports:
+      - "8002:8000"
+    environment:
+      - QDRANT_HOST=qdrant_test
+      - QDRANT_PORT=6333
+      - QDRANT_API_KEY=${QDRANT_TEST_API_KEY}
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/docs || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vector-api-network
+
+  qdrant_test:
+    image: qdrant/qdrant:latest
+    container_name: qdrant_test
+    environment:
+      - QDRANT__SERVICE__API_KEY=${QDRANT_TEST_API_KEY}
+    volumes:
+      - qdrant_test_data:/qdrant/storage
+    networks:
+      - vector-api-network
+
+volumes:
+  qdrant_test_data:
+
+networks:
+  vector-api-network:
+    driver: bridge

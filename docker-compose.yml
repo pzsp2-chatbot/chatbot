@@ -1,0 +1,46 @@
+name: chatbot
+
+services:
+  vector_api:
+    build: ./vector_database
+    depends_on:
+      - qdrant
+    ports:
+      - "8001:8000"
+    environment:
+      - QDRANT_HOST=qdrant
+      - QDRANT_PORT=6333
+      - QDRANT_API_KEY=${QDRANT_API_KEY}
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8000/docs || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - vector-api-network
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: qdrant
+    environment:
+      - QDRANT__SERVICE__API_KEY=${QDRANT_API_KEY}
+    volumes:
+      - qdrant_data:/qdrant/storage
+    networks:
+      - vector-api-network
+
+  qdrant_backup:
+    image: busybox
+    command: sh -c "tar czf /backup/qdrant_backup_$(date +%F_%H-%M-%S).tar.gz -C /data ."
+    volumes:
+      - qdrant_data:/data
+      - type: bind
+        source: ./backups
+        target: /backup
+
+volumes:
+  qdrant_data:
+
+networks:
+  vector-api-network:
+    driver: bridge
