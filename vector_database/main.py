@@ -28,3 +28,8 @@ def search(collection_name: str, request: SearchItemRequest):
 @app.delete("/collections/{collection_name}/items/{item_id}")
 def delete_item(collection_name: str, item_id: int):
     pass
+
+
+@app.delete("/collections/{collection_name}")
+def delete_collection(collection_name: str):
+    pass
