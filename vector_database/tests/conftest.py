@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-QDRANT_HOST = os.getenv("QDRANT_HOST", "localhost")
+QDRANT_HOST = os.getenv("QDRANT_HOST", "qdrant_test")
 QDRANT_PORT = os.getenv("QDRANT_PORT", "6333")
 QDRANT_API_KEY = os.getenv("QDRANT_TEST_API_KEY")
 
