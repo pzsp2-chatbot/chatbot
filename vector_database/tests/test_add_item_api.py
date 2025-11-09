@@ -34,11 +34,13 @@ def test_add_data_success(create_and_cleanup_collection):
         "metadata": {"text": "Hello world"}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
 
     assert response.status_code == 200
     data = response.json()
     assert data["status"] == "ok"
     assert data["message"] == f"Item with id {item['id']} added to collection {collection_name}."
+    assert collection_info.result.points_count == 1
 
 def test_add_data_failed_duplicate_id(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -49,11 +51,13 @@ def test_add_data_failed_duplicate_id(create_and_cleanup_collection):
     }
     client.post(f"/collections/{collection_name}/items", json=item)
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
 
     assert response.status_code == 400
     data = response.json()
     assert data["status"] == "bad request"
     assert data["message"] == f"Item with id {item['id']} already exists in collection {collection_name}."
+    assert collection_info.result.points_count == 0
 
 def test_add_data_failed_invalid_id_type(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -63,7 +67,10 @@ def test_add_data_failed_invalid_id_type(create_and_cleanup_collection):
         "metadata": {"text": "Hello world"}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
 
 
 def test_add_data_failed_invalid_vector_type(create_and_cleanup_collection):
@@ -74,7 +81,10 @@ def test_add_data_failed_invalid_vector_type(create_and_cleanup_collection):
         "metadata": {"text": "Hello world"}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
 
 def test_add_data_failed_invalid_metadata_type(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -84,7 +94,10 @@ def test_add_data_failed_invalid_metadata_type(create_and_cleanup_collection):
         "metadata": 1
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
 
 def test_add_data_failed_vector_too_short(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -94,7 +107,10 @@ def test_add_data_failed_vector_too_short(create_and_cleanup_collection):
         "metadata": {"text": "Hello world"}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
 
 def test_add_data_failed_vector_too_long(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -104,7 +120,10 @@ def test_add_data_failed_vector_too_long(create_and_cleanup_collection):
         "metadata": {"text": "Hello world"}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
 
 def test_add_data_failed_empty_metadata(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
@@ -114,4 +133,7 @@ def test_add_data_failed_empty_metadata(create_and_cleanup_collection):
         "metadata": {}
     }
     response = client.post(f"/collections/{collection_name}/items", json=item)
+    collection_info = qdrant_client.get_collection(collection_name=collection_name)
+
     assert response.status_code == 422
+    assert collection_info.result.points_count == 0
