@@ -6,3 +6,7 @@ class CreateCollectionRequest(BaseModel):
 
 class AddItemRequest(BaseModel):
     pass
+
+
+class SearchItemRequest(BaseModel):
+    pass
