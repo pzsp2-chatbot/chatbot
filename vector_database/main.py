@@ -23,3 +23,8 @@ def add_item(collection_name: str, request: AddItemRequest):
 @app.post("/collections/{collection_name}/search")
 def search(collection_name: str, request: SearchItemRequest):
     pass
+
+
+@app.delete("/collections/{collection_name}/items/{item_id}")
+def delete_item(collection_name: str, item_id: int):
+    pass
