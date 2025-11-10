@@ -2,7 +2,7 @@ name: chatbot
 
 services:
   vector_api:
-    build: ./vector_database
+    build: .
     depends_on:
       - qdrant
     ports:

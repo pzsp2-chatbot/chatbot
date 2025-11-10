@@ -2,7 +2,7 @@ name: chatbot_test
 
 services:
   vector_api:
-    build: ./vector_database
+    build: .
     depends_on:
       - qdrant_test
     ports:
@@ -28,6 +28,19 @@ services:
       - qdrant_test_data:/qdrant/storage
     networks:
       - vector-api-network
+
+  tests:
+    build: .
+    depends_on:
+      vector_api:
+        condition: service_started
+    networks:
+      - vector-api-network
+    environment:
+      - QDRANT_HOST=qdrant_test
+      - QDRANT_PORT=6333
+      - QDRANT_API_KEY=${QDRANT_TEST_API_KEY}
+    command: [ "pytest", "-v", "vector_database/tests/" ]
 
 volumes:
   qdrant_test_data:
