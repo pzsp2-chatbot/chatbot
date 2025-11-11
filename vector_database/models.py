@@ -12,8 +12,6 @@ class CreateCollectionRequest(BaseModel):
 class AddItemRequest(BaseModel):
     VECTOR_SIZE: ClassVar[int] = 1024
 
-    id: int = Field(..., description="Id of an element")
-
     vector: Annotated[list[float], Field(min_length=VECTOR_SIZE, max_length=VECTOR_SIZE,
             description=f"Vector containing exactly {VECTOR_SIZE} float values")]
 
