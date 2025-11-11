@@ -20,7 +20,7 @@ class CollectionService:
     def delete_collection(self, name: str):
         try:
             self.client.get_collection(collection_name=name)
-        except Exception as e:
+        except Exception:
             raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
         self.client.delete_collection(collection_name=name)
         return f"Deleted collection '{name}'."
