@@ -1,10 +1,12 @@
 from typing import Dict, Any, Annotated, Optional
-
 from pydantic import BaseModel, Field, field_validator
 
 
 class CreateCollectionRequest(BaseModel):
+    VECTOR_SIZE = 1024
+
     name: str = Field(..., description="Name of the collection")
+    vector_size: int = Field(VECTOR_SIZE, gt=0, description="Size of vectors in the collection")
 
 
 class AddItemRequest(BaseModel):
