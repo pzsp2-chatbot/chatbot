@@ -2,7 +2,7 @@ import os
 import pydantic
 from fastapi import FastAPI, HTTPException
 from qdrant_client import QdrantClient
-from vector_database.exceptions import CollectionAlreadyExistsError
+from vector_database.exceptions import CollectionAlreadyExistsError, CollectionDoesNotExistError
 from vector_database.models import CreateCollectionRequest, AddItemRequest, SearchItemRequest
 from dotenv import load_dotenv
 from vector_database.services.CollectionService import CollectionService
@@ -55,4 +55,10 @@ def delete_item(collection_name: str, item_id: int):
 
 @app.delete("/collections/{collection_name}")
 def delete_collection(collection_name: str):
-    pass
+    try:
+        message = collection_service.delete_collection(collection_name)
+        return {"status": "ok", "message": message}
+    except CollectionDoesNotExistError as e:
+        raise HTTPException(status_code=404, detail={"status": "not found", "message": str(e)})
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
