@@ -1,9 +1,24 @@
-from fastapi import FastAPI
-
+import os
+import pydantic
+from fastapi import FastAPI, HTTPException
+from qdrant_client import QdrantClient
+from vector_database.exceptions import CollectionAlreadyExistsError
 from vector_database.models import CreateCollectionRequest, AddItemRequest, SearchItemRequest
+from dotenv import load_dotenv
+from vector_database.services.CollectionService import CollectionService
+from vector_database.services.ItemService import ItemService
+from vector_database.services.SearchService import SearchService
 
+load_dotenv()
+
+QDRANT_HOST = os.getenv("QDRANT_HOST")
+QDRANT_PORT = os.getenv("QDRANT_PORT")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 app = FastAPI()
-
+qdrant_client = QdrantClient(url=f"http://{QDRANT_HOST}:{QDRANT_PORT}", api_key=QDRANT_API_KEY)
+collection_service = CollectionService(qdrant_client)
+item_service = ItemService(qdrant_client)
+search_service = SearchService(qdrant_client)
 
 @app.get("/")
 def read_root():
@@ -12,8 +27,16 @@ def read_root():
 
 @app.post("/collections")
 def create_collection(request: CreateCollectionRequest):
-    pass
-
+    try:
+        message = collection_service.create_collection(request.name, request.vector_size)
+        return {"status": "ok", "message": message}
+    except CollectionAlreadyExistsError as e:
+        raise HTTPException(status_code=400, detail={"status": "bad request", "message": str(e)}
+        )
+    except pydantic.ValidationError:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 @app.post("/collections/{collection_name}/items")
 def add_item(collection_name: str, request: AddItemRequest):
