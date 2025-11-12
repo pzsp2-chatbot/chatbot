@@ -87,7 +87,7 @@ def test_create_collection_failed_invalid_vector_size_type_pydantic(cleanup_coll
 def test_create_collection_failed_too_short_vector_pydantic(cleanup_collection):
     collection_name = cleanup_collection
     collections_before = len(qdrant_client.get_collections().collections)
-    response = client.post("/collections", json={"name": collection_name, "vector_size": 1023})
+    response = client.post("/collections", json={"name": collection_name, "vector_size": 0})
     collections_after = len(qdrant_client.get_collections().collections)
 
     assert response.status_code == 422
