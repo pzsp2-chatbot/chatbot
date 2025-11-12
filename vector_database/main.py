@@ -55,9 +55,18 @@ def search(collection_name: str, request: SearchItemRequest):
     pass
 
 
-@app.delete("/collections/{collection_name}/items/{item_id}")
-def delete_item(collection_name: str, item_id: int):
-    pass
+@app.delete("/collections/{collection_name}/items/{document_id}")
+def delete_item(collection_name: str, document_id: str):
+    try:
+        message = item_service.delete_item(collection_name, document_id)
+        return {"status": "ok", "message": message}
+    except CollectionDoesNotExistError as e:
+        raise HTTPException(status_code=404, detail={"status": "not found", "message": str(e)})
+    except DocumentDoesNotExistError as e:
+        raise HTTPException(status_code=404, detail={"status": "not found", "message": str(e)})
+    except Exception as e:
+        print("Unexpected error in delete_item:", e)
+        raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 
 @app.delete("/collections/{collection_name}")
