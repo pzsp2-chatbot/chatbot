@@ -44,6 +44,8 @@ def add_item(collection_name: str, request: AddItemRequest):
         return {"status": "ok", "message": message}
     except CollectionAlreadyExistsError as e:
         raise HTTPException(status_code=400, detail={"status": "bad request", "message": str(e)})
+    except InvalidDateFormatError as e:
+        raise HTTPException(status_code=422, detail={"status": "invalid input data format", "message": str(e)})
     except pydantic.ValidationError:
         raise
     except Exception as e:
@@ -52,7 +54,16 @@ def add_item(collection_name: str, request: AddItemRequest):
 
 @app.post("/collections/{collection_name}/search")
 def search(collection_name: str, request: SearchItemRequest):
-    pass
+    try:
+        items = search_service.search(collection_name, request)
+        return {"status": "ok", "items": items}
+    except CollectionDoesNotExistError as e:
+        raise HTTPException(status_code=404, detail={"status": "not found", "message": str(e)})
+    except InvalidDateFormatError as e:
+        raise HTTPException(status_code=422, detail={"status": "invalid input data format", "message": str(e)})
+    except Exception as e:
+        print(e)
+        raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 
 @app.delete("/collections/{collection_name}/items/{document_id}")
@@ -65,7 +76,6 @@ def delete_item(collection_name: str, document_id: str):
     except DocumentDoesNotExistError as e:
         raise HTTPException(status_code=404, detail={"status": "not found", "message": str(e)})
     except Exception as e:
-        print("Unexpected error in delete_item:", e)
         raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 
