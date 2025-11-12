@@ -1,6 +1,7 @@
 import uuid
-from qdrant_client import QdrantClient
-from vector_database.exceptions import CollectionDoesNotExistError
+from qdrant_client import QdrantClient, models
+from qdrant_client.models import Filter, FieldCondition, MatchValue
+from vector_database.exceptions import CollectionDoesNotExistError, DocumentDoesNotExistError
 from vector_database.models import AddItemRequest
 
 
@@ -24,5 +25,18 @@ class ItemService:
 
         return f"Item added to collection '{name}'."
 
-    def delete_item(self, name: str):
-        pass
+    def delete_item(self, name: str, document_id: str):
+        try:
+            self.client.get_collection(collection_name=name)
+        except Exception:
+            raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
+
+        points, _ = self.client.scroll(collection_name=name, scroll_filter=Filter(must=[FieldCondition(
+                        key="document_id", match=MatchValue(value=document_id))]), limit=1)
+        if len(points) == 0:
+            raise DocumentDoesNotExistError(f"Item with document id '{document_id}' not found.")
+
+        self.client.delete(collection_name=name, points_selector=models.FilterSelector(filter=models.Filter(
+            must=[models.FieldCondition(key="document_id", match=models.MatchValue(value=document_id))])))
+
+        return f"Item with document_id {document_id} deleted from collection {name}."
