@@ -54,6 +54,7 @@ def test_add_data_failed_invalid_vector_type(create_and_cleanup_collection):
     assert response.status_code == 422
     assert point_count == 1
 
+
 def test_add_data_failed_invalid_metadata_type(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
     item = {"vector": [0.1] * 4, "payload": 1}
@@ -84,6 +85,16 @@ def test_add_data_failed_vector_too_long(create_and_cleanup_collection):
 def test_add_data_failed_empty_metadata(create_and_cleanup_collection):
     collection_name = create_and_cleanup_collection
     item = {"vector": [0.1] * 4, "payload": {}}
+    response = client.post(f"/collections/{collection_name}/items", json=item)
+    point_count = qdrant_client.count(collection_name=collection_name).count
+
+    assert response.status_code == 422
+    assert point_count == 1
+
+
+def test_add_data_failed_invalid_date_format(create_and_cleanup_collection):
+    collection_name = create_and_cleanup_collection
+    item = {"vector": 123, "payload": {"text": "text", "author": "Robert Smith", "published_at": "2025-10-01"}}
     response = client.post(f"/collections/{collection_name}/items", json=item)
     point_count = qdrant_client.count(collection_name=collection_name).count
 
