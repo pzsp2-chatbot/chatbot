@@ -17,4 +17,7 @@ ENV PYTHONPATH=/app
 
 EXPOSE 8000
 
-CMD ["uvicorn", "vector_database.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "vector_database.main:app", "--host", "0.0.0.0", "--port", "8000", \
+     "--ssl-certfile=/app/certificates/fullchain.pem", \
+     "--ssl-keyfile=/app/certificates/privkey.pem", \
+     "--reload"]
