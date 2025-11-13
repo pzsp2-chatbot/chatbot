@@ -5,5 +5,5 @@ pytest_cache/
 qdrant_storage/
 .qdrant/
 backups/
-
+certificates/
 *.env
