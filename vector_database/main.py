@@ -8,6 +8,9 @@ from dotenv import load_dotenv
 from vector_database.services.CollectionService import CollectionService
 from vector_database.services.ItemService import ItemService
 from vector_database.services.SearchService import SearchService
+import warnings
+
+warnings.filterwarnings("ignore", message="Api key is used with an insecure connection.")
 
 load_dotenv()
 
