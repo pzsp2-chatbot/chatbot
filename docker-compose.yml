@@ -5,6 +5,7 @@ services:
     build: .
     depends_on:
       - qdrant
+      - nginx
     ports:
       - "8001:8000"
     environment:
@@ -26,6 +27,19 @@ services:
       - QDRANT__SERVICE__API_KEY=${QDRANT_API_KEY}
     volumes:
       - qdrant_data:/qdrant/storage
+    networks:
+      - vector-api-network
+
+  nginx:
+    image: nginx:alpine
+    container_name: qdrant_nginx
+    depends_on:
+      - qdrant
+    ports:
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./certificates:/etc/ssl/certificates:ro
     networks:
       - vector-api-network
 
