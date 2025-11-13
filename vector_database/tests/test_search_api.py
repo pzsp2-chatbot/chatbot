@@ -1,13 +1,14 @@
 import pytest
 from fastapi.testclient import TestClient
 from qdrant_client.models import VectorParams, Distance
-
 from vector_database.main import app
 from qdrant_client import QdrantClient
 from vector_database.tests.conftest import QDRANT_HOST, QDRANT_PORT, QDRANT_API_KEY
+import warnings
+
+warnings.filterwarnings("ignore", message="Api key is used with an insecure connection.")
 
 client = TestClient(app)
-
 qdrant_client = QdrantClient(
     url=f"http://{QDRANT_HOST}:{QDRANT_PORT}",
     api_key=QDRANT_API_KEY
