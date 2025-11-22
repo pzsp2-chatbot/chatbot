@@ -65,7 +65,6 @@ def search(collection_name: str, request: SearchItemRequest):
     except InvalidDateFormatError as e:
         raise HTTPException(status_code=422, detail={"status": "invalid input data format", "message": str(e)})
     except Exception as e:
-        print(e)
         raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 
