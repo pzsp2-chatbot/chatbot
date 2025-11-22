@@ -25,13 +25,20 @@ search_service = SearchService(qdrant_client)
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"message": "This is a RAG app"}
 
+@app.get("/collections")
+def get_collections():
+    try:
+        collections = collection_service.get_collections()
+        return {"status": "ok", "collections": collections}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 @app.post("/collections")
 def create_collection(request: CreateCollectionRequest):
     try:
-        message = collection_service.create_collection(request.name, request.vector_size)
+        message = collection_service.create_collection(request)
         return {"status": "ok", "message": message}
     except CollectionAlreadyExistsError as e:
         raise HTTPException(status_code=400, detail={"status": "bad request", "message": str(e)})
@@ -65,7 +72,6 @@ def search(collection_name: str, request: SearchItemRequest):
     except InvalidDateFormatError as e:
         raise HTTPException(status_code=422, detail={"status": "invalid input data format", "message": str(e)})
     except Exception as e:
-        print(e)
         raise HTTPException(status_code=500, detail={"status": "error", "message": str(e)})
 
 
