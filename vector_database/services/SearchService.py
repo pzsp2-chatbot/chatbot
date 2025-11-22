@@ -12,6 +12,7 @@ class SearchService:
     def __init__(self, client: QdrantClient):
         self.client = client
 
+
     def search(self, name: str, request: SearchItemRequest) -> list[ScoredPointResponse]:
         try:
             self.client.get_collection(collection_name=name)
@@ -24,30 +25,45 @@ class SearchService:
 
         return SearchService.format_points(response.points)
 
+
     @staticmethod
-    def create_filter(request: SearchItemRequest) -> Filter:
+    def create_filter(request: SearchItemRequest) -> Filter | None:
         conditions = []
 
+        author_cond = SearchService.create_author_condition(request)
+        if author_cond:
+            conditions.append(author_cond)
+
+        date_cond = SearchService.create_date_condition(request)
+        if date_cond:
+            conditions.append(date_cond)
+
+        return Filter(must=conditions) if conditions else None
+
+
+    @staticmethod
+    def create_author_condition(request: SearchItemRequest) -> FieldCondition | None:
         author = request.filter.get("author")
         if author:
-            conditions.append(FieldCondition(key="author", match=MatchValue(value=author)))
+            return FieldCondition(key="author", match=MatchValue(value=author))
+        return None
 
+
+    @staticmethod
+    def create_date_condition(request: SearchItemRequest) -> FieldCondition | None:
         start = request.filter.get("starting_date")
         end = request.filter.get("ending_date")
-        if start or end:
-            range_args = {}
-            if start:
-                range_args["gte"] = ItemService.convert_date_string_to_int(start)
-            if end:
-                range_args["lte"] = ItemService.convert_date_string_to_int(end)
-            conditions.append(FieldCondition(key="published_at", range=Range(**range_args)))
+        if not start and not end:
+            return None
 
-        if conditions:
-            qdrant_filter = Filter(must=conditions)
-        else:
-            qdrant_filter = None
+        range_args = {}
+        if start:
+            range_args["gte"] = ItemService.convert_date_string_to_int(start)
+        if end:
+            range_args["lte"] = ItemService.convert_date_string_to_int(end)
 
-        return qdrant_filter
+        return FieldCondition(key="published_at", range=Range(**range_args))
+
 
     @staticmethod
     def format_points(points: list[ScoredPoint]) -> list[ScoredPointResponse]:
