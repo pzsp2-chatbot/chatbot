@@ -10,7 +10,7 @@ class ItemService:
     def __init__(self, client: QdrantClient):
         self.client = client
 
-    def add_item(self, name: str, request: AddItemRequest):
+    def add_item(self, name: str, request: AddItemRequest) -> str:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:
@@ -29,7 +29,7 @@ class ItemService:
 
         return f"Item added to collection '{name}'."
 
-    def delete_item(self, name: str, document_id: str):
+    def delete_item(self, name: str, document_id: str) -> str:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:
