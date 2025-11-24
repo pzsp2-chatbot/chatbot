@@ -1,0 +1,65 @@
+stages:
+  - lint
+  - build
+  - test
+  - docker
+  - delivery
+
+
+variables:
+  DOCKER_IMAGE: "$CI_REGISTRY_IMAGE/app"
+  DOCKER_TLS_CERTDIR: ""
+
+
+lint:
+  stage: lint
+  image: python:3.14-slim
+  script:
+    - pip install ruff
+    - ruff check .
+
+
+build:
+  stage: build
+  image: python:3.14-slim
+  script:
+    - pip install -r requirements.txt
+
+
+test:
+  stage: test
+  image: docker:27
+  services:
+    - docker:27-dind
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    - docker compose -f docker-compose-test.yml up -d --build
+    - docker logs chatbot_test-tests-1
+    - docker compose -f docker-compose-test.yml down
+
+
+docker_build:
+  stage: docker
+  image: docker:27
+  services:
+    - docker:27-dind
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
+
+
+delivery:
+  stage: delivery
+  image: docker:27
+  services:
+    - docker:27-dind
+  only:
+    - main
+  script:
+    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+
+    - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
+    - docker tag "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" "$DOCKER_IMAGE:latest"
+
+    - docker push "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA"
+    - docker push "$DOCKER_IMAGE:latest"
