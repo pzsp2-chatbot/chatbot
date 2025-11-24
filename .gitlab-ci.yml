@@ -8,8 +8,9 @@ stages:
 
 variables:
   DOCKER_IMAGE: "$CI_REGISTRY_IMAGE/app"
-  DOCKER_TLS_CERTDIR: ""
-  DOCKER_HOST: unix:///var/run/docker.sock
+  DOCKER_HOST: tcp://docker:2376
+  DOCKER_TLS_VERIFY: 1
+  DOCKER_TLS_CERTDIR: "/certs"
 
 
 lint:
@@ -30,6 +31,8 @@ build:
 test:
   stage: test
   image: docker:27
+  services:
+    - docker:27-dind
   script:
     - docker compose -f docker-compose.test.yml up -d --build
     - until curl -f http://localhost:8002/docs; do echo "Waiting for vector_api..."; sleep 2; done
@@ -40,6 +43,8 @@ test:
 docker_build:
   stage: docker
   image: docker:27
+  services:
+    - docker:27-dind
   script:
     - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
 
@@ -49,6 +54,8 @@ delivery:
   image: docker:27
   only:
     - main
+  services:
+    - docker:27-dind
   script:
     - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
     - docker tag "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" "$DOCKER_IMAGE:latest"
