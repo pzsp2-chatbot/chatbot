@@ -8,9 +8,8 @@ stages:
 
 variables:
   DOCKER_IMAGE: "$CI_REGISTRY_IMAGE/app"
-  DOCKER_HOST: tcp://docker:2376
-  DOCKER_TLS_VERIFY: 1
-  DOCKER_TLS_CERTDIR: "/certs"
+  DOCKER_HOST: tcp://docker:2375
+  DOCKER_TLS_CERTDIR: ""
 
 
 lint:
