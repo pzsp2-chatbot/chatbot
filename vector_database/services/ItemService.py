@@ -49,7 +49,7 @@ class ItemService:
     def convert_date_string_to_int(date: str) -> int:
         try:
             parsed_date = datetime.strptime(date, "%Y-%m-%d")
-        except ValueError as e:
+        except ValueError:
             raise InvalidDateFormatError("Date must be in YYYY-MM-DD format.")
 
         return parsed_date.year * 10000 + parsed_date.month * 100 + parsed_date.day
