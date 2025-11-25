@@ -1,90 +1,99 @@
-import requests
 import os
-import time
 from datetime import datetime, timezone
+from typing import List
+import requests
 import xml.etree.ElementTree as ET
 
-BASE_URL = "https://omega-rd.ii.pw.edu.pl/seam/resource/rest/accesspoint/search"
-OUTPUT_DIR = "data/omega_data_oct2024_xml"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-BATCH_SIZE = 100
-START_DATE = datetime(2024, 10, 1, tzinfo=timezone.utc)
-END_DATE = datetime(2024, 11, 1, tzinfo=timezone.utc)
-NS = {"ns2": "http://ii.pw.edu.pl/lib"}
+class OmegaDownloadError(Exception):
+    """Raised when downloading from Omega REST API fails."""
+    pass
 
-def fetch_batch(offset, limit):
-    """Fetch a batch of articles from the REST API."""
-    query = f"article/createdDate%3E%27{START_DATE.date()}%27"
-    url = f"{BASE_URL}/{query}/{offset}/{limit}?orderBy=createdDate;ascending"
 
-    print("Loading: ", url)
-    resp = requests.get(url, timeout=20)
-    resp.raise_for_status()
-    return resp.text
+class OmegaDownloader:
+    BASE_URL = "https://omega-rd.ii.pw.edu.pl/seam/resource/rest/accesspoint/search"
+    NS = {"ns2": "http://ii.pw.edu.pl/lib"}
 
-def parse_batch(xml_text):
-    """Parse XML text and return list of article elements."""
-    root = ET.fromstring(xml_text)
-    articles = root.findall(".//ns2:article", NS)
-    return articles
+    def __init__(
+        self,
+        output_dir: str,
+        batch_size: int = 100,
+        limit: int = 2000,
+        start_date: datetime = datetime(2024, 10, 1, tzinfo=timezone.utc)
+    ):
+        self.output_dir = output_dir
+        self.batch_size = batch_size
+        self.start_date = start_date
+        self.limit = limit
 
-def extract_created(article):
-    """Extract creation datetime from article's metaData/created as UTC-aware datetime."""
-    created_el = article.find(".//metaData/created")
-    if created_el is None or not created_el.text:
-        return None
-    try:
-        dt = datetime.fromisoformat(created_el.text.replace("Z", "+00:00"))
-        return dt  # already timezone-aware
-    except Exception:
-        return None
+        os.makedirs(self.output_dir, exist_ok=True)
 
-def download():
-    offset = 0
-    saved = 0
 
-    while offset < BATCH_SIZE:
+    def fetch_batch(self, start: int, end: int) -> str:
+        query = f"article/createdDate%3E%27{self.start_date.date()}%27"
+        url = f"{self.BASE_URL}/{query}/{start}/{end}?orderBy=createdDate;ascending"
+
         try:
-            xml_data = fetch_batch(offset, BATCH_SIZE)
-        except requests.HTTPError as e:
-            print("No data or error: ", e)
-            break
+            response = requests.get(url, timeout=30)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException as e:
+            raise OmegaDownloadError(f"Failed to fetch batch at offset {offset}: {e}")
 
-        if "<collection" not in xml_data:
-            print("End of data reached.")
-            break
 
-        articles = parse_batch(xml_data)
+    def parse_batch(self, xml_text: str) -> List[ET.Element]:
+        if "<collection" not in xml_text:
+            raise OmegaDownloadError("No <collection> tag in XML (likely end of data).")
 
-        if not articles:
-            print("No more articles found.")
-            break
+        try:
+            root = ET.fromstring(xml_text)
+            articles = root.findall(".//ns2:article", self.NS)
+            if not articles:
+                raise OmegaDownloadError("XML contains <collection> but no <article> entries.")
+            return articles
+        except ET.ParseError as e:
+            raise OmegaDownloadError(f"Failed to parse XML: {e}")
 
-        print(f"Batch has {len(articles)} articles")
 
-        for art in articles:
-            created = extract_created(art)
-            if not created:
-                continue
+    def save_article(self, article: ET.Element, counter: int) -> None:
+        art_id_el = article.find("ns2:id", self.NS)
+        article_id = art_id_el.text if art_id_el is not None else f"noid_{counter}"
+        filename = os.path.join(self.output_dir, f"{article_id}.xml")
 
-            if not (START_DATE <= created < END_DATE):
-                continue
+        with open(filename, "wb") as f:
+            f.write(ET.tostring(article, encoding="utf-8"))
 
-            art_id_el = art.find("ns2:id", NS)
-            art_id = art_id_el.text if art_id_el is not None else f"noid_{saved}"
 
-            filename = os.path.join(OUTPUT_DIR, f"{art_id}.xml")
-            with open(filename, "wb") as f:
-                f.write(ET.tostring(art, encoding="utf-8"))
+    def download(self) -> int:
+        saved = 0
 
-            print(f"Saved: {filename}")
-            saved += 1
+        while saved < self.limit:
+            batch_xml = self.fetch_batch(saved, saved+self.batch_size)
+            articles = self.parse_batch(batch_xml)
 
-        offset += BATCH_SIZE
-        time.sleep(0.2)
+            for art in articles:
+                self.save_article(art, saved)
+                saved += 1
 
-    print(f"Downloaded {saved} articles.")
+        return saved
+
+
+    def handle_download(self):
+        try:
+            total = self.download()
+            print(f"\nDownloaded {total} articles.")
+        except OmegaDownloadError as e:
+            print(f"[ERROR] {e}")
+        except Exception as e:
+            print(f"[Unexpected Error] {e}")
+
+
 
 if __name__ == "__main__":
-    download()
+    downloader = OmegaDownloader(
+        output_dir="data/omega_data_nov2024_xml",
+        batch_size=100,
+        limit=500,
+        start_date=datetime(2024, 11, 1, tzinfo=timezone.utc),
+    )
+    downloader.handle_download()
