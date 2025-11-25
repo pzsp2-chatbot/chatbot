@@ -3,7 +3,6 @@ stages:
   - build
   - test
   - docker
-  - delivery
 
 
 variables:
@@ -38,15 +37,3 @@ docker_build:
   image: docker:27
   script:
     - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
-
-
-delivery:
-  stage: delivery
-  image: docker:27
-  only:
-    - main
-  script:
-    - docker build -t "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" .
-    - docker tag "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA" "$DOCKER_IMAGE:latest"
-    - docker push "$DOCKER_IMAGE:$CI_COMMIT_SHORT_SHA"
-    - docker push "$DOCKER_IMAGE:latest"
