@@ -2,7 +2,8 @@ import os
 import pydantic
 from fastapi import FastAPI, HTTPException
 from qdrant_client import QdrantClient
-from vector_database.exceptions import *
+from vector_database.exceptions import CollectionAlreadyExistsError, InvalidDateFormatError, \
+    CollectionDoesNotExistError, DocumentDoesNotExistError
 from vector_database.models import CreateCollectionRequest, AddItemRequest, SearchItemRequest
 from dotenv import load_dotenv
 from vector_database.services.CollectionService import CollectionService

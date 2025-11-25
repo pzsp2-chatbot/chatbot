@@ -25,6 +25,12 @@ class AddItemRequest(BaseModel):
         return value
 
 
+class SearchFilterDict(TypedDict, total=False):
+    author: Optional[str]
+    starting_date: Optional[str]
+    ending_date: Optional[str]
+
+
 class SearchItemRequest(BaseModel):
     VECTOR_MAX_SIZE: ClassVar[int] = 1024
     RESULTS_BY_DEFAULT: ClassVar[int] = 1
@@ -35,10 +41,4 @@ class SearchItemRequest(BaseModel):
     top_k: int = Field(RESULTS_BY_DEFAULT, gt=0, description=f"Number of results ({RESULTS_BY_DEFAULT} by default)")
 
     filter: Optional[SearchFilterDict] = Field(None,
-        description=f"Optional metadata filter (date of publication, author)")
-
-
-class SearchFilterDict(TypedDict, total=False):
-    author: Optional[str]
-    starting_date: Optional[str]
-    ending_date: Optional[str]
+        description="Optional metadata filter (date of publication, author)")
