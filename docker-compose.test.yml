@@ -30,7 +30,9 @@ services:
       - vector-api-network
 
   tests:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile.test
     depends_on:
       vector_api:
         condition: service_started
