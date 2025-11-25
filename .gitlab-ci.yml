@@ -7,7 +7,7 @@ stages:
 
 
 variables:
-  DOCKER_IMAGE: "$CI_REGISTRY_IMAGE/app"
+  DOCKER_IMAGE: "chatbot/app"
 
 
 lint:
