@@ -11,6 +11,7 @@ services:
       - QDRANT_HOST=qdrant_test
       - QDRANT_PORT=6333
       - QDRANT_API_KEY=${QDRANT_TEST_API_KEY}
+      - USE_SSL=false
     healthcheck:
       test: ["CMD-SHELL", "curl -f http://localhost:8000/docs || exit 1"]
       interval: 10s
