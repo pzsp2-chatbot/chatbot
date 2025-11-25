@@ -2,7 +2,9 @@ name: chatbot_test
 
 services:
   vector_api:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile-test
     depends_on:
       - qdrant_test
     ports:
