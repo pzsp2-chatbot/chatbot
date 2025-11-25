@@ -13,7 +13,7 @@ lint:
   stage: lint
   image: python:3.14-slim
   script:
-    - pip install ruff
+    - pip install --root-user-action=ignore ruff
     - ruff check .
 
 
@@ -21,7 +21,7 @@ build:
   stage: build
   image: python:3.14-slim
   script:
-    - pip install -r requirements.txt
+    - pip install --root-user-action=ignore -r requirements.txt
 
 
 test:
