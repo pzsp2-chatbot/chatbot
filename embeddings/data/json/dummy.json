@@ -1,0 +1,21 @@
+{
+  "id": "WUT1234567890",
+  "title": "Test Article for Embeddings Pipeline",
+  "created": "2025-01-01T10:00:00.000+02:00",
+  "modified": "2025-01-02T12:00:00.000+02:00",
+  "language": "en",
+  "doi": "10.1234/testdoi.5678",
+  "url": "https://example.com/test-article",
+  "authors": [
+    {
+      "full_name": "Alice Kowalski",
+      "affiliation": "University of Example"
+    },
+    {
+      "full_name": "Bob Nowak",
+      "affiliation": "Institute of Testing"
+    }
+  ],
+  "abstract_pl": null,
+  "abstract_en": "This is a dummy abstract for testing the embeddings pipeline."
+}
