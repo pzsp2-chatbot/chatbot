@@ -38,7 +38,7 @@ class OmegaDownloader:
             response.raise_for_status()
             return response.text
         except requests.RequestException as e:
-            raise OmegaDownloadError(f"Failed to fetch batch at offset {offset}: {e}")
+            raise OmegaDownloadError(f"Failed to fetch batch at offset {end}: {e}")
 
 
     def parse_batch(self, xml_text: str) -> List[ET.Element]:
