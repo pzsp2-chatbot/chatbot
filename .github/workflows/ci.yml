@@ -1,0 +1,53 @@
+name: ci.yml
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+env:
+  DOCKER_IMAGE: chatbot/app
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.14-slim
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install ruff
+        run: pip install --no-cache-dir --root-user-action=ignore ruff
+      - name: Run linter
+        run: ruff check .
+
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.14-slim
+    needs: lint
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: pip install --root-user-action=ignore -r requirements.txt
+
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: docker:27
+    env:
+      QDRANT_TEST_API_KEY: ${{ secrets.QDRANT_TEST_API_KEY }}
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+      - run: docker compose -f "docker-compose.test.yml" up --abort-on-container-exit --build
+      - run: docker compose -f "docker-compose.test.yml" down
+
+  docker_build:
+    runs-on: ubuntu-latest
+    container:
+      image: docker:27
+    needs: test
+    steps:
+      - uses: actions/checkout@v3
+      - run: docker build -t "$DOCKER_IMAGE:${{ github.sha }}" .
