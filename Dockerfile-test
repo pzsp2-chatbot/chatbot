@@ -1,8 +1,5 @@
 FROM python:3.14-slim
 
-ARG GIT_COMMIT
-LABEL org.opencontainers.image.revision=$GIT_COMMIT
-
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
