@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - convert_gitlab_ci.yml_to_ci.yml
   pull_request:
 
 env:
