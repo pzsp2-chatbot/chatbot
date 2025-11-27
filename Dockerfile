@@ -6,10 +6,13 @@ RUN apt-get update && apt-get install -y \
     curl \
     build-essential \
     pkg-config \
+    git \
  && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir --root-user-action=ignore -r requirements.txt
+
+COPY .git .git
 
 COPY . .
 
