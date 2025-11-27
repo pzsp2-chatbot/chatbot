@@ -48,7 +48,10 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: docker:27
+      options: --workdir /workspace
     needs: test
     steps:
       - uses: actions/checkout@v3
+        with:
+          path: /workspace
       - run: docker build -t "$DOCKER_IMAGE:${{ github.sha }}" .
