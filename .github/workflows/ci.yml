@@ -51,6 +51,4 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
       - run: docker build -t "$DOCKER_IMAGE:${{ github.sha }}" .

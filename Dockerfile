@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y \
     curl \
     build-essential \
     pkg-config \
+    git \
  && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
