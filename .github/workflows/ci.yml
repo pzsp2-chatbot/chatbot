@@ -36,6 +36,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: docker:27
+    env:
+      QDRANT_TEST_API_KEY: ${{ secrets.QDRANT_TEST_API_KEY }}
     needs: build
     steps:
       - uses: actions/checkout@v3
