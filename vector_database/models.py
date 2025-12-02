@@ -1,5 +1,5 @@
-from typing import Dict, Any, Annotated, Optional, ClassVar, TypedDict, List
-from pydantic import BaseModel, Field, field_validator
+from typing import Annotated, Optional, ClassVar, TypedDict, List
+from pydantic import BaseModel, Field
 
 
 class CreateCollectionRequest(BaseModel):
