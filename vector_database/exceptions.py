@@ -16,3 +16,8 @@ class DocumentDoesNotExistError(Exception):
 class InvalidDateFormatError(Exception):
     """Exception raised when a date format is invalid"""
     pass
+
+
+class InputDataError(Exception):
+    """Exception raised when input data is invalid"""
+    pass
