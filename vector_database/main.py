@@ -3,7 +3,7 @@ import pydantic
 from fastapi import FastAPI, HTTPException
 from qdrant_client import QdrantClient
 from vector_database.exceptions import CollectionAlreadyExistsError, InvalidDateFormatError, \
-    CollectionDoesNotExistError, DocumentDoesNotExistError
+    CollectionDoesNotExistError, DocumentDoesNotExistError, InputDataError
 from vector_database.models import CreateCollectionRequest, AddItemRequest, SearchItemRequest
 from dotenv import load_dotenv
 from vector_database.services.CollectionService import CollectionService
@@ -53,9 +53,9 @@ def add_item(collection_name: str, request: AddItemRequest):
     try:
         message = item_service.add_item(collection_name, request)
         return {"status": "ok", "message": message}
-    except CollectionAlreadyExistsError as e:
+    except (CollectionAlreadyExistsError, InputDataError) as e:
         raise HTTPException(status_code=400, detail={"status": "bad request", "message": str(e)})
-    except InvalidDateFormatError as e:
+    except (InvalidDateFormatError) as e:
         raise HTTPException(status_code=422, detail={"status": "invalid input data format", "message": str(e)})
     except pydantic.ValidationError:
         raise
