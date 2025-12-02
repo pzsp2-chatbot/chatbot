@@ -10,19 +10,26 @@ class CreateCollectionRequest(BaseModel):
         description="Size of vectors in the collection")
 
 
+class PayloadDict(TypedDict):
+    title: str
+    created: str
+    modified: str
+    language: str
+    doi: str
+    url: str
+    authors: list[str]
+    author_affiliations: list[str]
+    abstract: str
+    keywords: list[str]
+
+
 class AddItemRequest(BaseModel):
     VECTOR_MAX_SIZE: ClassVar[int] = 1024
 
     vector: Annotated[list[float], Field(min_length=1, max_length=VECTOR_MAX_SIZE,
             description=f"Vector containing up to {VECTOR_MAX_SIZE} float values")]
 
-    payload: Dict[str, Any] = Field(..., description="Metadata describing an element")
-
-    @field_validator("payload")
-    def validate_payload_not_empty(cls, value: Dict[str, Any]) -> Dict[str, Any]:
-        if not value:
-            raise ValueError("Payload cannot be empty")
-        return value
+    payload: PayloadDict = Field(..., description="Metadata describing an element")
 
 
 class SearchFilterDict(TypedDict, total=False):
