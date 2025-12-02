@@ -1,30 +1,36 @@
+from datetime import datetime
+
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import ScoredPoint
-from qdrant_client.models import Filter, FieldCondition, MatchValue, Range
+from qdrant_client.models import FieldCondition, Filter, MatchValue, Range
+
 from vector_database.exceptions import CollectionDoesNotExistError
 from vector_database.models import SearchItemRequest
 from vector_database.models_responses import PayloadResponse, ScoredPointResponse
 from vector_database.services.ItemService import ItemService
-from datetime import datetime
 
 
 class SearchService:
     def __init__(self, client: QdrantClient):
         self.client = client
 
-
-    def search(self, name: str, request: SearchItemRequest) -> list[ScoredPointResponse]:
+    def search(
+        self, name: str, request: SearchItemRequest
+    ) -> list[ScoredPointResponse]:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:
             raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
 
         qdrant_filter = SearchService.create_filter(request)
-        response = self.client.query_points(collection_name=name, query=request.vector, query_filter=qdrant_filter,
-            limit=request.top_k)
+        response = self.client.query_points(
+            collection_name=name,
+            query=request.vector,
+            query_filter=qdrant_filter,
+            limit=request.top_k,
+        )
 
         return SearchService.format_points(response.points)
-
 
     @staticmethod
     def create_filter(request: SearchItemRequest) -> Filter | None:
@@ -40,14 +46,12 @@ class SearchService:
 
         return Filter(must=conditions) if conditions else None
 
-
     @staticmethod
     def create_author_condition(request: SearchItemRequest) -> FieldCondition | None:
         author = request.filter.get("author")
         if author:
             return FieldCondition(key="author", match=MatchValue(value=author))
         return None
-
 
     @staticmethod
     def create_date_condition(request: SearchItemRequest) -> FieldCondition | None:
@@ -64,7 +68,6 @@ class SearchService:
 
         return FieldCondition(key="published_at", range=Range(**range_args))
 
-
     @staticmethod
     def format_points(points: list[ScoredPoint]) -> list[ScoredPointResponse]:
         formatted_points = []
@@ -77,6 +80,10 @@ class SearchService:
             payload["published_at"] = date_obj.strftime("%Y-%m-%d")
             formatted_payload = PayloadResponse(**payload)
 
-            formatted_points.append(ScoredPointResponse(score=point_info["score"], payload=formatted_payload))
+            formatted_points.append(
+                ScoredPointResponse(
+                    score=point_info["score"], payload=formatted_payload
+                )
+            )
 
         return formatted_points
