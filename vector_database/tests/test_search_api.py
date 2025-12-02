@@ -97,9 +97,9 @@ def test_search_success(setup_collection):
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
         "filter": {"title": "Title1", "starting_creation_date": "2025-01-01",
-                   "ending_creation_date": "2025-01-05", "starting_modification_date": "2025-01-3",
-                   "ending_modification_date": "2025-01-10", "language": "en", "doi": "example2",
-                   "url": "https://url.org/example2", "authors": ["Robert Smith", "Will Smith"],
+                   "ending_creation_date": "2025-01-05", "starting_modification_date": "2025-01-03",
+                   "ending_modification_date": "2025-01-10", "language": "en", "doi": "example1",
+                   "url": "https://url.org/example1", "authors": ["Robert Smith", "Will Smith"],
                    "author_affiliations": ["WUT", "WU"]},
         "top_k": 1
     }
@@ -119,6 +119,7 @@ def test_search_success_no_filter(setup_collection):
         "filter": {}
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 2
@@ -133,6 +134,7 @@ def test_search_success_filter_by_title(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
@@ -144,9 +146,10 @@ def test_search_success_filter_by_modification_date(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"starting_modification_date": "2025-01-30", "ending_modification_date": "2025-03-31"},
-        "top_k": 1
+        "top_k": 3
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 2
@@ -160,6 +163,7 @@ def test_search_success_filter_by_language(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
@@ -174,6 +178,7 @@ def test_search_success_filter_by_doi(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
@@ -188,6 +193,7 @@ def test_search_success_filter_by_url(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
@@ -202,10 +208,11 @@ def test_search_success_filter_by_author_affiliations(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
-    assert len(data["items"]) == 2
-    assert data["items"][0]["payload"]["url"] == ["WUT", "WU"]
+    assert len(data["items"]) == 1
+    assert data["items"][0]["payload"]["author_affiliations"] == ["WUT", "WU"]
 
 
 def test_search_success_filter_by_authors(setup_collection):
@@ -213,9 +220,10 @@ def test_search_success_filter_by_authors(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"authors": ["Will Smith"]},
-        "top_k": 1
+        "top_k": 2
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 2
@@ -230,21 +238,23 @@ def test_search_success_filter_by_date_range(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
-    assert data["items"][0]["payload"]["authors"] == ["Brad Pitt"]
+    assert data["items"][0]["payload"]["authors"] == ["Brad Pitt", "Will Smith"]
 
 
 def test_search_success_filter_author_and_date(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"authors": ["Brad Pitt"], "starting_modification_date": "2025-02-01",
-                    "ending_modification_date": "2025-03-01"},
+        "filter": {"authors": ["Brad Pitt"], "starting_modification_date": "2025-03-01",
+                    "ending_modification_date": "2025-04-01"},
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
@@ -260,6 +270,7 @@ def test_search_success_no_results(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 0
@@ -291,6 +302,7 @@ def test_search_failed_filter_wrong_author_type(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 422
 
 
@@ -303,6 +315,7 @@ def test_search_failed_filter_wrong_date_format(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 422
 
 
@@ -314,4 +327,5 @@ def test_search_failed_filter_wrong_range_type(setup_collection):
         "top_k": 1
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
+
     assert response.status_code == 422
