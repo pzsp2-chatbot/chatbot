@@ -24,4 +24,5 @@ class InvalidDateFormatError(Exception):
 
 class InputDataError(Exception):
     """Exception raised when input data is invalid"""
+
     pass

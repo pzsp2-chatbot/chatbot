@@ -11,7 +11,7 @@ from vector_database.exceptions import (
     CollectionDoesNotExistError,
     DocumentDoesNotExistError,
     InvalidDateFormatError,
-    InputDataError
+    InputDataError,
 )
 from vector_database.models import (
     AddItemRequest,

@@ -45,12 +45,13 @@ def create_and_cleanup_collection():
             }
         ],
     )
-    qdrant_client.upsert(collection_name=collection_name, points=[
-        {
-            "id": 1,
-            "vector": [0.1, 0.2, 0.3, 0.4],
-            "payload":
+    qdrant_client.upsert(
+        collection_name=collection_name,
+        points=[
             {
+                "id": 1,
+                "vector": [0.1, 0.2, 0.3, 0.4],
+                "payload": {
                     "document_id": "13244433",
                     "title": "title1",
                     "created": "2024-11-01",
@@ -61,9 +62,10 @@ def create_and_cleanup_collection():
                     "authors": ["Robert Smith", "Will Smith"],
                     "author_affiliations": ["WUT", "WU"],
                     "abstract": "Sample test1",
-                    "keywords": ["IFS", "Discrete Space"]
+                    "keywords": ["IFS", "Discrete Space"],
+                },
             }
-        }]
+        ],
     )
 
     yield collection_name
@@ -74,21 +76,20 @@ def create_and_cleanup_collection():
 
 
 item = {
-        "id": 2,
-        "vector": [0.1, 0.1, 0.1, 0.1],
-        "payload":
-        {
-                "title": "title2",
-                "created": "2024-11-10",
-                "modified": "2024-11-30",
-                "language": "en",
-                "doi": "doi2",
-                "url": "url2",
-                "authors": ["Robert Smith", "Will Smith"],
-                "author_affiliations": ["WUT", "WU"],
-                "abstract": "Sample test2",
-                "keywords": ["IFS", "Discrete Space"]
-        }
+    "id": 2,
+    "vector": [0.1, 0.1, 0.1, 0.1],
+    "payload": {
+        "title": "title2",
+        "created": "2024-11-10",
+        "modified": "2024-11-30",
+        "language": "en",
+        "doi": "doi2",
+        "url": "url2",
+        "authors": ["Robert Smith", "Will Smith"],
+        "author_affiliations": ["WUT", "WU"],
+        "abstract": "Sample test2",
+        "keywords": ["IFS", "Discrete Space"],
+    },
 }
 
 
@@ -391,7 +392,9 @@ def test_add_data_failed_creation_after_modification(create_and_cleanup_collecti
     assert point_count == 1
 
 
-def test_add_data_failed_authors_and_affiliation_lengths_mismatch(create_and_cleanup_collection):
+def test_add_data_failed_authors_and_affiliation_lengths_mismatch(
+    create_and_cleanup_collection,
+):
     item_copy = copy.deepcopy(item)
     collection_name = create_and_cleanup_collection
     item_copy["payload"]["authors"] = ["author1", "author2"]

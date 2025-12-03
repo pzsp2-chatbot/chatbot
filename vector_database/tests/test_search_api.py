@@ -48,8 +48,8 @@ def setup_collection():
                         "author_affiliations": ["WUT", "WU"],
                         "abstract": "First document",
                         "keywords": ["one", "two", "three"],
-                        "document_id": "1"
-                    }
+                        "document_id": "1",
+                    },
                 },
                 {
                     "id": 2,
@@ -65,8 +65,8 @@ def setup_collection():
                         "author_affiliations": ["WUT", "WU"],
                         "abstract": "Second document",
                         "keywords": ["one", "four"],
-                        "document_id": "2"
-                    }
+                        "document_id": "2",
+                    },
                 },
                 {
                     "id": 3,
@@ -82,10 +82,10 @@ def setup_collection():
                         "author_affiliations": ["WUT", "AGH"],
                         "abstract": "Second document",
                         "keywords": ["six", "seven"],
-                        "document_id": "3"
-                    }
-                }
-            ]
+                        "document_id": "3",
+                    },
+                },
+            ],
         )
     except Exception as e:
         print("Failed to setup collection: " + str(e))
@@ -100,12 +100,19 @@ def test_search_success(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"title": "Title1", "starting_creation_date": "2025-01-01",
-                   "ending_creation_date": "2025-01-05", "starting_modification_date": "2025-01-03",
-                   "ending_modification_date": "2025-01-10", "language": "en", "doi": "example1",
-                   "url": "https://url.org/example1", "authors": ["Robert Smith", "Will Smith"],
-                   "author_affiliations": ["WUT", "WU"]},
-        "top_k": 1
+        "filter": {
+            "title": "Title1",
+            "starting_creation_date": "2025-01-01",
+            "ending_creation_date": "2025-01-05",
+            "starting_modification_date": "2025-01-03",
+            "ending_modification_date": "2025-01-10",
+            "language": "en",
+            "doi": "example1",
+            "url": "https://url.org/example1",
+            "authors": ["Robert Smith", "Will Smith"],
+            "author_affiliations": ["WUT", "WU"],
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -131,7 +138,7 @@ def test_search_success_filter_by_title(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"title": "Title1"},
-        "top_k": 1
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -145,8 +152,11 @@ def test_search_success_filter_by_modification_date(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
-        "filter": {"starting_modification_date": "2025-01-30", "ending_modification_date": "2025-03-31"},
-        "top_k": 3
+        "filter": {
+            "starting_modification_date": "2025-01-30",
+            "ending_modification_date": "2025-03-31",
+        },
+        "top_k": 3,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -157,11 +167,7 @@ def test_search_success_filter_by_modification_date(setup_collection):
 
 def test_search_success_filter_by_language(setup_collection):
     collection_name = setup_collection
-    payload = {
-        "vector": [0.5, 0.6, 0.7, 0.8],
-        "filter": {"language": "pl"},
-        "top_k": 1
-    }
+    payload = {"vector": [0.5, 0.6, 0.7, 0.8], "filter": {"language": "pl"}, "top_k": 1}
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
     assert response.status_code == 200
@@ -175,7 +181,7 @@ def test_search_success_filter_by_doi(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"doi": "example1"},
-        "top_k": 1
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -190,7 +196,7 @@ def test_search_success_filter_by_url(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"url": "https://url.org/example2"},
-        "top_k": 1
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -205,7 +211,7 @@ def test_search_success_filter_by_author_affiliations(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"author_affiliations": ["WUT", "WU"]},
-        "top_k": 1
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -220,7 +226,7 @@ def test_search_success_filter_by_authors(setup_collection):
     payload = {
         "vector": [0.5, 0.6, 0.7, 0.8],
         "filter": {"authors": ["Will Smith"]},
-        "top_k": 2
+        "top_k": 2,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -234,8 +240,11 @@ def test_search_success_filter_by_date_range(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.9, 0.6, 0.1, 0.8],
-        "filter": {"starting_creation_date": "2025-01-10", "ending_creation_date": "2025-01-20"},
-        "top_k": 1
+        "filter": {
+            "starting_creation_date": "2025-01-10",
+            "ending_creation_date": "2025-01-20",
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -249,9 +258,12 @@ def test_search_success_filter_author_and_date(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"authors": ["Brad Pitt"], "starting_modification_date": "2025-03-01",
-                    "ending_modification_date": "2025-04-01"},
-        "top_k": 1
+        "filter": {
+            "authors": ["Brad Pitt"],
+            "starting_modification_date": "2025-03-01",
+            "ending_modification_date": "2025-04-01",
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -265,9 +277,12 @@ def test_search_success_no_results(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"authors": ["Nonexistent Author", "Robert Smith"], "starting_date": "2025-01-01",
-                   "ending_date": "2025-01-02"},
-        "top_k": 1
+        "filter": {
+            "authors": ["Nonexistent Author", "Robert Smith"],
+            "starting_date": "2025-01-01",
+            "ending_date": "2025-01-02",
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -296,11 +311,7 @@ def test_search_failed_invalid_vector_type(setup_collection):
 
 def test_search_failed_filter_wrong_author_type(setup_collection):
     collection_name = setup_collection
-    payload = {
-        "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"authors": 123},
-        "top_k": 1
-    }
+    payload = {"vector": [0.1, 0.2, 0.3, 0.4], "filter": {"authors": 123}, "top_k": 1}
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
     assert response.status_code == 422
@@ -310,9 +321,12 @@ def test_search_failed_filter_wrong_date_format(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"authors": ["John Doe"], "starting_creation_date": "01-01-2025",
-                   "ending_creation_date": "2025-01-31"},
-        "top_k": 1
+        "filter": {
+            "authors": ["John Doe"],
+            "starting_creation_date": "01-01-2025",
+            "ending_creation_date": "2025-01-31",
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
@@ -323,8 +337,11 @@ def test_search_failed_filter_wrong_range_type(setup_collection):
     collection_name = setup_collection
     payload = {
         "vector": [0.1, 0.2, 0.3, 0.4],
-        "filter": {"starting_modification_date": 20250101, "ending_modification_date": 20250131},
-        "top_k": 1
+        "filter": {
+            "starting_modification_date": 20250101,
+            "ending_modification_date": 20250131,
+        },
+        "top_k": 1,
     }
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 

@@ -9,7 +9,7 @@ from vector_database.exceptions import (
     CollectionDoesNotExistError,
     DocumentDoesNotExistError,
     InvalidDateFormatError,
-    InputDataError
+    InputDataError,
 )
 from vector_database.models import AddItemRequest, PayloadDict
 
@@ -17,7 +17,6 @@ from vector_database.models import AddItemRequest, PayloadDict
 class ItemService:
     def __init__(self, client: QdrantClient):
         self.client = client
-
 
     def add_item(self, name: str, request: AddItemRequest) -> str:
         try:
@@ -36,7 +35,6 @@ class ItemService:
         )
 
         return f"Item added to collection '{name}'."
-
 
     @staticmethod
     def prepare_payload(payload: PayloadDict) -> dict:
@@ -64,7 +62,6 @@ class ItemService:
 
         return payload_with_id
 
-
     @staticmethod
     def convert_date_string_to_int(date: str) -> int:
         try:
@@ -73,7 +70,6 @@ class ItemService:
             raise InvalidDateFormatError("Date must be in YYYY-MM-DD format.")
 
         return parsed_date.year * 10000 + parsed_date.month * 100 + parsed_date.day
-
 
     def delete_item(self, name: str, document_id: str) -> str:
         try:

@@ -46,7 +46,11 @@ class SearchService:
             payload["modified"] = date_obj.strftime("%Y-%m-%d")
             formatted_payload = PayloadResponse(**payload)
 
-            formatted_points.append(ScoredPointResponse(score=point_info["score"], payload=formatted_payload))
+            formatted_points.append(
+                ScoredPointResponse(
+                    score=point_info["score"], payload=formatted_payload
+                )
+            )
 
         return formatted_points
 
@@ -84,21 +88,27 @@ class FilterCreator:
         if authors_cond:
             conditions.append(authors_cond)
 
-        author_affiliations_cond = FilterCreator.create_list_condition(request, "author_affiliations")
+        author_affiliations_cond = FilterCreator.create_list_condition(
+            request, "author_affiliations"
+        )
         if author_affiliations_cond:
             conditions.append(author_affiliations_cond)
 
         return Filter(must=conditions) if conditions else None
 
     @staticmethod
-    def create_simple_condition(request: SearchItemRequest, key: str) -> FieldCondition | None:
+    def create_simple_condition(
+        request: SearchItemRequest, key: str
+    ) -> FieldCondition | None:
         value = request.filter.get(key)
         if value:
             return FieldCondition(key=key, match=MatchValue(value=value))
         return None
 
     @staticmethod
-    def create_date_condition(request: SearchItemRequest, field_name: str) -> FieldCondition | None:
+    def create_date_condition(
+        request: SearchItemRequest, field_name: str
+    ) -> FieldCondition | None:
         start = request.filter.get(f"starting_{field_name}_date")
         end = request.filter.get(f"ending_{field_name}_date")
         if not start and not end:
@@ -120,7 +130,9 @@ class FilterCreator:
         if not collection:
             return None
 
-        conditions = [FieldCondition(key=key, match=MatchValue(value=element))
-                      for element in collection]
+        conditions = [
+            FieldCondition(key=key, match=MatchValue(value=element))
+            for element in collection
+        ]
 
         return Filter(must=conditions)
