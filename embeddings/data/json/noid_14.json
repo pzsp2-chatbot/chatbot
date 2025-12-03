@@ -1,0 +1,37 @@
+{
+    "id": "WUT1e88d29c2f3e4e9ea1fafa8b4706b5ad",
+    "title": "Machine-learning-based particle identification with missing data",
+    "created": "2024-10-07T14:51:41.766+02:00",
+    "modified": "2025-09-09T23:31:51.371+02:00",
+    "language": "en",
+    "doi": "10.1140/epjc/s10052-024-13047-3",
+    "url": "https://doi.org/10.1140/epjc/s10052-024-13047-3",
+    "authors": [
+        {
+            "full_name": "Miłosz Kasak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Deja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

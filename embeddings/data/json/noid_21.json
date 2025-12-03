@@ -1,0 +1,61 @@
+{
+    "id": "WUTd080d469a08340e3841ce627e96c4562",
+    "title": "Hyperspectral Image Super-Resolution: Task-Based Evaluation",
+    "created": "2024-10-09T10:50:11.324+02:00",
+    "modified": "2025-09-09T23:31:53.260+02:00",
+    "language": "en",
+    "doi": "10.1109/jstars.2024.3475644",
+    "url": "https://doi.org/10.1109/jstars.2024.3475644",
+    "authors": [
+        {
+            "full_name": "Michal Kawulok",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Kowaleczko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Ziaja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Nalepa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Kostrzewa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniele Latini",
+            "affiliation": null
+        },
+        {
+            "full_name": "Davide De Santis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giorgia Salvucci",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ilaria Petracca",
+            "affiliation": null
+        },
+        {
+            "full_name": "Valeria La Pegna",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zoltan Bartalis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fabio Del Frate",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

@@ -1,0 +1,65 @@
+{
+    "id": "WUT28c9deb8442e47ff9f769cdfcc4e56b9",
+    "title": "Impact of Spelling and Editing Correctness on Detection of LLM-Generated Emails",
+    "created": "2024-10-14T14:45:03.734+02:00",
+    "modified": "2025-09-09T23:23:20.442+02:00",
+    "language": "en",
+    "doi": "10.15439/2024F8906",
+    "url": "https://doi.org/10.15439/2024F8906",
+    "authors": [
+        {
+            "full_name": "Marek Bolanowski",
+            "affiliation": "Rzeszów University of Technology"
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Leszek A. Maciaszek",
+            "affiliation": "Wroclaw University of Economics"
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Dominik Ślęzak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leszek A. Maciaszek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gryka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kacper Gradoń",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Kozłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Miłosz Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUT353c269e134745718a35878efde3bd76",
+    "title": "Improved Small-Footprint ASR-Based Solution for Open Vocabulary Keyword Spotting",
+    "created": "2024-10-14T10:55:42.926+02:00",
+    "modified": "2025-09-09T23:34:00.990+02:00",
+    "language": "en",
+    "doi": "10.1109/access.2024.3421605",
+    "url": "https://doi.org/10.1109/access.2024.3421605",
+    "authors": [
+        {
+            "full_name": "Mikołaj Pudo",
+            "affiliation": "Samsung Electronics Polska Sp. z o.o."
+        },
+        {
+            "full_name": "Mateusz Wosik",
+            "affiliation": "Samsung Electronics Polska Sp. Z O.o."
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

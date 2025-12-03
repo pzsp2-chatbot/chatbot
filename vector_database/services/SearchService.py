@@ -30,7 +30,14 @@ class SearchService:
             limit=request.top_k,
         )
 
-        return SearchService.format_points(response.points)
+        response = self.client.query_points(
+            collection_name=name,
+            query=request.vector,
+            query_filter=qdrant_filter,
+            limit=request.top_k,
+        )
+
+        return response.points
 
     @staticmethod
     def format_points(points: list[ScoredPoint]) -> list[ScoredPointResponse]:
