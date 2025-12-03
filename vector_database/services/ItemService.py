@@ -11,7 +11,7 @@ from vector_database.exceptions import (
     InvalidDateFormatError,
     InputDataError
 )
-from vector_database.models import AddItemRequest
+from vector_database.models import AddItemRequest, PayloadDict
 
 
 class ItemService:
