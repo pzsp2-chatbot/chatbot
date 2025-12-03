@@ -1,6 +1,6 @@
-from typing import Annotated, Any, ClassVar, Dict, Optional, TypedDict
+from typing import Annotated, ClassVar, List, Optional, TypedDict
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field
 
 
 class CreateCollectionRequest(BaseModel):
@@ -17,6 +17,19 @@ class CreateCollectionRequest(BaseModel):
     )
 
 
+class PayloadDict(TypedDict):
+    title: str
+    created: str
+    modified: str
+    language: str
+    doi: str
+    url: str
+    authors: list[str]
+    author_affiliations: list[str]
+    abstract: str
+    keywords: list[str]
+
+
 class AddItemRequest(BaseModel):
     VECTOR_MAX_SIZE: ClassVar[int] = 1024
 
@@ -29,19 +42,22 @@ class AddItemRequest(BaseModel):
         ),
     ]
 
-    payload: Dict[str, Any] = Field(..., description="Metadata describing an element")
-
-    @field_validator("payload")
-    def validate_payload_not_empty(cls, value: Dict[str, Any]) -> Dict[str, Any]:
-        if not value:
-            raise ValueError("Payload cannot be empty")
-        return value
+    payload: PayloadDict = Field(..., description="Metadata describing an element")
 
 
 class SearchFilterDict(TypedDict, total=False):
-    author: Optional[str]
-    starting_date: Optional[str]
-    ending_date: Optional[str]
+    title: Optional[str]
+    starting_creation_date: Optional[str]
+    ending_creation_date: Optional[str]
+    starting_modification_date: Optional[str]
+    ending_modification_date: Optional[str]
+    language: Optional[str]
+    doi: Optional[str]
+    url: Optional[str]
+    authors: Optional[List[str]]
+    author_affiliations: Optional[List[str]]
+    abstract: Optional[str]
+    keywords: Optional[List[str]]
 
 
 class SearchItemRequest(BaseModel):
