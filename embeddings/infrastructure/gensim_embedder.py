@@ -3,6 +3,7 @@ import numpy as np
 import gensim.downloader as api
 from embeddings.interfaces.embedder import IEmbedder
 
+
 class GensimEmbedder(IEmbedder):
     def __init__(self, model_name: str):
         self.model_name = model_name

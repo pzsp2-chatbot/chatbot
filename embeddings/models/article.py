@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from typing import List, Optional
 from .author import Author
 
+
 @dataclass
 class Article:
     id: str

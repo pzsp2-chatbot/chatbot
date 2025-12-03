@@ -2,6 +2,7 @@ from embeddings.infrastructure.st_embedder import STEmbedder
 from embeddings.infrastructure.gensim_embedder import GensimEmbedder
 from embeddings.interfaces.embedder import IEmbedder
 
+
 class EmbedderFactory:
     @staticmethod
     def create(name: str) -> IEmbedder:

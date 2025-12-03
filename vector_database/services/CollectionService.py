@@ -1,6 +1,9 @@
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
-from vector_database.exceptions import CollectionAlreadyExistsError, CollectionDoesNotExistError
+from vector_database.exceptions import (
+    CollectionAlreadyExistsError,
+    CollectionDoesNotExistError,
+)
 
 
 class CollectionService:
@@ -9,12 +12,16 @@ class CollectionService:
 
     def create_collection(self, name: str, vector_size: int):
         try:
-            self.client.create_collection(collection_name=name,
-                vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE))
+            self.client.create_collection(
+                collection_name=name,
+                vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
+            )
             return f"Collection '{name}' created successfully."
         except Exception as e:
             if "exists" in str(e).lower():
-                raise CollectionAlreadyExistsError(f"Collection with name '{name}' already exists.")
+                raise CollectionAlreadyExistsError(
+                    f"Collection with name '{name}' already exists."
+                )
             raise
 
     def delete_collection(self, name: str):

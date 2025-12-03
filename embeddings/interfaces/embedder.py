@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
+
 class IEmbedder(ABC):
     @abstractmethod
     def embed(self, texts: List[str]) -> List[List[float]]:

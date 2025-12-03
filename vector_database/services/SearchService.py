@@ -18,8 +18,12 @@ class SearchService:
 
         qdrant_filter = SearchService.create_filter(request)
 
-        response = self.client.query_points(collection_name=name, query=request.vector, query_filter=qdrant_filter,
-            limit=request.top_k)
+        response = self.client.query_points(
+            collection_name=name,
+            query=request.vector,
+            query_filter=qdrant_filter,
+            limit=request.top_k,
+        )
 
         return response.points
 
@@ -29,7 +33,9 @@ class SearchService:
 
         author = request.filter.get("author")
         if author:
-            conditions.append(FieldCondition(key="author", match=MatchValue(value=author)))
+            conditions.append(
+                FieldCondition(key="author", match=MatchValue(value=author))
+            )
 
         start = request.filter.get("starting_date")
         end = request.filter.get("ending_date")
@@ -39,7 +45,9 @@ class SearchService:
                 range_args["gte"] = ItemService.convert_date_string_to_int(start)
             if end:
                 range_args["lte"] = ItemService.convert_date_string_to_int(end)
-            conditions.append(FieldCondition(key="published_at", range=Range(**range_args)))
+            conditions.append(
+                FieldCondition(key="published_at", range=Range(**range_args))
+            )
 
         if conditions:
             qdrant_filter = Filter(must=conditions)

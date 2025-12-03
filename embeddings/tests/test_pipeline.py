@@ -5,6 +5,7 @@ from embeddings.interfaces.embedder import IEmbedder
 from embeddings.models.article import Article
 from embeddings.models.author import Author
 
+
 class MockLoader:
     def load_all(self):
         return [
@@ -16,9 +17,13 @@ class MockLoader:
                 modified="2025-01-01",
                 doi=None,
                 url=None,
-                authors=[Author(full_name="Jan Kowalski", affiliation="Uniwersytet Warszawski")],
+                authors=[
+                    Author(
+                        full_name="Jan Kowalski", affiliation="Uniwersytet Warszawski"
+                    )
+                ],
                 abstract_pl="Streszczenie po polsku",
-                abstract_en="Abstract in English"
+                abstract_en="Abstract in English",
             ),
             Article(
                 id="2",
@@ -28,11 +33,16 @@ class MockLoader:
                 modified="2025-01-02",
                 doi=None,
                 url=None,
-                authors=[Author(full_name="Anna Nowak", affiliation="Uniwersytet Jagielloński")],
+                authors=[
+                    Author(
+                        full_name="Anna Nowak", affiliation="Uniwersytet Jagielloński"
+                    )
+                ],
                 abstract_pl=None,
-                abstract_en="Second abstract in English"
+                abstract_en="Second abstract in English",
             ),
         ]
+
 
 def assert_embeddings(embeddings, min_dim=128):
     assert isinstance(embeddings, list)
@@ -42,12 +52,14 @@ def assert_embeddings(embeddings, min_dim=128):
         assert len(vec) >= min_dim
         assert all(isinstance(x, float) for x in vec)
 
+
 EMBEDDERS = [
-    ("st_minilm", 384),        
-    ("st_labse", 768),         
-    ("fasttext", 300),         
-    ("glove", 300),            
+    ("st_minilm", 384),
+    ("st_labse", 768),
+    ("fasttext", 300),
+    ("glove", 300),
 ]
+
 
 @pytest.mark.parametrize("embedder_name, min_dim", EMBEDDERS)
 def test_pipeline_with_factory(embedder_name, min_dim):
@@ -65,6 +77,7 @@ def test_pipeline_with_factory(embedder_name, min_dim):
     assert ids == ["1", "2"]
     assert len(payloads) == 2
     assert_embeddings(embeddings, min_dim=min_dim)
+
 
 def test_pipeline_no_articles_raises():
     class EmptyLoader:

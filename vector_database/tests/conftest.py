@@ -10,6 +10,7 @@ QDRANT_HOST = os.getenv("QDRANT_HOST", "qdrant_test")
 QDRANT_PORT = os.getenv("QDRANT_PORT", "6333")
 QDRANT_API_KEY = os.getenv("QDRANT_TEST_API_KEY")
 
+
 def wait_for_qdrant(timeout: int = 30):
     url = f"http://{QDRANT_HOST}:{QDRANT_PORT}/collections"
     headers = {}
@@ -28,6 +29,7 @@ def wait_for_qdrant(timeout: int = 30):
         if time.time() - start_time > timeout:
             raise RuntimeError("Qdrant does not respond")
         time.sleep(0.5)
+
 
 @pytest.fixture(scope="session", autouse=True)
 def ensure_qdrant_ready():
