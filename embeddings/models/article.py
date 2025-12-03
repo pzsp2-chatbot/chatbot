@@ -23,7 +23,6 @@ class Article:
             f"Authors: {authors}",
             f"Affiliations: {affiliations}",
             f"Language: {self.language}",
-            f"DOI: {self.doi}",
         ]
         if self.abstract_en:
             parts.append(f"Abstract (EN): {self.abstract_en}")

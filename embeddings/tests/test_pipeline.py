@@ -1,89 +1,78 @@
 import pytest
-from unittest.mock import MagicMock, patch
-from embeddings.infrastructure.json_loader import JSONArticleLoader
-from embeddings.infrastructure.openai_embedder import OpenAIEmbedder
-from embeddings.infrastructure.hf_embedder import HFEmbedder
-from embeddings.infrastructure.dummy_embedder import DummyEmbedder
 from embeddings.pipeline import EmbeddingPipeline
-from embeddings.models.author import Author
+from embeddings.infrastructure.embedder_factory import EmbedderFactory
+from embeddings.interfaces.embedder import IEmbedder
 from embeddings.models.article import Article
-import tempfile
-import json
-from pathlib import Path
-import numpy as np
+from embeddings.models.author import Author
 
-@pytest.fixture
-def setup_pipeline_json():
-    def _create(num_articles):
-        folder = tempfile.TemporaryDirectory()
-        for i in range(num_articles):
-            article = {
-                "id": f"TEST{i}",
-                "title": f"Test Article {i}",
-                "created": "2025-01-01T10:00:00",
-                "modified": "2025-01-02T12:00:00",
-                "language": "en",
-                "authors": [{"full_name": f"Author {i}", "affiliation": "Uni"}],
-                "abstract_en": f"Dummy abstract {i}",
-                "abstract_pl": None,
-                "doi": f"10.1234/testdoi{i}",
-                "url": f"https://example.com/article_{i}"
-            }
-            file_path = Path(folder.name) / f"article_{i}.json"
-            file_path.write_text(json.dumps(article), encoding="utf-8")
-        return folder
-    return _create
+class MockLoader:
+    def load_all(self):
+        return [
+            Article(
+                id="1",
+                title="Test Article 1",
+                language="pl",
+                created="2025-01-01",
+                modified="2025-01-01",
+                doi=None,
+                url=None,
+                authors=[Author(full_name="Jan Kowalski", affiliation="Uniwersytet Warszawski")],
+                abstract_pl="Streszczenie po polsku",
+                abstract_en="Abstract in English"
+            ),
+            Article(
+                id="2",
+                title="Test Article 2",
+                language="en",
+                created="2025-01-02",
+                modified="2025-01-02",
+                doi=None,
+                url=None,
+                authors=[Author(full_name="Anna Nowak", affiliation="Uniwersytet Jagielloński")],
+                abstract_pl=None,
+                abstract_en="Second abstract in English"
+            ),
+        ]
 
-@pytest.mark.parametrize("num_articles, vector_size", [(1, 3), (3, 5), (5, 10)])
-def test_pipeline_dummy_various(setup_pipeline_json, num_articles, vector_size):
-    folder = setup_pipeline_json(num_articles)
-    loader = JSONArticleLoader(folder.name)
-    
-    class DummyEmbedder:
-        def __init__(self, vector_size):
-            self.vector_size = vector_size
-        def embed(self, texts):
-            return [list(np.ones(self.vector_size)) for _ in texts]
-    
-    embedder = DummyEmbedder(vector_size=vector_size)
+def assert_embeddings(embeddings, min_dim=128):
+    assert isinstance(embeddings, list)
+    assert len(embeddings) == 2
+    for vec in embeddings:
+        assert isinstance(vec, list)
+        assert len(vec) >= min_dim
+        assert all(isinstance(x, float) for x in vec)
+
+EMBEDDERS = [
+    ("st_minilm", 384),        
+    ("st_labse", 768),         
+    ("fasttext", 300),         
+    ("glove", 300),            
+]
+
+@pytest.mark.parametrize("embedder_name, min_dim", EMBEDDERS)
+def test_pipeline_with_factory(embedder_name, min_dim):
+    loader = MockLoader()
+
+    if embedder_name in ("st_labse", "fasttext", "glove"):
+        pytest.skip(f"Skipping slow model {embedder_name} in CI")
+
+    embedder = EmbedderFactory.create(embedder_name)
+    assert isinstance(embedder, IEmbedder)
+
     pipeline = EmbeddingPipeline(loader, embedder)
-    
     ids, embeddings, payloads = pipeline.run()
-    
-    assert len(ids) == num_articles
-    assert len(embeddings) == num_articles
-    assert all(len(vec) == vector_size for vec in embeddings)
-    assert len(payloads) == num_articles
 
-@pytest.mark.parametrize("num_articles", [1, 3])
-def test_pipeline_openai_mock_various(setup_pipeline_json, num_articles):
-    folder = setup_pipeline_json(num_articles)
-    loader = JSONArticleLoader(folder.name)
-    
-    client = MagicMock()
-    client.embeddings.create.return_value = MagicMock(
-        data=[MagicMock(embedding=[0.4, 0.5, 0.6])] * num_articles
-    )
-    
-    embedder = OpenAIEmbedder(client)
-    pipeline = EmbeddingPipeline(loader, embedder)
-    
-    ids, embeddings, payloads = pipeline.run()
-    
-    assert len(ids) == num_articles
-    assert all(len(vec) == 3 for vec in embeddings)
+    assert ids == ["1", "2"]
+    assert len(payloads) == 2
+    assert_embeddings(embeddings, min_dim=min_dim)
 
-@pytest.mark.parametrize("num_articles", [1, 3])
-def test_pipeline_hf_mock_pipeline(setup_pipeline_json, num_articles):
-    folder = setup_pipeline_json(num_articles)
-    loader = JSONArticleLoader(folder.name)
-    
-    with patch("embeddings.infrastructure.hf_embedder.SentenceTransformer.encode") as mock_encode:
-        mock_encode.return_value = np.array([[0.8, 0.9, 1.0]] * num_articles)
-        embedder = HFEmbedder("all-MiniLM-L6-v2")
-        pipeline = EmbeddingPipeline(loader, embedder)
-        
-        ids, embeddings, payloads = pipeline.run()
-        
-        assert len(ids) == num_articles
-        assert all(len(vec) == 3 for vec in embeddings)
+def test_pipeline_no_articles_raises():
+    class EmptyLoader:
+        def load_all(self):
+            return []
+
+    embedder = EmbedderFactory.create("st_minilm")
+    pipeline = EmbeddingPipeline(EmptyLoader(), embedder)
+
+    with pytest.raises(RuntimeError, match="No articles to embed"):
+        pipeline.run()

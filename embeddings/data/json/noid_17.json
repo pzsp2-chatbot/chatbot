@@ -1,0 +1,29 @@
+{
+    "id": "WUT3a1ff259175c428aba3dbf973d2a72e2",
+    "title": "ReModels: Quantile Regression Averaging models",
+    "created": "2024-10-07T17:28:19.440+02:00",
+    "modified": "2025-09-09T23:22:26.362+02:00",
+    "language": "en",
+    "doi": "10.1016/j.softx.2024.101905",
+    "url": "https://doi.org/10.1016/j.softx.2024.101905",
+    "authors": [
+        {
+            "full_name": "Grzegorz Zakrzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kacper Skonieczka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

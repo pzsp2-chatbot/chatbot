@@ -1,0 +1,45 @@
+{
+    "id": "WUTb0b350c070854819922d3ad80fe36096",
+    "title": "Dynamic Growing and Shrinking of Neural Networks with Monte Carlo Tree Search",
+    "created": "2024-10-10T11:43:31.542+02:00",
+    "modified": "2025-09-09T23:23:36.854+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-63749-0_25",
+    "url": "https://doi.org/10.1007/978-3-031-63749-0_25",
+    "authors": [
+        {
+            "full_name": "Leonardo Franco",
+            "affiliation": null
+        },
+        {
+            "full_name": "Clélia de Mulatier",
+            "affiliation": "University of Amsterdam"
+        },
+        {
+            "full_name": "Maciej Paszyński",
+            "affiliation": "University of Science and Technology"
+        },
+        {
+            "full_name": "Valeria V. Krzhizhanovskaya",
+            "affiliation": "University of Amsterdam"
+        },
+        {
+            "full_name": "Jack J. Dongarra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Peter M. A. Sloot",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Świderski",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

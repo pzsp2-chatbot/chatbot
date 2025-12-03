@@ -1,0 +1,33 @@
+{
+    "id": "WUT80e096bf3fbc482e90da09ec87072069",
+    "title": "Hidformer: Transformer-Style Neural Network in Stock Price Forecasting",
+    "created": "2024-10-22T12:59:22.780+02:00",
+    "modified": "2025-09-09T23:24:49.014+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "http://www.mdai.cat/mdai2024/proc.MDAI.2024.usb.isbn.pdf",
+    "authors": [
+        {
+            "full_name": "Vicenc Torra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yasuo Narukawa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hiroaki Kikuchi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil L. Szydłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

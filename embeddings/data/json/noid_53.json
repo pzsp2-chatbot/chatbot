@@ -1,0 +1,33 @@
+{
+    "id": "WUT73f1a203edaf4395ac5cd59c0816e6e1",
+    "title": "Mitigating Dimensionality in 2D Rectangle Packing Problem under Reinforcement Learning Schema",
+    "created": "2024-10-28T16:00:53.422+01:00",
+    "modified": "2025-09-10T00:06:22.621+02:00",
+    "language": "en",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Waldemar Kołodziejczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kaleta",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

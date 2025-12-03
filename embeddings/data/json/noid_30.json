@@ -1,0 +1,33 @@
+{
+    "id": "WUTea79b90ac39b4cd0a2abb6fdd8c9764a",
+    "title": "Detection of AI-Generated Emails - A Case Study",
+    "created": "2024-10-14T11:08:57.467+02:00",
+    "modified": "2025-09-09T23:23:18.803+02:00",
+    "language": "en",
+    "doi": "10.1145/3664476.3670465",
+    "url": "https://doi.org/10.1145/3664476.3670465",
+    "authors": [
+        {
+            "full_name": "Paweł Gryka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kacper Gradoń",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Kozłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Miłosz Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}
