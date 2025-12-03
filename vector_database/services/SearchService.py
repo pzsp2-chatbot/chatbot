@@ -22,7 +22,7 @@ class SearchService:
         except Exception:
             raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
 
-        qdrant_filter = SearchService.create_filter(request)
+        qdrant_filter = FilterCreator.create_filter(request)
         response = self.client.query_points(
             collection_name=name,
             query=request.vector,
