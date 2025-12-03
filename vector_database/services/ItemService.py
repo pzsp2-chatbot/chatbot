@@ -1,8 +1,14 @@
-from datetime import datetime
 import uuid
+from datetime import datetime
+
 from qdrant_client import QdrantClient, models
-from qdrant_client.models import Filter, FieldCondition, MatchValue
-from vector_database.exceptions import CollectionDoesNotExistError, DocumentDoesNotExistError, InvalidDateFormatError
+from qdrant_client.models import FieldCondition, Filter, MatchValue
+
+from vector_database.exceptions import (
+    CollectionDoesNotExistError,
+    DocumentDoesNotExistError,
+    InvalidDateFormatError,
+)
 from vector_database.models import AddItemRequest
 
 
@@ -22,10 +28,16 @@ class ItemService:
         payload_with_id["document_id"] = document_id
 
         if "published_at" in payload_with_id:
-            payload_with_id["published_at"] = ItemService.convert_date_string_to_int(payload_with_id["published_at"])
+            payload_with_id["published_at"] = ItemService.convert_date_string_to_int(
+                payload_with_id["published_at"]
+            )
 
-        self.client.upsert(collection_name=name, points=[{"id": qdrant_id, "vector": request.vector,
-            "payload": payload_with_id}])
+        self.client.upsert(
+            collection_name=name,
+            points=[
+                {"id": qdrant_id, "vector": request.vector, "payload": payload_with_id}
+            ],
+        )
 
         return f"Item added to collection '{name}'."
 
@@ -35,13 +47,35 @@ class ItemService:
         except Exception:
             raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
 
-        points, _ = self.client.scroll(collection_name=name, scroll_filter=Filter(must=[FieldCondition(
-                        key="document_id", match=MatchValue(value=document_id))]), limit=1)
+        points, _ = self.client.scroll(
+            collection_name=name,
+            scroll_filter=Filter(
+                must=[
+                    FieldCondition(
+                        key="document_id", match=MatchValue(value=document_id)
+                    )
+                ]
+            ),
+            limit=1,
+        )
         if len(points) == 0:
-            raise DocumentDoesNotExistError(f"Item with document id '{document_id}' not found.")
+            raise DocumentDoesNotExistError(
+                f"Item with document id '{document_id}' not found."
+            )
 
-        self.client.delete(collection_name=name, points_selector=models.FilterSelector(filter=models.Filter(
-            must=[models.FieldCondition(key="document_id", match=models.MatchValue(value=document_id))])))
+        self.client.delete(
+            collection_name=name,
+            points_selector=models.FilterSelector(
+                filter=models.Filter(
+                    must=[
+                        models.FieldCondition(
+                            key="document_id",
+                            match=models.MatchValue(value=document_id),
+                        )
+                    ]
+                )
+            ),
+        )
 
         return f"Item with document_id {document_id} deleted from collection {name}."
 

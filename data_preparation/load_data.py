@@ -1,12 +1,14 @@
 import os
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from typing import List
+
 import requests
-import xml.etree.ElementTree as ET
 
 
 class OmegaDownloadError(Exception):
     """Raised when downloading from Omega REST API fails."""
+
     pass
 
 
@@ -19,7 +21,7 @@ class OmegaDownloader:
         output_dir: str,
         batch_size: int = 100,
         limit: int = 2000,
-        start_date: datetime = datetime(2024, 10, 1, tzinfo=timezone.utc)
+        start_date: datetime = datetime(2024, 10, 1, tzinfo=timezone.utc),
     ):
         self.output_dir = output_dir
         self.batch_size = batch_size
@@ -27,7 +29,6 @@ class OmegaDownloader:
         self.limit = limit
 
         os.makedirs(self.output_dir, exist_ok=True)
-
 
     def fetch_batch(self, start: int, end: int) -> str:
         query = f"article/createdDate%3E%27{self.start_date.date()}%27"
@@ -40,7 +41,6 @@ class OmegaDownloader:
         except requests.RequestException as e:
             raise OmegaDownloadError(f"Failed to fetch batch at offset {end}: {e}")
 
-
     def parse_batch(self, xml_text: str) -> List[ET.Element]:
         if "<collection" not in xml_text:
             raise OmegaDownloadError("No <collection> tag in XML (likely end of data).")
@@ -49,11 +49,12 @@ class OmegaDownloader:
             root = ET.fromstring(xml_text)
             articles = root.findall(".//ns2:article", self.NS)
             if not articles:
-                raise OmegaDownloadError("XML contains <collection> but no <article> entries.")
+                raise OmegaDownloadError(
+                    "XML contains <collection> but no <article> entries."
+                )
             return articles
         except ET.ParseError as e:
             raise OmegaDownloadError(f"Failed to parse XML: {e}")
-
 
     def save_article(self, article: ET.Element, counter: int) -> None:
         art_id_el = article.find("ns2:id", self.NS)
@@ -63,12 +64,11 @@ class OmegaDownloader:
         with open(filename, "wb") as f:
             f.write(ET.tostring(article, encoding="utf-8"))
 
-
     def download(self) -> int:
         saved = 0
 
         while saved < self.limit:
-            batch_xml = self.fetch_batch(saved, saved+self.batch_size)
+            batch_xml = self.fetch_batch(saved, saved + self.batch_size)
             articles = self.parse_batch(batch_xml)
 
             for art in articles:
@@ -76,7 +76,6 @@ class OmegaDownloader:
                 saved += 1
 
         return saved
-
 
     def handle_download(self):
         try:
@@ -86,7 +85,6 @@ class OmegaDownloader:
             print(f"[ERROR] {e}")
         except Exception as e:
             print(f"[Unexpected Error] {e}")
-
 
 
 if __name__ == "__main__":

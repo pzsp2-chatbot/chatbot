@@ -16,10 +16,13 @@ jobs:
       image: python:3.14-slim
     steps:
       - uses: actions/checkout@v3
-      - name: Install ruff
-        run: pip install --no-cache-dir --root-user-action=ignore ruff
-      - name: Run linter
+      - name: Install linters
+        run: pip install --no-cache-dir --root-user-action=ignore ruff black isort mypy
+      - name: Run linters
         run: ruff check .
+        run: black --check .
+        run: isort --check-only .
+
 
   build:
     runs-on: ubuntu-latest
