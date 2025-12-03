@@ -1,4 +1,5 @@
-from typing import Dict, Any, Annotated, Optional, ClassVar, TypedDict
+from typing import Annotated, Any, ClassVar, Dict, Optional, TypedDict
+
 from pydantic import BaseModel, Field, field_validator
 
 
@@ -37,6 +38,12 @@ class AddItemRequest(BaseModel):
         return value
 
 
+class SearchFilterDict(TypedDict, total=False):
+    author: Optional[str]
+    starting_date: Optional[str]
+    ending_date: Optional[str]
+
+
 class SearchItemRequest(BaseModel):
     VECTOR_MAX_SIZE: ClassVar[int] = 1024
     RESULTS_BY_DEFAULT: ClassVar[int] = 1
@@ -59,9 +66,3 @@ class SearchItemRequest(BaseModel):
     filter: Optional[SearchFilterDict] = Field(
         None, description="Optional metadata filter (date of publication, author)"
     )
-
-
-class SearchFilterDict(TypedDict, total=False):
-    author: Optional[str]
-    starting_date: Optional[str]
-    ending_date: Optional[str]

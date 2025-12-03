@@ -1,9 +1,11 @@
+import warnings
+
 import pytest
 from fastapi.testclient import TestClient
-from vector_database.main import app
 from qdrant_client import QdrantClient
-from vector_database.tests.conftest import QDRANT_HOST, QDRANT_PORT, QDRANT_API_KEY
-import warnings
+
+from vector_database.main import app
+from vector_database.tests.conftest import QDRANT_API_KEY, QDRANT_HOST, QDRANT_PORT
 
 warnings.filterwarnings(
     "ignore", message="Api key is used with an insecure connection."

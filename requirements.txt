@@ -3,4 +3,9 @@ uvicorn[standard]
 qdrant-client
 pytest
 requests
+types-requests
 python-dotenv
+ruff
+black
+isort
+mypy

@@ -1,7 +1,9 @@
-from datetime import datetime
 import uuid
+from datetime import datetime
+
 from qdrant_client import QdrantClient, models
-from qdrant_client.models import Filter, FieldCondition, MatchValue
+from qdrant_client.models import FieldCondition, Filter, MatchValue
+
 from vector_database.exceptions import (
     CollectionDoesNotExistError,
     DocumentDoesNotExistError,
@@ -14,7 +16,7 @@ class ItemService:
     def __init__(self, client: QdrantClient):
         self.client = client
 
-    def add_item(self, name: str, request: AddItemRequest):
+    def add_item(self, name: str, request: AddItemRequest) -> str:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:
@@ -39,7 +41,7 @@ class ItemService:
 
         return f"Item added to collection '{name}'."
 
-    def delete_item(self, name: str, document_id: str):
+    def delete_item(self, name: str, document_id: str) -> str:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:

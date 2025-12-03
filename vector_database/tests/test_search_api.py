@@ -1,10 +1,12 @@
+import warnings
+
 import pytest
 from fastapi.testclient import TestClient
-from qdrant_client.models import VectorParams, Distance
-from vector_database.main import app
 from qdrant_client import QdrantClient
-from vector_database.tests.conftest import QDRANT_HOST, QDRANT_PORT, QDRANT_API_KEY
-import warnings
+from qdrant_client.models import Distance, VectorParams
+
+from vector_database.main import app
+from vector_database.tests.conftest import QDRANT_API_KEY, QDRANT_HOST, QDRANT_PORT
 
 warnings.filterwarnings(
     "ignore", message="Api key is used with an insecure connection."
@@ -39,6 +41,7 @@ def setup_collection():
                         "text": "First document",
                         "author": "Robert Smith",
                         "published_at": 20250101,
+                        "document_id": "1",
                     },
                 },
                 {
@@ -48,6 +51,7 @@ def setup_collection():
                         "text": "Second document",
                         "author": "John Doe",
                         "published_at": 20250215,
+                        "document_id": "2",
                     },
                 },
                 {
@@ -57,6 +61,7 @@ def setup_collection():
                         "text": "Third document",
                         "author": "Brad Pitt",
                         "published_at": 20250115,
+                        "document_id": "3",
                     },
                 },
             ],
@@ -86,7 +91,7 @@ def test_search_success(setup_collection):
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
-    assert data["items"][0]["id"] == 1
+    assert data["items"][0]["payload"]["author"] == "Robert Smith"
 
 
 def test_search_success_no_filter(setup_collection):
@@ -96,7 +101,8 @@ def test_search_success_no_filter(setup_collection):
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 2
-    assert data["items"][0]["id"] == 1
+    assert data["items"][0]["payload"]["author"] == "Robert Smith"
+
 
 
 def test_search_success_filter_by_author(setup_collection):
@@ -110,7 +116,7 @@ def test_search_success_filter_by_author(setup_collection):
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
-    assert data["items"][0]["id"] == 2
+    assert data["items"][0]["payload"]["author"] == "John Doe"
 
 
 def test_search_success_filter_by_date_range(setup_collection):
@@ -124,7 +130,7 @@ def test_search_success_filter_by_date_range(setup_collection):
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
-    assert data["items"][0]["id"] == 3
+    assert data["items"][0]["payload"]["author"] == "Brad Pitt"
 
 
 def test_search_success_filter_author_and_date(setup_collection):
@@ -142,7 +148,7 @@ def test_search_success_filter_author_and_date(setup_collection):
     assert response.status_code == 200
     data = response.json()
     assert len(data["items"]) == 1
-    assert data["items"][0]["id"] == 3
+    assert data["items"][0]["payload"]["author"] == "Brad Pitt"
 
 
 def test_search_success_no_results(setup_collection):
