@@ -1,30 +1,36 @@
+from datetime import datetime
+
 from qdrant_client import QdrantClient
 from qdrant_client.http.models import ScoredPoint
-from qdrant_client.models import Filter, FieldCondition, MatchValue, Range
+from qdrant_client.models import FieldCondition, Filter, MatchValue, Range
+
 from vector_database.exceptions import CollectionDoesNotExistError
 from vector_database.models import SearchItemRequest
 from vector_database.models_responses import PayloadResponse, ScoredPointResponse
 from vector_database.services.ItemService import ItemService
-from datetime import datetime
 
 
 class SearchService:
     def __init__(self, client: QdrantClient):
         self.client = client
 
-
-    def search(self, name: str, request: SearchItemRequest) -> list[ScoredPointResponse]:
+    def search(
+        self, name: str, request: SearchItemRequest
+    ) -> list[ScoredPointResponse]:
         try:
             self.client.get_collection(collection_name=name)
         except Exception:
             raise CollectionDoesNotExistError(f"Collection '{name}' not found.")
 
-        qdrant_filter = FilterCreator.create_filter(request)
-        response = self.client.query_points(collection_name=name, query=request.vector, query_filter=qdrant_filter,
-            limit=request.top_k)
+        qdrant_filter = SearchService.create_filter(request)
+        response = self.client.query_points(
+            collection_name=name,
+            query=request.vector,
+            query_filter=qdrant_filter,
+            limit=request.top_k,
+        )
 
         return SearchService.format_points(response.points)
-
 
     @staticmethod
     def format_points(points: list[ScoredPoint]) -> list[ScoredPointResponse]:
@@ -84,14 +90,12 @@ class FilterCreator:
 
         return Filter(must=conditions) if conditions else None
 
-
     @staticmethod
     def create_simple_condition(request: SearchItemRequest, key: str) -> FieldCondition | None:
         value = request.filter.get(key)
         if value:
             return FieldCondition(key=key, match=MatchValue(value=value))
         return None
-
 
     @staticmethod
     def create_date_condition(request: SearchItemRequest, field_name: str) -> FieldCondition | None:
@@ -108,7 +112,6 @@ class FilterCreator:
 
         name = "created" if field_name == "creation" else "modified"
         return FieldCondition(key=name, range=Range(**range_args))
-
 
     @staticmethod
     def create_list_condition(request: SearchItemRequest, key: str) -> Filter | None:

@@ -1,24 +1,29 @@
-import pytest
-from fastapi.testclient import TestClient
-from vector_database.main import app
-from qdrant_client import QdrantClient
-from vector_database.tests.conftest import QDRANT_HOST, QDRANT_PORT, QDRANT_API_KEY
-from qdrant_client.models import Distance, VectorParams
 import warnings
 
-warnings.filterwarnings("ignore", message="Api key is used with an insecure connection.")
+import pytest
+from fastapi.testclient import TestClient
+from qdrant_client import QdrantClient
+from qdrant_client.models import Distance, VectorParams
+
+from vector_database.main import app
+from vector_database.tests.conftest import QDRANT_API_KEY, QDRANT_HOST, QDRANT_PORT
+
+warnings.filterwarnings(
+    "ignore", message="Api key is used with an insecure connection."
+)
 
 client = TestClient(app)
 qdrant_client = QdrantClient(
-    url=f"http://{QDRANT_HOST}:{QDRANT_PORT}",
-    api_key=QDRANT_API_KEY
+    url=f"http://{QDRANT_HOST}:{QDRANT_PORT}", api_key=QDRANT_API_KEY
 )
+
 
 @pytest.fixture
 def create_and_clean_collection():
     collection_name = "test_collection"
     qdrant_client.create_collection(
-        collection_name=collection_name, vectors_config=VectorParams(size=1024, distance=Distance.COSINE)
+        collection_name=collection_name,
+        vectors_config=VectorParams(size=1024, distance=Distance.COSINE),
     )
     yield collection_name
     try:

@@ -1,17 +1,20 @@
-import pytest
-from fastapi.testclient import TestClient
-from qdrant_client.models import VectorParams, Distance
-from vector_database.main import app
-from qdrant_client import QdrantClient
-from vector_database.tests.conftest import QDRANT_HOST, QDRANT_PORT, QDRANT_API_KEY
 import warnings
 
-warnings.filterwarnings("ignore", message="Api key is used with an insecure connection.")
+import pytest
+from fastapi.testclient import TestClient
+from qdrant_client import QdrantClient
+from qdrant_client.models import Distance, VectorParams
+
+from vector_database.main import app
+from vector_database.tests.conftest import QDRANT_API_KEY, QDRANT_HOST, QDRANT_PORT
+
+warnings.filterwarnings(
+    "ignore", message="Api key is used with an insecure connection."
+)
 
 client = TestClient(app)
 qdrant_client = QdrantClient(
-    url=f"http://{QDRANT_HOST}:{QDRANT_PORT}",
-    api_key=QDRANT_API_KEY
+    url=f"http://{QDRANT_HOST}:{QDRANT_PORT}", api_key=QDRANT_API_KEY
 )
 
 
@@ -24,7 +27,8 @@ def setup_collection():
         pass
 
     qdrant_client.create_collection(
-        collection_name=collection_name, vectors_config=VectorParams(size=4, distance=Distance.COSINE)
+        collection_name=collection_name,
+        vectors_config=VectorParams(size=4, distance=Distance.COSINE),
     )
     try:
         qdrant_client.upsert(
@@ -113,11 +117,7 @@ def test_search_success(setup_collection):
 
 def test_search_success_no_filter(setup_collection):
     collection_name = setup_collection
-    payload = {
-        "vector": [0.1, 0.2, 0.3, 0.4],
-        "top_k": 2,
-        "filter": {}
-    }
+    payload = {"vector": [0.1, 0.2, 0.3, 0.4], "top_k": 2, "filter": {}}
     response = client.post(f"/collections/{collection_name}/search", json=payload)
 
     assert response.status_code == 200
