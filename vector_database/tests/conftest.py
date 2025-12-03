@@ -12,7 +12,6 @@ QDRANT_PORT = os.getenv("QDRANT_PORT", "6333")
 QDRANT_API_KEY = os.getenv("QDRANT_TEST_API_KEY", "test_key")
 
 
-
 def wait_for_qdrant(timeout: int = 30):
     url = f"http://{QDRANT_HOST}:{QDRANT_PORT}/collections"
     headers = {}
