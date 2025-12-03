@@ -11,6 +11,7 @@ from vector_database.exceptions import (
     CollectionDoesNotExistError,
     DocumentDoesNotExistError,
     InvalidDateFormatError,
+    InputDataError,
 )
 from vector_database.models import (
     AddItemRequest,
@@ -77,7 +78,7 @@ def add_item(collection_name: str, request: AddItemRequest):
     try:
         message = item_service.add_item(collection_name, request)
         return {"status": "ok", "message": message}
-    except CollectionAlreadyExistsError as e:
+    except (CollectionAlreadyExistsError, InputDataError) as e:
         raise HTTPException(
             status_code=400, detail={"status": "bad request", "message": str(e)}
         )

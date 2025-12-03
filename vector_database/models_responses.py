@@ -1,10 +1,19 @@
+from typing import List
+
 from pydantic import BaseModel
 
 
 class PayloadResponse(BaseModel):
-    text: str
-    author: str
-    published_at: str
+    title: str
+    created: str
+    modified: str
+    language: str
+    doi: str
+    url: str
+    authors: List[str]
+    author_affiliations: List[str]
+    abstract: str
+    keywords: List[str]
     document_id: str
 
 
