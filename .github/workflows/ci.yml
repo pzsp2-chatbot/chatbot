@@ -19,9 +19,10 @@ jobs:
       - name: Install linters
         run: pip install --no-cache-dir --root-user-action=ignore ruff black isort mypy
       - name: Run linters
-        run: ruff check .
-        run: black --check .
-        run: isort --check-only .
+        run: |
+          ruff check .
+          black --check .
+          isort --check-only .
 
 
   build:
