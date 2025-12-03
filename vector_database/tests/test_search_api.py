@@ -169,9 +169,7 @@ def test_search_failed_nonexistent_collection():
     assert response.status_code == 404
     data = response.json()
     assert data["detail"]["status"] == "not found"
-    assert (
-        data["detail"]["message"] == "Collection 'nonexistent_collection' not found."
-    )
+    assert data["detail"]["message"] == "Collection 'nonexistent_collection' not found."
 
 
 def test_search_failed_invalid_vector_type(setup_collection):
