@@ -20,9 +20,34 @@ def to_str(value) -> str:
 
 def keywords_from_title(title: str, max_k: int = 6) -> list[str]:
     stop = {
-        "the", "a", "an", "and", "or", "of", "to", "in", "on", "for", "with", "through",
-        "between", "at", "by", "from", "into", "as", "is", "are", "was", "were",
-        "study", "studying", "analysis", "using", "based", "via",
+        "the",
+        "a",
+        "an",
+        "and",
+        "or",
+        "of",
+        "to",
+        "in",
+        "on",
+        "for",
+        "with",
+        "through",
+        "between",
+        "at",
+        "by",
+        "from",
+        "into",
+        "as",
+        "is",
+        "are",
+        "was",
+        "were",
+        "study",
+        "studying",
+        "analysis",
+        "using",
+        "based",
+        "via",
     }
     words = re.findall(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9]+", title.lower())
     kws: list[str] = []
@@ -37,7 +62,9 @@ def keywords_from_title(title: str, max_k: int = 6) -> list[str]:
 
 
 def ensure_collection(api: str, name: str, vector_size: int):
-    r = requests.post(f"{api}/collections", json={"name": name, "vector_size": vector_size})
+    r = requests.post(
+        f"{api}/collections", json={"name": name, "vector_size": vector_size}
+    )
     if r.status_code not in (200, 201):
         print("Collection create:", r.status_code, r.text)
 
@@ -48,7 +75,9 @@ def main():
     p.add_argument("--collection", default="articles")
     p.add_argument("--vector-size", type=int, default=256)
     p.add_argument("--data-dir", required=True, help="folder with .json files")
-    p.add_argument("--limit", type=int, default=50, help="number of successfully inserted docs")
+    p.add_argument(
+        "--limit", type=int, default=50, help="number of successfully inserted docs"
+    )
     args = p.parse_args()
 
     ensure_collection(args.api, args.collection, args.vector_size)

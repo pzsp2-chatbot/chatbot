@@ -29,7 +29,9 @@ def extract_fragments(items: List[Dict[str, Any]], top_k: int) -> List[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="RAG CLI: question -> embed -> search -> LLM answer")
+    parser = argparse.ArgumentParser(
+        description="RAG CLI: question -> embed -> search -> LLM answer"
+    )
     parser.add_argument("--api", required=True, help="http://localhost:8001")
     parser.add_argument("--collection", required=True, help="e.g. articles")
     parser.add_argument("--vector-size", type=int, default=256)
@@ -53,12 +55,21 @@ def main() -> int:
             "role": "system",
             "content": "Answer using the provided context. If context is insufficient, say you don't know.",
         },
-        {"role": "user", "content": f"QUESTION:\n{args.question}\n\nCONTEXT:\n{context}"},
+        {
+            "role": "user",
+            "content": f"QUESTION:\n{args.question}\n\nCONTEXT:\n{context}",
+        },
     ]
 
     answer = llm_chat(messages)
 
-    print(json.dumps({"question": args.question, "answer": answer, "context": fragments}, ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            {"question": args.question, "answer": answer, "context": fragments},
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
     return 0
 
 

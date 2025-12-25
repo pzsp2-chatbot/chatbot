@@ -3,6 +3,7 @@ import math
 
 DEFAULT_VECTOR_SIZE = 256
 
+
 def embed(text: str, vector_size: int = DEFAULT_VECTOR_SIZE) -> list[float]:
     text = (text or "").lower().strip()
     vec = [0.0] * vector_size
