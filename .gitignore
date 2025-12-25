@@ -8,3 +8,5 @@ backups/
 certificates/
 *.env
 data_preparation/data
+nginx.*
+*override*

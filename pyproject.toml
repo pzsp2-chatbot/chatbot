@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pzsp2"
+version = "0.1.0"
+dependencies = [
+  "requests",
+]
+
+[project.scripts]
+search = "integration.search_cli:main"
+
+[tool.setuptools]
+# говорим setuptools: не пытайся угадывать всё подряд, бери только нужные пакеты
+packages = ["integration", "embeddings", "vector_database", "data_preparation"]
