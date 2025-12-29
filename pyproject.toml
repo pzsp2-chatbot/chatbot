@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pzsp2"
+version = "0.1.0"
+dependencies = [
+  "requests",
+]
+
+[project.scripts]
+search = "integration.search_cli:main"
+rag = "integration.rag_cli:main"
+
+[tool.setuptools]
+packages = ["integration", "embeddings", "vector_database", "data_preparation"]
