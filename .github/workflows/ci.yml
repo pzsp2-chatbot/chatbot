@@ -31,6 +31,8 @@ jobs:
     needs: lint
     steps:
       - uses: actions/checkout@v3
+      - name: Install build dependencies
+        run: apt-get update && apt-get install -y gcc build-essential python3-dev
       - name: Install dependencies
         run: pip install --root-user-action=ignore -r requirements.txt
 
