@@ -34,8 +34,6 @@ def main() -> int:
         "--top-k", type=int, default=3, help="How many results to return"
     )
 
-    # filter вы можете передать как JSON строку, например:
-    # --filter '{"language":"en","authors":["John Doe"]}'
     parser.add_argument(
         "--filter", default=None, help="Optional JSON filter dict (string)"
     )
