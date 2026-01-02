@@ -8,6 +8,4 @@ backups/
 certificates/
 *.env
 data_preparation/data
-nginx.conf
-nginx.http.conf
 docker-compose.override.yml
