@@ -1,0 +1,65 @@
+{
+    "id": "WUT8a37fd9089ba409fbd14067453b20145",
+    "title": "Unconditional Token Forcing: Extracting Text Hidden Within LLM",
+    "created": "2024-10-14T15:13:52.383+02:00",
+    "modified": "2025-09-09T23:23:28.764+02:00",
+    "language": "en",
+    "doi": "10.15439/2024F4511",
+    "url": "https://doi.org/10.15439/2024F4511",
+    "authors": [
+        {
+            "full_name": "Marek Bolanowski",
+            "affiliation": "Rzeszów University of Technology"
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Leszek A. Maciaszek",
+            "affiliation": "Wroclaw University of Economics"
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Dominik Ślęzak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leszek A. Maciaszek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Hościłowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Popiołek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Rudkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jędrzej Bieniasz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

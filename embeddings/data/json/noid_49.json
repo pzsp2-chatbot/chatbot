@@ -1,0 +1,29 @@
+{
+    "id": "WUT2f70470c59df4c3dbd19dcba5d0a3bd7",
+    "title": "A systematic analyses of different bioinformatics pipelines for genomic data and its impact on deep learning models for chromatin loop prediction",
+    "created": "2024-10-27T16:46:55.080+01:00",
+    "modified": "2025-09-09T23:33:49.012+02:00",
+    "language": "en",
+    "doi": "10.1093/bfgp/elae009",
+    "url": "https://doi.org/10.1093/bfgp/elae009",
+    "authors": [
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anup Halder",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karolina Jodkowska",
+            "affiliation": "Centrum Nowych Technologii"
+        },
+        {
+            "full_name": "Abhishek Agarwal",
+            "affiliation": "University of Warsaw, Centre of New Technologies"
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

@@ -1,0 +1,33 @@
+{
+    "id": "WUT5a98824a0c74493d98878b287ba7ac56",
+    "title": "Asymmetric Isomap for Dimensionality Reduction and Data Visualization",
+    "created": "2024-10-17T22:36:19.413+02:00",
+    "modified": "2025-09-09T23:25:47.114+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-72332-2_8",
+    "url": "https://doi.org/10.1007/978-3-031-72332-2_8",
+    "authors": [
+        {
+            "full_name": "Michael Wand",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kristína Malinovská",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jürgen Schmidhuber",
+            "affiliation": null
+        },
+        {
+            "full_name": "Igor V. Tetko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dominik Olszewski",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

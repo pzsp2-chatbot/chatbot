@@ -1,0 +1,57 @@
+{
+    "id": "WUT688858da41524db08cf2ad6a0829aebd",
+    "title": "A New Symbolic Time Series Representation Method Based on Data Fuzzification",
+    "created": "2024-10-10T20:21:04.253+02:00",
+    "modified": "2025-09-09T23:23:34.817+02:00",
+    "language": "en",
+    "doi": "10.62036/ISD.2024.6",
+    "url": "https://doi.org/10.62036/ISD.2024.6",
+    "authors": [
+        {
+            "full_name": "Bartosz Marcinkowski",
+            "affiliation": "University of Gdansk"
+        },
+        {
+            "full_name": "Adam Przybyłek",
+            "affiliation": "Gdańsk University of Technology"
+        },
+        {
+            "full_name": "Aleksander Jarzębowicz",
+            "affiliation": "Gdańsk University of Technology"
+        },
+        {
+            "full_name": "Netta Iivari",
+            "affiliation": "University of Oulu"
+        },
+        {
+            "full_name": "Emilio Insfran",
+            "affiliation": "Technical University of Valencia"
+        },
+        {
+            "full_name": "Michael Lang",
+            "affiliation": "National University of Ireland Galway"
+        },
+        {
+            "full_name": "Henry Linger",
+            "affiliation": "Monash University"
+        },
+        {
+            "full_name": "Christoph Schneider",
+            "affiliation": "IESE Business School"
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zofia Matusiewicz",
+            "affiliation": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie"
+        },
+        {
+            "full_name": "Gonzalo Nápoles",
+            "affiliation": "University of Tilburg, Netherlands"
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

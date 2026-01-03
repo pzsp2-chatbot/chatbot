@@ -1,0 +1,33 @@
+{
+    "id": "WUT54c721f34cd24dd7aac164348022f1b3",
+    "title": "Towards LLM-augmented multiagent systems for agile software engineering",
+    "created": "2024-10-19T11:58:39.417+02:00",
+    "modified": "2025-09-09T23:23:07.566+02:00",
+    "language": "en",
+    "doi": "10.1145/3691620.3695336",
+    "url": "https://doi.org/10.1145/3691620.3695336",
+    "authors": [
+        {
+            "full_name": "Vladimir Filkov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Baishakhi Ray",
+            "affiliation": null
+        },
+        {
+            "full_name": "Minghui Zhou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Cinkusz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

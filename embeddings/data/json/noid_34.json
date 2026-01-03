@@ -1,0 +1,33 @@
+{
+    "id": "WUT1eed12fc20d24416bc1d188f864789f7",
+    "title": "Unsupervised Anomaly Detection in Time Series with Evolving Spiking Neural Networks and Empirical Mode Decomposition",
+    "created": "2024-10-15T10:33:54.293+02:00",
+    "modified": "2025-09-10T00:06:28.549+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+    "authors": [
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Paluch",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Maciąg",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

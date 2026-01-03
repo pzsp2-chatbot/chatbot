@@ -1,0 +1,37 @@
+{
+    "id": "WUTd0d83c8bfc0b4788bbcf174d0c4c9dc1",
+    "title": "Access Control Mechanisms in Java Applications",
+    "created": "2024-10-22T13:24:23.490+02:00",
+    "modified": "2025-09-09T23:23:51.114+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ibima.org/accepted-paper/access-control-mechanisms-in-java-applications/",
+    "authors": [
+        {
+            "full_name": "Khalid S. Soliman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Górny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Kiedrowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leonid Moroz",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

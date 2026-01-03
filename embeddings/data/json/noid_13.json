@@ -1,0 +1,33 @@
+{
+    "id": "WUT5ea021f3dd45471f966684cadc42b6c0",
+    "title": "Particle identification with machine learning from incomplete data in the ALICE experiment",
+    "created": "2024-10-07T14:50:27.977+02:00",
+    "modified": "2025-09-09T23:31:46.940+02:00",
+    "language": "en",
+    "doi": "10.1088/1748-0221/19/07/c07013",
+    "url": "https://doi.org/10.1088/1748-0221/19/07/c07013",
+    "authors": [
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Deja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Miłosz Kasak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

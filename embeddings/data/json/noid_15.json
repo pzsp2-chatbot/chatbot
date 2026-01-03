@@ -1,0 +1,45 @@
+{
+    "id": "WUTa5b862e34b094fa190b45378e1e7b033",
+    "title": "Data-driven human and bot recognition from web activity logs based on hybrid learning techniques",
+    "created": "2024-10-07T16:58:14.630+02:00",
+    "modified": "2025-09-09T23:31:38.294+02:00",
+    "language": "en",
+    "doi": "10.1016/j.dcan.2023.01.020",
+    "url": "https://doi.org/10.1016/j.dcan.2023.01.020",
+    "authors": [
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Kozakiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

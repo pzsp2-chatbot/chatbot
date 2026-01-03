@@ -1,0 +1,33 @@
+{
+    "id": "WUT270eafe7b0aa4e5b81a199ba474cf45d",
+    "title": "Semantic Segmentation of the Prostate Based on Onefold and Joint Multimodal Medical Images Using YOLOv4 and U-Net",
+    "created": "2024-10-28T20:31:32.209+01:00",
+    "modified": "2025-09-09T23:32:20.188+02:00",
+    "language": "en",
+    "doi": "10.3390/app14219814",
+    "url": "https://doi.org/10.3390/app14219814",
+    "authors": [
+        {
+            "full_name": "Estera Kot",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Leś",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Krawczyk-Borysiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrey Vykhodtsev",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Siwek",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

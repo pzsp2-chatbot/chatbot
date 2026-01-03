@@ -1,0 +1,21 @@
+{
+    "id": "WUT68b4685aa17e432d8a1e28536788eb38",
+    "title": "Neural Network-Based Approach to Eye Disease Classification from Fundus Images",
+    "created": "2024-10-25T08:25:34.818+02:00",
+    "modified": "2025-09-09T23:24:24.384+02:00",
+    "language": "en",
+    "doi": "10.1109/cpee64152.2024.10720421",
+    "url": "https://doi.org/10.1109/cpee64152.2024.10720421",
+    "authors": [
+        {
+            "full_name": "Maciej Dragun",
+            "affiliation": null
+        },
+        {
+            "full_name": "Radosław Roszczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}

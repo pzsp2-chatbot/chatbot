@@ -1,0 +1,21 @@
+{
+    "id": "WUT6f7c37fa2e1b4d07b086b667f14cc929",
+    "title": "HiCDiffusion - diffusion-enhanced, transformer-based prediction of chromatin interactions from DNA sequences",
+    "created": "2024-10-18T22:21:28.879+02:00",
+    "modified": "2025-09-09T23:30:13.104+02:00",
+    "language": "en",
+    "doi": "10.1186/s12864-024-10885-z",
+    "url": "https://doi.org/10.1186/s12864-024-10885-z",
+    "authors": [
+        {
+            "full_name": "Mateusz Chiliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract_pl": null,
+    "abstract_en": null
+}
