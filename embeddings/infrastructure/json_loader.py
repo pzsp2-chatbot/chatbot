@@ -26,11 +26,7 @@ class JSONArticleLoader(IArticleLoader):
 
                 raw_keywords = data.get("keywords") or ""
 
-                keywords = [
-                    k.strip()
-                    for k in raw_keywords.split(";")
-                    if k.strip()
-                ]
+                keywords = [k.strip() for k in raw_keywords.split(";") if k.strip()]
 
                 article = Article(
                     id=data["id"],
@@ -48,8 +44,6 @@ class JSONArticleLoader(IArticleLoader):
                 articles.append(article)
 
             except (json.JSONDecodeError, KeyError, TypeError) as e:
-                raise ValueError(
-                    f"Failed to load article from {file.name}: {e}"
-                ) from e
+                raise ValueError(f"Failed to load article from {file.name}: {e}") from e
 
         return articles

@@ -17,20 +17,14 @@ def setup_json():
         "created": "2025-01-01T10:00:00",
         "modified": "2025-01-02T12:00:00",
         "language": "en",
-        "authors": [
-            {"full_name": "Alice", "affiliation": "Uni"}
-        ],
+        "authors": [{"full_name": "Alice", "affiliation": "Uni"}],
         "abstract": "Dummy abstract",
         "keywords": "test; pytest; loader",
         "doi": "10.1234/testdoi",
         "url": "https://example.com",
     }
 
-    with open(
-        os.path.join(TEST_FOLDER, "dummy.json"),
-        "w",
-        encoding="utf-8"
-    ) as f:
+    with open(os.path.join(TEST_FOLDER, "dummy.json"), "w", encoding="utf-8") as f:
         json.dump(dummy, f)
 
     yield

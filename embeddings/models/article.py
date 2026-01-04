@@ -18,9 +18,7 @@ class Article:
 
     def to_text(self) -> str:
         authors = ", ".join(a.full_name for a in self.authors)
-        affiliations = ", ".join(
-            a.affiliation for a in self.authors if a.affiliation
-        )
+        affiliations = ", ".join(a.affiliation for a in self.authors if a.affiliation)
 
         parts = [
             f"Title: {self.title}",
