@@ -1,0 +1,45 @@
+{
+    "id": "WUT3d539a2e21864520b119ab36755b9893",
+    "title": "Topic Modeling Applied to Reddit Posts",
+    "created": "2024-12-02T16:58:02.097+01:00",
+    "modified": "2025-09-09T23:25:02.283+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-58502-9_2",
+    "url": "https://doi.org/10.1007/978-3-031-58502-9_2",
+    "authors": [
+        {
+            "full_name": "Shelly Sachdeva",
+            "affiliation": "National Institute of Technology, Delhi, India"
+        },
+        {
+            "full_name": "Yutaka Watanobe",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Maria Kędzierska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Spytek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcelina Kurek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

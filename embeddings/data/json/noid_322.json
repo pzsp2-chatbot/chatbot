@@ -1,0 +1,65 @@
+{
+    "id": "WUT4d4c00c0fa514923932398a0b05073fa",
+    "title": "What Is the Impact of Typical Surrogate Models on the Performance of the JADE Algorithm?",
+    "created": "2025-03-30T14:31:41.025+02:00",
+    "modified": "2025-09-09T23:22:24.668+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-85252-7_13",
+    "url": "https://doi.org/10.1007/978-3-031-85252-7_13",
+    "authors": [
+        {
+            "full_name": "Thomas Bäck",
+            "affiliation": "Leiden University, Leiden, The Netherlands"
+        },
+        {
+            "full_name": "Niki van Stein",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christian Wagner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jonathan M. Garibaldi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francesco Marcelloni",
+            "affiliation": null
+        },
+        {
+            "full_name": "H. K. Lam",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marie Cottrell",
+            "affiliation": null
+        },
+        {
+            "full_name": "Faiyaz Doctor",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joaquim Filipe",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kevin Warwick",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": "Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Konrad Krawczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Arabas",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We investigate the efficacy of various regression-based surrogate models, integrated with a ranking procedure, within the Adaptive Differential Evolution with an Optional External Archive (JADE) method. In our previous work, efforts concentrated on 10-dimensional problems utilizing the CEC2013 benchmark set for single-criterion continuous optimization. In this study, we explore similar tests on 30-dimensional problems to study the scalability and efficiency of these surrogate models under increased complexity. The surrogate models - k Nearest Neighbors, XGBoost and Support Vector Machines - are used to regress the fitness function, thereby reducing the required number of fitness evaluations to achieve optimization progress. The training of these models is designed to remain cost-effective, requiring frequent recalibration throughout the optimization process. The Wilcoxon test based statistical analysis of experimental results has been made to validate the effectiveness of the surrogate models in both 10 and 30 dimensions. The results indicate that among the considered candidate surrogate models, kNN seems most effective and its incorporation into JADE increases the overall performance of that algorithm.",
+    "keywords": null
+}

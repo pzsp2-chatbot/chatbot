@@ -19,11 +19,12 @@ class MockLoader:
                 url=None,
                 authors=[
                     Author(
-                        full_name="Jan Kowalski", affiliation="Uniwersytet Warszawski"
+                        full_name="Jan Kowalski",
+                        affiliation="Uniwersytet Warszawski",
                     )
                 ],
-                abstract_pl="Streszczenie po polsku",
-                abstract_en="Abstract in English",
+                abstract="Streszczenie po polsku",
+                keywords=["test", "pl"],
             ),
             Article(
                 id="2",
@@ -35,11 +36,12 @@ class MockLoader:
                 url=None,
                 authors=[
                     Author(
-                        full_name="Anna Nowak", affiliation="Uniwersytet Jagielloński"
+                        full_name="Anna Nowak",
+                        affiliation="Uniwersytet Jagielloński",
                     )
                 ],
-                abstract_pl=None,
-                abstract_en="Second abstract in English",
+                abstract="Second abstract in English",
+                keywords=["test", "en"],
             ),
         ]
 
@@ -47,6 +49,7 @@ class MockLoader:
 def assert_embeddings(embeddings, min_dim=128):
     assert isinstance(embeddings, list)
     assert len(embeddings) == 2
+
     for vec in embeddings:
         assert isinstance(vec, list)
         assert len(vec) >= min_dim
@@ -76,6 +79,7 @@ def test_pipeline_with_factory(embedder_name, min_dim):
 
     assert ids == ["1", "2"]
     assert len(payloads) == 2
+
     assert_embeddings(embeddings, min_dim=min_dim)
 
 

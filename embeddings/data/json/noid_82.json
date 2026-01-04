@@ -1,0 +1,29 @@
+{
+    "id": "WUTa5c21cee48c44eefbbebd2a2bba907ec",
+    "title": "Security architecture in Java - A Pragmatic Approach. 44th IBIMA Computer Science International Conference, conference paper, published at 44th IBIMA Official Conference Proceedings: ISBN: 979-8-9867719-5-3 and ISSN: 2767-9640.",
+    "created": "2024-12-12T11:22:05.509+01:00",
+    "modified": "2025-09-09T23:25:13.649+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ibima.org/accepted-paper/security-architecture-in-java-a-pragmatic-approach/",
+    "authors": [
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Górny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Kiedrowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Kowalczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

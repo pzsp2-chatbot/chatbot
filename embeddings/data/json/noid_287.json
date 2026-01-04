@@ -1,0 +1,41 @@
+{
+    "id": "WUTad0aa74a60494555a914d92c9a55ed39",
+    "title": "Toward Universal Detector for Synthesized Images by Estimating Generative AI Models",
+    "created": "2025-02-24T19:29:08.461+01:00",
+    "modified": "2025-09-09T23:34:24.277+02:00",
+    "language": "en",
+    "doi": "10.1109/apsipaasc63619.2025.10849267",
+    "url": "https://doi.org/10.1109/apsipaasc63619.2025.10849267",
+    "authors": [
+        {
+            "full_name": "Ryota Seo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Minoru Kuribayashi",
+            "affiliation": "Okayama University, JP"
+        },
+        {
+            "full_name": "Akinobu Ura",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antoine Mallet",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rémi Cogranne",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Megías",
+            "affiliation": "Universitat Oberta de Catalunya, ES"
+        }
+    ],
+    "abstract": "One of the vulnerabilities in discriminators for AI-generated images is that the classification accuracy degrades when dealing with images generated using methods other than those they were trained on. As a countermeasure, in this study, we propose an image generation method estimator. The process of discrimination involves the input of an image to the estimator, which estimates the method used for its generation. Subsequently, a specialized fake image discriminator tailored to the estimated image generation method is used to identify the authenticity of the image. The activation functions are also considered according to the estimation results and analyzed for those discriminators. Discrimination scores are weighted and aggregated according to the estimation results, and the final decision is output. Our experimental results showed that the estimator achieved a classification accuracy of approximately 90% for 18 types of AI-generated images. Furthermore, by selecting the top two estimations in order of confidence, the accuracy increased to around 98%.",
+    "keywords": "Accuracy\n    ,\n    Image synthesis\n    ,\n    Generative AI\n    ,\n    Aggregates\n    ,\n    Asia\n    ,\n    Estimation\n    ,\n    Detectors\n    ,\n    Information processing\n    ,\n    Tuning"
+}

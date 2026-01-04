@@ -1,0 +1,21 @@
+{
+    "id": "WUTc710279f426c415c923279c7f75f1722",
+    "title": "Time series classification using F-transform",
+    "created": "2025-02-04T09:50:42.298+01:00",
+    "modified": "2025-09-10T00:17:29.626+02:00",
+    "language": "en",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antoni Kedzierski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>In this paper, we propose a new methodology for time series classification. It employs two techniques: the fuzzy transform (F-transform) and the well-known decision tree classifier. A combination of these two tools appears to result in a new classification method that shows good statistical properties and could be a noteworthy alternative for considered as best for time series 1NN classifier.</p>",
+    "keywords": null
+}

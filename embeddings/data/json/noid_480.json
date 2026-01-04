@@ -1,0 +1,17 @@
+{
+    "id": "WUTf538755b76514e5d9903fcd03b3b847c",
+    "title": "Smoothed Per-tensor Weight Quantization: A Robust Solution for Neural Network Deployment",
+    "created": "2025-07-18T12:17:08.134+02:00",
+    "modified": "2025-09-09T23:19:13.439+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153629",
+    "url": "https://doi.org/10.24425/ijet.2025.153629",
+    "authors": [
+        {
+            "full_name": "Xin Chang",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,0 +1,49 @@
+{
+    "id": "WUT6eabaf73ca614af88a5ae5d0fd429646",
+    "title": "A Summary View of the Problem and Its Solution",
+    "created": "2025-01-30T14:27:25.036+01:00",
+    "modified": "2025-09-09T23:26:52.391+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_7",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_7",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The case study presented in this book highlights the properties and challenges of distinguishing bot and human traffic using weblogs and compares several solutions to this task. We present here, first, the observations related to the methodological side of the potential problem solution.</p>",
+    "keywords": null
+}

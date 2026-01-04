@@ -1,0 +1,29 @@
+{
+    "id": "WUT13a1450b08f44106beaedf97b24ef012",
+    "title": "Double Proof-of-Work Scheme for the Key Transfer in the Steganographic Communication",
+    "created": "2025-06-21T22:15:39.919+02:00",
+    "modified": "2025-09-09T23:22:50.767+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-87772-8_32",
+    "url": "https://doi.org/10.1007/978-3-031-87772-8_32",
+    "authors": [
+        {
+            "full_name": "Leonard Barolli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Rajba",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jörg Keller",
+            "affiliation": "University of Hagen"
+        }
+    ],
+    "abstract": "One of the ways to hide data in steganographic communication is to create messages that look random. To achieve this goal, an encryption function could be applied, but in covert communication, exchanging keys may be impossible or can expose secret data transmission. However, in the steganograpic scenario, information concealment is the primary goal and is valued much more than providing confidentiality, so encryption can support information hiding purposes in a way where confidentiality is not a priority. Moreover, a question arises of whether alternative cryptographic solutions, i.e., less costly than encryption, can achieve the same level of randomness.\n\nConsidering the above, in this paper we propose an approach inspired by proof-of-work principles to transmit the cryptographic key along with the encrypted message, eliminating the need for the prior key exchange. In more detail, we explore a scenario where both the covert sender and receiver perform proof-of-work (called double proof-of-work). We implement the proposed solution and experimentally assess its security and key performance metrics, i.e., bandwidth, stealthiness, and robustness. The results obtained demonstrate the feasibility and effectiveness of such a scheme.",
+    "keywords": null
+}

@@ -1,0 +1,45 @@
+{
+    "id": "WUT0026c273e60d40bd8e10f875768adb03",
+    "title": "Influence of Mixed Precision on Performance and Accuracy of DNN Training for AI-Accelerated CFD Simulations on NVIDIA Multi-GPU System",
+    "created": "2025-07-10T18:59:17.064+02:00",
+    "modified": "2025-09-09T23:22:15.354+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-97554-7_11",
+    "url": "https://doi.org/10.1007/978-3-031-97554-7_11",
+    "authors": [
+        {
+            "full_name": "Maciej Paszyński",
+            "affiliation": "University of Science and Technology"
+        },
+        {
+            "full_name": "Amanda S. Barnard",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yongjie Jessica Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Halbiniak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Rojek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roman Wyrzykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Norbert Meyer",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

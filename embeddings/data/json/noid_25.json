@@ -1,57 +1,45 @@
 {
-    "id": "WUT688858da41524db08cf2ad6a0829aebd",
-    "title": "A New Symbolic Time Series Representation Method Based on Data Fuzzification",
-    "created": "2024-10-10T20:21:04.253+02:00",
-    "modified": "2025-09-09T23:23:34.817+02:00",
+    "id": "WUT86a0be4b91604d74bdb900a5e8c38073",
+    "title": "Constructing Spatial Relationship and Temporal Relationship Oriented Composite Fuzzy Cognitive Maps for Multivariate Time Series Forecasting",
+    "created": "2024-11-12T13:20:08.645+01:00",
+    "modified": "2025-09-09T23:31:30.161+02:00",
     "language": "en",
-    "doi": "10.62036/ISD.2024.6",
-    "url": "https://doi.org/10.62036/ISD.2024.6",
+    "doi": "10.1109/TFUZZ.2024.3395833",
+    "url": "https://doi.org/10.1109/TFUZZ.2024.3395833",
     "authors": [
         {
-            "full_name": "Bartosz Marcinkowski",
-            "affiliation": "University of Gdansk"
-        },
-        {
-            "full_name": "Adam Przybyłek",
-            "affiliation": "Gdańsk University of Technology"
-        },
-        {
-            "full_name": "Aleksander Jarzębowicz",
-            "affiliation": "Gdańsk University of Technology"
-        },
-        {
-            "full_name": "Netta Iivari",
-            "affiliation": "University of Oulu"
-        },
-        {
-            "full_name": "Emilio Insfran",
-            "affiliation": "Technical University of Valencia"
-        },
-        {
-            "full_name": "Michael Lang",
-            "affiliation": "National University of Ireland Galway"
-        },
-        {
-            "full_name": "Henry Linger",
-            "affiliation": "Monash University"
-        },
-        {
-            "full_name": "Christoph Schneider",
-            "affiliation": "IESE Business School"
-        },
-        {
-            "full_name": "Agnieszka Jastrzębska",
+            "full_name": "Władysław Homenda",
             "affiliation": null
         },
         {
-            "full_name": "Zofia Matusiewicz",
-            "affiliation": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie"
+            "full_name": "Chenxi Ouyang",
+            "affiliation": null
         },
         {
-            "full_name": "Gonzalo Nápoles",
-            "affiliation": "University of Tilburg, Netherlands"
+            "full_name": "Fei Yang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fusheng Yu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Witold Pedrycz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jiaqi Chang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Qian He",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zonglin Yang",
+            "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Fuzzy cognitive maps (FCMs) are directed graphs with multiple nodes, making them well-suited for addressing multivariate time series (MTS) forecasting problems. When forecasting MTS, it is crucial to treat each vector of the MTS as a whole, considering both the causalities between different variables of[CR][LF]the vector at a timepoint (spatial relationship) and the causalities between multiple historical vectors and future vector (temporal relationship). Existing FCM-based MTS forecasting models often fail to treat the vectors as a whole and do not distinctly reflect the temporal relationship and spatial relationship in MTS. To address these limitations, this article introduces the concept of composite FCMs (CFCMs). A CFCM comprises two layers of FCMs: the layer-1 FCM describes the temporal relationship in an MTS, whereas the layer-2 FCM describes the spatial relationship. By embedding the layer-2 FCMs into the nodes of the layer-1 FCM, the relationships within the MTS can be separately reflected while still treating each vector as a whole. In this structure, the nodes of the layer-1 FCM represent historical vectors used to forecast the future vector, and each node of the layer-1 FCM corresponds to a layer-2 FCM whose nodes represent the variables of the vector at a specific historical timepoint in the MTS. Based on the novel CFCM concept, this article proposes a new MTS forecasting model that can distinctly reflect the temporal and spatial relationships in an MTS and utilize multiple historical vectors to forecast the future[CR][LF]vector. Experimental results demonstrate the effectiveness of the proposed MTS forecasting model.",
+    "keywords": "Multivariate time series (MTS) forecasting, setvalued time series, spatial relationship, temporal relationship, composite fuzzy cognitive map (CFCM)"
 }

@@ -1,45 +1,25 @@
 {
-    "id": "WUTa5b862e34b094fa190b45378e1e7b033",
-    "title": "Data-driven human and bot recognition from web activity logs based on hybrid learning techniques",
-    "created": "2024-10-07T16:58:14.630+02:00",
-    "modified": "2025-09-09T23:31:38.294+02:00",
+    "id": "WUT5adb762caabf40598e7d50a127a98311",
+    "title": "Efficient Data Completion and Augmentation",
+    "created": "2024-11-07T16:23:17.905+01:00",
+    "modified": "2025-09-09T23:23:48.228+02:00",
     "language": "en",
-    "doi": "10.1016/j.dcan.2023.01.020",
-    "url": "https://doi.org/10.1016/j.dcan.2023.01.020",
+    "doi": "10.1109/dsaa61799.2024.10722793",
+    "url": "https://doi.org/10.1109/dsaa61799.2024.10722793",
     "authors": [
         {
-            "full_name": "Agnieszka Jastrzębska",
+            "full_name": "IEEE Xplore",
             "affiliation": null
         },
         {
-            "full_name": "Marek Gajewski",
-            "affiliation": null
+            "full_name": "Antonina Krajewska",
+            "affiliation": "Scientific and Academic Computer Network"
         },
         {
-            "full_name": "Olgierd Hryniewicz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Zwierzchowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Karol Opara",
-            "affiliation": null
-        },
-        {
-            "full_name": "Sławomir Zadrożny",
-            "affiliation": null
-        },
-        {
-            "full_name": "Jan Owsiński",
-            "affiliation": null
-        },
-        {
-            "full_name": "Mateusz Kozakiewicz",
+            "full_name": "Ewa Niewiadomska-Szynkiewicz",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Fast data completion and augmentation methods with provable theoretical guarantees enable efficient and reliable data analysis. Many datasets can be represented as real-valued matrices and filled using matrix completion (MC) methods. This paper proposes a novel two-step approach for matrix recovery involving the sequential solution of convex optimization tasks. Firstly, a subset of columns is randomly chosen, and the matrix is completed using a nuclear norm minimization algorithm. Secondly, we solve the least squares problem by incorporating the known elements and the completed columns. We introduce three algorithms for implementing our Columns Selected Matrix Completion (CSMC) method, tailored to different problem sizes. Provided necessary assumptions and the probability of achieving accurate solutions are validated through extensive numerical experiments. Synthetic data experiments assess the method's performance regarding matrix size, rank, and missing element proportion. Evaluation in image completion and graph link prediction demonstrates that CSMC provides comparable solution quality to state-of-the-art convex optimization-based MC algortthms while significantly reduciny computation time.",
+    "keywords": null
 }

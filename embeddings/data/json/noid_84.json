@@ -1,0 +1,49 @@
+{
+    "id": "WUTe787f0cc8167412d96f039accf030040",
+    "title": "Deepfake tweets automatic detection",
+    "created": "2024-12-15T14:22:12.069+01:00",
+    "modified": "2025-09-10T00:06:34.370+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+    "authors": [
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Wróblewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Soveatin Kuntur",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Frej",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Kamiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Szmajdziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Marciniak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This study addresses the critical challenge of detecting DeepFake tweets, leveraging advanced NLP techniques to differentiate between gen- uine and AI-generated texts. With the increasing prevalence of misinforma- tion, our work utilizes the TweepFake dataset to train and evaluate a variety of machine learning models. The objective is to identify effective strategies for recognizing DeepFake content, thereby contributing to the integrity of digital communications.",
+    "keywords": "fake news detection, natural language processing, deepfake"
+}

@@ -1,37 +1,25 @@
 {
-    "id": "WUT590fb128ad1a4476b1d2172a7fa417c1",
-    "title": "Fast and accurate approximation algorithms for computing floating point square root",
-    "created": "2024-10-02T15:51:40.169+02:00",
-    "modified": "2025-09-09T23:32:02.974+02:00",
+    "id": "WUTc1ea0e3453d84b658d1ad2d68fecd17c",
+    "title": "Prediction of the mobile game players’ payments-related retention from the Big Data perspective",
+    "created": "2024-11-04T09:01:19.209+01:00",
+    "modified": "2025-09-09T23:29:59.175+02:00",
     "language": "en",
-    "doi": "10.1007/s11075-024-01932-7",
-    "url": "https://doi.org/10.1007/s11075-024-01932-7",
+    "doi": "10.24425/ijet.2024.152510",
+    "url": "https://doi.org/10.24425/ijet.2024.152510",
     "authors": [
         {
-            "full_name": "Zbigniew Kokosiński",
+            "full_name": "Piotr Bilski",
             "affiliation": null
         },
         {
-            "full_name": "Paweł Gepner",
+            "full_name": "Rafał Łabędzki",
             "affiliation": null
         },
         {
-            "full_name": "Leonid Moroz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Volodymyr Samotyy",
-            "affiliation": null
-        },
-        {
-            "full_name": "Mariusz Węgrzyn",
-            "affiliation": null
-        },
-        {
-            "full_name": "Nataliia Gavkalova",
+            "full_name": "Adrian Bilski",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": null
 }

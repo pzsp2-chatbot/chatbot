@@ -1,0 +1,37 @@
+{
+    "id": "WUT16439a0faea34cf9b59a603206293686",
+    "title": "Machine Learning assisted in-device tasks scheduling optimization in context of IoT ecosystems",
+    "created": "2025-07-16T11:29:31.205+02:00",
+    "modified": "2025-09-09T23:23:03.658+02:00",
+    "language": "en",
+    "doi": "10.1109/iwcmc65282.2025.11059473",
+    "url": "https://doi.org/10.1109/iwcmc65282.2025.11059473",
+    "authors": [
+        {
+            "full_name": "Mikhail Tishin",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "George Mastorakis",
+            "affiliation": "Technological Educational Insitute of Crete"
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        },
+        {
+            "full_name": "Athina Bourdena",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        }
+    ],
+    "abstract": "Modern IoT and Fog environments are complex and diverse ecosystems that consist of numerous devices. Some of these devices can receive and process offloaded tasks. For such devices to operate at the highest capacity levels, there is a need for mechanisms that could optimize their performance with offloaded tasks. That includes, but is not limited to, such aspects as resource management, workload balancing and scheduling. Unlike local tasks, offloaded ones are not a part of device’s environment. Therefore, processing them should not irreparably disrupt a device’s functionality. This requires devices to have a mechanism for managing offloaded tasks differently from their local. The current work attempts to research possible ways to optimize in-device execution of offloaded tasks, while reducing detrimental effects to a device’s state. To achieve that, the solution involves application of Reinforcement Learning techniques. The work proposes to utilize Deep Deterministic Policy Gradient (DDPG) Actor/Critic method, to allow devices continuously learn optimal scheduling strategies for offloaded tasks. The contribution of this work is in its exploration of the impact machine learning makes on in-device scheduling, application feasibility and the overall execution time optimization of offloaded tasks.",
+    "keywords": null
+}

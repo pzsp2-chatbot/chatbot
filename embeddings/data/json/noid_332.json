@@ -1,0 +1,29 @@
+{
+    "id": "WUTc6bde1178c24433492be551af5224d73",
+    "title": "Cloud Native Observability for an Enhanced Orchestration at the Telco Edge",
+    "created": "2025-03-31T15:18:13.195+02:00",
+    "modified": "2025-09-09T23:22:42.918+02:00",
+    "language": "en",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Piotr Matysiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ilhem Fajjari",
+            "affiliation": "Orange Innovation"
+        },
+        {
+            "full_name": "Halina Tarasiuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Łukasz Ziółkowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "As mobile networks advance, so do the use cases and quality demands they must meet, such as achieving “seven nines” reliability. Meeting these demands requires implementing intelligent and autonomous networks. Observability plays a crucial role in enabling data-driven Orchestration within this context.\nThis paper presents Telco-Observer, an innovative solution tightly\nintegrated with Management & Orchestration systems, designed\nto collect and provide efficient access to telemetry data across\ndistributed cloud native edge environments. To the best of our\nknowledge, no existing solutions fully incorporate Observability\nat the Telco edge while supporting efficient Orchestration. Our\nperformance evaluation demonstrates that Telco-Observer incurs\nminimal overhead while collecting a broad spectrum of telemetry\nsignals and providing fast data access.",
+    "keywords": "observability, monitoring, edge, telco, cloud native, orchestration, 5G, 6G"
+}

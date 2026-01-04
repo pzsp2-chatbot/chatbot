@@ -1,0 +1,25 @@
+{
+    "id": "WUTf6c57c263e9c4d61bdcc433c5c91f917",
+    "title": "850 nm Multiaperture Vertical Cavity Surface Emitting Lasers: Equivalent Circuit Modeling, Intrinsic Response, Transmission Performance and Comparison to Standard VCSEL Design",
+    "created": "2025-05-08T16:06:12.620+02:00",
+    "modified": "2025-09-09T23:19:14.841+02:00",
+    "language": "en",
+    "doi": "10.1109/jlt.2025.3538126",
+    "url": "https://doi.org/10.1109/jlt.2025.3538126",
+    "authors": [
+        {
+            "full_name": "Łukasz Chorchos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nikolay N. Ledentsov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Jarosław Piotr Turkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper we discuss performance and limitations of 850 nm single mode multiaperture vertical cavity surface emitting laser and compare it to the single aperture design. This design is not meant to be coupled cavity but focuses on single drive multiaperture devices. Both the static and dynamic parameters are shown and equivalent circuit model of the multiaperture device is proposed and validated. The static characteristic show high output power exceeding 6 mW with very narrow spectrum and Gaussian beam in far-field. Based on the equivalent circuit model the parasitic limitation of the device is established to be of 26.8 GHz. Further the intrinsic response is modeled where thermal and damping bandwidth limitations are derived at 37.6 GHz and 49.2 GHz respectively. The data transmission experiments present error-free performance for NRZ rates of 50 Gbit/s which altogether with a low RIN level opens a way to a 100 Gbit/s with PAM-4. Almost no penalty in the available bandwidth is observed even after 800 m of OM4 fiber.",
+    "keywords": "Data transmission, equivalent circuit, intrinsic response, parasitic response, VCSEL"
+}

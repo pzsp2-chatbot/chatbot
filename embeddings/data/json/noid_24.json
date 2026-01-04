@@ -1,34 +1,14 @@
 {
-    "id": "WUTb0b350c070854819922d3ad80fe36096",
-    "title": "Dynamic Growing and Shrinking of Neural Networks with Monte Carlo Tree Search",
-    "created": "2024-10-10T11:43:31.542+02:00",
-    "modified": "2025-09-09T23:23:36.854+02:00",
+    "id": "WUT83b7cf1941ce46d68376dbf1013d8312",
+    "title": "Time series classification with their image representation",
+    "created": "2024-11-12T13:11:26.418+01:00",
+    "modified": "2025-09-09T23:31:31.831+02:00",
     "language": "en",
-    "doi": "10.1007/978-3-031-63749-0_25",
-    "url": "https://doi.org/10.1007/978-3-031-63749-0_25",
+    "doi": "10.1016/j.neucom.2023.127214",
+    "url": "https://doi.org/10.1016/j.neucom.2023.127214",
     "authors": [
         {
-            "full_name": "Leonardo Franco",
-            "affiliation": null
-        },
-        {
-            "full_name": "Clélia de Mulatier",
-            "affiliation": "University of Amsterdam"
-        },
-        {
-            "full_name": "Maciej Paszyński",
-            "affiliation": "University of Science and Technology"
-        },
-        {
-            "full_name": "Valeria V. Krzhizhanovskaya",
-            "affiliation": "University of Amsterdam"
-        },
-        {
-            "full_name": "Jack J. Dongarra",
-            "affiliation": null
-        },
-        {
-            "full_name": "Peter M. A. Sloot",
+            "full_name": "Władysław Homenda",
             "affiliation": null
         },
         {
@@ -36,10 +16,14 @@
             "affiliation": null
         },
         {
-            "full_name": "Szymon Świderski",
+            "full_name": "Witold Pedrycz",
             "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Wrzesień",
+            "affiliation": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie"
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The study is concerned with the problem of classification of multivariate time series using convolutional neural networks (CNNs). As CNNs regard inputs in the form of images, an original image-like format of temporal data is proposed. Along this line, several design alternatives are studied by forming images with the two corresponding coordinates built by the original temporal data and their differences and second differences. An overall design process is presented with a focus on investigating time series-image transformations. Experimental studies involving publicly available data sets are reported, along with a slew of comparative analyses.",
+    "keywords": "Time series; Data to image transformations; Classification; Convolutional neural networks"
 }

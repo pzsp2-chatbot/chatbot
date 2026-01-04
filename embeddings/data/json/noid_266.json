@@ -1,0 +1,53 @@
+{
+    "id": "WUTea95c82ecd5a4358a6cf615c58c627d7",
+    "title": "ccLoopER: Deep Prediction of CTCF and cohesin Mediated Chromatin looping Using DNA Transformer Model",
+    "created": "2025-02-14T08:35:24.002+01:00",
+    "modified": "2025-09-09T23:26:46.164+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-45170-6_91",
+    "url": "https://doi.org/10.1007/978-3-031-45170-6_91",
+    "authors": [
+        {
+            "full_name": "Maji Pradipta",
+            "affiliation": null
+        },
+        {
+            "full_name": "Huang Tingwen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nikhil R. Pal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Chaudhury Santanu",
+            "affiliation": null
+        },
+        {
+            "full_name": "K. Rajat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anup Halder",
+            "affiliation": null
+        },
+        {
+            "full_name": "Abhishek Agarwal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sevastianos Korsak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karolina Jodkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Chromosome conformation capture technologies have advanced the understanding of chromatin organization and interaction in three dimensions, giving insight into gene regulation, disease development, and cell differentiation. However, due to experimental and technical limitations, it is only possible to identify a limited number of potential genome-wide chromatin loops in all tissues or cell types of interest. Therefore we developed the “ccLoopER” method to predict genome-wide chromatin loops mediated by architectural proteins (CTCF and Cohesin) using the DNA language model and DNA-based transformer model. The ccLoopER shows significant performance improvement compared to the state-of-the-art approaches. In addition, a polymer model-specific validation shows the high similarity between real and insilico interactions (Pearson correlation: 0.955)",
+    "keywords": null
+}

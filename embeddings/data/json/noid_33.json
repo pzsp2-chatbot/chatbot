@@ -1,45 +1,37 @@
 {
-    "id": "WUT42eb7fe8cd06416f824cee8a52c57c18",
-    "title": "Introduction to Super-Resolution for Remotely Sensed Hyperspectral Images",
-    "created": "2024-10-15T09:30:57.232+02:00",
-    "modified": "2025-09-09T23:25:17.187+02:00",
+    "id": "WUTdeb13f16c1644b9ead899bd74ab180c1",
+    "title": "Embedded feature selection approach based on TSK fuzzy system with sparse rule base for high-dimensional classification problems",
+    "created": "2024-11-15T17:54:11.946+01:00",
+    "modified": "2025-09-09T23:31:13.966+02:00",
     "language": "en",
-    "doi": "10.1007/978-3-031-68106-6_1",
-    "url": "https://doi.org/10.1007/978-3-031-68106-6_1",
+    "doi": "10.1016/j.knosys.2024.111809",
+    "url": "https://doi.org/10.1016/j.knosys.2024.111809",
     "authors": [
         {
-            "full_name": "Michał Kawulok",
+            "full_name": "Xiaoling Gong",
             "affiliation": null
         },
         {
-            "full_name": "Jolanta Kawulok",
+            "full_name": "Jian Wang",
             "affiliation": null
         },
         {
-            "full_name": "Bogdan Smolka",
+            "full_name": "Qilin Ren",
             "affiliation": null
         },
         {
-            "full_name": "Emre M. Celebi",
+            "full_name": "Kai Zhang",
             "affiliation": null
         },
         {
-            "full_name": "Paweł Kowaleczko",
-            "affiliation": null
+            "full_name": "El-Sayed M. El-Alfy",
+            "affiliation": "King Fahd University of Petroleum and Minerals"
         },
         {
-            "full_name": "Maciej Ziaja",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniel Kostrzewa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Michal Kawulok",
+            "full_name": "Jacek Mańdziuk",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "In high-dimensional problems of fuzzy rule-based embedded feature selection, the challenges include loss of interpretability, curse of dimensionality, and arithmetic underflow, among others. The primary reason for these problems is the exponential increase in the number of fuzzy rules with an increase in input dimension. In this study, an embedded feature selection approach, the Takagi–Sugeno–Kang (TSK) fuzzy system with sparse rule base (TSK-SRB), is proposed for high-dimensional data. Based on clustering, a broader initial rule base is designed with a suitable number of rules. In the rule layer, refined softmin (Ref-softmin) is introduced to calculate the firing strength, which can approximate the minimum T-norm while avoiding arithmetic underflow. Two Group Lasso regularization terms are used to realize feature and rule selection. In addition, an automatic threshold segmentation is introduced to determine the appropriate number of selected features/rules. Extensive experiments on 17 classification datasets showed that TSK-SRB is effective and competitive in high-dimensional feature selection.",
+    "keywords": "Feature selection, Rule selection, Sparse rule base, TSK fuzzy system, High-dimensional data"
 }

@@ -1,0 +1,29 @@
+{
+    "id": "WUT5b3431922c3045b2bbb44a6312285d5f",
+    "title": "ROS-based LiDAR mapping and camera-driven people tracking for autonomous robots",
+    "created": "2025-06-30T12:13:04.162+02:00",
+    "modified": "2025-09-09T23:22:59.449+02:00",
+    "language": "en",
+    "doi": "10.1117/12.3064982",
+    "url": "https://doi.org/10.1117/12.3064982",
+    "authors": [
+        {
+            "full_name": "Hui Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jean Marie Vianney Sindayigaya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jafar Jafar",
+            "affiliation": null
+        },
+        {
+            "full_name": "A. Rahman",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The project of a robot intended for autonomous mapping and environmental exploration is described in the paper. Whether the robot navigates automatically or manually, it is always beneficial to create maps of the area. The robot uses sensors to sense its environment; sophisticated sensors like LiDAR (Light Detection and Ranging) are especially important because they offer information for creating intricate maps. Simultaneous Localization and Mapping (SLAM) is one of the methods used in the creation of environment maps. Together with sophisticated motion planning and obstacle avoidance strategies, the produced maps are utilized for real-time robot navigation, which guarantees effective and secure environment exploration. Determining the distribution of persons in rooms was the goal. The project created rooms, detection items (people), the robot itself, and its sensors using the Gazebo simulation environment. The ROS localization package's SLAM technique was used to map the environment using information from the wheel odometry and IMU sensor. The SORT tracking module and the YOLOv5 object recognition technique were used to track things in camera photos. The robot and object had a 99% success rate at the closest distance and a 74% success rate at the furthest distance in the object detection tests. Additionally, tests in which the robot and objects remained immobile had the best tracking accuracy.",
+    "keywords": "Mapping, YOLOv5, SORT, robot simulation, Gazebo"
+}

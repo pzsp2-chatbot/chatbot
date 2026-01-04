@@ -1,0 +1,53 @@
+{
+    "id": "WUT5d3a55f631b74b08ae39a41ee84f1a96",
+    "title": "Towards a crowdsourced framework for online hate speech moderation-a case study in the Indian political scenario",
+    "created": "2025-01-30T13:06:51.162+01:00",
+    "modified": "2025-09-09T23:29:47.469+02:00",
+    "language": "en",
+    "doi": "10.1145/3630744.3663607",
+    "url": "https://doi.org/10.1145/3630744.3663607",
+    "authors": [
+        {
+            "full_name": "Avigyan Bhattacharya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tapabrata Chakrabarti",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subhadip Basu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alistair Knott",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dino Pedreschi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Raja Chatila",
+            "affiliation": null
+        },
+        {
+            "full_name": "Susan Leavy",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Eyers",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paul D. Teal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Proliferation of online political hate speech through social media has been a persisting problem and is being recently compounded by the arrival of AI-boosted content. This can lead to wanton dissemination of misinformation/disinformation and can cause extremist radicalisation or influence national electoral processes. Given the high stakes of negative social impact, it is becoming increasingly important to address the sensitive topic of content moderation on social media platforms, the debate being the dichotomy of free speech versus content harm. From that perspective, it is crucial to establish a nuanced definition and categorisation of harmful content that is sensitive to the culture and language of the place of dissemination, which is different from the current one-size-fits-All approach, where content moderation is performed by social media companies behind closed doors. In this paper, we present a democratized solution to this problem through a crowdsourced annotation process that may be used to have a transparent method of identifying harmful content, which can then be used to make moderation decisions like contextually weighted downranking of harmful content. We present proof of concept case studies in the Indian political electoral discourse. We introduce a curated dataset of tweets labeled by multiple annotators from diverse backgrounds and visualize insightful statistical patterns emerging therefrom. This is the first stage of a multi-year Global Partnership on AI (GPAI) project on responsible AI for social media governance. In 2024 and beyond, we plan to expand the work to include both memes and tweets, that are multilingual (a mixture of Hindi/Bengali, English, and romanised Hindi/Bengali).</p>",
+    "keywords": null
+}

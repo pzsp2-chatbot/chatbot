@@ -1,0 +1,105 @@
+{
+    "id": "WUTc184ec8cec27489eb14d178f8f0e22fc",
+    "title": "Samsung Research Poland (SRPOL) at SemEval-2022 Task 9: Hybrid Question Answering Using Semantic Roles",
+    "created": "2025-01-29T09:41:32.152+01:00",
+    "modified": "2025-09-10T00:10:16.888+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://aclanthology.org/2022.semeval-1.178/",
+    "authors": [
+        {
+            "full_name": "Guy Emerson",
+            "affiliation": null
+        },
+        {
+            "full_name": "Natalie Schluter",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gabriel Stanovsky",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ritesh Kumar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alexis Palmer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nathan Schneider",
+            "affiliation": null
+        },
+        {
+            "full_name": "Siddharth Singh",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shyam Ratan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Dryjański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Zaleska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Kuźma",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Błażejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Bordzicka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Klaudia Firląg",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christian Goltz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Grabowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Jończyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Kłosiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Natalia Paszkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Paziewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Piersa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Bujnowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Andruszkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this work we present an overview of our winning system for the R2VQ - Competence-based Multimodal Question Answering task, with the final exact match score of 92.53%. The task is structured as question-answer pairs, querying how well a system is capable of competence-based comprehension of recipes. We propose a hybrid of a rule-based system, Question Answering Transformer, and a neural classifier for N/A answers recognition. The rule-based system focuses on intent identification, data extraction and response generation. © 2022 Association for Computational Linguistics.",
+    "keywords": null
+}

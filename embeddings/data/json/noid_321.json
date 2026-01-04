@@ -1,0 +1,25 @@
+{
+    "id": "WUT46f94e54cfb14eccb152c2710ed9dfe8",
+    "title": "5G-Based Passive Radar Utilizing Channel Response Estimated via Reference Signals",
+    "created": "2025-03-27T14:20:45.944+01:00",
+    "modified": "2025-09-09T23:21:53.692+02:00",
+    "language": "en",
+    "doi": "10.1109/TRS.2025.3547245",
+    "url": "https://doi.org/10.1109/TRS.2025.3547245",
+    "authors": [
+        {
+            "full_name": "Marek Wypich",
+            "affiliation": "University of Science and Technology"
+        },
+        {
+            "full_name": "Radosław Maksymiuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz P. Zieliński",
+            "affiliation": "University of Science and Technology"
+        }
+    ],
+    "abstract": "In this article, the possibilities of using the signal of 5G cellular networks for passive radar are investigated. In contrast to the traditional approach, i.e., the passive coherent location (PCL), in which the cross-ambiguity function (CAF) between the transmitted and received signal is calculated, in the presented method, known from the automotive industry, the channel frequency response (CFR) is first estimated, and then, the channel impulse response (CIR) is computed and spectrally analyzed to obtain a range-velocity map. It is shown that CFR/CIR-based 5G radar, known as an orthogonal frequency-division multiplexing (OFDM)-based radar, outperforms CAF-based 5G radar in some aspects, e.g., ease of implementation and lower complexity, while maintaining comparable measurement accuracy. In this article, CFR/CIR is estimated using standard 5G channel state information reference signals (CSI-RSs) or some additional radar-on-demand (RoD) OFDM symbols that could be offered by mobile network operators as an extra paid service. Different time and frequency densities of RoD OFDM symbols are tested. The results are compared with the application of CAF and 5G positioning reference-like signals (PRSs). This article shows that even rare CSI-RS pilots can make a low-cost radar device from a 5G receiver. It is demonstrated that slightly irregular sampling of the CIR taps, caused by using cyclic prefixes of different lengths in 5G, does not lead to major velocity estimation errors.",
+    "keywords": "5G new radio (NR), channel frequency response (CFR), channel impulse response (CIR), channel state information (CSI), delay-Doppler (DD), integrated sensing and communication (ISAC), moving target detection, radar on demand (RoD), range-velocity, remote sensing"
+}

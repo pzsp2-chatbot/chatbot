@@ -1,37 +1,25 @@
 {
-    "id": "WUT88fa554691974a53a0c84b7d2363a9f1",
-    "title": "Impact of Blockchain Technology on Illegal or Unethical Activities",
-    "created": "2024-10-18T11:21:13.358+02:00",
-    "modified": "2025-09-09T23:23:54.102+02:00",
+    "id": "WUTe8cf257aacc8405c8d63b8f29b3e17bb",
+    "title": "Event prediction by estimating continuously the completion of a single temporal pattern’s instances",
+    "created": "2024-11-15T19:38:48.432+01:00",
+    "modified": "2025-09-09T23:31:37.078+02:00",
     "language": "en",
-    "doi": null,
-    "url": "https://ibima.org/csconference/43rd-ibima-computer-science-conference/#ffs-tabbed-15",
+    "doi": "10.1016/j.jbi.2024.104665",
+    "url": "https://doi.org/10.1016/j.jbi.2024.104665",
     "authors": [
         {
-            "full_name": "Khalid S. Soliman",
+            "full_name": "Szymon Jaroszewicz",
             "affiliation": null
         },
         {
-            "full_name": "Jerzy Krawiec",
+            "full_name": "Nevo Itzhak",
             "affiliation": null
         },
         {
-            "full_name": "Paweł Gepner",
-            "affiliation": null
-        },
-        {
-            "full_name": "Leonid Moroz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Górny",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Kiedrowicz",
+            "full_name": "Robert Moskovitch",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Objective:\nDevelop a new method for continuous prediction that utilizes a single temporal pattern ending with an event of interest and its multiple instances detected in the temporal data.\nMethods:\nUse temporal abstraction to transform time series, instantaneous events, and time intervals into a uniform representation using symbolic time intervals (STIs). Introduce a new approach to event prediction using a single time intervals-related pattern (TIRP), which can learn models to predict whether and when an event of interest will occur, based on multiple instances of a pattern that end with the event.\nResults:\nThe proposed methods achieved an average improvement of 5% AUROC over LSTM-FCN, the best-performed baseline model, out of the evaluated baseline models (RawXGB, Resnet, LSTM-FCN, and ROCKET) that were applied to real-life datasets.\nConclusion:\nThe proposed methods for predicting events continuously have the potential to be used in a wide range of real-world and real-time applications in diverse domains with heterogeneous multivariate temporal data. For example, it could be used to predict panic attacks early using wearable devices or to predict complications early in intensive care unit patients.",
+    "keywords": "Event prediction, Real-time prediction, Multivariate time-series"
 }

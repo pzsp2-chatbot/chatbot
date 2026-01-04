@@ -1,0 +1,33 @@
+{
+    "id": "WUT385468d3c3ae4081bf08bcc99f0a3236",
+    "title": "Virtual network function reconfiguration in 5G networks: An optimization perspective",
+    "created": "2025-02-05T12:43:20.243+01:00",
+    "modified": "2025-09-09T23:29:48.991+02:00",
+    "language": "en",
+    "doi": "10.1002/net.22212",
+    "url": "https://doi.org/10.1002/net.22212",
+    "authors": [
+        {
+            "full_name": "Hanane Biallach",
+            "affiliation": "Orange Labs"
+        },
+        {
+            "full_name": "Mustapha Bouhtou",
+            "affiliation": "Orange Labs"
+        },
+        {
+            "full_name": "Kristina Kumbria",
+            "affiliation": "University of Technology of Compiègne"
+        },
+        {
+            "full_name": "Dritan Nace",
+            "affiliation": "University of Technology of Compiègne"
+        },
+        {
+            "full_name": "Artur Tomaszewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "One of the major challenges in managing 5G networks is the reconfiguration of network slices. The task covers in particular reconfiguration and relocation of virtual network functions (VNFs) so as to match the service requirements of the slices and the availability of resources of the data centers. In this article, we study in deep the problem of optimal VNFs reconfiguration analyzing a number of its variants. We define two exact, compact integer linear programming formulations of the VNFs reconfiguration problem, and derive two approximate solution algorithms, one of them based on the column generation method. Numerical tests and comparisons illustrate the performance of the algorithms and the quality of the provided solutions.",
+    "keywords": "5G network slicing, feedback arc set problem, knapsack problem, parallel topological sorting, VNFs reconfiguration"
+}

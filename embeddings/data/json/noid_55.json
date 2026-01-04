@@ -1,25 +1,17 @@
 {
-    "id": "WUT6afaf6c8094c4fcfa7c12222fcde687c",
-    "title": "Jamming of optical network operation in physical layer",
-    "created": "2024-10-30T09:19:23.364+01:00",
-    "modified": "2025-09-09T23:34:26.731+02:00",
+    "id": "WUTff6c1c1331c7403bb5806a5b3501f4fd",
+    "title": "Optimization of Multi-Symbol Architecture of the Entropy Coder for H.265/HEVC Video Encoders",
+    "created": "2024-11-29T12:15:12.516+01:00",
+    "modified": "2025-09-09T23:33:37.917+02:00",
     "language": "en",
-    "doi": "10.24425/ijet.2024.152084",
-    "url": "https://doi.org/10.24425/ijet.2024.152084",
+    "doi": "10.1109/tcad.2024.3437339",
+    "url": "https://doi.org/10.1109/tcad.2024.3437339",
     "authors": [
         {
-            "full_name": "Jerzy Siuzdak",
-            "affiliation": null
-        },
-        {
-            "full_name": "Marcin Kowalczyk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Michał Marzęcki",
+            "full_name": "Grzegorz Pastuszak",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": null
 }

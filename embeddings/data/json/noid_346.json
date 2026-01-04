@@ -1,0 +1,53 @@
+{
+    "id": "WUTb8f0723c00f64976bbebfcf63e84388f",
+    "title": "Bi-Level Optimization to Enhance Intensity Modulated Radiation Therapy Planning",
+    "created": "2025-04-09T11:25:22.652+02:00",
+    "modified": "2025-09-09T23:33:16.638+02:00",
+    "language": "en",
+    "doi": "10.15388/24-infor560",
+    "url": "https://doi.org/10.15388/24-infor560",
+    "authors": [
+        {
+            "full_name": "Juan José Moreno",
+            "affiliation": null
+        },
+        {
+            "full_name": "Savíns Puertas-Martín",
+            "affiliation": null
+        },
+        {
+            "full_name": "Juana L. Redondo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pilar M. Ortigosa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Zawadzka",
+            "affiliation": "Maria Sklodowska-Curie Memorial Cancer Center"
+        },
+        {
+            "full_name": "Pawel Kukołowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Szmurło",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ignacy Kaliszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Miroforidis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ester M. Garzón",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "Intensity Modulated Radiation Therapy (IMRT), Genetic Algorithms, Generalized\nEquivalent Uniform Dose (gEUD), Multi-Objective Optimization, Bi-Level Optimization."
+}

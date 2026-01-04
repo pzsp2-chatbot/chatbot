@@ -1,0 +1,17 @@
+{
+    "id": "WUT76b07ceca63543fb85dccd65c1575ec4",
+    "title": "Metody rozpoznawania aktywności o charakterze pornograficznym w sekwencjach wideo przy użyciu niskopoziomowych cech obrazu",
+    "created": "2025-02-02T22:41:29.156+01:00",
+    "modified": "2025-09-09T23:21:49.750+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": "https://www.cybersecurityandlaw.pl/nr-1/10.pdf",
+    "authors": [
+        {
+            "full_name": "Artur Wilkowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Duża dostępność wszelkiego rodzaju materiałów publikowanych w Internecie,\nstwarza potrzebę mechanizmów kontroli treści, tak by trafiały one tylko do osób\nuprawnionych oraz będących chętnymi odbiorcami takich treści. Jednym ze\nszczególnie wrażliwych rodzajów treści są materiały wideo o charakterze\npornograficznym, do których dostęp powinien mieć bardzo selektywny charakter.\nDo praktycznej realizacji tego celu niezbędne jest wypracowanie metod\nautomatycznej klasyfikacji takich treści. Rozpoznawanie pornograficznego\ncharakteru materiałów wideo jest przypadkiem szczególnym szerszego problemu\nrozpoznawania aktywności (HAR – Human Activity Recognition). Artykuł podejmuje\nsię zadania przedstawienia technologii informatycznych umożliwiających\nklasyfikację materiałów wideo ze szczególnym uwzględnieniem danych\npornograficznych. Przedstawione są metody klasyczne oraz najnowsze metody\nwykorzystujące uczenie głębokie. Artykuł skupia się na rozwiązaniach\nwykorzystujących niskopoziomowe (w niewielkim stopniu przetworzone) cechy\nobrazu.",
+    "keywords": "Rozpoznawanie treści pornograficznych w wideo, Rozpoznawanie\naktywności ludzkiej, Przetwarzanie wideo, Sieci Neuronowe"
+}

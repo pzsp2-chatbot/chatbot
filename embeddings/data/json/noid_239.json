@@ -1,0 +1,25 @@
+{
+    "id": "WUTa93da48567294920b560677bec988bf1",
+    "title": "Human-Factor focused Application of STPA to Remotely driven Vehicles",
+    "created": "2025-02-03T12:22:34.630+01:00",
+    "modified": "2025-09-09T23:24:44.355+02:00",
+    "language": "en",
+    "doi": "10.1109/WFPST58552.2024.00026",
+    "url": "https://doi.org/10.1109/WFPST58552.2024.00026",
+    "authors": [
+        {
+            "full_name": "Ole Hans",
+            "affiliation": "Technical University Darmstadt"
+        },
+        {
+            "full_name": "Krystian Radlak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jurgen Adamy",
+            "affiliation": "Technical University Darmstadt"
+        }
+    ],
+    "abstract": "This paper presents an analysis of the safety aspects of a Remote Driving System (RDS) using the System-Theoretic Process Analysis (STPA) methodology. The focus is on the human Remote Driver (RD) within the RDS, considering losses and system-level hazards associated with the human-in-the-loop scenario which focuses on the RD actions related to the change in Steering Wheel Angle (SWA). The STPA methodology is applied to identify Unsafe Control Actions (UCA) related to the change in SWA command, resulting in the identification of numerous Causal Factors (CF) that may lead to hazardous scenarios. Several UCAs and CFs are identified that provide information on potential hazards and risks associated with remote driving technology. Based on a selected UCA where the RD does not change the SWA when the road network requires lateral movement, 25 potential loss scenarios were identified and presented in this paper. The results of this work can contribute to the understanding of potential risks and the development of safety mitigation measures in the context of RDS which need to be validated in further research.",
+    "keywords": null
+}

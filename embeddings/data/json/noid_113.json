@@ -1,0 +1,29 @@
+{
+    "id": "WUT26deb81b07054f46a77279079c7481d9",
+    "title": "Guest Editorial: Electronic attack and protection for modern radar systems and radar networks",
+    "created": "2025-01-05T15:53:20+01:00",
+    "modified": "2025-09-09T23:22:41.856+02:00",
+    "language": "en",
+    "doi": "10.1049/rsn2.12666",
+    "url": "https://doi.org/10.1049/rsn2.12666",
+    "authors": [
+        {
+            "full_name": "Alessio Balleri",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dietmar Matthes",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lo Monte Lorenzo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        }
+    ],
+    "abstract": "It is our great pleasure to present you with this IET Radar, Sonar and Navigation special issue on “Electronic Attack and Protection for Modern Radar Systems and Radar Networks”. The recent development of fast digital to analogue converters (DACs) and analogue to digital converters (ADCs), field programmable gate arrays (FPGAs) and parallel computing has contributed to the development of modern radars that, at the same time, can also be more easily attacked using digital radio frequency memories (DRFMs). The development of passive and netted multiband, multistatic, multichannel radars has also changed the EW scenario significantly. Classical EA can be less effective against passive, multistatic and multichannel radars and, as a result, new methods and new technologies have to be developed for effective countermeasures. Multichannel and multistatic jammers have also started to play a role in the EW scene. The aim of this special issue was to gather some of the most recent work in this area. The result is a collection of 12 interesting and timely papers aiming to address current technical challenges in electronic warfare. The papers included in this collection covers areas around the more general electronic warfare context as well as address specific challenges of electronic attack and electronic protection as summarised below.",
+    "keywords": null
+}

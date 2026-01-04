@@ -1,0 +1,33 @@
+{
+    "id": "WUTc74eecb7df7b4bd483d4a6d6ac91c084",
+    "title": "Exploring the impact of sequence context on errors in SNP genotype calling with whole genome sequencing data using AI-based autoencoder approach",
+    "created": "2025-01-29T12:57:00.769+01:00",
+    "modified": "2025-09-09T23:32:23.935+02:00",
+    "language": "en",
+    "doi": "10.1093/nargab/lqae131",
+    "url": "https://doi.org/10.1093/nargab/lqae131",
+    "authors": [
+        {
+            "full_name": "Krzysztof Kotlarz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magda Mielczarek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bernt Guldbrandtsen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Szyda",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

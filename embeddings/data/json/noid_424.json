@@ -1,0 +1,29 @@
+{
+    "id": "WUTe805463a15c6437291943fd1cdcd4c88",
+    "title": "Open-Source vs. Commercial Photogrammetry: Comparing Accuracy and Efficiency of OpenDroneMap and Agisoft Metashape",
+    "created": "2025-06-18T16:37:19.744+02:00",
+    "modified": "2025-09-09T23:19:54.697+02:00",
+    "language": "en",
+    "doi": "10.5194/isprs-archives-XLVIII-1-W4-2025-65-2025",
+    "url": "https://doi.org/10.5194/isprs-archives-XLVIII-1-W4-2025-65-2025",
+    "authors": [
+        {
+            "full_name": "Adam Kostrzewa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Płatek-Żak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Julian Banat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Wilk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The rapid advancement of drones and autonomous platforms has significantly enhanced the capabilities of aerial data acquisition. Drones, equipped with cameras, are now widely used in fields such as surveying, mapping, agriculture, or infrastructure inspections. The effectiveness of UAV (Unmanned Aerial Vehicle) platforms depends on factors such as data acquisition, software selection, and processing parameters, all of which influence the resulting products like orthomosaics and digital elevation models (DEMs). Both commercial and open-source software can process UAV data, each with its strengths and weaknesses. Commercial software typically offers higher accuracy but comes at a high cost, while open-source solutions provide a free alternative, though they are less intuitive for some users. OpenDroneMap (ODM), open-source software, offers similar functionalities to popular commercial options, enabling the generation of point clouds, DEMs, and mesh models using advanced algorithms like Multi-View Stereo (MVS) and Poisson surface reconstruction. On the other hand, Agisoft Metashape, a commercial software, is known for its user-friendly interface and comprehensive capabilities, making it popular for aerial imagery applications. In this paper, a comparison between ODM and Agisoft Metashape was conducted, focusing on their algorithms and processing performance. The results emphasize differences in camera calibration accuracy and data orientation. The study examined results from datasets acquired under various conditions. The findings revealed that ODM produces comparable results to Agisoft Metashape, the choice between the two depends on user requirements and specific project needs.",
+    "keywords": "UAV, photogrammetry, open-source software, OpenDronMap, Agisoft Metashape, low-cost technology"
+}

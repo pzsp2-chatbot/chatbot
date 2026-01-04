@@ -1,0 +1,29 @@
+{
+    "id": "WUTdd30818d6eb64100822d20e876542a97",
+    "title": "Optimal approximation of the 1/x function using Chebyshev polynomials and magic constants",
+    "created": "2024-12-19T15:15:00.903+01:00",
+    "modified": "2025-09-09T23:21:45.541+02:00",
+    "language": "en",
+    "doi": "10.1145/3708472",
+    "url": "https://doi.org/10.1145/3708472",
+    "authors": [
+        {
+            "full_name": "Cezary J. Walczyk",
+            "affiliation": "Uniwersytet w Białymstoku Wydział Fizyki: Bialystok"
+        },
+        {
+            "full_name": "Leonid Moroz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Volodymyr Samotyy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan L. Ciesielski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper we analyze low-cost accurate approximation of the function \n using Chebyshev polynomials of the first kind and minimizing number of elementary operations in computer codes (in particular, by using the so called magic constants). It is shown that Newton-Raphson iterative method is not optimal and a new approach is proposed. We prove that optimal Chebyshev polynomials can be factorized in terms of Chebyshev polynomials of lower order which leads to new -optimal- iteration schemes. We also construct a family of new algorithms by dividing the considered interval into sub-intervals where different magic constants and multiplicative factors are used (in order to increase the accuracy). Theoretical considerations and proofs are completed with numerical tests on three types of microcontroller processors.",
+    "keywords": null
+}

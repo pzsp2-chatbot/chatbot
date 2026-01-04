@@ -1,0 +1,81 @@
+{
+    "id": "WUT2a47c47be90e4b5bb7850ef477b16a9f",
+    "title": "AI content detection in the emerging information ecosystem: new obligations for media and tech companies",
+    "created": "2025-01-28T09:48:44.535+01:00",
+    "modified": "2025-09-09T23:31:59.778+02:00",
+    "language": "en",
+    "doi": "10.1007/s10676-024-09795-1",
+    "url": "https://doi.org/10.1007/s10676-024-09795-1",
+    "authors": [
+        {
+            "full_name": "Alistair Knott",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dino Pedreschi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Toshiya Jitsuzumi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Susan Leavy",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Eyers",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tapabrata Chakraborti",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrew Trotman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sundar Sundareswaran",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ricardo Baeza-Yates",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Weller",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paul D. Teal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subhadip Basu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mehmet Haklidir",
+            "affiliation": null
+        },
+        {
+            "full_name": "Virginia Morini",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stuart Russell",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yoshua Bengio",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The world is about to be swamped by an unprecedented wave of AI-generated content. We need reliable ways of identifying\nsuch content, to supplement the many existing social institutions that enable trust between people and organisations and\nensure social resilience. In this paper, we begin by highlighting an important new development: providers of AI content gen-\nerators have new obligations to support the creation of reliable detectors for the content they generate. These new obligations\narise mainly from the EU’s newly finalised AI Act, but they are enhanced by the US President’s recent Executive Order on\nAI, and by several considerations of self-interest. These new steps towards reliable detection mechanisms are by no means a\npanacea—but we argue they will usher in a new adversarial landscape, in which reliable methods for identifying AI-generated\ncontent are commonly available. In this landscape, many new questions arise for policymakers. Firstly, if reliable AI-content\ndetection mechanisms are available, who should be required to use them? And how should they be used? We argue that new\nduties arise for media and Web search companies arise for media companies, and for Web search companies, in the deploy-\nment of AI-content detectors. Secondly, what broader regulation of the tech ecosystem will maximise the likelihood of reli-\nable AI-content detectors? We argue for a range of new duties, relating to provenance-authentication protocols, open-source\nAI generators, and support for research and enforcement. Along the way, we consider how the production of AI-generated\ncontent relates to ‘free expression’, and discuss the important case of content that is generated jointly by humans and AIs.",
+    "keywords": "Generative AI, AI-generated content,  AI regulation"
+}

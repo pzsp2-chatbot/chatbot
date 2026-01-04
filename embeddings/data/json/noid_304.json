@@ -1,0 +1,37 @@
+{
+    "id": "WUT0fefd6b60b234028b602d5954a964b17",
+    "title": "An energy balance climate model for Mars represented by 4002 Goldberg polyhedrals with applications to ground ice re-distribution driven by obliquity cycles",
+    "created": "2025-03-17T13:21:30.285+01:00",
+    "modified": "2025-09-09T23:20:58.532+02:00",
+    "language": "en",
+    "doi": "10.1016/j.pss.2025.106077",
+    "url": "https://doi.org/10.1016/j.pss.2025.106077",
+    "authors": [
+        {
+            "full_name": "Robert Olszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Pałka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Wendland",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alison F.C. Bridger",
+            "affiliation": null
+        },
+        {
+            "full_name": "Melinda A. Kahre",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christopher P. McKay",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We have developed a surface energy balance model for Mars based on representing the surface of Mars with a Goldberg polyhedral of 4002 cells. The approach using discretization of space with Goldberg polygons made it possible not only to obtain homogeneous spatial resolution but also the absence of a singularity at the poles in the\nmodel. In addition to the radiation terms, the surface energy balance includes CO2 condensation and evaporation, the diffusive exchange of heat between cells, heat exchange with the subsurface, and a representation of the large-scale transport of heat from the equator to pole. We validate the model by comparing model results to the\nViking lander temperature and pressure data. The model results are within 10% in both temperature and pressure compared to both Viking 1 and Viking 2 landers. We also compare to current Mars GCMs. Our baseline model has a total exchangeable CO2 mass equivalent to 700 Pa and a mean annual surface temperature of 215.9 K. We use the baseline model to investigate the effects of changes in obliquity on climate. With all other model parameters held constant we find that as the obliquity increases above ~30◦ the mean annual vapor density of ground ice at the poles becomes greater than at the equator implying a net transfer of water from pole to equator. We also find there is 95% consistency with the MCD model in CO2 ice formation. The Mars polyhedral model has high spatial resolution but is still computationally efficient and can be used to simulate a variety of processes on Mars, at present or in past and future epochs.",
+    "keywords": "Mars, Goldberg polyhedral, Obliquity cycles, Polar caps, Energy balance model"
+}

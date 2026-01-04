@@ -1,0 +1,25 @@
+{
+    "id": "WUT267723f70bec4e42ace86b2891613dbe",
+    "title": "PyBrook—A Python framework for processing and visualising real-time data",
+    "created": "2025-03-17T20:39:37.128+01:00",
+    "modified": "2025-09-09T23:21:20.009+02:00",
+    "language": "en",
+    "doi": "10.1016/j.softx.2025.102116",
+    "url": "https://doi.org/10.1016/j.softx.2025.102116",
+    "authors": [
+        {
+            "full_name": "Michał Rokita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper, we present PyBrook - an original real-time cloud computing framework for the Internet of Things. PyBrook enables users to define complex data processing models declaratively, using the Python programming language. The framework also provides a generic web interface that presents the collected data in real time. PyBrook aims to make the development of real-time data processing services as easy as possible by utilising powerful mechanisms of the Python programming language and modern concepts like hot-reloading or deploying software in Linux Containers. To ensure reproducibility, PyBrook has been published both as a Python package available on PyPi and a Docker container image available on Docker Hub.",
+    "keywords": "Cloud computingInternet of ThingsReal-timePython"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUTfc30edb7897349f2b8c621b48bf4e350",
+    "title": "LLM-based classifiers for discovering mental disorders",
+    "created": "2025-04-13T22:23:18.300+02:00",
+    "modified": "2025-09-09T23:20:48.957+02:00",
+    "language": "en",
+    "doi": "10.1007/s10844-025-00934-8",
+    "url": "https://doi.org/10.1007/s10844-025-00934-8",
+    "authors": [
+        {
+            "full_name": "Arkadiusz Nowacki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Sitek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Henryk Rybiński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The increasing number of mental disorders is a serious problem in the modern world and can even lead to suicide if left untreated. In the age of digitalization, we move part of our lives to social networks, where we share the good and bad moments. This allows for the detection of early mental disorders (such as depression, excessive stress, or social phobia) that the user may not even be aware of. We address the problem of effectively using large language models (LLMs) to detect mental disorders. In particular, we propose modifying LLMs by adding appropriate layers to improve the classification parameters and build classifiers for discovering mental disorders from texts. We have performed experiments with PHI-2, PHI-3, Mistral, Flan-T5, and LLaMA 2/3/3.1, showing that such an approach gives a better prediction performance than zero-shot/few-shot for LLMs and classification by BERT-based models. The proposed architecture makes it possible to return a label thus giving a specific classification of the case, rather than an ambiguous answer text.",
+    "keywords": null
+}

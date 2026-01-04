@@ -1,0 +1,21 @@
+{
+    "id": "WUT1e2c3fdd915744b98cf6d8108e8cae32",
+    "title": "Analiza porównawcza możliwości i ograniczeń wykorzystania silników Apache Flink, Apache Spark oraz Apache Storm w strumieniowym przetwarzaniu danych",
+    "created": "2025-01-28T15:57:52.587+01:00",
+    "modified": "2025-09-09T23:22:02.732+02:00",
+    "language": "pl",
+    "doi": "10.26348/znwwsi.31.7",
+    "url": "https://doi.org/10.26348/znwwsi.31.7",
+    "authors": [
+        {
+            "full_name": "Tomasz Bronisław Waksmundzki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Chaładyniak",
+            "affiliation": "Warszawska Wyzsza Szkoła Informatyki"
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUT50a9e37d670549738e711022648aa2f0",
+    "title": "Range Migration Compensation in FMCW HRR Radar",
+    "created": "2025-07-07T13:33:14.157+02:00",
+    "modified": "2025-09-09T23:18:06.161+02:00",
+    "language": "en",
+    "doi": "10.23919/IRS64527.2025.11046010",
+    "url": "https://doi.org/10.23919/IRS64527.2025.11046010",
+    "authors": [
+        {
+            "full_name": "Galina Lange",
+            "affiliation": "German Institute of Navigation"
+        },
+        {
+            "full_name": "Rafał Piotr Rytel-Andrianik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        }
+    ],
+    "abstract": "High-Range Resolution (HRR) radar systems employing Frequency Modulated Continuous Wave (FMCW) signals are prone to range migration issues when tracking high-velocity targets. Range migration occurs due to the relative range motion between the radar and the target. It results in range and Doppler smear of the target echo after processing. This paper presents an approach for mitigating range migration effects using the keystone transform. The keystone transform effectively aligns range profiles across multiple pulses, enabling coherent integration and improving target detection and tracking performance. Simulation results demonstrate the efficacy of the proposed method under varying target velocity conditions up to the border of Doppler ambiguity.",
+    "keywords": "Passive radar, Propellers,  Airborne radar, Radar detection, Lighting, Feature extraction, Security, Drones, Meteorology, Guidelines"
+}

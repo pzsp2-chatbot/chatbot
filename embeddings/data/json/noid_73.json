@@ -1,0 +1,65 @@
+{
+    "id": "WUTd5542b52cc324b07b7efaa87f0e79e1b",
+    "title": "Transfer Learning in Earth Observation Data Analysis: A review",
+    "created": "2024-12-10T10:27:26.852+01:00",
+    "modified": "2025-09-09T23:20:51.656+02:00",
+    "language": "en",
+    "doi": "10.1109/MGRS.2024.3494673",
+    "url": "https://doi.org/10.1109/MGRS.2024.3494673",
+    "authors": [
+        {
+            "full_name": "Artur Nowakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Pia Del Rosso",
+            "affiliation": "ESRIN - ESA Centre for Earth Observation"
+        },
+        {
+            "full_name": "Paulina Zachar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dario Spiller",
+            "affiliation": "University of Roma “La Sapienza”"
+        },
+        {
+            "full_name": "Grzegorz Gabara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Domenico Barretta",
+            "affiliation": "Centre for Maritime Research and Experimentation"
+        },
+        {
+            "full_name": "Kamila Barbara Kalinowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Choromański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Wilkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alessandro Sebastianelli",
+            "affiliation": "ESRIN - ESA Centre for Earth Observation"
+        },
+        {
+            "full_name": "Przemysław Kupidura",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Osińska-Skotak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Silvia Liberata Ullo",
+            "affiliation": "FIDAPA BPW"
+        }
+    ],
+    "abstract": "The significant increase in the amount of satellite data in recent years along with the increase in computing resources has opened up new possibilities for Earth Observation (EO) data analysis. However, the main obstacle to obtaining highquality products is the limited amount of labeled data. Among the methods that can help solve this type of problem, transfer learning (TL) has gained enormous interest in recent years. It involves using a model trained on one problem to solve another problem. This article reviews TL methods as applied to EO data analyses. It provides a structured overview of methods in relation to applications, publication statistics, and summarizes the advantages and disadvantages noted of previous research.",
+    "keywords": "Training, Neural networks, Data models, Reviews, Lasers,\nKnowledge engineering, Feature extraction, Adaptation models, Tuning, Transfer learning"
+}

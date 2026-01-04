@@ -1,0 +1,29 @@
+{
+    "id": "WUT2e95a4e6caeb4bcfadb35bc110d306e5",
+    "title": "Gender Perceptions of IoT Technologies in Smart Cities",
+    "created": "2025-04-08T13:44:52.255+02:00",
+    "modified": "2025-09-09T23:21:44.112+02:00",
+    "language": "en",
+    "doi": "10.3390/smartcities8020060",
+    "url": "https://doi.org/10.3390/smartcities8020060",
+    "authors": [
+        {
+            "full_name": "Renata Walczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Koszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Ejsmont",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Olszewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The rapid integration of Internet of Things (IoT) technologies in smart cities\nenhances urban management, yet public acceptance remains crucial for successful deployment. This study examined gender-based differences in IoT acceptance through a survey of 288 respondents from Warsaw and Plock, analyzed using structural equation modeling (SEM). The results revealed that women demonstrated significantly higher trust in IoT (+0.93, p < 0.001), greater perceived safety (+0.24, p = 0.013), and stronger support for environmental IoT applications (+0.48, p = 0.007) than men. While perceived usefulness was the strongest predictor of IoT acceptance for men (β = 0.523, p < 0.001), safety (β = 0.286 ,\np = 0.001) and environmental awareness (β = 0.507, p < 0.001) drove acceptance among women. These findings highlight the need for gender-sensitive urban technology policies, emphasizing safety and sustainability to foster inclusive smart city development. The research results can be used by city authorities to learn about the requirements and concerns of residents to design a city that meets all residents’ requirements and better communicates IoT technology. Furthermore, the study underscores the importance of targeted education and awareness campaigns to address privacy concerns and promote broader adoption of\nIoT-driven solutions in urban environments",
+    "keywords": "smart cities, Internet of Things, gender differences, technology acceptance,\nstructural equation modeling, urban safety"
+}

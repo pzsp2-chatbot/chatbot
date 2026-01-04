@@ -1,0 +1,49 @@
+{
+    "id": "WUT0c5ccef08a1942529670d2d0d48d5e5b",
+    "title": "Two-Sample Depth-Based Test for Dispersion in Fuzzy Environment",
+    "created": "2024-12-11T01:46:02.951+01:00",
+    "modified": "2025-09-09T23:25:18.573+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-65993-5_20",
+    "url": "https://doi.org/10.1007/978-3-031-65993-5_20",
+    "authors": [
+        {
+            "full_name": "Jonathan Ansari",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Fuchs",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wolfgang Trutschnig",
+            "affiliation": null
+        },
+        {
+            "full_name": "María Asunción Lubiano Gomez",
+            "affiliation": "University of Oviedo"
+        },
+        {
+            "full_name": "María Ángeles Gil",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Kozak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The problem of comparing the variability of two populations in the presence of fuzzy data is considered. We show that applying the modified band depth to specifically transformed membership functions,\ncombined with a permutation procedure, leads us to construct a new interesting test for dispersion.",
+    "keywords": "functional data analysis, fuzzy data, fuzzy numbers, statistical depth, credibility distribution, test for dispersion"
+}

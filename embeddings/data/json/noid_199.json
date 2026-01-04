@@ -1,0 +1,41 @@
+{
+    "id": "WUT261f3fcfca6f49b7a34b2ec25772569c",
+    "title": "Quantitative analysis of 3D-printed custom ossicular prostheses motion using laser Doppler vibrometry",
+    "created": "2025-01-30T11:02:39.840+01:00",
+    "modified": "2025-09-09T23:38:08.377+02:00",
+    "language": "en",
+    "doi": "10.5604/01.3001.0053.9038",
+    "url": "https://doi.org/10.5604/01.3001.0053.9038",
+    "authors": [
+        {
+            "full_name": "Jacek Sokołowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Orłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Bartoszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magdalena Lachowska",
+            "affiliation": "Medical University of Warsaw"
+        },
+        {
+            "full_name": "Alicja Gosiewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kazimierz Niemczyk",
+            "affiliation": "Medical University of Warsaw"
+        }
+    ],
+    "abstract": "<p>Introduction: In chronic otitis media, the reconstruction of the middle ear's sound conducting system involves repairing the tympanic membrane and filling the space between ossicular chain remnants. The final shape of the prosthesis is usually determined intraoperatively. However, the ossicular chain may be preoperatively measured using computed tomography (CT) scans, and an individualized prosthesis can be designed. Custom 3D printing seems to be an attractive solution for optimal adjustment. Aim: Our study aimed to assess the 3D-printed custom prosthesis movability and compare it to the original ossicular chain. Material and methods: Five fresh-frozen temporal bone specimens were used. Using Cone-Beam CT scans, the incus model was designed individually and 3D-printed. The ossicular chain was reconstructed inside the cadaveric temporal bone. Acoustic stimuli were applied to the external ear canal one frequency at a time. The laser Doppler vibrometer (LDV) measured the intact and 3D-printed prosthesis reconstructed ossicular chain vibrations. Results: At all stimulation frequencies, there was no significant difference in velocity values between the intact and reconstructed ossicular chain at the intensity of 80 dB SPL. The obtained values of the velocity gain were: -7.9 (SD-19) dB, -6.8 (SD- 8.12) dB, -10,9 (SD-5.3) dB, -7.4 (SD-8.16) dB for 500 Hz, 1000 Hz, 2000 Hz, 4000 Hz, respectively. The vibration threshold shift values ranged between -0.57 dB at 500 Hz and 3.81 dB at 2000 Hz. Conclusions: This study analyzed the movability of individualized 3D-printed custom ossicular prostheses using LDV. Compared to the intact ossicular chain, the reconstructed ossicular chain movability was characterized by statistically insignificant reduced movability at all tested frequencies. Because the prosthesis's new design conception as custom 3D individualized printing allows for patient-specific ossiculoplasty, it represents a promising new direction for ossicular chain reconstruction. It seems to be an attractive solution for prosthesis optimal adjustment and, hopefully, better hearing results.</p>",
+    "keywords": null
+}

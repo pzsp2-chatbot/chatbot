@@ -1,0 +1,45 @@
+{
+    "id": "WUT41e6316281c24a028a591d579bbfcf22",
+    "title": "Using ChatGPT for Converting Sequential Python Programs into Parallel Code",
+    "created": "2025-06-06T15:30:22.121+02:00",
+    "modified": "2025-09-09T23:17:32.964+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-92734-8_5",
+    "url": "https://doi.org/10.1007/978-3-031-92734-8_5",
+    "authors": [
+        {
+            "full_name": "Wojciech Zamojski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mazurkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Sugier",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Walkowiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Denny B. Czejdo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wiktor B. Daszczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Waldemar Grabski",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,0 +1,29 @@
+{
+    "id": "WUT6f5e3ea3b0134e7cbdd463ab1ca96208",
+    "title": "Simulator of Passive Radar for Detecting Space Objects in Low-Earth Orbit",
+    "created": "2025-07-07T11:59:11.123+02:00",
+    "modified": "2025-09-09T23:17:44.049+02:00",
+    "language": "en",
+    "doi": "10.23919/IRS64527.2025.11046106",
+    "url": "https://doi.org/10.23919/IRS64527.2025.11046106",
+    "authors": [
+        {
+            "full_name": "Galina Lange",
+            "affiliation": "German Institute of Navigation"
+        },
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Suwiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Wójtowicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents a software tool designed for simulating space object detection using passive radar systems, with terrestrial commercial radio or TV transmitters as illuminators of opportunity and a radio telescope as the surveillance receiver. The simulator significantly enhances research capabilities by providing a detailed modeling environment to evaluate passive radar performance in detecting objects in low-Earth orbit (LEO) under near-to-realistic operating conditions. It supports the simulation of realworld signals, including DAB+ digital radio transmissions, accurate radiation patterns of both transmitters and the LOFAR (LOw-Frequency ARray) antenna array, and advanced signal processing algorithms tailored for passive radar. Notably, it incorporates specialized techniques for compensating the motion of LEO objects. The paper compares simulation outcomes with experimental data from real-world passive radar measurements, demonstrating the tool's effectiveness and validating its practical relevance for space surveillance research.",
+    "keywords": "Space vehicles, Passive radar, Surveillance, Radio transmitters, Low earth orbit satellites, Receivers, Object detection, Extraterrestrial measurements, Arrays, Antenna arrays"
+}

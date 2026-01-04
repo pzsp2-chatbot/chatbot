@@ -1,0 +1,17 @@
+{
+    "id": "WUT658a6296eab64239817be0f3353a6607",
+    "title": "Linear complexity Volterra-based equalization and predistortion in LED communications",
+    "created": "2025-01-31T12:52:01.053+01:00",
+    "modified": "2025-09-10T00:12:23.164+02:00",
+    "language": "en",
+    "doi": "10.1364/SPPCOM.2022.SpTh3H.1",
+    "url": "https://doi.org/10.1364/SPPCOM.2022.SpTh3H.1",
+    "authors": [
+        {
+            "full_name": "Grzegorz Stępniak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this contribution, we postulate that the nonlinear distortion in LED based communications can be mitigated by both both predistorters and equalizers having linear complexity. Efficiency of different structures is compared.",
+    "keywords": null
+}

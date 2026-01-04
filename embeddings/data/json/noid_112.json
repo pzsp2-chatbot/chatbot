@@ -1,0 +1,61 @@
+{
+    "id": "WUT41ed4ca72aed4959bbf2de7f6d33aade",
+    "title": "Compact X-band SAR pod for light UAVs and aircraft",
+    "created": "2025-01-05T15:41:58.527+01:00",
+    "modified": "2025-09-09T23:25:55.889+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ieeexplore.ieee.org/document/10659487",
+    "authors": [
+        {
+            "full_name": "Kant Przemysław",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Stasiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roman Rynkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Seweryn Krawiecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Gambrych",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Wielgo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Ciania",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dominika Lech",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Wiliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Jerzy Samczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Julian Michalski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper summarizes the research, development, and first trials of a new compact synthetic aperture radar (SAR) system dedicated to unmanned aerial vehicles (UAVs) and light planes. The SAR sensor operates in the X-band with up to 2 GHz bandwidth. The system allows for online and offline data processing, achieving resolution finer than 15 cm (8 cm theoretical) in both range and cross-range. The radar system is also integrated with communication and navigation subsystems in a single pod weighing less than 10 kg. The SAR system has been successfully tested in flight trials mounted on a small aircraft.",
+    "keywords": null
+}

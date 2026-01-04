@@ -1,14 +1,26 @@
 {
-    "id": "WUT871bf7570d454eefad1d8be784628f43",
-    "title": "Multiplicity-dependent production of Σ(1385)<sup>±</sup> and Ξ(1530)<sup>0</sup> in pp collisions at s = 13 TeV",
-    "created": "2024-10-04T17:04:05.065+02:00",
-    "modified": "2025-09-09T23:28:20.788+02:00",
+    "id": "WUTa0d44e21ecc04f3394a24fe4f59cb9d9",
+    "title": "Generative Diffusion Models for Fast Simulations of Particle Collisions at CERN",
+    "created": "2024-11-06T15:41:23.326+01:00",
+    "modified": "2025-09-10T00:06:20.352+02:00",
     "language": "en",
-    "doi": "10.1007/JHEP05(2024)317",
-    "url": "https://doi.org/10.1007/JHEP05(2024)317",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
     "authors": [
         {
-            "full_name": "S. Acharya",
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Kita",
             "affiliation": null
         },
         {
@@ -16,82 +28,14 @@
             "affiliation": null
         },
         {
-            "full_name": "Łukasz Graczykowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Katarzyna Gwiździel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Md Rihan Haque",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Jakubowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Małgorzata Janik",
-            "affiliation": null
-        },
-        {
-            "full_name": "Przemysław Karczmarczyk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maja Karwowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Adam Kisiel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Georgy Kornakov",
-            "affiliation": null
-        },
-        {
-            "full_name": "Shirajum Monira",
-            "affiliation": null
-        },
-        {
-            "full_name": "Julian Myrcha",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Nowakowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Janusz Oleniacz",
-            "affiliation": null
-        },
-        {
             "full_name": "Przemysław Rokita",
             "affiliation": null
         },
         {
-            "full_name": "Krystian Rosłon",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniela Ruggiano",
-            "affiliation": null
-        },
-        {
-            "full_name": "Wioleta Rzęsa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Szymkowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Trzciński",
+            "full_name": "Kamil Deja",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "In High Energy Physics simulations play a crucial role in unraveling the complexities of particle collision experiments within CERN’s\nLarge Hadron Collider. Machine learning simulation methods have garnered attention as promising alternatives to traditional approaches. While\nexisting methods mainly employ Variational Autoencoders (VAEs) or Generative Adversarial Networks (GANs), recent advancements highlight the efficacy of diffusion models as state-of-the-art generative machine learning\nmethods. We present the first simulation for Zero Degree Calorimeter (ZDC)\nat the ALICE experiment based on diffusion models, achieving the highest\nfidelity compared to existing baselines. We perform an analysis of trade-offs\nbetween generation times and the simulation quality. The results indicate\na significant potential of latent diffusion model due to its rapid generation\ntime.",
+    "keywords": "diffusion models, particle simulations, ALICE, CERN"
 }

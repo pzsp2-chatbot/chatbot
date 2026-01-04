@@ -1,0 +1,33 @@
+{
+    "id": "WUT4b35aaafce8341e3adb7faff7b97a1ba",
+    "title": "Exploration of the Rashomon Set Assists Trustworthy Explanations for Medical Data",
+    "created": "2025-01-30T13:15:12.179+01:00",
+    "modified": "2025-09-09T23:32:01.453+02:00",
+    "language": "en",
+    "doi": "10.1109/JBHI.2024.3443069",
+    "url": "https://doi.org/10.1109/JBHI.2024.3443069",
+    "authors": [
+        {
+            "full_name": "Katarzyna Kobylinska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Krzyziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafal Machowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Adamek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The machine learning modeling process conventionally results in selecting a single model that maximizes a selected performance metric. However, this approach leads to abandoning a more profound analysis of slightly inferior models. Particularly in medical and healthcare studies, where the objective extends beyond predictions to generation of valuable insights, relying solely on a single model can result in misleading or incomplete conclusions. This problem is particularly pertinent when dealing with a set of models known as Rashomon set, with performance close to maximum one. Such a set can be numerous and may contain models describing the data in a different way, which calls for comprehensive analysis. This paper introduces a novel method to explore models in the Rashomon set, extending the conventional modeling approach. We propose the Rashomon_DETECT algorithm to detect models with different behavior. It is based on recent developments in the eXplainable Artificial Intelligence (XAI) field. To quantify differences in variable effects among models, we introduce the Profile Disparity Index (PDI) based on measures from functional data analysis. To illustrate the effectiveness of our approach, we showcase its application on real-world medical problem: predicting survival among hemophagocytic lymphohistiocytosis (HLH) patients - a foundational case study. Additionally, we benchmark our approach on other medical data sets, demonstrating its versatility and utility in various contexts. If differently behaving models are detected in the Rashomon set, their combined analysis leads to more trustworthy conclusions, which is of vital importance for high-stakes applications such as medical applications.</p>",
+    "keywords": null
+}

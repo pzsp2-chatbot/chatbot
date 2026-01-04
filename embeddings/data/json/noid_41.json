@@ -1,33 +1,45 @@
 {
-    "id": "WUT54c721f34cd24dd7aac164348022f1b3",
-    "title": "Towards LLM-augmented multiagent systems for agile software engineering",
-    "created": "2024-10-19T11:58:39.417+02:00",
-    "modified": "2025-09-09T23:23:07.566+02:00",
+    "id": "WUT8970d0ae35e3469286e3197ff7e1a105",
+    "title": "Using machine learning to count Antarctic shag (Leucocarbo bransfieldensis) nests on images captured by remotely piloted aircraft systems",
+    "created": "2024-11-17T21:55:41.037+01:00",
+    "modified": "2025-09-09T23:30:24.275+02:00",
     "language": "en",
-    "doi": "10.1145/3691620.3695336",
-    "url": "https://doi.org/10.1145/3691620.3695336",
+    "doi": "10.1016/j.ecoinf.2024.102707",
+    "url": "https://doi.org/10.1016/j.ecoinf.2024.102707",
     "authors": [
         {
-            "full_name": "Vladimir Filkov",
+            "full_name": "Andrew Cusick",
             "affiliation": null
         },
         {
-            "full_name": "Baishakhi Ray",
+            "full_name": "Katarzyna Fudala",
             "affiliation": null
         },
         {
-            "full_name": "Minghui Zhou",
+            "full_name": "Piotr Pasza Storożenko",
             "affiliation": null
         },
         {
-            "full_name": "Konrad Cinkusz",
+            "full_name": "Jędrzej Świeżewski",
             "affiliation": null
         },
         {
-            "full_name": "Jarosław Chudziak",
+            "full_name": "Joanna Kaleta",
+            "affiliation": null
+        },
+        {
+            "full_name": "W. Chris Oosthuizen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christian Pfeifer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Józef Bialik",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Using 51 orthomosaics of 11 breeding locations of the Antarctic shag (Leucocarbo bransfieldensis), we propose a method for automating counting of shag nests. This is achieved by training an object detection model based on the “You Only Look Once” (YOLO) architecture and identifying nests on sections of the orthomosaic, which are later combined with predictions for the entire orthomosaic. Our results show that the current use of Remotely Piloted Aircraft Systems (RPAS) to collect images of areas with shag colonies, combined with machine learning algorithms, can provide reliable and fast estimates of shag nest counts (F1 score > 0.95). By using data from only two shag colonies for training, we show that models can be obtained that generalise well to images of both spatially and temporally distinct colonies. The proposed practical application opens the possibility of using aerial imagery to perform large-scale surveys of Antarctic islands in search of undiscovered shag colonies. We discuss the conditions for optimal performance of the model as well as its limitations. The code, data and trained model allowing for full reproducibility of the results are available at https://github.com/Appsilon/Antarctic-nests.",
+    "keywords": "Antarctic shag, Drone, Machine learning, Object detection"
 }

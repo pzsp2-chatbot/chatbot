@@ -1,0 +1,41 @@
+{
+    "id": "WUTafedea5dda7142cd8e2c106d8def6daa",
+    "title": "FaçAID: A Transformer Model for Neuro-Symbolic Facade Reconstruction",
+    "created": "2024-12-07T02:55:40.359+01:00",
+    "modified": "2025-09-09T23:24:25.059+02:00",
+    "language": "en",
+    "doi": "10.1145/3680528.3687657",
+    "url": "https://doi.org/10.1145/3680528.3687657",
+    "authors": [
+        {
+            "full_name": "Takeo Igarashi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ariel Shamir",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hao Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksander Płocharski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Porter-Sobieraj",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Swidzinski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Musialski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We introduce a neuro-symbolic transformer-based model that converts flat, segmented facade structures into procedural definitions using a custom-designed split grammar. To facilitate this, we first develop a semi-complex split grammar tailored for architectural facades and then generate a dataset comprising of facades alongside their corresponding procedural representations. This dataset is used to train our transformer model to convert segmented, flat facades into the procedural language of our grammar. During inference, the model applies this learned transformation to new facade segmentations, providing a procedural representation that users can adjust to generate varied facade designs. This method not only automates the conversion of static facade images into dynamic, editable procedural formats but also enhances the design flexibility, allowing for easy modifications and variations by architects and designers. Our approach sets a new standard in facade design by combining the precision of procedural generation with the adaptability of neuro-symbolic learning.",
+    "keywords": "neurosymbolic, procedural generation, facade modeling, transformers"
+}

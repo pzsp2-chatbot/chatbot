@@ -1,0 +1,45 @@
+{
+    "id": "WUTde50205b40cb41c6ab5aba2ff661ece1",
+    "title": "Planning and Scheduling System for Electric Vehicle Charging",
+    "created": "2025-07-02T10:33:01.058+02:00",
+    "modified": "2025-09-09T23:21:00.279+02:00",
+    "language": null,
+    "doi": "10.1109/ACCESS.2025.3583929",
+    "url": "https://doi.org/10.1109/ACCESS.2025.3583929",
+    "authors": [
+        {
+            "full_name": "Piotr Pałka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Śliwiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Kaszyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marta Kuta",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bogdan Ruszczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Malec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Saługa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek W. Kamiński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper presents a novel approach to instant on-the-road electric vehicle charging scheduling planning. It benefits from a mixed-integer mathematical optimization model employed to efficiently select charging stations along the route. It also utilizes machine learning models to approximate the traction battery state of charge using data on driving conditions (energy, speed, travel time, etc.) for individual route sections, considering the driver’s habits and preferences. The research details the functional requirements of this procedure application and its architecture. A step-by-step description of the optimization model is provided, in particular, the constraints responsible for the non-linear model of charging time, the varying time zone-dependent trip parameters (including rush hours), as well as the used optimization criteria, and the scalarization methods. Experiments are carried out on the operation of the application, including very long routes (with the actual Warsaw-Zakopane, 412 km long test drives). The results show enhanced, satisfactory execution times, from 0.088 [s] (for a simple model without time zones and with a linear charging model) to 0.365 [s] (for a model without time zones and with a non-linear charging model).",
+    "keywords": "Charging stations;Optimization;Batteries;Schedules;Automobiles;Biological system modeling;State of charge;Optimization models;Electric vehicle charging;Roads;electric vehicles;electromobility;EV;machine learning;mixed-integer programming;scheduling"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUT268a77c6bd4648439bcacd33ce09f6c9",
+    "title": "Improving Location Recommendations Based on LBSN Data Through Data Preprocessing",
+    "created": "2025-02-23T21:58:02.456+01:00",
+    "modified": "2025-09-09T23:18:52.830+02:00",
+    "language": "en",
+    "doi": "10.3390/electronics14040701",
+    "url": "https://doi.org/10.3390/electronics14040701",
+    "authors": [
+        {
+            "full_name": "Robert Bembenik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Orzoł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Maciąg",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "location recommendation; data preprocessing; recurrent neural networks;\nhidden Markov models"
+}

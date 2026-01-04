@@ -1,37 +1,29 @@
 {
-    "id": "WUTb6d05ffc2c7043c49763983a64bee800",
-    "title": "Hall of Fame in Coevolutionary Algorithm for Stackelberg Security Games",
-    "created": "2024-10-10T22:00:59.499+02:00",
-    "modified": "2025-09-10T00:06:36.521+02:00",
+    "id": "WUT658997179f0842f88952018954a6046c",
+    "title": "Performance Is Not Enough: The Story Told by a Rashomon Quartet",
+    "created": "2024-11-12T13:40:21.857+01:00",
+    "modified": "2025-09-09T23:29:56.829+02:00",
     "language": "en",
-    "doi": null,
-    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+    "doi": "10.1080/10618600.2024.2344616",
+    "url": "https://doi.org/10.1080/10618600.2024.2344616",
     "authors": [
         {
-            "full_name": "Jacek Mańdziuk",
+            "full_name": "Przemysław Biecek",
             "affiliation": null
         },
         {
-            "full_name": "Adam Żychowski",
+            "full_name": "Hubert Baniecki",
             "affiliation": null
         },
         {
-            "full_name": "Mikołaj Małkiński",
+            "full_name": "Mateusz Krzyziński",
             "affiliation": null
         },
         {
-            "full_name": "Adam Żychowski",
+            "full_name": "Dianne Cook",
             "affiliation": null
-        },
-        {
-            "full_name": "Jacek Mańdziuk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Andrew Perrault",
-            "affiliation": "The Ohio State University, Columbus, USA"
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The usual goal of supervised learning is to find the best model, the one that optimizes a particular performance measure. However, what if the explanation provided by this model is completely different from another model and different again from another model despite all having similarly good fit statistics? Is it possible that the equally effective models put the spotlight on different relationships in the data? Inspired by Anscombe’s quartet, this article introduces a Rashomon Quartet, that is a set of four models built on a synthetic dataset which have practically identical predictive performance. However, the visual exploration reveals distinct explanations of the relations in the data. This illustrative example aims to encourage the use of methods for model visualization to compare predictive models beyond their performance.",
+    "keywords": "artificial inteligence"
 }

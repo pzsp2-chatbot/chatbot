@@ -1,0 +1,21 @@
+{
+    "id": "WUTe4d8f949f630433f9f6bd9a78aff2383",
+    "title": "Technologia 5G w zastosowaniach militarnych",
+    "created": "2025-07-24T15:18:47.201+02:00",
+    "modified": "2025-09-09T23:21:34.330+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Marek Suchański",
+            "affiliation": "Wojskowy Instytut Łączności"
+        },
+        {
+            "full_name": "Andrzej Bęben",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Technologia 5G wprowadza nowe możliwości dla mobilnych systemów łączności. Wykorzystuje ona nowe pasma częstotliwości, zapewnia znacząco większe prędkości transmisji i mniejsze opóźnienia przekazu danych oraz umożliwia skalowanie wydajności i obsługę dużej liczby urządzeń. Te właściwości stały się źródłem analiz przydatności tej technologii dla zastosowań militarnych. Dlatego w prezentowanym opracowaniu przedstawiono stan prac analitycznych i eksperymentalnych mających na celu dokonanie oceny możliwości wykorzystania technologii 5G w specyficznych scenariuszach właściwych dla domeny militarnej.",
+    "keywords": "wojskowa sieć 5G, luki technologiczne 5G, sieci testowe 5G i eksperymenty, kierunki rozwoju 5G/6G"
+}

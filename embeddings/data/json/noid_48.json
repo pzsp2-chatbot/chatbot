@@ -1,25 +1,33 @@
 {
-    "id": "WUTaca5bc57ca594f2b95c35751ec123dd4",
-    "title": "Multiscale molecular modeling of chromatin with MultiMM: From nucleosomes to the whole genome",
-    "created": "2024-10-27T16:27:04.490+01:00",
-    "modified": "2025-09-09T23:29:33.141+02:00",
+    "id": "WUT3a15d10d4f004dea9910c005f8a173f3",
+    "title": "Detection service based on coherent point cloud analysis with AI methods using CENAGIS libraries",
+    "created": "2024-11-20T09:04:56.934+01:00",
+    "modified": "2025-09-09T23:22:40.698+02:00",
     "language": "en",
-    "doi": "10.1016/j.csbj.2024.09.025",
-    "url": "https://doi.org/10.1016/j.csbj.2024.09.025",
+    "doi": "10.5194/ica-abs-8-27-2024",
+    "url": "https://doi.org/10.5194/ica-abs-8-27-2024",
     "authors": [
         {
-            "full_name": "Krzysztof Banecki",
+            "full_name": "Agnieszka Wendland",
             "affiliation": null
         },
         {
-            "full_name": "Dariusz Plewczyński",
+            "full_name": "Dariusz Gotlib",
             "affiliation": null
         },
         {
-            "full_name": "Sevastianos Korsak",
+            "full_name": "Kamil Choromański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bogusław Kaczałek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Stawowski",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": "land cover detection, LIDAR, dense point cloud"
 }

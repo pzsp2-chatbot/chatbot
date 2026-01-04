@@ -1,0 +1,21 @@
+{
+    "id": "WUTb8fa96d4f9b74af3a49d666ee421acc1",
+    "title": "Melanoma recognition using an ensemble of deep CNN structures",
+    "created": "2025-01-14T10:16:41.346+01:00",
+    "modified": "2025-09-09T23:33:33.490+02:00",
+    "language": "en",
+    "doi": "10.24425/bpasts.2024.151675",
+    "url": "https://doi.org/10.24425/bpasts.2024.151675",
+    "authors": [
+        {
+            "full_name": "Stanisław Osowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fabian Gil",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper proposes a deep-learning approach to the recognition of melanoma images. It relies on the application of many different architectures of CNN combined in the form of an ensemble. The units of the highest efficiency are selected as the potential members of the ensemble. Different methods of arrangement of the ensemble members are studied and the limited number of the best units are included in the final form of an ensemble. The results of numerical experiments performed on the ISIC2017 database have shown the very high efficiency of the proposed ensemble system. The best accuracy in recognition of melanoma from nonmelanoma cases obtained by the ensemble was 96.54% at\nAUC = 0.9909, sensitivity 94.71%, and specificity 97.67%. These values are superior to the results presented for this ISIC2017 database.",
+    "keywords": "CNN structures; ensemble of classifiers; melanoma recognition."
+}

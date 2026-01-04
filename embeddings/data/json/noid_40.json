@@ -1,21 +1,29 @@
 {
-    "id": "WUT6f7c37fa2e1b4d07b086b667f14cc929",
-    "title": "HiCDiffusion - diffusion-enhanced, transformer-based prediction of chromatin interactions from DNA sequences",
-    "created": "2024-10-18T22:21:28.879+02:00",
-    "modified": "2025-09-09T23:30:13.104+02:00",
+    "id": "WUT0179771c297547cda9ea478ccc2d7ba3",
+    "title": "Under the Influence: A Survey of Large Language Models in Fake News Detection",
+    "created": "2024-11-16T12:35:00.494+01:00",
+    "modified": "2025-09-09T23:20:17.229+02:00",
     "language": "en",
-    "doi": "10.1186/s12864-024-10885-z",
-    "url": "https://doi.org/10.1186/s12864-024-10885-z",
+    "doi": "10.1109/tai.2024.3471735",
+    "url": "https://doi.org/10.1109/tai.2024.3471735",
     "authors": [
         {
-            "full_name": "Mateusz Chiliński",
+            "full_name": "Soveatin Kuntur",
             "affiliation": null
         },
         {
-            "full_name": "Dariusz Plewczyński",
+            "full_name": "Anna Wróblewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Maria Ganzha",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Research into fake news detection has a long history, although it gained significant attention following the 2016 US election. During this time, the widespread use of social media and the resulting increase in interpersonal communication led to the extensive spread of ambiguous and potentially misleading news. Traditional approaches, relying solely on pre- LLM (large language model) techniques and addressing the issue as a simple classification problem, have shown to be insufficient for improving detection accuracy. In this context, large language models have become crucial, as their advanced architectures overcome the limitations of pre-LLM methods, which often fail to capture the subtleties of fake news. This literature review aims to shed light on the field of fake news detection by providing a brief historical overview, defining fake news, reviewing detection methods used before the advent of large language models, and discussing the strengths and weaknesses of these models in an increasingly complex landscape. Furthermore, it will emphasize the importance of using multimodal datasets in the effort to detect fake news.",
+    "keywords": null
 }

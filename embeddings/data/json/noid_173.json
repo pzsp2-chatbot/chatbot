@@ -1,0 +1,33 @@
+{
+    "id": "WUT45da35d722b74c988f844f1c534dc9d4",
+    "title": "Exploring the Frontiers of Firmware Fuzzing: μAFL’s Application on Cortex M4 and Unix Programs",
+    "created": "2025-01-29T09:19:39.290+01:00",
+    "modified": "2025-09-09T23:23:25.843+02:00",
+    "language": "en",
+    "doi": "10.1109/iwcmc61514.2024.10592348",
+    "url": "https://doi.org/10.1109/iwcmc61514.2024.10592348",
+    "authors": [
+        {
+            "full_name": "Safayat Bin Hakim",
+            "affiliation": "University of Maryland, Baltimore County (UMBC)"
+        },
+        {
+            "full_name": "Muhammad Adil",
+            "affiliation": "University at Buffalo, State University of New York"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        }
+    ],
+    "abstract": "The aim of this study is to investigate into μAFL, a non-intrusive, feedback-driven fuzzing framework, evaluated on Cortex M4 embedded systems and Unix platforms, focusing on the STM32F407VE Cortex M4 microcontroller. By leveraging the SEGGER J-Trace Pro for trace collection, it demonstrates μAFL’s utility beyond its traditional scope, showcasing its efficacy in both embedded and general-purpose computing environments. Our analysis, enriched by juxtaposing μAFL’s capabilities with traditional AFL, emphasizes the adaptability and effectiveness of fuzzing methodologies in firmware security enhancement. Furthermore, the study provides a deep understanding of fuzzing execution on different hardware, presenting an execution strategy for the STM32F407VE that highlights the framework’s potential in identifying vulnerabilities, evidenced by tests on specific firmware programs such as an LED blinking program integrated with semihosting breakpoints and ETM tracing. The use of uninitialized memory sections and strategically placed break-points offers significant insights into the firmware’s execution flow. The results of our comparative analysis clearly show that μAFL excels at uncovering vulnerabilities, reinforcing the need for evolving fuzzing methodologies to build stronger security systems for embedded devices. This contribution underscores the importance of refining fuzzing techniques to meet the intricate security demands of contemporary computing environments.",
+    "keywords": "firmware fuzzing, μAFL, STM32F407VE, Embedded Trace Macrocell, firmware security"
+}

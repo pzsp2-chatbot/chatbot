@@ -1,0 +1,33 @@
+{
+    "id": "WUTb498bf58b89e4f6eb717a7afd0558209",
+    "title": "FuzzyPPI: Large-Scale Interaction of Human Proteome at Fuzzy Semantic Space",
+    "created": "2025-01-29T13:30:29.059+01:00",
+    "modified": "2025-09-09T23:19:28.141+02:00",
+    "language": "en",
+    "doi": "10.1109/tbdata.2024.3375149",
+    "url": "https://doi.org/10.1109/tbdata.2024.3375149",
+    "authors": [
+        {
+            "full_name": "Anup Halder",
+            "affiliation": null
+        },
+        {
+            "full_name": "Soumyendu Sekhar Bandyopadhyay",
+            "affiliation": null
+        },
+        {
+            "full_name": "Witold Jedrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subhadip Basu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Sroka",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Large-scale protein-protein interaction (PPI) network of an organism provides key insights into its cellular and molecular functionalities, signaling pathways and underlying disease mechanisms. For any organism, the total unexplored protein interactions significantly outnumbers all known positive and negative interactions. For Human, all known PPI datasets contain only ∼ 5.61 million positive and ∼ 0.76 million negative interactions, which is ∼ 3.1% of potential interactions. We have implemented a distributed algorithm in Apache Spark that evaluates a Human PPI network of ∼ 180 million potential interactions resulting from 18 994 reviewed proteins for which Gene Ontology (GO) annotations are available. The computed scores have been validated against state-of-the-art methods on benchmark datasets.FuzzyPPI performed significantly better with an average F1 score of 0.62 compared to GOntoSim (0.39), GOGO (0.38), and Wang (0.38) when tested with the Gold Standard PPI Dataset. The resulting scores are published with a web server for non-commercial use at . Moreover, conventional PPI prediction methods produce binary results, but in fact this is just a simplification as PPIs have strengths or probabilities and recent studies show that protein binding affinities may prove to be effective in detecting protein complexes, disease association analysis, signaling network reconstruction, etc. Keeping these in mind, our algorithm is based on a fuzzy semantic scoring function and produces probabilities of interaction.",
+    "keywords": "Annotations; Apache Spark-based distributed computation; Benchmark testing; Databases; Fuzzy semantic score; Gene Ontology; Large-scale graph analysis; Ontologies; Organisms; Protein-protein interaction; Proteins; Semantics"
+}

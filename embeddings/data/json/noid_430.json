@@ -1,0 +1,117 @@
+{
+    "id": "WUTf2f047ae9b6b4c98af82a12a8aabb2ce",
+    "title": "A fault diagnosis benchmark of technical systems with incomplete data — six solutions",
+    "created": "2025-06-23T16:36:26.905+02:00",
+    "modified": "2025-09-09T23:19:37.395+02:00",
+    "language": "en",
+    "doi": "10.1016/j.conengprac.2025.106427",
+    "url": "https://doi.org/10.1016/j.conengprac.2025.106427",
+    "authors": [
+        {
+            "full_name": "Daniel Jung",
+            "affiliation": null
+        },
+        {
+            "full_name": "Erik Frisk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mattias Krysander",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Sztyber-Betley",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francesco Corrini",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrea Arici",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nicolas Anselmi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mirko Mazzoleni",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jiamin Xu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Siwen Mo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zixuan Xu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Chongpan Yang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zhile Du",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hossein Safaeipour",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mehdi Forouzanfar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vahid Mirahi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Pinnarelli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vicenç Puig",
+            "affiliation": null
+        },
+        {
+            "full_name": "Qiao Deng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yufei Liu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jiakun Liu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Haobin Ke",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wanting Zhu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Silke Merkelbach",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maryam Ahang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Homayoun Najjaran",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

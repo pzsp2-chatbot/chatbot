@@ -1,0 +1,49 @@
+{
+    "id": "WUTa82d499e86254c63bccdf23780ce9bb3",
+    "title": "DeConPPI: Deep Consensus-Based Prediction of Protein-Protein Interactions",
+    "created": "2025-02-14T08:38:37.097+01:00",
+    "modified": "2025-09-10T00:07:50.493+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-99-2680-0_42",
+    "url": "https://doi.org/10.1007/978-981-99-2680-0_42",
+    "authors": [
+        {
+            "full_name": "Sarkar Ram",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pal Sujata",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subhadip Basu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Debotosh Bhattacharjee",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aanzil Akram Halsana",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tapas Chakroborty",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anup Halder",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subhadip Basu",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

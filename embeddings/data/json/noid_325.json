@@ -1,0 +1,41 @@
+{
+    "id": "WUT9ad3b76a597e4387aa014b2c6d2fc20a",
+    "title": "Influence of IQT on research in ICT, part 2",
+    "created": "2025-03-31T12:30:48.477+02:00",
+    "modified": "2025-09-09T23:21:35.452+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153566",
+    "url": "https://doi.org/10.24425/ijet.2025.153566",
+    "authors": [
+        {
+            "full_name": "Piotr Suszyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Artur Ignaciuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pedro Jimenez Soler",
+            "affiliation": null
+        },
+        {
+            "full_name": "Emil Pituła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Wójtowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The advanced Quantum Information Technologies subject for Ph.D. students in Electronics Engineering and ICT consists of three parts. A few review lectures concentrate on topics which may be of interest for the students due to their fields of research done individually in their theses. The lectures indicate the diversity of the QIT field, resting on physics and applied mathematics, but possessing wide application range in quantum computing, communications and metrology. The individual IQT seminars prepared by Ph.D. students are as closely related to\ntheir real theses as possible. Important part of the seminar is a discussion among the students. The task was to enrich, possibly with a quantum layer, the current research efforts in ICT. And to imagine, what value such a quantum enrichment adds to the research. The result is sometimes astonishing, especially in such\ncases when quantum layer may be functionally deeply embedded. The final part was to write a short paragraph to a common paper related to individual quantum layer addition to the own research. The paper presents some results of such experiment and is a continuation of previous papers of the same style.",
+    "keywords": "ICT, QIT, biomedical engineering, electronics and communications engineering, sensors, quantum machine learning, quantum Internet, quantum computing, cybersecurity, quantum networks, quantum sensors"
+}

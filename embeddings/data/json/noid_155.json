@@ -1,0 +1,57 @@
+{
+    "id": "WUT562093e08d0c4be2a49856a2e74c3085",
+    "title": "Can gamification reduce the burden of self-reporting in mHealth applications? A feasibility study using machine learning from smartwatch data to estimate cognitive load",
+    "created": "2025-01-27T09:16:50.541+01:00",
+    "modified": "2025-09-09T23:35:15.549+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://knowledge.amia.org/A2023/esearch?q=Can%20gamification%20reduce%20the%20burden%20of%20self-reporting%20in%20mHealth&size=n_20_n",
+    "authors": [
+        {
+            "full_name": "Michał K. Grzeszczyk",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Paulina Adamczyk",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Sylwia Marek",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Ryszard Pręcikowski",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Maciej Kuś",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "M Patrycja Lelujko",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Rosmary Blanco",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arkadiusz Sitek",
+            "affiliation": "Harvard Medical School"
+        },
+        {
+            "full_name": "Maciej Malawski",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Aneta Lisowska",
+            "affiliation": "Sano Centre for Computational Medicine"
+        }
+    ],
+    "abstract": "The effectiveness of digital treatments can be measured by requiring patients to self-report their state through applications, however, it can be overwhelming and causes disengagement. We conduct a study to explore the impact of gamification on self-reporting. Our approach involves the creation of a system to assess cognitive load (CL) through the analysis of photoplethysmography (PPG) signals. The data from 11 participants is utilized to train a machine learning model to detect CL. Subsequently, we create two versions of surveys: a gamified and a traditional one. We estimate the CL experienced by other participants (13) while completing surveys. We find that CL detector performance can be enhanced via pre-training on stress detection tasks. For 10 out of 13 participants, a personalized CL detector can achieve an F1 score above 0.7. We find no difference between the gamified and non-gamified surveys in terms of CL but participants prefer the gamified version.",
+    "keywords": null
+}

@@ -1,0 +1,37 @@
+{
+    "id": "WUT613ef379395c4ff5924bdb62a1d83e9d",
+    "title": "Enhancing the Precision of a User’s Hand When Sliding on Objects in VR",
+    "created": "2025-05-24T16:00:58.011+02:00",
+    "modified": "2025-09-09T23:22:22.959+02:00",
+    "language": "en",
+    "doi": "10.1145/3728307",
+    "url": "https://doi.org/10.1145/3728307",
+    "authors": [
+        {
+            "full_name": "Michael Doggett",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Monika Kozłowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Wójcik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Spychała",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Porter-Sobieraj",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Ciecierski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Interaction in virtual reality (VR) remains a major research challenge, due to the difficulty of accurately reproducing a user’s position, the differences that exist between the virtual and real worlds, and the need to ensure a faster response than in traditional computer systems. Our work focuses on software-based approaches that support the user’s hand running over VR objects. Existing constraint-based methods implemented in game engines result in visible glitches which negatively affect the user’s immersion. To mitigate this, we have developed an easy-to-implement human-object interface based on auxiliary projection shapes. Our method, like other software-centered solutions, does not require any additional advanced haptic hardware, it relies solely on a standard VR headset (HMD) with controllers. The evaluation performed confirmed that our approach allows smooth motion to be attained in a 3D scene without adding additional latency to the VR system. Furthermore, for different projection shapes, different hand behavior on the same 3D object is obtained. As a result, scene designers are offered a simple visual mechanism to manipulate hand motion on 3D objects’ surfaces, enhancing its precision while sliding to create more desirable hand trajectories.",
+    "keywords": "Virtual Reality, Graphical Human-Computer Interfaces, Graphical Interaction, Constraints, Shape Analysis"
+}

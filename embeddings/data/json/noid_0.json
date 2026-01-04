@@ -1,37 +1,29 @@
 {
-    "id": "WUT8daca169b7584bdea39e71dbaf919f24",
-    "title": "Modelling Accelerating Acquisition of Teamwork Competences with Transversal Competences and Artificial Intelligence",
-    "created": "2024-10-01T11:34:20.984+02:00",
-    "modified": "2025-09-09T23:33:30.799+02:00",
+    "id": "WUT97d94527f5ba434facccdd48cdd5d5b6",
+    "title": "Analyses of malicious software long term activity - a case study",
+    "created": "2024-11-01T20:31:06.266+01:00",
+    "modified": "2025-09-09T23:30:08.786+02:00",
     "language": "en",
-    "doi": "10.15678/krem.13131",
-    "url": "https://doi.org/10.15678/krem.13131",
+    "doi": "10.24425/ijet.2024.152512",
+    "url": "https://doi.org/10.24425/ijet.2024.152512",
     "authors": [
         {
-            "full_name": "Robert Olszewski",
+            "full_name": "Krzysztof Cabaj",
             "affiliation": null
         },
         {
-            "full_name": "Magdalena Graczyk-Kucharska",
-            "affiliation": "Poznan University of Technology"
+            "full_name": "Witold Wysota",
+            "affiliation": null
         },
         {
-            "full_name": "Joanna Przybyła",
-            "affiliation": "Poznan University of Technology"
+            "full_name": "Konrad Grochowski",
+            "affiliation": null
         },
         {
-            "full_name": "Julia Łuszkiewicz",
-            "affiliation": "Poznan University of Technology"
-        },
-        {
-            "full_name": "Klaudia Hojka",
-            "affiliation": "Poznan University of Technology"
-        },
-        {
-            "full_name": "Małgorzata Spychała",
-            "affiliation": "Poznan University of Technology"
+            "full_name": "Piotr Gawkowski",
+            "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The paper describes the approach, instruments, and\ntheir evolution over a prolonged investigation of data collected\nby a honeypot system. The data is focused on network activity\nof a cybersecurity threat, in particular, attacks and activity\nthroughout last five years of bots belonging to Smominru botnet.\nConducted analyses include, but are not limited to, IP addresses\nused during attacks, day by day activity and evolution of ma-\nlicious executables distributed over the observation period. The\npresented results also contain behavioural analysis of the threat\nand attack sources. Moreover, the paper details the systems used\nfor data acquisition, their modifications along the observations\nmade and all the tools developed to achieve the results.",
+    "keywords": "HoneyPots; Dionaea; malware analysis; cybersecurity; Smominru botnet"
 }

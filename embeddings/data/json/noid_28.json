@@ -1,89 +1,45 @@
 {
-    "id": "WUTfab7c642757a43168548796ed0ef646e",
-    "title": "Implementing a Process Mining Framework in a Large Commercial Bank Lessons Learned",
-    "created": "2024-10-13T20:19:59.606+02:00",
-    "modified": "2025-09-09T23:23:15.339+02:00",
+    "id": "WUT85b6a704499d4b6891f6025060bcc681",
+    "title": "Hybrid Method of Noninvasive Intracranial Pressure Measurement Using Autoencoder Neural Network Algorithm",
+    "created": "2024-11-13T11:45:25.833+01:00",
+    "modified": "2025-09-09T23:30:03.847+02:00",
     "language": "en",
-    "doi": "10.1007/978-3-031-70445-1_32",
-    "url": "https://doi.org/10.1007/978-3-031-70445-1_32",
+    "doi": "10.12693/APhysPolA.146.349",
+    "url": "https://doi.org/10.12693/APhysPolA.146.349",
     "authors": [
         {
-            "full_name": "Claudio Di Ciccio",
+            "full_name": "Michał Bohdanowicz",
             "affiliation": null
         },
         {
-            "full_name": "Walid Fdhila",
+            "full_name": "Danilo Cardim",
             "affiliation": null
         },
         {
-            "full_name": "Simone Agostinelli",
+            "full_name": "B Schmidt",
             "affiliation": null
         },
         {
-            "full_name": "Daniel Amyot",
+            "full_name": "F. Wadehn",
+            "affiliation": "Zurich University of Applied Sciences"
+        },
+        {
+            "full_name": "Marek Nałęcz",
             "affiliation": null
         },
         {
-            "full_name": "Henrik Leopold",
+            "full_name": "Marek Wojciech Rupniewski",
             "affiliation": null
         },
         {
-            "full_name": "Michal Krčál",
+            "full_name": "D.J Kim",
             "affiliation": null
         },
         {
-            "full_name": "Monika Malinova Mandelburger",
-            "affiliation": null
-        },
-        {
-            "full_name": "Gregor Polančič",
-            "affiliation": null
-        },
-        {
-            "full_name": "Katarina Tomičić-Pupek",
-            "affiliation": null
-        },
-        {
-            "full_name": "Katarzyna Gdowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Thomas Grisold",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Sliż",
-            "affiliation": null
-        },
-        {
-            "full_name": "Iris Beerepoot",
-            "affiliation": null
-        },
-        {
-            "full_name": "Renata Gabryelczyk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Ralf Plattfaut",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Gawrysiak",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Romanowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Olga Kacprzak",
-            "affiliation": null
-        },
-        {
-            "full_name": "Kamil Piotr Żbikowski",
+            "full_name": "Marek Czosnyka",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Both short-term and long-term intracranial pressure(ICP) monitoring is indicated for a number of neurological pathologies. The clinical gold standard for ICP monitoring is invasive and involves inserting a pressure sensor into the brain tissue or cerebral spinal fluid space. Such sensors can only be used for a limited time due to the risk of infection and sensor degradation. Our aim was to develop a method for long-term non-invasive ICP monitoring after the removal of invasive ICP sensor. Arterial blood pressure (ABP) and cerebral blood flow velocity(F V) signals were used as inputs to an artificial autoencoder neural network. The network was trained with invasively measured ICP. Following the training phase,the network's outputs were used for estimating ICP based on ABP and F V only. The method was verified on clinical data from 98 traumatic brain injury patients. The proposed procedure manager to recover ICP using F V and ABP measurements. The median value of the Pearson correlation between the recovered and the reference ICP signals was 0.7, and the root mean square error was 3.9 mm Hg with an interquartile range of less than 5mm Hg. An additional feature of our algorithm is that it not only outputs an ICP estimate, but also provides a confidence level",
+    "keywords": "artificial neural networks (ANN), autoencoder, biomedical signal processing, intracranial pressure"
 }

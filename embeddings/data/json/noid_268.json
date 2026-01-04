@@ -1,0 +1,45 @@
+{
+    "id": "WUTbfdd34fa00de4dccaa036b9f18d0e72c",
+    "title": "Early Multiple Temporal Patterns Based Event Prediction in Heterogeneous Multivariate Temporal Data",
+    "created": "2025-02-14T10:01:53.321+01:00",
+    "modified": "2025-09-09T23:23:30.736+02:00",
+    "language": "en",
+    "doi": "10.1137/1.9781611978032.23",
+    "url": "https://doi.org/10.1137/1.9781611978032.23",
+    "authors": [
+        {
+            "full_name": "Shashi Shekhar",
+            "affiliation": "University of Minnesota"
+        },
+        {
+            "full_name": "Vagelis Papalexakis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jing Gao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zhe Jiang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Matteo Riondato",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nevo Itzhak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Jaroszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Moskovitch",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUT309ace93accd4380ae8409a26da7311d",
+    "title": "Debiasing Architectural Decision-Making: An Experiment With Students and Practitioners",
+    "created": "2025-05-08T15:48:20.986+02:00",
+    "modified": "2025-09-09T23:22:08.006+02:00",
+    "language": "en",
+    "doi": "10.1109/ICSA65012.2025.00029",
+    "url": "https://doi.org/10.1109/ICSA65012.2025.00029",
+    "authors": [
+        {
+            "full_name": "Klara Borowa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rodrigo  Rebouças de Almeida",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marion Wiese",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Cognitive biases are predictable, systematic errors in human reasoning. They influence decision-making in various areas, including architectural decision-making, where architects face many choices. For example, anchoring can cause architects to unconsciously prefer the first architectural solution that they came up with, without considering any solution alternatives. Prior research suggests that training individuals in debiasing techniques during a practical workshop can help reduce the impact of biases. The goal of this study was to design and evaluate a debiasing workshop with individuals at various stages of their professional careers. To test the workshop's effectiveness, we performed an experiment with 16 students and 20 practitioners, split into control and workshop group pairs. We recorded and analyzed their think-aloud discussions about improving the architectures of systems they collaborated on. The workshop improved the participants' argumentation when discussing architectural decisions and increased the use of debiasing techniques taught during the workshop. This led to the successful reduction of the researched biases' occurrences. In particular, anchoring and optimism bias occurrences decreased significantly. We also found that practitioners were more susceptible to cognitive biases than students, so the workshop had a more substantial impact on practitioners. We assume that the practitioners' attachment to their systems may be the cause of their susceptibility to biases. Finally, we identified factors that may reduce the effectiveness of the debiasing workshop. On that basis, we prepared a set of teaching suggestions for educators. Overall, we recommend using this workshop to educate both students and experienced practitioners about the typical harmful influences of cognitive bias on architectural decisions and how to avoid them.",
+    "keywords": "Software Architecture, Architectural Decisions,\n Architectural Decision-Making, Cognitive bias, Debiasing"
+}

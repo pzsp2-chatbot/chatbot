@@ -1,0 +1,49 @@
+{
+    "id": "WUT8ea6c4bab82746fb9d43abeb356245b3",
+    "title": "The Proper Representation: Patterns, Variables and Their Analysis",
+    "created": "2025-01-30T14:26:58.078+01:00",
+    "modified": "2025-09-09T23:27:02.836+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_3",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_3",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Having characterised the problem that we address and the way of acquiring data that we use, we now turn to the features, which can be extracted from the raw data, and the choice of the possibly good selection of a subset of these variables from the point of view of the problem at hand.</p>",
+    "keywords": null
+}

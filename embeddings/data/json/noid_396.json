@@ -1,0 +1,37 @@
+{
+    "id": "WUT2e5f1dc8278f4bc0bd14ea71c298b1e5",
+    "title": "TAIA: Telco Generative AI-powered Multi-Agent Assistant for managing Cloud-Native Networks",
+    "created": "2025-05-09T12:29:34+02:00",
+    "modified": "2025-09-09T23:22:47.527+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://www.researchgate.net/publication/390328988_TAIA_Telco_Generative_AI-powered_Multi-Agent_Assistant_for_managing_Cloud-Native_Networks#full-text",
+    "authors": [
+        {
+            "full_name": "Grzegorz Panek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Matysiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Łukasz Ziółkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ilhem Fajjari",
+            "affiliation": "University Pierre et Marie Curie - PARIS 6"
+        },
+        {
+            "full_name": "Cyril Auboin",
+            "affiliation": "Orange Innovation"
+        },
+        {
+            "full_name": "Iwona Wojan",
+            "affiliation": "Orange Poland"
+        }
+    ],
+    "abstract": "The advent of Generative AI (GenAI) introduces new technological capabilities to the telco market. With its advanced reasoning abilities, GenAI makes it much easier to automate complex manual tasks with flexibility and efficiency, even in complicated environments. This is especially helpful for cloud-native mobile networks, where GenAI can simplify many challenging operations. In this paper, we analyze the concept of using Large Language Models (LLMs) acting as a Reasoning Engine to handle complex tasks related to the management of 5G networks and their hosting telco-cloud infrastructure, turning human-level instructions into actionable steps using Chain-of-Thoughts and finally delegating tasks to proper cloud management tools. This use-case is not limited to telco environment, but also applicable for generic cloud workloads.We compared TAIA’s performance using Gemini 1.5 Pro, GPT 4.0, and GPT 4 Turbo LLMs under various scenarios. Notably, Gemini 1.5 Pro excelled in efficiency for well-defined tasks, while GPT 4.0 showed superior reasoning for complex requests, highlighting TAIA’s adaptability to diverse LLM capabilities.",
+    "keywords": "Cloud-native Network Functions, generative AI, Agentic AI, Reasoning, 5G, Cloud Computing"
+}

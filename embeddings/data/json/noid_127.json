@@ -1,0 +1,49 @@
+{
+    "id": "WUTcafd02cb7da34f93a628ba779dcc3032",
+    "title": "Multi-method analysis of emotional and affective states",
+    "created": "2025-01-09T11:01:26.558+01:00",
+    "modified": "2025-09-09T23:25:29.353+02:00",
+    "language": "en",
+    "doi": "10.1109/PAEE63906.2024.10701432",
+    "url": "https://doi.org/10.1109/PAEE63906.2024.10701432",
+    "authors": [
+        {
+            "full_name": "Adrian Jan Luckiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bogdan Ruszczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Pelc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Mikołajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Sudoł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barbara Grochowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Edward Jacek Gorzelańczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Mendon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Kawala-Sterniuk",
+            "affiliation": "Opole University of Technology"
+        }
+    ],
+    "abstract": "This study explores the neurological basis of emotions using a multi-method approach, analysing functional near-infrared spectroscopy (fNIRS) data obtained from a 26-channel device. Author’s primary objective was to examine the brain’s response to tasks that provoke emotional, imagery and affective reactions through the observation of hemodynamic changes in data. By applying data processing methods and techniques, cerebral activations corresponding to different emotional states were shown. This research enriches comprehension of how emotion and imagery tasks are processed by the brain and offers insights into aspects of brain activity during emotionally charged engagements.",
+    "keywords": null
+}

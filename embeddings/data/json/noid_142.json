@@ -1,0 +1,25 @@
+{
+    "id": "WUT6c473e76e82e45129f10c45e1a3aa0bf",
+    "title": "Frechet Music Distance: A Metric For Generative Symbolic Music Evaluation",
+    "created": "2025-01-13T12:23:59.177+01:00",
+    "modified": "2025-09-09T23:22:52.118+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ai4musicians.org/2025aaai.html",
+    "authors": [
+        {
+            "full_name": "Jan Retkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Stępniak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

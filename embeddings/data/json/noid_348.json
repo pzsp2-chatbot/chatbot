@@ -1,0 +1,33 @@
+{
+    "id": "WUT41b0df10d533424ba2d328e9cd81ac13",
+    "title": "Competencies of the Future as a Criterion for Segmentation of Generation Z Candidates: Machine Learning and the CART Model",
+    "created": "2025-04-09T14:37:38.875+02:00",
+    "modified": "2025-09-09T23:24:50.591+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-78465-1_10",
+    "url": "https://doi.org/10.1007/978-3-031-78465-1_10",
+    "authors": [
+        {
+            "full_name": "Dorota Jelonek",
+            "affiliation": "Częstochowa University of Technology"
+        },
+        {
+            "full_name": "Magdalena Graczyk-Kucharska",
+            "affiliation": "Poznan University of Technology"
+        },
+        {
+            "full_name": "Robert Olszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Szafrański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magdalena Rzemieniak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In the era of the digital revolution, there is a great emphasis on implementing new technologies including AI. In the context of the changes strategic resource planning becomes necessary. This also applies to the provision of human resources and strategic competencies, and in the context of the implementation of new, future technologies also to have the company’s competence if the future to implement them. The new approach in HR that the authors propose, which allows planning and forecasting the availability of competencies of the future relating to AI, is the well-known customer segmentation used here for the segmentation of potential candidates. The purpose of the article is to explore the possibility of modeling the segmentation of candidates with selected competencies of the future. Data on young generation Z's characteristics, competencies possessed, candidates’ job expectations, or location were used for analysis. In this article ML and CART are used as examples of AI methods for data analysis. The analysis was conducted on a sample of 2,197 16–19 year olds, male and female students studying 12 technical subjects. The key finding is that ML and AI are widely applicable in segmenting candidates, and that the competencies of the future can be linked to their expectations of where and how they work, including such things as work atmosphere, company innovation, and the ability to work remotely. The implementation of similar modeling in practice can contribute in organizations to the optimization of management decision-making including increasing the efficiency of resources and recruitment processes.",
+    "keywords": null
+}

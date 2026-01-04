@@ -1,0 +1,25 @@
+{
+    "id": "WUTe9d33934e6984b37a497f91032022051",
+    "title": "Statistical simulations with LR random fuzzy numbers",
+    "created": "2024-12-07T01:18:46.735+01:00",
+    "modified": "2025-09-09T23:31:18.122+02:00",
+    "language": "en",
+    "doi": "10.1007/s00362-024-01533-5",
+    "url": "https://doi.org/10.1007/s00362-024-01533-5",
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Romaniuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Abbas Parchami",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Computer simulations are a powerful tool in many fields of research. This also applies to the broadly understood analysis of experimental data, which are frequently burdened with multiple imperfections. Often the underlying imprecision or vagueness can be suitably described in terms of fuzzy numbers which enable also the capture of subjectivity. On the other hand, due to the random nature of the experimental data, the tools for their description must take into account their statistical nature. In this way, we come to random fuzzy numbers that model fuzzy data and are also solidly formalized within the probabilistic setting. In this contribution, we introduce the so-called LR random fuzzy numbers that can be used in various Monte-Carlo simulations on fuzzy data. The proposed method of generating fuzzy numbers with membership functions given by probability densities is both simple and rich, well-grounded mathematically, and has a high application potential.",
+    "keywords": "Fuzzy random variable, LR fuzzy number, Monte-Carlo methods, Piecewise linear fuzzy number, Random fuzzy numbers, Simulations"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "WUT4b024c1b14ab4c47a3013ada62105db6",
+    "title": "Peak Shaving Strategy in the Context of the Charging Process of a Battery Energy Storage System in the Railway Microgrid",
+    "created": "2025-05-23T09:21:36.700+02:00",
+    "modified": "2025-09-09T23:20:55.746+02:00",
+    "language": "en",
+    "doi": "10.3390/en18112674",
+    "url": "https://doi.org/10.3390/en18112674",
+    "authors": [
+        {
+            "full_name": "Piotr Szymon Obrycki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Perlicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Stawowy",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Peak shaving is one of the key mechanisms implemented in technically advanced power grids, including rail networks, to reduce the demand for costly power generation during peak hours. Energy storage systems are commonly used for this purpose. This article presents an analysis of peak load reduction using energy storage considering the specifics of the energy operation of the railway network. Two methods of peak shaving are proposed: a variable threshold value and a constant threshold value. The choice of one of them depends on the relationship between the frequency of occurrence of peak loads on the railway line and the charging time of the energy storage system. An innovative predictive analysis of the temporal characteristics of the railway line load was carried out to determine the likelihood of a peak load occurring during the charging of the energy storage system. The Poisson distribution and Long Short-Term Memory method were used to accomplish this task. The first experiment in Poland on peak shaving using a large-scale energy storage system is presented. It was also one of the first high-power installations of this type in the world to directly cooperate with a 3 kV DC traction network.",
+    "keywords": "peak shaving; battery energy storage system; power railway network; energy microgrid; load prediction; machine learning; Poisson distribution; long short-term memory"
+}

@@ -1,0 +1,65 @@
+{
+    "id": "WUT7ff73d552d9b40238c7cf59687c3c498",
+    "title": "RegFlow: Probabilistic Flow-Based Regression for Future Prediction",
+    "created": "2025-01-29T13:15:19.779+01:00",
+    "modified": "2025-09-09T23:25:06.415+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-97-5934-7_23",
+    "url": "https://doi.org/10.1007/978-981-97-5934-7_23",
+    "authors": [
+        {
+            "full_name": "Ngoc Thanh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Richard Chbeir",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yannis Manolopoulos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hamido Fujita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tzung-pei Hong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Le Minh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Wojtkiewicz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Maciej Zięba",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Marcin Przewięźlikowski",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Marek Śmieja",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Jacek Tabor",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Spurek",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        }
+    ],
+    "abstract": "Predicting future states or actions of a given system remains a fundamental, yet unsolved challenge of intelligence, especially in the scope of complex and non-deterministic scenarios, such as modeling the behavior of humans. Existing approaches provide results under strong assumptions concerning the unimodality of future states, or, at best, assuming specific probability distributions that often poorly fit to real-life conditions. In this work, we introduce a robust and flexible probabilistic framework that allows to model future predictions with virtually no constraints regarding the modality or underlying probability distribution. To achieve this goal, we leverage a hypernetwork architecture and train a continuous normalizing flow model. The resulting method, dubbed RegFlow, achieves state-of-the-art results on several benchmark datasets, outperforming competing approaches by a significant margin.",
+    "keywords": null
+}

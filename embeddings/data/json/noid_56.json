@@ -1,21 +1,61 @@
 {
-    "id": "WUT43f0cc9103ef43fcb7ecb95c08b34a8a",
-    "title": "Adaptive sampling method for network traffic security monitoring based on queuing theory",
-    "created": "2024-10-30T09:40:43.252+01:00",
-    "modified": "2025-09-09T23:34:33.371+02:00",
+    "id": "WUT4b57885c267941c9a6efdb214a851920",
+    "title": "CLIP-DINOiser: Teaching CLIP a Few DINO Tricks for Open-Vocabulary Semantic Segmentation",
+    "created": "2024-11-29T12:28:41.069+01:00",
+    "modified": "2025-09-09T23:23:12.980+02:00",
     "language": "en",
-    "doi": null,
-    "url": "https://ijet.pl/index.php/ijet/article/view/10.24425-ijet.2024.152081",
+    "doi": "10.1007/978-3-031-73030-6_18",
+    "url": "https://doi.org/10.1007/978-3-031-73030-6_18",
     "authors": [
         {
-            "full_name": "Maciej Sosnowski",
+            "full_name": "Aleš Leonardis",
             "affiliation": null
         },
         {
-            "full_name": "Piotr Wiśniewski",
+            "full_name": "Elisa Ricci",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Roth",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olga Russakovsky",
+            "affiliation": null
+        },
+        {
+            "full_name": "Torsten Sattler",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gül Varol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Wysoczańska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Oriane Siméoni",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michaël Ramamonjisoa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrei Bursuc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patrick Pérez",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The popular CLIP model displays impressive zero-shot capabilities thanks to its seamless interaction with arbitrary text prompts. However, its lack of spatial awareness makes it unsuitable for dense computer vision tasks, e.g., semantic segmentation, without an additional fine-tuning step that often uses annotations and can potentially suppress its original open-vocabulary properties. Meanwhile, self-supervised representation methods have demonstrated good localization properties without human-made annotations nor explicit supervision. In this work, we take the best of both worlds and propose an open-vocabulary semantic segmentation method, which does not require any annotations. We propose to locally improve dense MaskCLIP features, which are computed with a simple modification of CLIP’s last pooling layer, by integrating localization priors extracted from self-supervised features. By doing so, we greatly improve the performance of MaskCLIP and produce smooth outputs. Moreover, we show that the used self-supervised feature properties can directly be learnt from CLIP features. Our method CLIP-DINOiser needs only a single forward pass of CLIP and two light convolutional layers at inference, no extra supervision nor extra memory and reaches state-of-the-art results on challenging and fine-grained benchmarks such as COCO, Pascal Context, Cityscapes and ADE20k. The code to reproduce our results is available at https://github.com/wysoczanska/clip_dinoiser.",
+    "keywords": null
 }

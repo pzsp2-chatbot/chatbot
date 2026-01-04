@@ -1,0 +1,45 @@
+{
+    "id": "WUTbe5f26835a0d424c961f19e7e3f87b30",
+    "title": "ReGAE: Graph Autoencoder Based on Recursive Neural Networks",
+    "created": "2025-01-31T13:41:01.038+01:00",
+    "modified": "2025-09-10T00:07:30.906+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-99-1639-9_22",
+    "url": "https://doi.org/10.1007/978-981-99-1639-9_22",
+    "authors": [
+        {
+            "full_name": "Mohammad Tanveer",
+            "affiliation": "Indian Institute of Technology Indore"
+        },
+        {
+            "full_name": "Sonali Agarwal",
+            "affiliation": "Indian Institute of Information Technology - Allahabad, Prayagraj, India"
+        },
+        {
+            "full_name": "Seiichi Ozawa",
+            "affiliation": "Kobe University"
+        },
+        {
+            "full_name": "Asif Ekbal",
+            "affiliation": "Indian Institute of Technology Patna, Patna, India"
+        },
+        {
+            "full_name": "Adam Jatowt",
+            "affiliation": "University of Innsbruck"
+        },
+        {
+            "full_name": "Adam Małkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Grzechociński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Wawrzyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Invertible transformation of large graphs into fixed dimensional vectors (embeddings) remains a challenge. Its overcoming would reduce any operation on graphs to an operation in a vector space. However, most existing methods are limited to graphs with tens of vertices. In this paper we address the above challenge with recursive neural networks – the encoder and the decoder. The encoder network transforms embeddings of subgraphs into embeddings of larger subgraphs, and eventually into the embedding of the input graph. The decoder does the opposite. The dimension of the embeddings is constant regardless of the size of the (sub)graphs. Simulation experiments presented in this paper confirm that our proposed graph autoencoder, ReGAE, can handle graphs with even thousands of vertices.",
+    "keywords": null
+}

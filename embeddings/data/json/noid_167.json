@@ -1,0 +1,25 @@
+{
+    "id": "WUTd107468b28354a2ead78a98820adf697",
+    "title": "Energy-Efficient Resource Allocation of Wireless Energy Transfer for the Internet of Everything in Digital Twins",
+    "created": "2025-01-28T12:49:28.261+01:00",
+    "modified": "2025-09-10T00:18:38.851+02:00",
+    "language": "en",
+    "doi": "10.1109/MCOM.004.2100990",
+    "url": "https://doi.org/10.1109/MCOM.004.2100990",
+    "authors": [
+        {
+            "full_name": "Zhihan Lv",
+            "affiliation": "Qingdao University"
+        },
+        {
+            "full_name": "Liang Qiao",
+            "affiliation": "Qingdao University"
+        },
+        {
+            "full_name": "Robert Marek Nowak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The work aims to improve the stability of wireless energy transfer (WET) in the Internet of Things (IoT), prolong the service life of wireless devices, and promote green communication. Based on a digital twins (DTs) IoT environment, we depict how to optimize the energy efficiency of large-scale multiple-input multiple-output (MIMO) systems under WET technology. The large-scale distributed antenna array is applied to the wireless sensor network. MIMO can produce extremely narrow beams so that the system reduces interference to other users. Our MIMO system's energy efficiency optimization uses fractional planning and the block coordinate descent algorithm. The simulation results show that the algorithm has the best throughput performance when the maximum transmission power reaches 19 dBm. The total energy consumption of the proposed resource allocation algorithm is only about 9 percent higher than that of the power minimization algorithm. In the case of different maximum transfer powers, the number of iterations in which the proposed algorithm is required to converge is within four. Changes in the number of users cannot affect the convergence performance of the proposed algorithm. After the antenna selection mechanism is introduced, the average power of the energy received by the user is improved notably compared to the case of simply using the largescale distributed antenna array. The research results can reference large-scale MIMO systems' energy efficiency optimization problems under WET conditions in the DTs IoT environment. </p>",
+    "keywords": null
+}

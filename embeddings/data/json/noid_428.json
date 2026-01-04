@@ -1,0 +1,33 @@
+{
+    "id": "WUT2447805dd3484b40ac39ac5063363800",
+    "title": "Analysis of Expected SNR and Minimum Detectable RCS of LEO Space Objects in Passive Radar Using the LOFAR Radio Telescope",
+    "created": "2025-06-22T18:36:14.507+02:00",
+    "modified": "2025-09-09T23:17:40.283+02:00",
+    "language": "en",
+    "doi": "10.1109/radar52380.2025.11031855",
+    "url": "https://doi.org/10.1109/radar52380.2025.11031855",
+    "authors": [
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Suwiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Wójtowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Pożoga",
+            "affiliation": "Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Hanna Rothkaehl",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents an evaluation of the expected Signal-to-Noise Ratio (SNR) and minimum detectable Radar Cross-Section (RCS) for detecting Low-Earth Orbit (LEO) space objects using bistatic passive radar systems. The considered radar setup utilizes terrestrial digital radio transmitters as illuminators of opportunity and the LOwFrequency Array (LOFAR) radio telescope's antenna arrays as surveillance receivers. By incorporating detailed radiation patterns of both the transmitters and receivers, the study enables precise assessment of SNR and minimum detectable RCS, facilitating a comprehensive understanding of detection coverage capabilities in such systems. The modeling results were validated through comparisons with real-world measurement data, demonstrating the effectiveness and applicability of the developed tools.",
+    "keywords": "passive radar, LEO satellites, radar cross-section, RCS, LOFAR"
+}

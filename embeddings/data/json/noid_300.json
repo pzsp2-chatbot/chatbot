@@ -1,0 +1,17 @@
+{
+    "id": "WUT0127d46c80bd42afa3e19fc956e88aef",
+    "title": "Comparative Study of Quantum- -Enhanced AI and Traditional AI in Cybersecurity",
+    "created": "2025-03-05T14:35:35.901+01:00",
+    "modified": "2025-09-09T23:21:32.259+02:00",
+    "language": "en",
+    "doi": "10.15199/13.2025.2.3",
+    "url": "https://doi.org/10.15199/13.2025.2.3",
+    "authors": [
+        {
+            "full_name": "Jean Marie Vianney Sindayigaya",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The advancement of quantum computing and artificial intelligence (AI) has presented new challenges and opportunities in cybersecurity. This study compares the effectiveness of Quantum-Enhanced AI and Traditional AI in dealing with cyber threats, especially in terms of computing power, encryption, threat detection, and strategic applications. The research uses literature analysis from 25 significant studies on AI-based cybersecurity and quantum technology. The analysis results show that Quantum-Enhanced AI has significant advantages in faster data processing, Quantum Key Distribution (QKD)-based encryption, and real-time threat detection. This technology is also more adaptive to generative AI attacks and more efficient in securing IoT systems, financial infrastructure, and drone and satellite communications. However, the main challenges include infrastructure limitations, high implementation costs, and the lack of regulations supporting this technology’s widespread adoption. Considering the benefits and challenges, this study emphasizes the importance of investing in Quantum AI research and developing quantum-based cybersecurity standards. Quantum AI is expected to be the leading solution in dealing with cyber threats in the era of quantum computing.",
+    "keywords": null
+}

@@ -1,0 +1,21 @@
+{
+    "id": "WUTc08eb5391c9f4d54afb1c495105a2b65",
+    "title": "Design and Evaluation of an Affordable and Reliable Pan-Tilt Tracking System",
+    "created": "2025-07-21T15:13:17.886+02:00",
+    "modified": "2025-09-09T23:20:28.763+02:00",
+    "language": "en",
+    "doi": "10.14313/par_256/101",
+    "url": "https://doi.org/10.14313/par_256/101",
+    "authors": [
+        {
+            "full_name": "Damian Łoziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Kozłowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents the design and evaluation of an affordable and reliable pan-tilt tracking system. The proposed solution addresses the limitations of existing professional remote-controlled camera systems by offering a low-cost, modular hardware design combined with a finetunable control algorithm for real-time person or face tracking. Leveraging widely available components and 3D printing technology, the system is optimized for ease of production and accessibility. Experimental results demonstrate that the system achieves stable and smooth tracking performance, balancing responsiveness and precision while maintaining affordability. This work contributes to making advanced tracking technologies more accessible for applications such as video production, conferencing, and robotics.",
+    "keywords": "3D printing, adaptive PID control, camera automation, embedded system, face detection, low-cost mechatronics, object tracking, pan-tilt control, signal filtering, vision system"
+}

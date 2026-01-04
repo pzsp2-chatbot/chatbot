@@ -1,0 +1,41 @@
+{
+    "id": "WUT209958ab3f5446be88c216f6954f0f63",
+    "title": "Service-oriented Architecture Evolution towards 6G Networks",
+    "created": "2025-01-31T14:26:54.101+01:00",
+    "modified": "2025-09-09T23:24:10.932+02:00",
+    "language": "en",
+    "doi": "10.1109/CSCN60443.2023.10453142",
+    "url": "https://doi.org/10.1109/CSCN60443.2023.10453142",
+    "authors": [
+        {
+            "full_name": "Tao Chen",
+            "affiliation": "VTT Technical Research Centre of Finland"
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Emmanouil Pateromichelakis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konstantinos Samdanis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Akis Kourtis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Navid Nikaein",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonio Skarmeta",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Service-based architecture (SBA) has been introduced in the 5G core network design. It brings cloud-native features into core networks and shows implementation, deployment and service provision advantages. As cloud technologies have been penetrating radio access networks (RAN), it is beneficial to introduce service-oriented design into the last mile of mobile networks, offering a cloud-friendly end-to-end service-oriented architecture. Under such architecture, network functions are implemented as a service provider and service consumer that can be flexibly disaggregated and combined to offer different network implementations. This paper introduces 6G conceptual architecture based on service-oriented design principles. The architecture extends the service-oriented design into RAN. It allows network functions of RAN, core, and functions from applications to be integrated in a new way through service-based interfaces. The key elements of the architecture design are introduced. The paper identifies the important design aspects of 6G architecture and proposes a promising direction for the 6G architecture evolution.",
+    "keywords": "6G mobile communication, Cloud computing, 5G mobile communication, \nSystems architecture, Service-oriented architecture, Standards, Radio access networks"
+}

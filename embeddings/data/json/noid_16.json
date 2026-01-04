@@ -1,21 +1,29 @@
 {
-    "id": "WUTc20d43d94577435ab5f3e7a48bdb8f97",
-    "title": "On the Improvements of Metaheuristic Optimization-Based Strategies for Time Series Structural Break Detection",
-    "created": "2024-10-07T17:14:35.127+02:00",
-    "modified": "2025-09-09T23:31:39.887+02:00",
+    "id": "WUT74e84586f90c45ffb359f10b176a312f",
+    "title": "Partially Defined Logical Operators in Cause-Effect Models.",
+    "created": "2024-11-07T21:43:57.697+01:00",
+    "modified": "2025-09-09T23:24:12.651+02:00",
     "language": "en",
-    "doi": "10.15388/24-INFOR572",
-    "url": "https://doi.org/10.15388/24-INFOR572",
+    "doi": "10.1007/978-3-031-75923-9_19",
+    "url": "https://doi.org/10.1007/978-3-031-75923-9_19",
     "authors": [
         {
-            "full_name": "Agnieszka Jastrzębska",
+            "full_name": "Denis Cavallucci",
             "affiliation": null
         },
         {
-            "full_name": "Burczaniuk Mateusz",
+            "full_name": "Stelian Brad",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pavel Livotov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Chrząszcz",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Cause-effect models used in TRIZ to identify key disadvantages of the analyzed systems employ AND and (explicit or implicit) OR operators to indicate how the causes trigger the effects. These fully defined logical operators imply disadvantage elimination strategies, i.e., removing any of the AND-connected causes vs. removing all OR-connected causes. On the contrary, the partially defined logical operators incur uncertainty about the trigger conditions due to the output values being undefined for some input combinations. This paper proposes a method of handling such operators to support decisions regarding disadvantage elimination, which may interest TRIZ practitioners and researchers.\n\nThe paper starts with recalling the basics of cause-effect analysis and introducing the notations for describing Boolean functions. The requirements and sample statistics concerning disadvantage descriptions are discussed in the second section, while the third section introduces partially defined operators. The following two sections present the proposed categorization of logical functions and the method for systematic selection of contributing causes to remove. The summary and ideas for further research are given in the last section of the paper.",
+    "keywords": null
 }

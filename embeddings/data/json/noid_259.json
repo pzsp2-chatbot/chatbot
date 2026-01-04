@@ -1,0 +1,29 @@
+{
+    "id": "WUT09d3b188d7fa4d34909dc5ac7ee2890f",
+    "title": "Analysis of Job Processing Data – Towards Large Cloud Infrastructure Operation Simulation",
+    "created": "2025-02-13T15:06:06.921+01:00",
+    "modified": "2025-09-09T23:26:23.910+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-58502-9_16",
+    "url": "https://doi.org/10.1007/978-3-031-58502-9_16",
+    "authors": [
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Stanisław Krzyżanowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Cloud computing is the most popular way of delivering on-demand computational resources. Recently, the research in this area has started to focus on carbon-aware clouds. Here, the most challenging aspects are related to defining strategies for efficient task scheduling and resource allocation. These strategies can be simulated and assessed using dedicated tools. However, to perform their accurate evaluation, the tests should reproduce close-to-real conditions of the actual cloud center. In particular, they require running simulations with various mixtures of tasks that replicate the actual cloud center operation. Therefore, the main aim of this work was to prepare tools that will allow the generation of synthetic job streams, with mixes of realistic types of computational tasks. The core of this contribution is the analysis of actual job processing data from the CloudFerro cloud center. The proposed methodology is based on data clustering and includes a comparison between multiple algorithms. Furthermore, the resulting clusters have been categorized from the point of view of cloud center operation, in order to identify prototypical tasks’ classes with respect to the resource demands. Finally, a tool that generates synthetic job streams, based on the Gaussian Mixture Model, which has been implemented, is summarized.</p>",
+    "keywords": null
+}

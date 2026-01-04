@@ -1,0 +1,53 @@
+{
+    "id": "WUTe8d325ee8a964b639cb9cc4ef10bf90b",
+    "title": "Distinct transcriptional changes in hematopoietic progenitor subsets upon LPS-induced emergency granulopoiesis",
+    "created": "2025-05-18T23:56:40.659+02:00",
+    "modified": "2025-09-09T23:19:52.918+02:00",
+    "language": "en",
+    "doi": "10.1016/j.exphem.2025.104792",
+    "url": "https://doi.org/10.1016/j.exphem.2025.104792",
+    "authors": [
+        {
+            "full_name": "Sladjana Kosanovic",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karolina Vanickova",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mirko Milosevic",
+            "affiliation": null
+        },
+        {
+            "full_name": "Irina Ribeiro Bas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Chiliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Petr Danek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Rohlena",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katerina Rohlenova",
+            "affiliation": null
+        },
+        {
+            "full_name": "Meritxell Alberich-Jorda",
+            "affiliation": "Institute of Molecular Genetics of the Czech Academy of Sciences"
+        }
+    ],
+    "abstract": "Emergency granulopoiesis is a critical process by which hematopoietic progenitors and stem cells facilitate enhanced granulocytic production during severe infections. However, the role of distinct multipotent progenitors (MPPs) at early stages of this process remains underexplored. Here, we investigated the contribution of MPPs to granulocytic production following lipopolysaccharide (LPS) administration in wild-type mice, simulating a bacterial infection. Transplantation assays demonstrated that LPS exposure reduces the engraftment capacity of lymphoid-biased MPP4 and enhances lymphoid production, rather than supporting myeloid lineage output. Further, single-cell RNA sequencing (scRNA-seq) of MPPs isolated from control and LPS challenged mice revealed transcriptional reprogramming of non-lineage committed MPPs towards myeloid- and erythroid-biased progenitors. Notably, inflammatory progenitor populations emerged upon activation of LPS-induced emergency granulopoiesis, displaying chromatin accessibility changes that align with a commitment to myeloid and erythroid fates. Pseudotime analysis elucidated cellular trajectories that suggest a developmental pathway where unbiased progenitors, present in non-stress conditions, transition towards myeloid and erythroid lineage outputs upon LPS administration. In line with our functional MPP4 assessment, scRNA-seq suggested that lymphoid-biased progenitors do not transcriptionally rewire during early stages of emergency granulopoiesis. Collectively, our data highlight the critical role of specific MPP subsets in responding to LPS-induced inflammatory signals and underscore the dynamic adaptations that occur during granulocyte production in response to infection.",
+    "keywords": "Hematopoietic stem cell, Progenitors, Emergency Granulopoiesis, lipopolysaccharide, scRNAseq, ATACseq"
+}

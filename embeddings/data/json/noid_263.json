@@ -1,0 +1,25 @@
+{
+    "id": "WUT9d99b4b5d1f64ecc83bca59078202276",
+    "title": "Identification of Antibody Responses Predictive of Protection Against Clinical Malaria",
+    "created": "2025-02-13T15:26:57.452+01:00",
+    "modified": "2025-09-10T00:17:02.031+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-12766-3_16",
+    "url": "https://doi.org/10.1007/978-3-031-12766-3_16",
+    "authors": [
+        {
+            "full_name": "André Fonseca",
+            "affiliation": "UNIVERSIDADE DO ALGARVE"
+        },
+        {
+            "full_name": "Clara Cordeiro",
+            "affiliation": "UNIVERSIDADE DO ALGARVE"
+        },
+        {
+            "full_name": "Nuno Henriques dos Santos de Sepúlveda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Statistical pipelines have been proposed to discover antibody responses associated with protection against clinical malaria. However, these often produce inconsistent results due to the failure of the statistical assumptions, such as normality. In the present work, we have developed a new statistical pipeline to analyse data from IgG antibodies against 36 Plasmodium falciparum antigens from 121 Kenyan children. This pipeline was based on the identification of cut-off values in the antibody distributions that maximised the distinction between susceptible and protected individuals. Our pipeline enabled us to construct a classifier based on few antibodies, whose performance outperformed the previous ones based on a Random forest approach. The good performance of the pipeline suggests its applicability in antibody data analysis with the aim of identifying antimalarial vaccine candidates.</p>",
+    "keywords": null
+}

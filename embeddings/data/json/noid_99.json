@@ -1,0 +1,45 @@
+{
+    "id": "WUT9bdf0748d8454c1681c8216780054b98",
+    "title": "Intelligent Interface: Enhancing Lecture Engagement with Didactic Activity Summaries",
+    "created": "2024-12-27T10:21:04.237+01:00",
+    "modified": "2025-09-09T23:26:27.061+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-73538-7_12",
+    "url": "https://doi.org/10.1007/978-3-031-73538-7_12",
+    "authors": [
+        {
+            "full_name": "Anna Wróblewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcel Witas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kinga Frańczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arkadiusz Kniaź",
+            "affiliation": null
+        },
+        {
+            "full_name": "Cheong Siew Ann",
+            "affiliation": null
+        },
+        {
+            "full_name": "Seng Chee Tan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Hołyst",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": "Recently, multiple applications of machine learning have been introduced. They include various possibilities arising when image analysis methods are applied to, broadly understood, video streams. In this context, a novel tool, developed for academic educators to enhance the teaching process by automating, summarizing, and offering prompt feedback on conducting lectures, has been developed. The implemented prototype utilizes machine learning-based techniques to recognise selected didactic and behavioural teachers’ features within lecture video recordings. Specifically, users (teachers) can upload their lecture videos, which are preprocessed and analysed using machine learning models. Next, users can view summaries of recognized didactic features through interactive charts and tables. Additionally, stored ML-based prediction results support comparisons between lectures based on their didactic content. In the developed application text-based models trained on lecture transcriptions, with enhancements to the transcription quality, by adopting an automatic speech recognition solution are applied. Furthermore, the system offers flexibility for (future) integration of new/additional machine-learning models and software modules for image and video analysis.",
+    "keywords": null
+}

@@ -1,0 +1,37 @@
+{
+    "id": "WUTa4cc8db490314e1687f55bdaa473a010",
+    "title": "Searching for the best optimizer for an automated CAD system",
+    "created": "2025-01-13T11:38:46.500+01:00",
+    "modified": "2025-09-09T23:38:20.409+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "http://www.red.pe.org.pl/articles/2023/1/32.pdf",
+    "authors": [
+        {
+            "full_name": "Jacek Starzyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Szmurło",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Rowinski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Michalski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zbigniew Watral",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stanisław Wincenciak",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "CAD, optimal design, deterministic algorithms, evolutionary algorithms"
+}

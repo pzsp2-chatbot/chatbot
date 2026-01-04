@@ -1,0 +1,21 @@
+{
+    "id": "WUT4bb53ccdb30b4173b74efef70ceee01b",
+    "title": "Variable screening for Lasso based on multidimensional indexing",
+    "created": "2025-01-28T09:32:30.537+01:00",
+    "modified": "2025-09-09T23:22:35.372+02:00",
+    "language": "en",
+    "doi": "10.1007/s10618-023-00950-8",
+    "url": "https://doi.org/10.1007/s10618-023-00950-8",
+    "authors": [
+        {
+            "full_name": "Barbara Żogała-Siudem",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Jaroszewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "Lasso; Linear regression; Open data; Variable screening"
+}

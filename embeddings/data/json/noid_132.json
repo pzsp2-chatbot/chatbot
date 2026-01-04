@@ -1,0 +1,37 @@
+{
+    "id": "WUT4c5198ec393e4772814dcb2498e5b354",
+    "title": "On providing multi-level security assurance based on Common Criteria for O-RAN mobile network equipment. A test case: O-RAN Distributed Unit",
+    "created": "2025-01-11T16:08:27.629+01:00",
+    "modified": "2025-09-09T23:20:10.841+02:00",
+    "language": "en",
+    "doi": "10.1016/j.cose.2024.104271",
+    "url": "https://doi.org/10.1016/j.cose.2024.104271",
+    "authors": [
+        {
+            "full_name": "Piotr Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Janowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elzbieta Andrukiewicz",
+            "affiliation": "Instytut Łączności - Państwowy Instytut Badawczy"
+        },
+        {
+            "full_name": "Waldemar Latoszek",
+            "affiliation": "Instytut Łączności - Państwowy Instytut Badawczy"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        }
+    ],
+    "abstract": "Open Radio Access Network (O-RAN) technology introduces disaggregation of RAN network functions, offering enhanced flexibility for extending hardware and software. To ensure interoperability between such components, the O-RAN Alliance (the main Standards Development Organisation of O-RAN) defined a set of new interfaces. The network may be built by integrating components from different providers. The introduction of multi-provider components and functions increases security challenges due to the increase of security surfaces (e.g., new interfaces). Therefore, it is relevant for network operators to gain a certain level of assurance that O-RAN components deployed in the network are secure. This paper proposes a framework for the security evaluation of O-RAN interfaces that provides assurance that the O-RAN component has been tested deeply enough to demonstrate its resilience to attacks. Our proposal is based on Common Criteria standards and provides several security assurance levels depending on the intended use of the O-RAN network. Each security assurance level involves a set of tests, from security conformance tests to specialised fuzzy tests. We have specified them in the Vulnerability assessment for the product, as required in the Common Criteria. The validation of the framework focuses on the O-DU (O-RAN Distributed Unit) component, which is a logical module responsible for the implementation of L2 layer functionalities; nevertheless, it can be easily extended to other O-RAN components: O-CU (O-RAN Central Unit) and O-RU (O-RAN Radio Unit) as well as to Non and Near Real Time Radio Intelligent Controller (RIC). The O-DU evaluation results show that it is possible to provide the evaluation at different levels of security assurance, which correspond to different intended uses of the 5G O-RAN mobile network.",
+    "keywords": "O-RAN, 5G, Security evaluation, Security testing, Security assurance"
+}

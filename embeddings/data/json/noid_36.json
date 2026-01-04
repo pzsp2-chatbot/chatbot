@@ -1,41 +1,37 @@
 {
-    "id": "WUTc6ed78d3a2884484ad07fbd1d7c072a6",
-    "title": "The use of digital tools in forest tourism and recreation - Experiences from Warsaw agglomeration in Poland",
-    "created": "2024-10-16T10:01:24.950+02:00",
-    "modified": "2025-09-09T23:32:13.291+02:00",
+    "id": "WUT3fe205b54ab34bd2970c943cf6ef0163",
+    "title": "An interpretable neural network for robustly determining the location and number of cluster centers",
+    "created": "2024-11-15T18:16:29.379+01:00",
+    "modified": "2025-09-09T23:22:23.711+02:00",
     "language": "en",
-    "doi": "10.1016/j.tfp.2024.100697",
-    "url": "https://doi.org/10.1016/j.tfp.2024.100697",
+    "doi": "10.1007/s13042-023-01978-4",
+    "url": "https://doi.org/10.1007/s13042-023-01978-4",
     "authors": [
         {
-            "full_name": "Natalia Korcz",
-            "affiliation": "Instytut Badawczy LeŜnictwa"
-        },
-        {
-            "full_name": "Mariusz Ciesielski",
-            "affiliation": "Instytut Badawczy LeŜnictwa"
-        },
-        {
-            "full_name": "Agnieszka Kamińska",
-            "affiliation": "Instytut Badawczy LeŜnictwa"
-        },
-        {
-            "full_name": "Kamil Choromański",
+            "full_name": "Xuetao Xie",
             "affiliation": null
         },
         {
-            "full_name": "Dariusz Gotlib",
+            "full_name": "Yi-Fei Pu",
             "affiliation": null
         },
         {
-            "full_name": "Fruzsina Stefan",
+            "full_name": "Huaqing Zhang",
             "affiliation": null
         },
         {
-            "full_name": "Karolina Taczanowska",
+            "full_name": "El-Sayed M. El-Alfy",
+            "affiliation": "King Fahd University of Petroleum and Minerals"
+        },
+        {
+            "full_name": "Jian Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "K-means is a clustering method with an interpretable mechanism. However, its clustering results are significantly affected by the location of the initial cluster centers. More importantly, for it and its improved versions, it is extremely hard to adaptively determine the number of cluster centers. In contrast, ordinary neural networks have powerful information representation ability but lack interpretability. Moreover, to the best of our knowledge, the use of interpretable neural networks to determine the number of cluster centers of K-means is absent. This paper proposes K-meaNet that combines the interpretable mechanism of K-means and the powerful information representation ability of neural networks. For the neural network in K-meaNet, its inputs, weights, and mathematical expressions of each layer have clear meanings. During training, if one cluster center is critical, the value of one of the weights in the neural network, the gate, corresponding to this cluster center will increase. At the same time, the position of this cluster center will be close to the ideal cluster center. Besides, the location of the cluster center(s) and the value(s) of the corresponding gate(s) will not change significantly. This endows K-meaNet with the ability to adaptively determine the location and number of cluster centers compared with K-means and its improved versions. Moreover, this adaptive ability is robust to the location of the initial cluster centers, the number of the initial cluster centers, and the number of features. On six synthetic datasets and three real datasets, numerical experiments verify that K-meaNet can adaptively determine the number of cluster centers and is robust to the location of the initial cluster centers, the number of the initial cluster centers, and the number of features.",
+    "keywords": "K-means, Neural network, Interpretable, Robust, Cluster center"
 }

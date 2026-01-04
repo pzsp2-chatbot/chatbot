@@ -1,0 +1,29 @@
+{
+    "id": "WUT1e0436d167704d108e45de7cf63ecc7c",
+    "title": "Dynamic Knowledge Management in an Agent-Based Extended Green Cloud Simulator",
+    "created": "2024-12-17T06:58:33.362+01:00",
+    "modified": "2025-09-09T23:22:20.818+02:00",
+    "language": "en",
+    "doi": "10.3390/en17040780",
+    "url": "https://doi.org/10.3390/en17040780",
+    "authors": [
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Stanisław Krzyżanowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Cloud infrastructures operate in highly dynamic environments, and today, energy-focused optimization become crucial. Moreover, the concept of extended cloud infrastructure, which, among others, uses green energy, started to gain traction. This introduces a new level of dynamicity to the ecosystem, as “processing components” may “disappear” and “come back”, specifically in scenarios where the lack/return of green energy leads to shutting down/booting back servers at a given location. Considered use cases may involve introducing new types of resources (e.g., adding containers with server racks with “next-generation processors”). All such situations require the dynamic adaptation of “system knowledge”, i.e., runtime system adaptation. In this context, an agent-based digital twin of the extended green cloud infrastructure is proposed. Here, knowledge management is facilitated with an explainable Rule-Based Expert System, combined with Expression Languages. The tests were run using Extended Green Cloud Simulator, which allows the modelling of cloud infrastructures powered (partially) by renewable energy sources. Specifically, the work describes scenarios in which: (1) a new hardware resource is introduced in the system; (2) the system component changes its resource; and (3) system user changes energy-related preferences. The case study demonstrates how rules can facilitate control of energy efficiency with an example of an adaptable compromise between pricing and energy consumption.",
+    "keywords": "carbon-aware cloud computing; resource management; knowledge management; extended green cloud; rule-based expert systems; expression languages"
+}

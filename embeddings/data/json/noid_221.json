@@ -1,0 +1,49 @@
+{
+    "id": "WUT64e3bb4689814d3895ad6c37903995bd",
+    "title": "The Problem and Its Key Characteristics",
+    "created": "2025-01-30T14:31:27.848+01:00",
+    "modified": "2025-09-09T23:27:01.294+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_1",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_1",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>We start with the description of general context and with formulation of the problem that we address. In this manner we set a framework for both the particular issues that we deal with on a technical level, described in the consecutive parts of the book, and for the potential implications thereof, some of them forwarded as more general conclusions or hypotheses.</p>",
+    "keywords": null
+}

@@ -1,0 +1,45 @@
+{
+    "id": "WUTa2e1261768c249bea6bcfa82d87aeb42",
+    "title": "On 6G-Enabled SDN-Based Mobile Network User Plane with DRL-Based Traffic Engineering",
+    "created": "2025-01-08T20:14:53.222+01:00",
+    "modified": "2025-09-09T23:23:45.053+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-63227-3_9",
+    "url": "https://doi.org/10.1007/978-3-031-63227-3_9",
+    "authors": [
+        {
+            "full_name": "Ilias Maglogiannis",
+            "affiliation": "University of Piraeus"
+        },
+        {
+            "full_name": "Lazaros Iliadis",
+            "affiliation": " Δημοκρίτειο Πανεπιστήμιο Θράκης"
+        },
+        {
+            "full_name": "Ioannis Karydis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonios Papaleonidas",
+            "affiliation": " Δημοκρίτειο Πανεπιστήμιο Θράκης"
+        },
+        {
+            "full_name": "Ioannis Chochliouros",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Robert Kołakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lechosław Tomaszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The emerging 6G use cases will pose new challenges for the mobile network User Plane (UP), requiring its rapid evolution in terms of flexibility and intelligent optimisation. To achieve the foremost, the exploitation of the Software-Defined Networking (SDN) concept is commonly considered due to the logically centralised network control and native support for Traffic Engineering (TE). A promising solution to embed intelligence in the network is using Deep Reinforcement Learning (DRL) methods, which are capable of flexible optimisation of complex environments without prior modelling. While there exist several state of the art concepts combining the above technologies pair-wise, there is no approach that integrates them into a unified 6G-ready solution. This paper presents the novel 3GPP-compliant SDN-based UP architecture enhanced by DRL-based TE to facilitate emerging 6 Generation (6G) use cases. The approach leverages hierarchical architectures to improve the scalability of operations, support decentralised 6G network deployments and enable DRL usage in carrier-grade mobile networks.",
+    "keywords": null
+}

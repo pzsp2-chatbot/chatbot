@@ -1,0 +1,21 @@
+{
+    "id": "WUT9fe7ffcdbf21438fb41fa6a5fd3658bd",
+    "title": "Comparison of Pulse Compression Algorithm Implementations on Various Hardware Platforms",
+    "created": "2025-01-06T17:21:45.825+01:00",
+    "modified": "2025-09-10T00:07:20.172+02:00",
+    "language": "en",
+    "doi": "10.23919/SPSympo57300.2023.10302685",
+    "url": "https://doi.org/10.23919/SPSympo57300.2023.10302685",
+    "authors": [
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Dróżka",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents the preparation and results of the comparison of two implementation methods for matched filtering (pulse compression) algorithm for air defense radar. The first method uses the General-Purpose computing on Graphics Processing Unit (GPGPU) technique in the form of the NVIDIA CUDA platform. The second method is based on computing with Intel's Central Processing Unit (CPU) and Advanced Vector Extension (AVX) instructions. Both ways have their own advantages and disadvantages and the purpose is to determine the possibilities of two implementation approaches.",
+    "keywords": null
+}

@@ -1,0 +1,37 @@
+{
+    "id": "WUT467bb6f17f3f403ba5ec89b58c83a1d0",
+    "title": "Adapt Your Teacher: Improving Knowledge Distillation for Exemplar-free Continual Learning",
+    "created": "2025-04-09T15:02:01.923+02:00",
+    "modified": "2025-09-09T23:24:47.494+02:00",
+    "language": "en",
+    "doi": "10.1109/WACV57701.2024.00198",
+    "url": "https://doi.org/10.1109/WACV57701.2024.00198",
+    "authors": [
+        {
+            "full_name": "Filip Szatkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Pyla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Przewiȩźlikowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Cygert",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>In this work, we investigate exemplar-free class incremental learning (CIL) with knowledge distillation (KD) as a regularization strategy, aiming to prevent forgetting. KD-based methods are successfully used in CIL, but they often struggle to regularize the model without access to exemplars of the training data from previous tasks. Our analysis reveals that this issue originates from substantial representation shifts in the teacher network when dealing with out-of-distribution data. This causes large errors in the KD loss component, leading to performance degradation in CIL models. Inspired by recent test-time adaptation methods, we introduce Teacher Adaptation (TA), a method that concurrently updates the teacher and the main models during incremental training. Our method seamlessly integrates with KD-based CIL approaches and allows for consistent enhancement of their performance across multiple exemplar-free CIL benchmarks. The source code for our method is available at https://github.com/fszatkowski/cl-teacher-adaptation.</p>",
+    "keywords": null
+}

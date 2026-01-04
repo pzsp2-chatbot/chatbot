@@ -1,0 +1,81 @@
+{
+    "id": "WUTd60dc6b66b984f268b47a9e67baf1a57",
+    "title": "Capturing Human Perspectives in NLP: Questionnaires, Annotations, and Biases",
+    "created": "2024-12-12T08:04:20.700+01:00",
+    "modified": "2025-09-10T00:07:35.885+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ceur-ws.org/Vol-3494/paper5.pdf",
+    "authors": [
+        {
+            "full_name": "Gavin Abercrombie",
+            "affiliation": null
+        },
+        {
+            "full_name": "Valerio Basile",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Bernardi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shiran Dudy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Simona Frenda",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lucy Havens",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elisa Leonardelli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sara Tonelli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wiktoria Mieleszczenko-Kowszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Kanclerz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julita Bielaniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Oleksy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Gruza",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stanisław Woźniak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Dzięcioł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Kazienko",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Jan Kocoń",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This article compiles research on the extraction of human characteristics using three different methods: questionnaires, annotations, and biases. We have performed an analysis of how personalized perception of texts is affected by individual human profile and bias. To acquire comprehensive knowledge about individual user preferences, we have gathered 40 users who annotated 1000 texts in 26 subjective tasks grouped into three categories: positive affect, negative affect, and rational affect. The results revealed that categories of annotation were correlated with psychological dimensions, e.g., agreeableness and conscientiousness, which are traits related to positive affect dimension biases. We have observed the presence of two clearly defined categories among annotators when it comes to the aspect of humor: those who confidently share their perspectives on what they find funny and those who tend to rate humor levels within a narrow range. Moreover, we analyzed intra-annotator agreement to show that people tend to change their ratings over time. Our results show that the higher level of the ranking correlation between annotations and agreement calculated using binarized annotations compared to the absolute agreement calculated using full annotations implies that the 10-point annotation scale might be a significant factor in annotator disagreement.",
+    "keywords": "natural language processing, personalization, subjectivity, annotator bias, annotator representation, data acquisition"
+}

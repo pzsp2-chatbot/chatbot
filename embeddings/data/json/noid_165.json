@@ -1,0 +1,29 @@
+{
+    "id": "WUT7ceaf56233ed4c20b6cf4bb0772a8f9c",
+    "title": "Points2NeRF: Generating Neural Radiance Fields from 3D point cloud",
+    "created": "2025-01-28T11:38:05.599+01:00",
+    "modified": "2025-09-09T23:22:33.842+02:00",
+    "language": "en",
+    "doi": "10.1016/j.patrec.2024.07.002",
+    "url": "https://doi.org/10.1016/j.patrec.2024.07.002",
+    "authors": [
+        {
+            "full_name": "Dominik Zimny",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Joanna Waczyńska",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Spurek",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        }
+    ],
+    "abstract": "Neural Radiance Fields (NeRFs) offers a state-of-the-art quality in synthesizing novel views of complex 3D scenes from a small subset of base images. For NeRFs to perform optimally, the registration of base images has to follow certain assumptions, including maintaining a constant distance between the camera and the object. We can address this limitation by training NeRFs with 3D point clouds instead of images, yet a straightforward substitution is impossible due to the sparsity of 3D clouds in the under-sampled regions, which leads to incomplete reconstruction output by NeRFs. To solve this problem, here we propose an auto-encoder-based architecture that leverages a hypernetwork paradigm to transfer 3D points with the associated color values through a lower-dimensional latent space and generate weights of NeRF model. This way, we can accommodate the sparsity of 3D point clouds and fully exploit the potential of point cloud data. As a side benefit, our method offers an implicit way of representing 3D scenes and objects that can be employed to condition NeRFs and hence generalize the models beyond objects seen during training. The empirical evaluation confirms the advantages of our method over conventional NeRFs and proves its superiority in practical applications.",
+    "keywords": "NeRF, 3D point clouds, Hypernetwork"
+}

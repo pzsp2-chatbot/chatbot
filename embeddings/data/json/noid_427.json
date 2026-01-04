@@ -1,0 +1,29 @@
+{
+    "id": "WUTdf544db1c4ce4b249e82f3832628dccf",
+    "title": "Cryptojacking Detection Using eBPF and Machine Learning Techniques",
+    "created": "2025-06-21T22:47:18.852+02:00",
+    "modified": "2025-09-09T23:17:59.477+02:00",
+    "language": "en",
+    "doi": "10.1109/icint65528.2025.11030875",
+    "url": "https://doi.org/10.1109/icint65528.2025.11030875",
+    "authors": [
+        {
+            "full_name": "Natan Orzechowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marco Zuppelli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Luca Caviglione",
+            "affiliation": "Istituto di studi sui sistemi intelligenti per l'automazione"
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

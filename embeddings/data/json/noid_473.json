@@ -1,0 +1,45 @@
+{
+    "id": "WUTb3953a76fad74c98aa9422f30f68796d",
+    "title": "Intrinsic Modulation Response and Electrical Parasitics in Oxide‐confined Vertical‐Cavity Surface‐Emitting Lasers Based on Single or Multiple Apertures",
+    "created": "2025-07-16T12:58:04.430+02:00",
+    "modified": "2025-09-09T23:20:27.237+02:00",
+    "language": "en",
+    "doi": "10.1049/ell2.70234",
+    "url": "https://doi.org/10.1049/ell2.70234",
+    "authors": [
+        {
+            "full_name": "Nikolay N. Ledentsov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Nikolay Ledentsov Jr.",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Łukasz Chorchos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Oleg Makarov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Vitaly A. Shchukin",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Vladimir P. Kalosha",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Ilya E. Titkov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Piotr Turkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Small aperture (∼2 µm) oxide-confined single-mode (SM) Vertical-Cavity Surface-Emitting Lasers (VCSELs) are capable of intrinsic optical modulation bandwidth above 42 GHz at low currents (∼2 mA). The measured optical bandwidth is limited to ∼36-38 GHz by the VCSEL resistance and capacitance (RC parasitics). To match requirements for industrial VCSELs, we applied a single mesa multi-aperture (MA) single-mode (SM) VCSEL design. The design is based on 4 diamond-shaped apertures at ∼10 µm pitch and an effective diameter of a single aperture of ∼1.7-2 µm. Higher capacitance of the large VCSEL mesa is compensated by a reduced resistance (50Ω) of the device, allowing optical bandwidth f-3dBo ∼32 GHz. The intrinsic optical bandwidth f-3dBo of ∼45 GHz is extracted. MA SM VCSEL allows narrow spectral width and error-free 50-Gbaud data transmission over 200 m OM5 multimode fibre (MMF).",
+    "keywords": null
+}

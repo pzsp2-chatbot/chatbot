@@ -1,0 +1,17 @@
+{
+    "id": "WUT12610b0c2e9d4a01bc4af593253db7d0",
+    "title": "Testing Independence with Fuzzy Data",
+    "created": "2025-02-04T09:50:12.168+01:00",
+    "modified": "2025-09-10T00:10:31.308+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-08974-9_42",
+    "url": "https://doi.org/10.1007/978-3-031-08974-9_42",
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The question of whether two random variables describing two features under study are independent arises in many statistical studies and practical applications. Many parametric and nonparametric tests of bivariate independence can be found in the literature, like the chi-square test for contingency tables, tests based on Pearson’s, Kendall’s, Spearman’s correlation coefficients and so on. The problem of testing independence becomes much more difficult when the available data are imprecise, incomplete or vague. Although fuzzy modeling provide appropriate tools for dealing with uncertain data, some limitations of fuzzy random variables inhibit the straightforward generalization of the classical tests of independence into fuzzy framework. At the same time, this situation imposes the quest for new solutions that may be applied in fuzzy environment. In this contribution we propose a new permutation test of independence for fuzzy data based on the so-called distance covariance.</p>",
+    "keywords": null
+}

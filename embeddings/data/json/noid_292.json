@@ -1,0 +1,33 @@
+{
+    "id": "WUTc37ae01d0fbf4529af6b173841afc043",
+    "title": "Agile Software Management with Cognitive Multi-Agent Systems",
+    "created": "2025-03-01T19:06:14.530+01:00",
+    "modified": "2025-09-09T23:22:12.152+02:00",
+    "language": "en",
+    "doi": "10.5220/0013153000003890",
+    "url": "https://doi.org/10.5220/0013153000003890",
+    "authors": [
+        {
+            "full_name": "Ana Paula Rocha",
+            "affiliation": "Univeristy of Porto"
+        },
+        {
+            "full_name": "Luc Steels",
+            "affiliation": "Universitat Pompeu Fabra and CSIC, Barcelona, Spain"
+        },
+        {
+            "full_name": "Jaap van den Herik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Cinkusz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper explores the integration of cognitive agents powered by Large Language Models (LLMs) into software project management within the Scaled Agile Framework (SAFe). We introduce the CogniSim framework, an ecosystem where virtual agents operate in a simulated software environment to fulfill key roles in IT project development. Emphasis is placed on the adaptability of these agents to the Scrum methodology, particularly in decision-making and problem-solving. By combining LLMs with Multi-Agent Systems (MAS), we focus on improvements in project management, development processes, and Agile methodologies. Through simulations and case studies, we demonstrate advancements in task delegation, communication, and project lifecycle management, highlighting the potential of LLM-augmented MAS to manage software projects with increased precision and intelligence. Our findings provide insights into essential components for an effective cognitive multi-agent ecosystem, including Dynamic Contex ...",
+    "keywords": "Agile Methodologies, Multi-Agent Systems, Large Language Models, Software Project Management, MAS-LLM Integration"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "WUTdc75c2420e8f4c399262a5bbee40361e",
+    "title": "3D-printed custom ossicular prosthesis - methodology of design and LDV measurements in a cadaver study",
+    "created": "2025-01-30T11:02:27.905+01:00",
+    "modified": "2025-09-09T23:38:06.911+02:00",
+    "language": "en",
+    "doi": "10.5604/01.3001.0016.2703",
+    "url": "https://doi.org/10.5604/01.3001.0016.2703",
+    "authors": [
+        {
+            "full_name": "Jacek Sokołowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Orlowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magdalena Lachowska",
+            "affiliation": "Medical University of Warsaw"
+        },
+        {
+            "full_name": "Alicja Gosiewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Bartoszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kazimierz Niemczyk",
+            "affiliation": "Medical University of Warsaw"
+        }
+    ],
+    "abstract": "<p>Introduction: In tympanoplasty, surgical reconstruction of the tympanic membrane and ossicular chain is well-established; however, its hearing results still require improvement. Custom 3D printing of individualized ossicular prostheses seems to be an attractive solution for optimal prosthesis adjustment and better hearing results. Aim: The aim was to design a custom ossicular prosthesis using a 3D printing method based on Cone-Beam Computed Tomography (CBCT) scans and assess the acoustic conduction properties of such prosthesis. Material and methods: A cadaver fresh frozen temporal bone was used. Based on CBCT images, a new incus prosthesis was designed and 3D printed. Next, canal wall-up tympanoplasty was performed. The intact ossicular chain and reconstructed 3D-printed prosthesis chain movements/vibrations were measured with Laser Doppler Vibrometer (LDV) system and analyzed in detail. Results: The CBCT scans provided enough information about the anatomical structures. For frequencies 500 and 1000 Hz and 80 dB SPL sound intensity, collected velocities were higher for the intact ossicular chain than the 3D-printed ossicular prosthesis. The intensity thresholds for movement at 500 and 1000 Hz were lower in the intact ossicular chain than in the 3D-printed ossicular prosthesis. At 2000 Hz, there was the same intensity threshold value in the two measured circumstances. Conclusion: It is possible to design a custom individually fitted ossicular prosthesis using a 3D printing method based on CBCT scans. The acoustic conduction properties of such 3D-printed prosthesis showed differences in movability pattern between the intact and reconstructed ossicular chain. More data are needed to analyze the acoustic properties of such designed prostheses in detail. The results of our experiment showed the 3D-printed prosthesis presents the potential to be an interesting option for conductive hearing loss treatment caused by chronic otitis media and the ossicular chain defects.</p>",
+    "keywords": null
+}

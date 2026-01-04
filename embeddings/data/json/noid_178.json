@@ -1,0 +1,45 @@
+{
+    "id": "WUT407b4258d7a84016801e00d691b317bd",
+    "title": "Advancing Smart City Infrastructure with V2X Vehicle-Road Collaboration: Architectural and Algorithmic Innovations",
+    "created": "2025-01-29T10:50:31.297+01:00",
+    "modified": "2025-09-09T23:18:11.678+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-72732-0_10",
+    "url": "https://doi.org/10.1007/978-3-031-72732-0_10",
+    "authors": [
+        {
+            "full_name": "Chaker Abdelaziz Kerrache",
+            "affiliation": "University of Laghouat"
+        },
+        {
+            "full_name": "Yesin Sahraoui",
+            "affiliation": "National Higher School of Artificial Intelligence"
+        },
+        {
+            "full_name": "Carlos T. Calafate",
+            "affiliation": "Technical University of Valencia"
+        },
+        {
+            "full_name": "Anna Maria Vegni",
+            "affiliation": "Roma Tre University"
+        },
+        {
+            "full_name": "Andreas Andreou",
+            "affiliation": "University of Cambridge"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Traditional mobile communications, routed through multiple network layers, often face significant delays, unsuitable for the high-speed requirements of Vehicle to Everything (V2X) applications. This chapter introduces an innovative V2X vehicle-road collaborative communication system to bridge this gap. Central to this advancement is a novel architecture, coupled with a dynamic traffic signal control algorithm, designed to enhance traffic flow and reduce urban congestion significantly. The architecture employs a CRUM (connectivity, roadway, user, management) model, which is pivotal in minimizing end-to-end communication delays, especially crucial in urban settings. Additionally, the chapter discusses a vehicle-road collaborative framework for autonomous driving applications, focusing on an efficient networking architecture that ensures operational efficacy. The chapter concludes by addressing essential data quality, security, and privacy considerations, which are vital for the future of smart city infrastructure.",
+    "keywords": null
+}

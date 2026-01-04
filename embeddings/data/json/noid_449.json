@@ -1,0 +1,25 @@
+{
+    "id": "WUT65cc8225c56f463cb495bdddd4c8ed24",
+    "title": "Gain Control in Long-Range Pulse Noise Waveform Radar",
+    "created": "2025-07-07T13:25:21.154+02:00",
+    "modified": "2025-09-09T23:17:48.761+02:00",
+    "language": "en",
+    "doi": "10.23919/IRS64527.2025.11046108",
+    "url": "https://doi.org/10.23919/IRS64527.2025.11046108",
+    "authors": [
+        {
+            "full_name": "Galina Lange",
+            "affiliation": "German Institute of Navigation"
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Maślikowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Pulse noise waveforms (PNWs) have gained attention in radar systems for their ability to provide improved target detection capabilities and detection ranges, especially in challenging cluttered environments. However, the inherent variability in the amplitude of pulse noise signals can lead to saturation of the radar receiver if the system's gain is not properly controlled. This paper investigates the importance of gain control mechanisms in pulse noise waveform radar systems, focusing on the risks of receiver saturation due to the limited dynamic range of radar hardware. The paper shows the concept of receiver range gain control techniques and proposes strategies for maintaining optimal receiver performance while avoiding signal saturation in near-far radar problem. Simulation results and analysis illustrate the effectiveness of adaptive gain control methods in mitigating saturation and improving overall radar performance",
+    "keywords": "Transmitters, Radar clutter, Simulation, Noise, Signal processing algorithms, Receivers, Dynamic range, Radar signal processing, Gain control, Clutter"
+}

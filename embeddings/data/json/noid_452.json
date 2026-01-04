@@ -1,0 +1,25 @@
+{
+    "id": "WUTc5e552115584489b87ceda52b2c9acb4",
+    "title": "Assessment of Bistatic Track Likelihood in Passive Radar Using Artificial Neural Networks",
+    "created": "2025-07-07T13:51:07.478+02:00",
+    "modified": "2025-09-09T23:17:30.554+02:00",
+    "language": "en",
+    "doi": "10.23919/IRS64527.2025.11046045",
+    "url": "https://doi.org/10.23919/IRS64527.2025.11046045",
+    "authors": [
+        {
+            "full_name": "Galina Lange",
+            "affiliation": "German Institute of Navigation"
+        },
+        {
+            "full_name": "Misterka Alicja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Kamil Bączyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper proposes a novel method for assessing bistatic track likelihood in passive radar systems using artificial neural networks (ANNs). By combining radar sig-nal processing with machine learning, the approach distinguishes genuine object tracks fromfalse detections. Key contributions include an end-to-end simulationframework that models target dynamics, measurement errors, and false alarms. The results highlight the potential of machine learning to improve the reliability of passive radar and offer a scal-able solution for real-world use, advancing data-driven methods in radar track assess-ment.",
+    "keywords": "Passive radar, Measurement errors, Target tracking, Radar detection, Machine learning, Artificial neural networks, Radar tracking, Reliability"
+}

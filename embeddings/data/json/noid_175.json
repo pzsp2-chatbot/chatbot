@@ -1,0 +1,41 @@
+{
+    "id": "WUT7b1c44b025734956861139246b6ed8b6",
+    "title": "Enhancing Secure Communication in 6G-Enabled IoV through UAV and Control Center Integration",
+    "created": "2025-01-29T09:45:14.057+01:00",
+    "modified": "2025-09-09T23:22:49.226+02:00",
+    "language": "en",
+    "doi": "10.1109/iwcmc61514.2024.10592564",
+    "url": "https://doi.org/10.1109/iwcmc61514.2024.10592564",
+    "authors": [
+        {
+            "full_name": "Andreas Andreou",
+            "affiliation": "University of Cambridge"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        },
+        {
+            "full_name": "Athina Bourdena",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "George Mastorakis",
+            "affiliation": "Technological Educational Insitute of Crete"
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        }
+    ],
+    "abstract": "Integrating Unmanned Aerial Vehicles (UAVs) into the emerging sixth-generation and beyond (6G+) cellular networks as aerial base stations represents a significant technological advancement. This integration offers numerous benefits, including widespread accessibility, enhanced navigation, and simplified monitoring and management. A key element of this integration involves the instantaneous distribution of vital information throughout the transportation infrastructure. Characterized by their agility, mobility, and flexibility, UAVs play a crucial role in relieving data traffic loads, thereby offering additional access points. This function is essential for making prompt, precise, and well-informed decisions in Intelligent Transportation Systems (ITS), utilizing data-centric insights. Deploying versatile Road Side Units (RSUs) for secure data collection and dissemination requires a robust framework for safe data transfer. Ensuring data governance in the Internet of Vehicles (IoV) network relies heavily on specific interactions between trusted parties. In response, we introduce an advanced encryption approach to promote secure data exchange in ITS, thus supporting the confidential transfer of information in IoV communications. This innovative encryption method can also perform encryption and decryption of ciphertexts, encompassing confidential data and facilitating secure communication.",
+    "keywords": "UAV, cryptography, IoV, Intelligent Transportation System, ITS"
+}

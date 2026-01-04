@@ -1,0 +1,17 @@
+{
+    "id": "WUTc8989855058f48eba2ddf723b3f77672",
+    "title": "Risk Preferences of EV Fleet Aggregators in Day-Ahead Market Bidding: Mean-CVaR Linear Programming Model",
+    "created": "2025-01-08T13:48:03.540+01:00",
+    "modified": "2025-09-09T23:22:00.479+02:00",
+    "language": "en",
+    "doi": "10.3390/en18010093",
+    "url": "https://doi.org/10.3390/en18010093",
+    "authors": [
+        {
+            "full_name": "Izabela Żółtowska",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper introduces a mean profit- conditional value-at-risk (CVaR) model for purchasing electricity on the day-ahead market (DA) by electric vehicles fleet aggregator (EVA). EVA controls electric vehicles (EVs) during their workplace parking, enabling smart charging and cost savings by accessing market prices that are potentially lower than flat rates available during home charging. The proposed stochastic linear programming model leverages market price scenarios to optimize aggregated charging schedules, which serve as templates for constructing effective DA bidding curves. It integrates an aspiration/reservation-based formulation of the mean profit-risk criteria, specifically Conditional Value at Risk (CVaR) to address the EVA’s risk aversion. By incorporating interactive analysis, the framework ensures adaptive and robust charging schedules and bids tailored to the aggregator’s risk preferences. Its ability to balance profitability with risk is validated in case studies. This approach provides a practical and computationally efficient tool for EV aggregators of global companies that can benefit from the workplace charging their fleets thanks to buying energy in the DA market.",
+    "keywords": "aggregator; smart charging; bid curve; CVaR; stochastic linear programming"
+}

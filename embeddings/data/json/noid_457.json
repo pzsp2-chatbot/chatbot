@@ -1,0 +1,65 @@
+{
+    "id": "WUT6f4264374bac40218751b755bc413558",
+    "title": "Low Latency Recoding CORDIC Algorithm for FPGA Implementation",
+    "created": "2025-07-10T18:58:04.993+02:00",
+    "modified": "2025-09-09T23:22:49.135+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-97632-2_6",
+    "url": "https://doi.org/10.1007/978-3-031-97632-2_6",
+    "authors": [
+        {
+            "full_name": "Michael H. Lees",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wentong Cai",
+            "affiliation": null
+        },
+        {
+            "full_name": "Siew Ann Cheong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yi Su",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Abramson",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jack J. Dongarra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Peter M. A. Sloot",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Poczekajlo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leonid Moroz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Deelman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michela Taufer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

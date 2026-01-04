@@ -1,0 +1,21 @@
+{
+    "id": "WUTfa1f786727a74f4f8bb33dc5be080f8a",
+    "title": "Hybrid CSAM Content Classifier in Photographic Material",
+    "created": "2025-02-02T22:33:56.679+01:00",
+    "modified": "2025-09-09T23:21:33.210+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": "https://www.cybersecurityandlaw.pl/nr-1/7.pdf",
+    "authors": [
+        {
+            "full_name": "Maciej Stefańczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Adam Dudek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Poczucie anonimowości, połączone z łatwością publikowania treści\nw internecie, sprzyja pojawianiu się w sieci coraz większej ilości materiałów\nnielegalnych. Jedną z kategorii takich treści są materiały przedstawiające\nwykorzystywanie seksualne dzieci (Child Sexual Abuse Material – CSAM),\ntreści erotyczne z ich udziałem czy też w ich obecności. Obecnie możliwości\nreakcji na tego typu treści (m.in. blokowanie domen) mają pojedyncze\nośrodki na poziomie krajowym. Ze względu na charakter przeglądanych\ntreści zadanie to jest bardzo obciążające psychicznie, a każda metoda\nprowadząca do zmniejszenia ekspozycji pracowników na tego typu obrazy\njest na wagę złota. Z tego względu narodziła się idea projektu APAKT2\n(Automatyczne Przeszukiwanie, Analiza i Klasyfikacja Treści), który w sposób\nautomatyczny analizuje przekazane dane i priorytetyzuje je tak, aby analityk\nmożliwie szybko mógł ocenić, czy dana domena powinna zostać zablokowana\nczy nie. W niniejszym artykule przedstawione zostały prace (i związane\nz nimi specyficzne trudności) nad stworzenie klasyfikatora treści w materiale\nfotograficznym. W ich wyniku powstał hybrydowy klasyfikator, łączący\nwspółczesne osiągnięcia z dziedziny sztucznej inteligencji w rozpoznawaniu\nobrazów z klasycznymi metodami wspomagania decyzji.",
+    "keywords": "CSAM, bezpieczeństwo cyberprzestrzeni, uczenie głębokie,\nrozpoznawanie obrazów, detekcja obiektów"
+}

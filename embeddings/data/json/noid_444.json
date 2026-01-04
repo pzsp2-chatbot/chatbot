@@ -1,0 +1,41 @@
+{
+    "id": "WUT5668624e4be1486d82417164f2d743b0",
+    "title": "Best Practices in Teaching Digitization and Process Automation - A Case Study of Warsaw University of Technology",
+    "created": "2025-07-03T11:05:41.632+02:00",
+    "modified": "2025-09-09T23:23:09.555+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-97573-8_17",
+    "url": "https://doi.org/10.1007/978-3-031-97573-8_17",
+    "authors": [
+        {
+            "full_name": "Maciej Paszyński",
+            "affiliation": "University of Science and Technology"
+        },
+        {
+            "full_name": "Amanda S. Barnard",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yongjie Jessica Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Wojtachnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nataliia Gavkalova",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "John Martin",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This article examines recent advancements in the use of Artificial Intelligence (AI) for automation and robotics, highlighting efficiency gains across sectors. It reviews key trends, including robotic process automation in different areas and compares AI implementation frameworks such as MLOps and DevOps. The study presents educational approaches to teaching automation at Warsaw University of Technology, detailing project structures, tools and practical outcomes. Quantitative results on time savings are discussed in relation to existing research. The paper concludes with insights on incorporating AI into education to better prepare students for the digital future.",
+    "keywords": null
+}

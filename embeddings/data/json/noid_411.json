@@ -1,0 +1,37 @@
+{
+    "id": "WUT07154783154b45b7a62faaf68b0eef84",
+    "title": "A Behavioral Model of the Light Emitting Diode Nonlinearity",
+    "created": "2025-05-23T13:04:42.678+02:00",
+    "modified": "2025-09-09T23:19:00.943+02:00",
+    "language": "en",
+    "doi": "10.1109/tcomm.2025.3569749",
+    "url": "https://doi.org/10.1109/tcomm.2025.3569749",
+    "authors": [
+        {
+            "full_name": "Juliusz Bojarczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Marzęcki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Di Sun",
+            "affiliation": "Fudan University"
+        },
+        {
+            "full_name": "Zuxin Jin",
+            "affiliation": "Fudan University"
+        },
+        {
+            "full_name": "Pengfei Tian",
+            "affiliation": "Fudan University"
+        },
+        {
+            "full_name": "Grzegorz Stępniak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Correct modeling of light-emitting diode (LED) nonlinearity is vital for evaluating the performance of advanced modulation formats and nonlinear distortion mitigation methods in visible light communication systems. However, the models that can be found in the literature are either too complicated (e.g., the rate equation model), incorrect (the static polynomial model), or too simplified (the Wiener and Hammerstein models). In this paper, we demonstrate that rigorous frequency-domain factorization of the Volterra kernel up to the 2nd-order derived from the LED rate equations leads to an evenly simple but highly accurate model of the LED, which can be represented by a concatenation of 3 blocks: a filter, squaring, and a second filter. The model is parametrized by the 3 dB bandwidth of the LED, the cutoff frequency of the second filter, the optical conversion efficiency, and the nonlinearity factor. We also propose a two-point singletone method for finding the mentioned parameters. We provide experimental evidence for the correctness of this block structure in LEDs of five different types and also disprove the previously mentioned simplified models. Finally, we validate the model for transmission of single carrier (PAM) and multicarrier (OFDM) signals by comparing it with the rate equation and the basic linear models. A mean squared error reduction of up to 5 dB compared with the linear model is experimentally observed.",
+    "keywords": "Light emitting diode, nonlinear distortion, Volterra series, modeling"
+}

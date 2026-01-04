@@ -1,0 +1,21 @@
+{
+    "id": "WUTd246ca6e4a3241e880e2739bdb699a2f",
+    "title": "Metoda orkiestracji wirtualnych zapór sieciowych w sieciach operatorskich",
+    "created": "2025-07-24T14:43:22.375+02:00",
+    "modified": "2025-09-15T10:05:02.342+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Bartosz Kopeć-Persiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Bęben",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Zapewnienie bezpieczeństwa sieci jest obecnie jednym z głównych wyzwań operatorów. Rozwój technik wirtualizacji funkcji sieciowych pozwala na dostosowanie wydajności wirtualnych zapór sieciowych do aktualnego obciążenia sieci. W artykule zaproponowano nową metodę orkiestracji wirtualnymi zaporami sieciowymi, która jednocześnie skaluje liczbę instancji oraz steruje rozpływem ruchu co prowadzi do lepszego wykorzystania zasobów. Eksperymenty przeprowadzone z wykorzystaniem modelu MILP oraz danych zmierzonych w sieci operatora potwierdziły efektywność proponowanej metody.",
+    "keywords": "wirtualne zapory sieciowe, wirtualizacja funkcji sieciowych, orkiestracja, optymalizacja, programowanie liniowe"
+}

@@ -1,0 +1,29 @@
+{
+    "id": "WUT552a05f544a246799411c6af5cc3b621",
+    "title": "Problem alokacji zasobów w procesach biznesowych możliwości zastosowania metod głębokiego uczenia ze wzmocnieniem",
+    "created": "2025-07-24T14:49:43.139+02:00",
+    "modified": "2025-09-09T23:18:01.105+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": "https://sbc.org.pl/dlibra/publication/1043293",
+    "authors": [
+        {
+            "full_name": "Pańkowska Małgorzata",
+            "affiliation": "Uniwersytet Ekonomiczny w Katowicach"
+        },
+        {
+            "full_name": "Anna Sołtysik-Piorunkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Ostapowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Gawrysiak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Zarządzanie procesami biznesowymi (BPM) obejmuje wiele narzędzi i me-\ntodyk dedykowanych do wdrażania i nadzorowania operacyjnych procesów biz-\nnesowych. Wiele organizacji wykorzystuje techniki i narzędzia BPM w celu\nzwiększenia efektywności i wydajności. Zarządzanie zasobami odgrywa przy tym\nkluczową rolę w ramach BPM, przy czym zasób rozumiany jest tutaj jako agent\nodpowiedzialny za działania związane z procesami biznesowymi. Najczęściej\ngdy rozważany jest problem właściwej, tj. optymalnej alokacji zasobów, przyj-\nmuje się, iż ich rolę pełnią ludzie. Należy przy tym jednak zaznaczyć, iż rolę\nzasobów mogą także pełnić materialne składniki majątku organizacji (np. ma-\nszyny), a nawet niematerialne (np. oprogramowanie czy też aktywa finansowe).\nPomimo swojego znaczenia w usprawnianiu procesów, alokacja zasobów\nz racji na trudność opracowania efektywnych metod znajdowała się poza zakre-\nsem głównych badań BPM. Dopiero zmiany, takie jak dostępność stosunkowo\ntanich usług obliczeń wielkoskalowych czy też wzrastająca popularność technik\nrobotyzacji (RPA) i analizy procesów (process mining), spowodowały wzrost\nzainteresowania tą kwestią w ciągu ostatniej dekady, co jest widoczne choćby\nw rosnącej liczbie opublikowanych artykułów naukowych [np. Arias i in., 2018].\nJak wspomniano, problem efektywnej alokacji zasobów nie jest błahym\nproblemem. Co więcej, w wielu rzeczywistych środowiskach biznesowych jest\non dodatkowo komplikowany poprzez zmienną efektywność zasobów w czasie\n(przykładem może być zużywanie się maszyn, czy też pogarszająca się wydaj-\nność pracowników) oraz to, iż alokacja musi być wykonywana na bieżąco, wraz\nz pojawianiem się nowych zadań.",
+    "keywords": null
+}

@@ -1,0 +1,29 @@
+{
+    "id": "WUT6743bcb9c4f7421091320206e5affc31",
+    "title": "CloserMusicDB: A Modern Multipurpose Dataset of High Quality Music",
+    "created": "2025-01-13T12:26:04.084+01:00",
+    "modified": "2025-09-09T23:26:37.549+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ismir2024program.ismir.net/lbd_481.html",
+    "authors": [
+        {
+            "full_name": "Aleksandra Piekarzewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Sroka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksander Tym",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper, we introduce CloserMusicDB, a col-\nlection of full length studio quality tracks annotated by a\n\nteam of human experts. We describe the selected qualities\nof our dataset, along with three example tasks possible\nto perform using this dataset: hook detection, contextual\ntagging and artist identification. We conduct baseline\nexperiments and provide initial benchmarks for these\ntasks.",
+    "keywords": null
+}

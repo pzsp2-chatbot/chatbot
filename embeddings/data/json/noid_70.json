@@ -1,0 +1,21 @@
+{
+    "id": "WUT4b10ba20e5d848cfb7db73abdc102153",
+    "title": "VisQualdex: a Comprehensive Guide to Good Data Visualization",
+    "created": "2024-12-07T02:34:09.324+01:00",
+    "modified": "2025-09-09T23:37:57.789+02:00",
+    "language": "en",
+    "doi": "10.26583/sv.15.1.11",
+    "url": "https://doi.org/10.26583/sv.15.1.11",
+    "authors": [
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Burdukiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The rapid influx of low-quality data visualizations is one of the main challenges in today’s commu- nication. Misleading, unreadable, or confusing visualizations spread misinformation. Furthermore, they fail to deliver their message to the viewer. The scale of the problem is big enough that there already exist public fora gathering tens of thousands of users criticizing graphics and charts (reddit.com/r/dataisugly) made with obvious mistakes. Current attempts at data visualization appear mostly as simple and overgeneralized checklists, and often lack systematicity and versatility. The lack of proper tooling for evaluating data visualization quality further heightens the problem.\n\nTherefore, this paper proposes VisQualdex, a systematic set of guidelines for static data visual- ization. The codex categorization is based and inspired by the theory of Grammar of Graphics. It contains dozens of criteria designed to catch various errors and mistakes of different categories and magnitude. Furthermore, it has been peer-reviewed and tested by experts of data visualization, data science, graphics design, information technology and computer science.\n\nTo apply theory in the real world and increase the practical impact of VisQualdex, this contribution also introduces a practical tool. The implementation of the guidelines is available in the form of the web server, https://visqual.onrender.com, developed as a single page application in JavaScript using Vue.js and Material Design principles.",
+    "keywords": "data visualization, guidelines, visualization checklist, grammar of graphics"
+}

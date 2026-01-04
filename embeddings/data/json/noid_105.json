@@ -1,0 +1,97 @@
+{
+    "id": "WUTfbeb94bc37d740b58b1532f1893080ba",
+    "title": "Measurement of beauty-quark production in pp collisions at s = 13 TeV via non-prompt D mesons",
+    "created": "2025-01-03T10:35:34.976+01:00",
+    "modified": "2025-09-09T23:27:31.236+02:00",
+    "language": "en",
+    "doi": "10.1007/JHEP10(2024)110",
+    "url": "https://doi.org/10.1007/JHEP10(2024)110",
+    "authors": [
+        {
+            "full_name": "S. Acharya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pritam Chakraborty",
+            "affiliation": "Indian Institute of Technology, Bombay"
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Gwiździel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": "European Organization for Nuclear Research"
+        },
+        {
+            "full_name": "Adam Kisiel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Georgy Kornakov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Miłosz Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirajum Monira",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julian Myrcha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Nowakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Oleniacz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Rosłon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniela Ruggiano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wioleta Rzęsa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Szymkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The pT-differential production cross sections of non-prompt D0, D+, and D+ s mesons originating from beauty-hadron decays are measured in proton-proton collisions at a centre-of-mass energy √ s = 13 TeV. The measurements are performed at midrapidity, |y| < 0.5, with the data sample collected by ALICE from 2016 to 2018. The results are in agreement with predictions from several perturbative QCD calculations. The fragmentation fraction of beauty quarks to strange mesons divided by the one to non-strange mesons, fs/(fu+ fd), is found to be 0.114 ± 0.016 (stat.) ± 0.006 (syst.) ± 0.003 (BR) ± 0.003 (extrap.). This value is compatible with previous measurements at lower centre-of-mass energies and in different collision systems and is in agreement with the assumption of universality of fragmentation functions. In addition, the dependence of the non-prompt D meson production on the centre of mass energy is investigated by comparing the results obtained at √ s = 5.02 and 13 TeV, showing a hardening of the non-prompt D-meson pT-differential production cross-section at higher √ s. Finally, the bb production cross section per unit of rapidity at midrapidity is calculated from the non-prompt D0, D+, D+ s, and Λ + c hadron measurements, obtaining dσ/dy = 75.2 ± 3.2 (stat.) ± 5.2 (syst.) +12.3 −3.2 (extrap.) µb.",
+    "keywords": "Hadron-Hadron Scattering, Heavy Quark Production, QCD"
+}

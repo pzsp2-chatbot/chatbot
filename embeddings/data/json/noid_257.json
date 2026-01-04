@@ -1,0 +1,17 @@
+{
+    "id": "WUTbb5acad65c1e47558e82623de97e34cd",
+    "title": "Mining targeted spatio-temporal sequential patterns",
+    "created": "2025-02-10T10:43:06.234+01:00",
+    "modified": "2025-09-09T23:20:29.851+02:00",
+    "language": "en",
+    "doi": "10.1007/s10707-025-00535-1",
+    "url": "https://doi.org/10.1007/s10707-025-00535-1",
+    "authors": [
+        {
+            "full_name": "Piotr Maciąg",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This article addresses the problem of Target-oriented Spatio-temporal Sequential Pattern (TaSTSP) mining by introducing the concept of TaSTSP and its theoretical properties. It presents the TaSTSPM algorithm, a tool designed for efficient and effective pattern mining, incorporating four pruning strategies to accelerate the mining process. The article examines the time and space complexity of the proposed algorithms. Experiments using the Boston Crime Dataset and the Seattle Collision Dataset demonstrate that TaSTSPM outperforms other state-of-the-art algorithms in identifying spatio-temporal sequential patterns. Finally, the article provides examples of useful patterns discovered from these datasets.",
+    "keywords": "Spatio-temporal data\nData mining\nPatterns discovery\nSequential patterns"
+}

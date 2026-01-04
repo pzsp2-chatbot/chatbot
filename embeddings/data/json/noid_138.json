@@ -1,0 +1,41 @@
+{
+    "id": "WUTd8a5f1590698437793828c36570d9c93",
+    "title": "Simultaneous IM/DD Data Transmission and High-Rate Secret Key Distribution over a Single C-band Channel",
+    "created": "2025-01-13T11:38:34.138+01:00",
+    "modified": "2025-09-09T23:24:48.946+02:00",
+    "language": "en",
+    "doi": "10.1364/ofc.2024.w1h.6",
+    "url": "https://doi.org/10.1364/ofc.2024.w1h.6",
+    "authors": [
+        {
+            "full_name": "M. Jachura",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "J. Szlachetka",
+            "affiliation": "Uniwersytet Mikołaja Kopernika w Toruniu"
+        },
+        {
+            "full_name": "M. Kucharczyk",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "M. Jarzyna",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "P. Kolenderski",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "Jarosław Piotr Turkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Banaszek",
+            "affiliation": "University of Warsaw"
+        }
+    ],
+    "abstract": "We demonstrate hierarchical multiscale PAM-4 transmission combining 500 Mbps data transfer with optical-layer cryptographic key distribution at rates 24.14 Mbps and 8.38 Mbps secure against passive eavesdropper advantage 0 dB and 6 dB respectively.",
+    "keywords": null
+}

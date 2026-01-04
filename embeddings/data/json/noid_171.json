@@ -1,0 +1,61 @@
+{
+    "id": "WUTc1d2a3c68903440c892e12b9e00bd604",
+    "title": "A novel radiomics approach for predicting TACE outcomes in hepatocellular carcinoma patients using deep learning for multi-organ segmentation",
+    "created": "2025-01-28T14:18:38.926+01:00",
+    "modified": "2025-09-09T23:29:36.505+02:00",
+    "language": "en",
+    "doi": "10.1038/s41598-024-65630-z",
+    "url": "https://doi.org/10.1038/s41598-024-65630-z",
+    "authors": [
+        {
+            "full_name": "Krzysztof Bartnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Krzyziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Bartczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Korzeniowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Lamparski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tadeusz Wróblewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Grąt",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wacław Hołówko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Mech",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Lisowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magdalena Januszewicz",
+            "affiliation": "Medical University of Warsaw"
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

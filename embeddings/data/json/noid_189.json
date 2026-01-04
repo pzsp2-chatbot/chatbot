@@ -1,0 +1,29 @@
+{
+    "id": "WUT591f7dfff3b9463eb506a7e3018bd1cd",
+    "title": "AR-TTA: A Simple Method for Real-World Continual Test-Time Adaptation",
+    "created": "2025-01-29T14:42:32.354+01:00",
+    "modified": "2025-09-10T00:08:19.857+02:00",
+    "language": "en",
+    "doi": "10.1109/iccvw60793.2023.00374",
+    "url": "https://doi.org/10.1109/iccvw60793.2023.00374",
+    "authors": [
+        {
+            "full_name": "Damian Sójka",
+            "affiliation": "Poznan University of Technology"
+        },
+        {
+            "full_name": "Sebastian Cygert",
+            "affiliation": "Gdańsk University of Technology"
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Test-time adaptation is a promising research direction that allows the source model to adapt itself to changes in data distribution without any supervision. Yet, current methods are usually evaluated on benchmarks that are only a simplification of real-world scenarios. Hence, we propose to validate test-time adaptation methods using the recently introduced datasets for autonomous driving, namely CLAD-C and SHIFT. We observe that current test-time adaptation methods struggle to effectively handle varying degrees of domain shift, often resulting in degraded performance that falls below that of the source model. We noticed that the root of the problem lies in the inability to preserve the knowledge of the source model and adapt to dynamically changing, temporally correlated data streams. Therefore, we enhance well-established self-training framework by incorporating a small memory buffer to increase model stability and at the same time perform dynamic adaptation based on the intensity of domain shift. The proposed method, named AR-TTA, outperforms existing approaches on both synthetic and more real-world benchmarks and shows robustness across a variety of TTA scenarios.",
+    "keywords": null
+}

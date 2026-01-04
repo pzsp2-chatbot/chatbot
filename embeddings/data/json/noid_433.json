@@ -1,0 +1,17 @@
+{
+    "id": "WUT7dc70a2dc3434331af236d6a5075ed89",
+    "title": "SVD calibration of inertial sensors",
+    "created": "2025-06-25T14:01:02.632+02:00",
+    "modified": "2025-09-09T23:21:26.968+02:00",
+    "language": "en",
+    "doi": "10.1016/j.measurement.2025.117929",
+    "url": "https://doi.org/10.1016/j.measurement.2025.117929",
+    "authors": [
+        {
+            "full_name": "Marek Wojciech Rupniewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We propose a novel method for processing multi-pose measurement data designed specifically for the calibration of inertial measurement units (IMUs). Our technique, which falls under the scheme of ‘shape and motion decomposition,’ provides an algebraic solution for determining calibration parameters, including sensor offsets (biases), gains, and relative orientations. This method addresses key challenges in the field, notably eliminating the need for prior knowledge of measurement poses by inferring the direction of the measured vector quantity from the collected data. The algorithm employs singular value decomposition and the generalized eigenvalue problem as fundamental components. We provide a rigorous proof of the algorithm’s correctness and demonstrate its numerical stability. Additionally, we present a numerical example involving the calibration of a digital compass. Through extensive numerical simulations, we validate our approach and engage in a detailed discussion of the results. To further assess the performance of the proposed calibration algorithm, we also conducted a real-world experiment in a practical setting.",
+    "keywords": "Inertial measurement unit (IMU), Multiple-sensor system, Calibration, Singular value decomposition (SVD), Generalized eigenvalue problem"
+}

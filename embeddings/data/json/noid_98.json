@@ -1,0 +1,25 @@
+{
+    "id": "WUTe80447d95be84172b06407026bc82a3b",
+    "title": "Esports Training, Periodization, and Software—A Scoping Review",
+    "created": "2024-12-22T19:47:38.583+01:00",
+    "modified": "2025-09-09T23:29:51.849+02:00",
+    "language": "en",
+    "doi": "10.3390/app142210354",
+    "url": "https://doi.org/10.3390/app142210354",
+    "authors": [
+        {
+            "full_name": "Andrzej Białecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Michalak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Gajewski",
+            "affiliation": "Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie"
+        }
+    ],
+    "abstract": "<jats:p>Electronic sports (esports) and research on this emerging field are interdisciplinary in nature. By extension, it is essential to understand how to standardize and structure training with the help of existing tools, developed over years of research in sports sciences and informatics. Our goal for this work is to review the available literature in esports research, focusing on sports sciences (training, periodization, planning, and career stages) and software (training tools, visualization, analytics, and feedback systems). To verify the existing sources, we applied the framework of a scoping review to address the search from multiple scientific databases with further local processing. We conclude that the current research on esports has mainly focused on describing and modeling performance metrics that span over multiple fragmented research areas (psychology, nutrition, informatics). However, these building blocks have not been assembled into a well-functioning theory of performance in esports by, e.g., providing exercise regimes or methods of periodization for esports.</jats:p>",
+    "keywords": "esports; sport science; periodization; training; gaming; competitive gaming; review; human–computer interaction"
+}

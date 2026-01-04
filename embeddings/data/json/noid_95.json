@@ -1,0 +1,17 @@
+{
+    "id": "WUT0c9e4a101f5d418aa5441ca99a55ae3e",
+    "title": "Graph models for identifying robot-packable patterns of pallet loading",
+    "created": "2024-12-19T21:54:50.503+01:00",
+    "modified": "2025-09-09T23:33:39.013+02:00",
+    "language": "en",
+    "doi": "10.37190/ord240409",
+    "url": "https://doi.org/10.37190/ord240409",
+    "authors": [
+        {
+            "full_name": "Krzysztof Pieńkosz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In the logistics processes of trade business, goods delivered from warehouses to retailers are often transported on pallets. The paper concerns the issue of using a robot for automatic palletizing. In order to put an item in a given place on a partially loaded pallet, the robot must have free access to that place, i.e., the place must not be covered. A graph model and a formalized method for determining the sequence of putting goods on a pallet is proposed to avoid such collisions. It is also shown that not every packing pattern can be loaded by a robot. However, some pallet loading approaches have been identified that always guarantee a feasible robot packing.",
+    "keywords": "distributor’s pallet loading problem, robot packing, aggregated precedence graphs, extended topological sorting"
+}

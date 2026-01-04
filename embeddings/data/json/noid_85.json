@@ -1,0 +1,53 @@
+{
+    "id": "WUT897e6179d18e44e7ac1d02464b1eb895",
+    "title": "Mining United Nations General Assembly Debates",
+    "created": "2024-12-15T14:28:02.236+01:00",
+    "modified": "2025-09-10T00:06:16.106+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+    "authors": [
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Grzyb",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Krzyziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Sobieski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Spytek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Pieliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Dan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Wróblewska",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This project explores the application of Natural Language Pro- cessing (NLP) techniques to analyse United Nations General Assembly (UNGA) speeches. Using NLP allows for the efficient processing and anal- ysis of large volumes of textual data, enabling the extraction of semantic patterns, sentiment analysis, and topic modelling. Our goal is to deliver a comprehensive dataset and a tool (interface with descriptive statistics and automatically extracted topics) from which political scientists can derive in- sights into international relations and have the opportunity to have a nu- anced understanding of global diplomatic discourse.",
+    "keywords": "natural language processing, information extraction, political language"
+}

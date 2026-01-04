@@ -1,0 +1,29 @@
+{
+    "id": "WUTfc7175a8963b4cbf9615450c582f9d1a",
+    "title": "Model Interpretation",
+    "created": "2025-01-30T13:13:11.830+01:00",
+    "modified": "2025-09-09T23:24:19.045+02:00",
+    "language": "en",
+    "doi": "10.1201/9781003402848-12",
+    "url": "https://doi.org/10.1201/9781003402848-12",
+    "authors": [
+        {
+            "full_name": "Susanne Dandl",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giuseppe Casalicchio",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marvin N. Wright",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The increasing availability of data and software frameworks to create predictive models has allowed the widespread adoption of machine learning in many applications. However, high predictive performance of such models often comes at the cost of interpretability. Machine learning interpretation methods can be useful for several purposes: 1) gaining global insights into a model (e.g., feature importance); 2) model improvement if flaws were identified (e.g., unexpected reliance on a certain feature); 3) understanding individual predictions. Several model-agnostic methods have been developed including feature permutation, Shapleys, and LIME. This chapter presents the packages iml, counterfactuals, and DALEX, which implement model-agnostic interpretation methods. Throughout the chapter an xgboost is trained on the german credit dataset to understand how predictions are made and why. The chapter starts with discussing the iml package and the theory behind the discussed methods, as well as how to practically use the interface. It then moves to counterfactuals and the benefits of counterfactual analysis, including methods What-If and MOC. Finally, DALEX is introduced, which includes similar methods to iml but with a different design, hence users can make use of either package depending on their design preference.</p>",
+    "keywords": null
+}

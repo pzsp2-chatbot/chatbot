@@ -1,0 +1,29 @@
+{
+    "id": "WUT255788848bcc40aa87e887950aec7d6d",
+    "title": "Selected Challenges in Passive Radar for Observing Satellites in Low-Earth Orbit",
+    "created": "2025-07-16T18:12:57.848+02:00",
+    "modified": "2025-09-09T23:17:42.175+02:00",
+    "language": "en",
+    "doi": "10.1109/eurocon64445.2025.11073214",
+    "url": "https://doi.org/10.1109/eurocon64445.2025.11073214",
+    "authors": [
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Suwiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Wójtowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Najda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Selected key challenges regarding passive radar systems for detecting and tracking space objects flying in Low-Earth Orbit (LEO) are presented and discussed in the paper. The considered challenges focus on detection capability, taking into account such issues as requirements on surveillance receivers, in particular necessary gains, transmitted power and radiation patterns of existing illuminators of opportunity, as well as the size of space objects. The second group of challenges is related to the techniques of processing signals reflected from objects moving with huge velocities, particularly concentrating on the compensation of LEO object motion. Another big issue in passive bistatic or multistatic radar used for satellite observation is the synchronization between the reference and surveillance receivers. The consideration presented in the paper refers to the earlier authors’ investigations, specifically experimental studies in which LOFAR antenna arrays were employed as surveillance receivers.",
+    "keywords": "radar, passive radar, LOFAR, LEO satellites"
+}

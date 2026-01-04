@@ -1,105 +1,21 @@
 {
-    "id": "WUT44679da7514146858c9a437671be57cb",
-    "title": "Investigating strangeness enhancement with multiplicity in pp collisions using angular correlations",
-    "created": "2024-10-10T09:01:33.833+02:00",
-    "modified": "2025-09-09T23:27:13.897+02:00",
+    "id": "WUT924c1be481294b7b8c4af0b31177c9f0",
+    "title": "LoopSage: An energy-based Monte Carlo approach for the loop extrusion modeling of chromatin",
+    "created": "2024-11-12T12:59:22.396+01:00",
+    "modified": "2025-09-09T23:33:50.315+02:00",
     "language": "en",
-    "doi": "10.1007/JHEP09(2024)204",
-    "url": "https://doi.org/10.1007/JHEP09(2024)204",
+    "doi": "10.1016/j.ymeth.2024.01.015",
+    "url": "https://doi.org/10.1016/j.ymeth.2024.01.015",
     "authors": [
         {
-            "full_name": "S. Acharya",
+            "full_name": "Dariusz Plewczyński",
             "affiliation": null
         },
         {
-            "full_name": "Pritam Chakraborty",
-            "affiliation": null
-        },
-        {
-            "full_name": "Zuzanna Anna Chochulska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Czarnynoga",
-            "affiliation": null
-        },
-        {
-            "full_name": "Jan Dubiński",
-            "affiliation": null
-        },
-        {
-            "full_name": "Łukasz Graczykowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Katarzyna Gwiździel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Jakubowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Małgorzata Janik",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maja Karwowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Adam Kisiel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Georgy Kornakov",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Kutyła",
-            "affiliation": null
-        },
-        {
-            "full_name": "Shirajum Monira",
-            "affiliation": null
-        },
-        {
-            "full_name": "Julian Myrcha",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Nowakowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Janusz Oleniacz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Przemysław Rokita",
-            "affiliation": null
-        },
-        {
-            "full_name": "Krystian Rosłon",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniela Ruggiano",
-            "affiliation": null
-        },
-        {
-            "full_name": "Wioleta Rzęsa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Szymkowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Trzciński",
+            "full_name": "Sevastianos Korsak",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Highlights[CR][LF]• We improved the already-existing LEM (loop extrusion model) algorithm for the prediction of 3D structure of chromatin.[CR][LF]• We present a simulation pipeline that generates thermodynamic ensembles of 3D structures for topologically associated domain (TAD) regions.[CR][LF]• The CCCTC-binding factor (CTCF) locations on DNA sequence are modeled as energy minima on the Monte Carlo energy landscape.[CR][LF]• The spatial distances between DNA segments from ChIA-PET experiments show high correlation with the averaged simulated distances.[CR][LF]• LoopSage allows us to observe phase transition between sparse and condensed states in chromatin.[CR][LF][CR][LF]The connection between the patterns observed in 3C-type experiments and the modeling of polymers remains unresolved. This paper presents a simulation pipeline that generates thermodynamic ensembles of 3D structures for topologically associated domain (TAD) regions by loop extrusion model (LEM). The simulations consist of two main components: a stochastic simulation phase, employing a Monte Carlo approach to simulate the binding positions of cohesins, and a dynamical simulation phase, utilizing these cohesins′ positions to create 3D structures. In this approach, the system′s total energy is the combined result of the Monte Carlo energy and the molecular simulation energy, which are iteratively updated. The structural maintenance of chromosomes (SMC) protein complexes are represented as loop extruders, while the CCCTC-binding factor (CTCF) locations on DNA sequence are modeled as energy minima on the Monte Carlo energy landscape. Finally, the spatial distances between DNA segments from ChIA-PET experiments are compared with the computer simulations, and we observe significant Pearson correlations between predictions and the real data. LoopSage model offers a fresh perspective on chromatin loop dynamics, allowing us to observe phase transition between sparse and condensed states in chromatin.",
+    "keywords": "CTCF, 3D genome, deep neural networks, cis-regulatory element, CTCF-mediated loop"
 }

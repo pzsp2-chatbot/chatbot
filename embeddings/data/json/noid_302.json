@@ -1,0 +1,33 @@
+{
+    "id": "WUT653b386cff0b4698b9c9e3e20bb2c770",
+    "title": "The Nietulisko Małe Hoard in the light of modern documentation methods",
+    "created": "2025-03-17T10:55:12.579+01:00",
+    "modified": "2025-09-09T23:18:59.067+02:00",
+    "language": "en",
+    "doi": "10.15184/aqy.2025.42",
+    "url": "https://doi.org/10.15184/aqy.2025.42",
+    "authors": [
+        {
+            "full_name": "Jarosław Bodzek",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Wojciech Ostrowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Wilk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paulina Zachar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barbara Zając",
+            "affiliation": null
+        }
+    ],
+    "abstract": "A total of 2848 denarii from the Nietulisko Małe Hoard, one of the largest hoards of Roman coins found in Poland, were digitised and documented using reflectance transformation imaging, highlighting the potential for this technology in numismatic research.",
+    "keywords": "Poland, Nietulisko Małe, Roman coins, reflectance transformation imaging, Segment Anything Model, hoard"
+}

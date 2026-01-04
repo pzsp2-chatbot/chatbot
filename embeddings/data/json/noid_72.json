@@ -1,0 +1,49 @@
+{
+    "id": "WUT84956257dbb045e8aac0798c5c6c8e8a",
+    "title": "Double logistic regression ofor biased positive-unlabelled data",
+    "created": "2024-12-07T03:13:04.261+01:00",
+    "modified": "2025-09-10T00:07:38.311+02:00",
+    "language": "en",
+    "doi": "10.3233/FAIA230342",
+    "url": "https://doi.org/10.3233/FAIA230342",
+    "authors": [
+        {
+            "full_name": "Kobi Gal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ann Nowé",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz J. Nalepa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roy Fairstein",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roxana Rădulescu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Mielniczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Roman Teisseyre",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Furmańczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Rejchel",
+            "affiliation": "Uniwersytet Mikołaja Kopernika w Toruniu"
+        }
+    ],
+    "abstract": "Positive and unlabelled learning is an important nonstandard inference problem which arises naturally in many applications. The significant limitation of almost all existing methods addressing it lies in assuming that the propensity score function is constant and does not depend on features (Selected Completely at Random assumption), which is unrealistic in many practical situations. Avoiding this assumption, we consider parametric approach to the problem of joint estimation of posterior probability and propensity score functions.We show that if both these functions are logistic withdifferent parameters (double logistic model) then the corresponding parameters are identifiable. Motivated by this, we propose two approaches to their estimation: a joint maximum likelihood method and the second approach based on an alternating maximization of two Fisher consistent approximations. Our experimental results show that the proposed methods perform on par or better than the existing methods based on Expectation-Maximisation scheme.",
+    "keywords": "Positive Unlabeled data, risk minimisation, double logistic model"
+}

@@ -1,0 +1,37 @@
+{
+    "id": "WUTd35e07e70e744016a5beb0cd77b24d9e",
+    "title": "Graph Coarsening Approach to the Vehicle Routing Problem: An Approximation Strategy",
+    "created": "2025-02-13T12:10:24.348+01:00",
+    "modified": "2025-09-09T23:20:46.250+02:00",
+    "language": "en",
+    "doi": "10.1109/access.2025.3534677",
+    "url": "https://doi.org/10.1109/access.2025.3534677",
+    "authors": [
+        {
+            "full_name": "Katarzyna Nałęcz-Charkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arnav Das",
+            "affiliation": null
+        },
+        {
+            "full_name": "Turbasu Chatterjee",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joshua Keene",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gora",
+            "affiliation": null
+        },
+        {
+            "full_name": "Carlos C. N. Kuhn",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In the Noisy Intermediate-Scale Quantum (NISQ) era of quantum computing, solving complex\noptimization problems such as the Vehicle Routing Problem (VRP) remains a formidable challenge. To overcome this obstacle, we introduce a novel method in this paper that focuses on reducing the number of edges\nin a graph based on Euclidean distances between vertices while preserving the crucial characteristics needed\nfor solving the VRP. Our graph coarsening approach combined with the inflation method enables the reduced\ngraph to be processed efficiently by classical, quantum or hybrid (quantum-classical) solvers, resulting in\na faster computation time. When using the proposed method with hybrid algorithms, we have demonstrated\nan improvement of approximately 50% in the solution found by the hybrid solver. The practicality of our\nmethod on quantum hardware highlights its potential to contribute to the advancement of quantum and hybrid\nalgorithms and applications during the NISQ era.",
+    "keywords": "Combinatorial optimization, graph reduction, vehicle routing, quantum computing"
+}

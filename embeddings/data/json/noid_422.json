@@ -1,0 +1,45 @@
+{
+    "id": "WUTf2194bb690734a178bb711f070886f55",
+    "title": "Analysing Language of the Dynamics of Ethos and Emotions in Rephrased Arguments",
+    "created": "2025-06-16T13:23:10.034+02:00",
+    "modified": "2025-09-09T23:24:05.841+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ceur-ws.org/Vol-3769/",
+    "authors": [
+        {
+            "full_name": "Floriana Grasso",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nancy Green",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jodi Schneider",
+            "affiliation": null
+        },
+        {
+            "full_name": "Simon Wells",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Budzyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Koszowy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patrick Saint-Dizier",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Bartosz Uberna",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>In this paper, we present a model to study rephrase in argumentative settings which encompasses an annotation scheme along with a rephrase analytics toolset to capture the dynamics of rephrase relation in conjunction with other communication layers such as appeals to ethos (speaker’s character) and expressed sentiment (speakers’ emotions). To this end, we study posts on social media, TV presidential debates and parliamentary debates. The proposed account of corpus and analytical devices to study language of rephrase allow for a new approach for mining rephrase in natural language texts.</p>",
+    "keywords": "Rephrase in Argumentation, Ethos Analysis, Emotion Analysis, Computational Linguistics"
+}

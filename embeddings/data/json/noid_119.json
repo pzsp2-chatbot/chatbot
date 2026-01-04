@@ -1,0 +1,25 @@
+{
+    "id": "WUT4cfd4701a4c442b9bee2ed307ab546f5",
+    "title": "Hierarchical Deep Reinforcement Learning-Based Load Balancing Algorithm for Multi-Domain Software-Defined Networks",
+    "created": "2025-01-08T20:13:08.325+01:00",
+    "modified": "2025-09-09T23:23:43.518+02:00",
+    "language": "en",
+    "doi": "10.23919/ifipnetworking62109.2024.10619899",
+    "url": "https://doi.org/10.23919/ifipnetworking62109.2024.10619899",
+    "authors": [
+        {
+            "full_name": "Robert Kołakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lechosław Tomaszewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Software Defined Networking (SDN) is a well established networking paradigm that enables granular network control and optimisation via Traffic Engineering (TE). A promising approach to SDN TE is to use centralised Deep Reinforcement Learning (DRL) enabling automated operation and optimisation both short and long-term. Despite excellent performance, the centralised DRL suffers from scalability and convergence issues, limiting its applicability. On the other hand, DRL exploitation in a multi-domain SDN environment is not well explored yet despite several benefits coming from operations distribution, such as better scalability or reduced impact of latency on Data Plane metrics collection. This paper presents the DRL-based routing approach targeting load balancing in a hierarchical multi-controller SDN. The concept yields network capacity gains over conventional routing methods. Apart from the improved scalability, the approach facilitates application in hybrid network deployments with limited interaction and visibility of domains' internals due to used abstractions of topology, metrics and path operations.",
+    "keywords": null
+}

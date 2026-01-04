@@ -1,0 +1,21 @@
+{
+    "id": "WUTf053327619304e4ab2991532694c0157",
+    "title": "Mobile information and communication system to support building of therapy groups in addiction treatment using a trust mechanism",
+    "created": "2025-03-31T14:11:14.011+02:00",
+    "modified": "2025-09-09T23:21:03.867+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153556",
+    "url": "https://doi.org/10.24425/ijet.2025.153556",
+    "authors": [
+        {
+            "full_name": "Krzysztof Perlicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Mrozek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Addiction is a physiological or emotional dependence on a substance, activity, or mode of action that is so severe that it causes harmful physical or emotional effects and prevents the individual from coping effectively with life and interacting with society. The most effective method of treating addiction is group therapy. However, the traditional building of a therapy group, based solely on periodic meetings and discussions, is a time-consuming, labour-intensive, and costly process. We propose a method and tools to support the therapist in building an effective therapy group. This support is based on the use of a mechanism of mutual trust. Our proposed use of information and communication solutions and the machine learning method reduces the time-consumption of the whole process and, thus, the workload and costs of building a therapy group. We use mobile applications to collect the necessary data from therapy participants. This data, via wireless networks, is sent to a data center. There, they are processed using machine learning. The method presented, and the information and communication environment prepared for it can be applied to a specific substance and behavioural addictions, as well as mixed addictions.",
+    "keywords": "mHealth; Information and Communications Technology; trust; mobile application; addiction treatment; decision tree"
+}

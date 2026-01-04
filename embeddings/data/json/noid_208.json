@@ -1,0 +1,37 @@
+{
+    "id": "WUT3d80ea3034e84849acbeec625f531f6d",
+    "title": "Overexpression of c-MYC Promoter Binding Protein-1 Enhances Proliferation and Glucose Metabolism of Melanoma Cells Lines",
+    "created": "2025-01-30T13:14:13.966+01:00",
+    "modified": "2025-09-09T23:35:19.670+02:00",
+    "language": "en",
+    "doi": "10.21873/anticanres.16420",
+    "url": "https://doi.org/10.21873/anticanres.16420",
+    "authors": [
+        {
+            "full_name": "Miriam Hippner-Kunicka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Laszkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Skrzymowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Donizy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arkadiusz Miazek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Background/Aim: c-MYC promoter binding protein (MBP-1) is a product of alternatively translated mRNA encoding alpha-enolase (ENO1). In contrast to ENO1, MBP-1 possesses no enzymatic activity but acts as a transcriptional repressor of c-MYC. Ectopic over-expression of MBP-1 in tumor cells was shown to reduce cell proliferation and tumorigenicity, thus making it an attractive target for anticancer strategies. This study aimed to assess the effects of MBP-1 over-expression on human cutaneous melanoma cell lines. Materials and Methods: We over-expressed the full-length MBP-1 or its C-terminal truncated variant (MBP-1ΔC), in two human melanoma cell lines (A375, WM9) and assessed their subcellular localization. qPCR was then used to quantitate c-MYC transcription. Further, 5-ethynyl-2’-deoxyuridine incorporation assay was used to measure cell proliferation and a lactate assay was performed to measure the glycolysis rate of cells in normoxia and hypoxia. Finally, an in vitro wound-healing assay was performed to evaluate cell migration. Results: The over-expressed MBP-1 variants predominantly localized in the cytoplasm and barely decreased c-MYC expression. Unexpectedly, the proliferation rate of MBP-1-transduced cells increased in comparison to controls, as did the rate of glucose metabolism in hypoxia. Furthermore, over-expression of MBP-1, but not MBP-1ΔC, led to a substantial decrease in the cell migration capacity of metastatic WM9 cells but not A375 cells from the primary tumor lesion. Conclusion: Miss-localization of over-expressed MBP-1 in the cytoplasm of two melanoma cell lines resulted in an unexpected tumor promoting activity by increasing cell proliferation and glycolysis rates in hypoxia.</p>",
+    "keywords": null
+}

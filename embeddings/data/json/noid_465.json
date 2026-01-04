@@ -1,0 +1,21 @@
+{
+    "id": "WUTe088d6b640a84cc8b6587fb9941c717e",
+    "title": "Lightweight and scalable security for wireless IoT systems: challenges and research directions",
+    "created": "2025-07-15T14:24:37.305+02:00",
+    "modified": "2025-09-09T23:20:39.392+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.155451",
+    "url": "https://doi.org/10.24425/ijet.2025.155451",
+    "authors": [
+        {
+            "full_name": "Daniel  Migwi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The rise of Wireless Sensor Networks (WSN) has redefined the modern digital infrastructure by enabling real-time sensing, decision making, and automation across diverse sectors. However, this rapid evolution has introduced unprecedented security challenges due to constrained computational resources,\nheterogeneous device environments, and wide-scale deployment of IoT nodes. This research provides a comprehensive review of lightweight and scalable security mechanisms tailored for wireless IoT systems, with a focus on practical deployment realities. It begins by outlining the security requirements and\narchitectural constraints specific to IoT devices and then evaluates the security capabilities and vulnerabilities of commonly  used wireless communication protocols. Emphasis is placed on the limitations of current implementations and protocol-level security inconsistencies. To address these gaps, the paper explores\nlightweight cryptographic techniques, particularly the NIST-approved Ascon algorithm suite, assessing its adaptability to resource-constrained environments. The discussion extends into scalable key management mechanisms and then investigates the challenges of large-scale deployment. It concludes by identifying\nfuture research areas that integrates security within broader system goals",
+    "keywords": "Wireless IoT Security, Scalable Key Management, Ascon-AEAD128, Ascon-Hash256, Ascon-XOF128, Ascon-CXOF128"
+}

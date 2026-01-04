@@ -1,17 +1,57 @@
 {
-    "id": "WUT2fa9b5eabf264d83b1cad2d4efbf9c1e",
-    "title": "Asymmetry index for data and its verification in dimensionality reduction and data visualization",
-    "created": "2024-10-17T22:31:13.484+02:00",
-    "modified": "2025-09-09T23:20:57.290+02:00",
+    "id": "WUT01b1f8105b6b4b1cb158ff8ec70a0868",
+    "title": "Theory-guided Convolutional Neural Network with an Enhanced Water Flow Optimizer",
+    "created": "2024-11-15T18:27:54.017+01:00",
+    "modified": "2025-09-10T00:08:46.973+02:00",
     "language": "en",
-    "doi": "10.1016/j.ins.2024.121405",
-    "url": "https://doi.org/10.1016/j.ins.2024.121405",
+    "doi": "10.1007/978-981-99-8079-6_35",
+    "url": "https://doi.org/10.1007/978-981-99-8079-6_35",
     "authors": [
         {
-            "full_name": "Dominik Olszewski",
+            "full_name": "Luo Biao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Long Cheng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wu Zheng-Guang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Li Hongyi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Li Chaojie",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xiaofeng Xue",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xiaoling Gong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jun Yao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "El-Sayed M. El-Alfy",
+            "affiliation": "King Fahd University of Petroleum and Minerals"
+        },
+        {
+            "full_name": "Jian Wang",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Theory-guided neural network recently has been used to solve partial differential equations. This method has received widespread attention due to its low data requirements and adherence to physical laws during the training process. However, the selection of the punishment coefficient for including physical laws as a penalty term in the loss function undoubtedly affects the performance of the model. In this paper, we propose a comprehensive theory-guided framework using a bilevel programming model that can adaptively adjust the hyperparameters of the loss function to further enhance the performance of the model. An enhanced water flow optimizer (EWFO) algorithm is applied to optimize upper-level variables in the framework. In this algorithm, an opposition-based learning technic is used in the initialization phase to boost the initial group quality, a nonlinear convergence factor is added to the laminar flow operator to upgrade the diversity of the group and expand the search range. The experiments show that competitive performance of the method in solving stochastic partial differential equations.",
+    "keywords": "Convolutional neural networks, Water flow optimizer"
 }

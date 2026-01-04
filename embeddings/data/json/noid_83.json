@@ -1,0 +1,25 @@
+{
+    "id": "WUT7d8e09d1b60d46f2a61fadbae8d25535",
+    "title": "Gaze-dependent response activation in dialogue agent for cognitive-behavioral therapy",
+    "created": "2024-12-14T23:53:14.911+01:00",
+    "modified": "2025-09-09T23:25:10.095+02:00",
+    "language": "en",
+    "doi": "10.1016/j.procs.2024.09.554",
+    "url": "https://doi.org/10.1016/j.procs.2024.09.554",
+    "authors": [
+        {
+            "full_name": "Karolina Gabor-Siatkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Izabela Stefaniak",
+            "affiliation": "Poradnia Zdrowia Psychicznego"
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": "To provide additional support to psychiatric patients who have limited access to medical staff, our team has developed a therapeutic dialogue agent called Terabot. It operates in Polish and is enhanced with text-based emotion and intention recognition. It considers the patient’s emotions so that it can respond in an ‘empathetic’ way. Experiments have already been conducted at the Institute of Psychiatry and Neurology in Warsaw, Poland, during which we observed several problems. In particular, when the patient’s utterances were too short or too long, the dialogue system reacted inappropriately, interrupting the patient’s answer or causing very long pauses. The problem was that without input other than speech, the dialogue system could not provide answers in good timing. This decreased comfort and natural dialogue flow during patient therapeutic sessions. This decreased comfort and natural dialogue flow during patient therapeutic sessions. As it is known from human communication research, when a speaker is finishing the utterance, at the end of the speech, and directly after, this person is gazing at the at the interlocutor. To solve these unwanted problems in our dialogue system, we analyzed the fixation parameters of the patients in selected areas to find out where they gazed at most while they ended their utterances. After analyses, we found that the most fixations and the longest duration occurred on Terabot’s face. We have found that the input to our dialogue system will be the stream of real-time fixation data in these areas. This information can help to index the end of the utterance explicitly for the dialogue system. As a result, a better timing for Terabot’s speech activation can be determined. This approach allows Terabot’s response time to be individually personalized to suit the patients’ different response styles. A more natural and human-like flow of conversation with our dialogue agent can be achieved.",
+    "keywords": "eye-tracking, fixations, speech ending, dialogue agent, computer-aided therapy, human-computer interaction, multimodal systems, psychiatry"
+}

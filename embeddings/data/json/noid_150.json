@@ -1,0 +1,49 @@
+{
+    "id": "WUTf08086d7ddaa4a8bb74ca22b05fafdc9",
+    "title": "Comparative Study of Deep Learning Models in Melanoma Detection",
+    "created": "2025-01-15T09:44:27.975+01:00",
+    "modified": "2025-09-09T23:24:29.221+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-71602-7_11",
+    "url": "https://doi.org/10.1007/978-3-031-71602-7_11",
+    "authors": [
+        {
+            "full_name": "Yee Ching",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzyzak Adam",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ravanelli Mirco",
+            "affiliation": null
+        },
+        {
+            "full_name": "Trentin Edmondo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Subakan Cem",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nobile Nicola",
+            "affiliation": null
+        },
+        {
+            "full_name": "Haghshenas Farnaz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzyżak Adam",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stanisław Osowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The increasing number of skin cancers underscores the critical importance of early detection and accurate classification to improve treatment outcomes. Melanoma, a malignant skin cancer, has the highest mortality rate among all skin cancer types. Early detection of melanoma significantly enhances the chances of effective treatment and survival rates. This research evaluates advanced deep learning techniques in medical imaging, specifically Vision Transformers (ViT) and Convolutional Neural Networks (CNNs), for detecting melanoma. In this study, we used an annotated dataset of melanoma dermoscopic images. In addition, we employed the k-fold cross-validation technique to evaluate the reliability of our models. Our experimental results indicate that pre-trained Vision Transformers achieved an exceptional diagnostic accuracy of 97.97%, outperforming other models, specifically the pre-trained CNNs models.",
+    "keywords": null
+}

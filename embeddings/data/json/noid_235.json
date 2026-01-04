@@ -1,0 +1,17 @@
+{
+    "id": "WUTfc2a753253264b3c9943909432a5bf48",
+    "title": "Metody rozpoznawania aktywności w sekwencjach wideo przy użyciu niskopoziomowych cech obrazu",
+    "created": "2025-02-02T22:50:43.120+01:00",
+    "modified": "2025-09-09T23:21:50.847+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": "https://www.cybersecurityandlaw.pl/nr-1/17.pdf",
+    "authors": [
+        {
+            "full_name": "Artur Wilkowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Zagadnienia związane z problemem rozpoznawania aktywności w materiałach wideo\nznajdują się w centrum zainteresowania wielu służb odpowiedzialnych za\nbezpieczeństwo publiczne. Odpowiednie systemy rozpoznające mogą zwiększać\nbezpieczeństwo obywateli poprzez wykrywanie zachowań niebezpiecznych,\nagresywnych i nielegalnych w monitoringu wizyjnym lub przez detekcję i filtrowanie\nniepożądanych i nielegalnych materiałów wideo dostępnych w Internecie, w tym\nmateriałów pornograficznych lub materiałów CSAM. Dane ekstrahowane z wideo\nsłużące do rozpoznania mogą mieć charakter cech niskopoziomowych (np. kolor,\nruch) lub wysokopoziomowych np. wykryte pozycje stawów sylwetek ludzkich.\nArtykuł podejmuje się zadania przedstawienia rozwiązań informatycznych\numożliwiających klasyfikację materiałów wideo ze szczególnym uwzględnieniem\nwykorzystania cech niskopoziomowych. Przedstawione są metody klasyczne oraz\nnajnowsze metody wykorzystujące uczenie głębokie.",
+    "keywords": "rozpoznawanie aktywności ludzkiej, przetwarzanie wideo, sieci\nneuronowe"
+}

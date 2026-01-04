@@ -1,0 +1,45 @@
+{
+    "id": "WUTb99b7e5a50d14330b1de0b507c075540",
+    "title": "AI-Driven Artistry - Transforming Guitar Design with Generative Models",
+    "created": "2025-06-30T10:10:50.396+02:00",
+    "modified": "2025-09-09T23:18:04.320+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-96228-8_3",
+    "url": "https://doi.org/10.1007/978-3-031-96228-8_3",
+    "authors": [
+        {
+            "full_name": "Ilias Maglogiannis",
+            "affiliation": "University of Piraeus"
+        },
+        {
+            "full_name": "Lazaros Iliadis",
+            "affiliation": " Δημοκρίτειο Πανεπιστήμιο Θράκης"
+        },
+        {
+            "full_name": "Andreas Andreou",
+            "affiliation": "University of Cambridge"
+        },
+        {
+            "full_name": "Papaleonidas Antonios",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Popek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Bilski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Filip Zakrzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Perz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Rapid advances in generative Artificial Intelligence (AI) are revolutionizing the creation of creative content. Despite this progress, most of the applications of generative AI remain limited to virtual environments, with only a small number of integrated processes implemented into physical production. This paper presents the application of Text-to-Image (TTI) models in electric guitar production, along with an assessment of social reception afterwards. The aim was to establish a new process for designing and manufacturing guitar bodies, based on a generative pipeline. First, a comparison of different models was conducted, evaluating factors such as accessibility, cost, real-time performance, quality of generated samples, and legal considerations. Next, based on a text description provided by the customer, the graphics were generated using Stable Diffusion 3.0 Medium and then virtually applied to a guitar model. Finally, the real instrument was produced by printing the generated graphics onto cotton fiber, which was then laminated into the guitar body. This approach accelerates production, reducing processing time by 70% compared to Layer Painting and by 90% compared to Hand Painting. Surveys conducted with a group of customers demonstrated overall satisfaction with the final results and highlighted the importance of visualising the final product during the design process",
+    "keywords": null
+}

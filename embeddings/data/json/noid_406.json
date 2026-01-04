@@ -1,0 +1,37 @@
+{
+    "id": "WUT67e279589d1f415a88d00c8a85a0367d",
+    "title": "Synergizing Logical Reasoning, Knowledge Management and Collaboration in Multi-Agent LLM System",
+    "created": "2025-05-19T16:05:25.006+02:00",
+    "modified": "2025-09-09T23:23:46.817+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "http://isli.khu.ac.kr/paclic/pdfs/38/2024.paclic-1.19.pdf",
+    "authors": [
+        {
+            "full_name": "Nathaniel Oco",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirley N.  Dita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ariane Macalinga  Borlongan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jong-Bok Kim",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Kostka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper explores the integration of advanced\nMulti-Agent Systems (MAS) techniques to develop a team of agents with enhanced logical\nreasoning, long-term knowledge retention, and\nTheory of Mind (ToM) capabilities. By uniting\nthese core components with optimized communication protocols, we create a novel framework called SynergyMAS, which fosters collaborative teamwork and superior problem-solving\nskills. The system’s effectiveness is demonstrated through a product development team\ncase study, where our approach significantly\nenhances performance and adaptability. These\nfindings highlight SynergyMAS’s potential to\ntackle complex, real-world challenges.",
+    "keywords": null
+}

@@ -1,0 +1,29 @@
+{
+    "id": "WUTda114c14a1584a72bbaa2f6456e88c2f",
+    "title": "Passive Bistatic SAR Imaging Using ICEYE-X2 Satellite as an Illuminator of Opportunity: First Experimental Results",
+    "created": "2025-06-24T11:23:05.029+02:00",
+    "modified": "2025-09-09T23:17:37.101+02:00",
+    "language": "en",
+    "doi": "10.1109/RADAR52380.2025.11031722",
+    "url": "https://doi.org/10.1109/RADAR52380.2025.11031722",
+    "authors": [
+        {
+            "full_name": "Bartosz Falęcki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pedro Gomez del Hoyo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Jerzy Samczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Abratkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The subject of this paper is passive bistatic synthetic aperture radar (SAR) imaging with a ground stationary receiver using ICEYE-X2 active SAR micro-satellite as an illuminator of opportunity. During the satellite's flyover with signal transmission turned on, a measurement of the signal reflected from the nearby area was carried out using an antenna located on a hill. The recorded data was processed to confirm the correct data collection and SAR hitchhiking. To achieve this goal, a relatively efficient approximation-based method was used, which is much faster than a time-consuming back-projection algorithm and does not cause significant distortion of the image geometry. This is important for low-cost applications where processing power may be a limitation. After overlaying the SAR image on Google Earth view, it was found that the structures such as river banks, hills, or urban areas are well visible in the results. There are also some smaller objects apparent in the image, such as boat ports on the river or a ship. A possible application of the described approach includes low-cost observation of topography changes in the close-to-receiver area. Passive SAR with a stationary receiver can be used as a supplement to the results of active SAR or as a standalone, undetectable imaging system.",
+    "keywords": "ICEYE satellite, Passive bistatic SAR, Radar imaging, Spaceborne radar"
+}

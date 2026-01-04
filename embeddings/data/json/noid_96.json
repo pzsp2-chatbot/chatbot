@@ -1,0 +1,37 @@
+{
+    "id": "WUT9696d104f11247bda304330dc577c76b",
+    "title": "Continuity Quality of Power Supply in Detectors Powered by Renewable Energy Sources",
+    "created": "2024-12-20T12:29:39.602+01:00",
+    "modified": "2025-09-09T23:34:41.665+02:00",
+    "language": "en",
+    "doi": "10.3390/en17246423",
+    "url": "https://doi.org/10.3390/en17246423",
+    "authors": [
+        {
+            "full_name": "Marek Stawowy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Paś",
+            "affiliation": "Wydział Elektroniki"
+        },
+        {
+            "full_name": "Krzysztof Perlicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stanisław Duer",
+            "affiliation": "Wydział Elektroniki i Informatyki"
+        },
+        {
+            "full_name": "Mirosław Siergiejczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marta Harničárová",
+            "affiliation": "Institute of Technology and Business in České Budějovice"
+        }
+    ],
+    "abstract": "One of the challenges associated with assessing critical systems is ensuring the appropriate quality of services. Supplying electricity is also one such service; however, the standards defining its assessment are not always consistent with the expectations of its consumers. This stems from the fact that the standards, which describe the quality of services associated with power supply, are based on a rather modest range of such parameters such as power supply continuity (interruption time), frequency, value, asymmetries, and time waveform shape (cf. EN 50160:2023). This article discusses the continuity quality of power supply (CQoPS), which takes into account numerous quality-related aspects, more than just the ones described in the standard. The method for determining CQoPS coefficients has been based on estimating uncertainty; therefore, it is devoid of such statistical evaluation disadvantages as the requirement for full knowledge of the system that is assessed. This paper also discusses an example calculation of one of the observations based on actual measurements of a renewable energy source (RES) power supply fed to metering systems and a result simulation depending on various observations.",
+    "keywords": "power supply continuity; renewable energy; rough set"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "WUT33057505de9e46548fe25d1eb208dee2",
+    "title": "Applying Informer for Option Pricing: A Transformer-Based Approach",
+    "created": "2025-03-01T19:08:21.143+01:00",
+    "modified": "2025-09-09T23:22:03.803+02:00",
+    "language": "en",
+    "doi": "10.5220/0013320900003890",
+    "url": "https://doi.org/10.5220/0013320900003890",
+    "authors": [
+        {
+            "full_name": "Ana Paula Rocha",
+            "affiliation": "Univeristy of Porto"
+        },
+        {
+            "full_name": "Luc Steels",
+            "affiliation": "Universitat Pompeu Fabra and CSIC, Barcelona, Spain"
+        },
+        {
+            "full_name": "Jaap van den Herik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Feliks Bańka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Accurate option pricing is essential for effective trading and risk management in financial markets, yet it remains challenging due to market volatility and the limitations of traditional models like Black-Scholes. In this paper, we investigate the application of the Informer neural network for option pricing, leveraging its ability to capture long-term dependencies and dynamically adjust to market fluctuations. This research contributes to the field of financial forecasting by introducing Informer’s efficient architecture to enhance prediction accuracy and provide a more adaptable and resilient framework compared to existing methods. Our results demonstrate that Informer outperforms traditional approaches in option pricing, advancing the capabilities of data-driven financial forecasting in this domain.",
+    "keywords": "Option Pricing, Transformers, Neural Networks, Time Series Forecasting, Deep Learning."
+}

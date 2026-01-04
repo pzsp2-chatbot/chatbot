@@ -1,0 +1,49 @@
+{
+    "id": "WUTe9cea78446bc46d1a247111492eec90e",
+    "title": "GeoGen: Geometry-Aware Generative Modeling via Signed Distance Functions",
+    "created": "2025-01-31T14:53:30.820+01:00",
+    "modified": "2025-09-09T23:23:13.568+02:00",
+    "language": "en",
+    "doi": "10.1109/CVPRW63382.2024.00743",
+    "url": "https://doi.org/10.1109/CVPRW63382.2024.00743",
+    "authors": [
+        {
+            "full_name": "Salvatore Esposito",
+            "affiliation": "Microsoft Corporation"
+        },
+        {
+            "full_name": "Qingshan Xu",
+            "affiliation": "Huazhong University of Science and Technology"
+        },
+        {
+            "full_name": "Kacper Kania",
+            "affiliation": null
+        },
+        {
+            "full_name": "Charlie Hewitt",
+            "affiliation": "Microsoft Corporation"
+        },
+        {
+            "full_name": "Octave Mariotti",
+            "affiliation": "University of Edinburgh"
+        },
+        {
+            "full_name": "Lohit Petikam",
+            "affiliation": "Microsoft Corporation"
+        },
+        {
+            "full_name": "Julien Valentin",
+            "affiliation": "Microsoft Corporation"
+        },
+        {
+            "full_name": "Arno Onken",
+            "affiliation": "University of Edinburgh"
+        },
+        {
+            "full_name": "Oisin Mac Aodha",
+            "affiliation": "University of Edinburgh"
+        }
+    ],
+    "abstract": "We introduce a new generative approach for synthesizing 3D geometry and images from single-view collections. Most existing approaches predict volumetric density to render multi-view consistent images. By employing volumetric rendering using neural radiance fields, they inherit a key limitation: the generated geometry is noisy and unconstrained, limiting the quality and utility of the output meshes. To address this issue, we propose GeoGen, a new SDF-based 3D generative model trained in an end-to-end manner. Initially, we reinterpret the volumetric density as a Signed Distance Function (SDF). This allows us to introduce useful priors to generate valid meshes. However, those priors prevent the generative model from learning details, limiting the applicability of the method to real-world scenarios. To alleviate that problem, we make the transformation learnable and constrain the rendered depth map to be consistent with the zero-level set of the SDF. Through the lens of adversarial training, we encourage the network to produce higher fidelity details on the output meshes. For evaluation, we introduce a synthetic dataset of human avatars captured from 360-degree camera angles, to overcome the challenges presented by real-world datasets, which often lack 3D consistency and do not cover all camera angles. Our experiments on multiple datasets show that GeoGen produces visually and quantitatively better geometry than the previous generative models based on neural radiance fields.",
+    "keywords": null
+}

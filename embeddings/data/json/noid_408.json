@@ -1,0 +1,25 @@
+{
+    "id": "WUT35896335f6e14dcf864fcbb8ef5867ae",
+    "title": "Exploring the microstructure–property relationship in polymer foams using advanced statistical methods, machine learning and deep learning: A review",
+    "created": "2025-05-22T11:41:35.295+02:00",
+    "modified": "2025-09-09T23:21:46.853+02:00",
+    "language": "en",
+    "doi": "10.1016/j.commatsci.2025.113909",
+    "url": "https://doi.org/10.1016/j.commatsci.2025.113909",
+    "authors": [
+        {
+            "full_name": "Dawid Walicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Zawistowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Ryszkowska",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Valuable information embedded within the microstructure of foam polymers should be utilized to further develop this group of materials and to tailor their properties for specific applications. Statistics, machine learning and deep learning methods could support scientists in detecting complex patterns in data and automating certain tasks. Such methods can be applied to characterize both the parameters of the microstructure and the interdependencies among them, as well as to predict macroscopic foam properties. Datasets can be sourced from both real images of synthesized materials and high-throughput simulations. This comprehensive review investigates the applications of mentioned methods in porous materials research. It delineates which microstructural features can be accurately quantified through 2D image analysis and identifies those that require 3D imaging. This paper covers the most common model architectures, training processes, sets of hyperparameters, the size of training datasets, the ability of models to generalize to other materials, the importance of explainability in models’ decisions, and current limitations. By highlighting these aspects, the review provides valuable insights that can guide future research in the field. The article also discusses future research directions by presenting underexplored model architectures.",
+    "keywords": "Polymer foamsImage analysisMachine learning"
+}

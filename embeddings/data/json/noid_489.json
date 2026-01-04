@@ -1,0 +1,21 @@
+{
+    "id": "WUTdb156d493181410ea5f4441a877a8e26",
+    "title": "SYNTHETIC IRIS IMAGE DATABASES AND IDENTITY LEAKAGE: RISKS AND MITIGATION STRATEGIES",
+    "created": "2025-07-25T16:57:50.595+02:00",
+    "modified": "2025-09-09T23:18:44.876+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://www.cybersecurityandlaw.pl/nr-2/25.pdf",
+    "authors": [
+        {
+            "full_name": "Sawilska Ada",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Trokielewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents a comprehensive overview of iris image synthesis\nmethods, which can alleviate the issues associated with gathering large,\ndiverse datasets of biometric data from living individuals, which are\nconsidered pivotal for biometric methods development. These methods for\nsynthesizing iris data range from traditional, hand-crafted image processing-\nbased techniques, through various iterations of GAN-based image generators,\nvariational autoencoders (VAEs), as well as diffusion models. The potential\nand fidelity in iris image generation of each method is discussed and examples\nof inferred predictions are provided. Furthermore, the risks of individual\nbiometric features leakage from the training sets are considered, together with\npossible strategies for preventing them, which have to be implemented should\nthese generative methods be considered a valid replacement of real-world\nbiometric datasets.",
+    "keywords": "biometrics, iris recognition, generative AI, iris image synthesis,\nbiometric datasets"
+}

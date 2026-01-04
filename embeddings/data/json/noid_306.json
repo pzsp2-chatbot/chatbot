@@ -1,0 +1,65 @@
+{
+    "id": "WUTfec02508d4594c73b7ac25cdf3c08016",
+    "title": "Efficient Model-Stealing Attacks Against Inductive Graph Neural Networks",
+    "created": "2025-03-17T16:01:40.479+01:00",
+    "modified": "2025-09-09T23:24:28.442+02:00",
+    "language": "en",
+    "doi": "10.3233/FAIA240646",
+    "url": "https://doi.org/10.3233/FAIA240646",
+    "authors": [
+        {
+            "full_name": "Ulle Endriss",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francisco Melo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kerstin Bach",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alberto Bugarín-Diz",
+            "affiliation": null
+        },
+        {
+            "full_name": "José Alonso-Moral",
+            "affiliation": null
+        },
+        {
+            "full_name": "Senén Barro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fredrik Heintz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Podhajski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Franziska Boenisch",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Dziedzic",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Pregowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Michalak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Graph Neural Networks (GNNs) are recognized as potent tools for processing real-world data organized in graph structures. Especially inductive GNNs, which allow for the processing of graph-structured data without relying on predefined graph structures, are becoming increasingly important in a wide range of applications. As such these networks become attractive targets for model-stealing attacks where an adversary seeks to replicate the functionality of the targeted network. Significant efforts have been devoted to developing model-stealing attacks that extract models trained on images and texts. However, little attention has been given to stealing GNNs trained on graph data. This paper identifies a new method of performing unsupervised model-stealing attacks against inductive GNNs, utilizing graph contrastive learning and spectral graph augmentations to efficiently extract information from the targeted model. The new type of attack is thoroughly evaluated on six datasets and the results show that our approach outperforms the current state-of-the-art by Shen et al. (2021). In particular, our attack surpasses the baseline across all benchmarks, attaining superior fidelity and downstream accuracy of the stolen model while necessitating fewer queries directed toward the target model.",
+    "keywords": null
+}

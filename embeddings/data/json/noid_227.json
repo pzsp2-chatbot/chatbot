@@ -1,0 +1,17 @@
+{
+    "id": "WUT2aa98f1d0b1745eeab8b148547f730fc",
+    "title": "Flexible Composition of 6G Networks atop Cloud Continuum",
+    "created": "2025-01-31T14:21:11.014+01:00",
+    "modified": "2025-09-09T23:25:21.310+02:00",
+    "language": "en",
+    "doi": "10.1109/CloudNet59005.2023.10490050",
+    "url": "https://doi.org/10.1109/CloudNet59005.2023.10490050",
+    "authors": [
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The dynamic integration of multiple terrestrial and non-terrestrial networks is a key feature of the 6G network. This paper presents the idea of the flexible composition of 6G networks atop the virtualised infrastructure. The concept is based on analysing the requirements concerning multi-domain federation in 6G. The concept can benefit from the Cloud Continuum-based network virtualisation (but it is not limited to Cloud Continuum), allowing flexible networks or network segments deployment in the \"anytime and anywhere\"style. The presented framework allows for a loosely coupled federation of connectivity domains using autonomic domain management and inter-domain gateways that allow abstracted information exchange between the domains to hide technological issues in the integration process. The domains can be federated in an immersive style, i.e., services of one domain can be reused by other, dynamically added domains.",
+    "keywords": null
+}

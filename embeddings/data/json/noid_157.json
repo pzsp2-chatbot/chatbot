@@ -1,0 +1,49 @@
+{
+    "id": "WUTc33e5045ddbc4d038a67e8cba3277f4d",
+    "title": "BabyNet＋＋: Fetal birth weight prediction using biometry multimodal data acquired less than 24 hours before delivery",
+    "created": "2025-01-27T11:18:09.201+01:00",
+    "modified": "2025-09-09T23:37:29.311+02:00",
+    "language": "en",
+    "doi": "10.1016/j.compbiomed.2023.107602",
+    "url": "https://doi.org/10.1016/j.compbiomed.2023.107602",
+    "authors": [
+        {
+            "full_name": "Szymon Płotka",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Michał K. Grzeszczyk",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Robert Brawura-Biskupski-Samaha",
+            "affiliation": "Centrum Medyczne Kształcenia Podyplomowego"
+        },
+        {
+            "full_name": "Paweł Gutaj",
+            "affiliation": "Poznan University of Medical Sciences"
+        },
+        {
+            "full_name": "Michał Lipa",
+            "affiliation": "1st Department of Obstetrics and Gynecology, Medical University of Warsaw, Poland"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ivana Išgum",
+            "affiliation": "Amsterdam University Medical Center"
+        },
+        {
+            "full_name": "Clara I. Sánchez",
+            "affiliation": "Amsterdam University Medical Center"
+        },
+        {
+            "full_name": "Arkadiusz Sitek",
+            "affiliation": "Harvard Medical School, Boston, MA, USA"
+        }
+    ],
+    "abstract": "<p>Accurate prediction of fetal weight at birth is essential for effective perinatal care, particularly in the context of antenatal management, which involves determining the timing and mode of delivery. The current standard of care involves performing a prenatal ultrasound 24 hours prior to delivery. However, this task presents challenges as it requires acquiring high-quality images, which becomes difficult during advanced pregnancy due to the lack of amniotic fluid. In this paper, we present a novel method that automatically predicts fetal birth weight by using fetal ultrasound video scans and clinical data. Our proposed method is based on a Transformer-based approach that combines a Residual Transformer Module with a Dynamic Affine Feature Map Transform. This method leverages tabular clinical data to evaluate 2D+t spatio-temporal features in fetal ultrasound video scans. Development and evaluation were carried out on a clinical set comprising 582 2D fetal ultrasound videos and clinical records of pregnancies from 194 patients performed less than 24 hours before delivery. Our results show that our method outperforms several state-of-the-art automatic methods and estimates fetal birth weight with an accuracy comparable to human experts. Hence, automatic measurements obtained by our method can reduce the risk of errors inherent in manual measurements. Observer studies suggest that our approach may be used as an aid for less experienced clinicians to predict fetal birth weight before delivery, optimizing perinatal care regardless of the available expertise.</p>",
+    "keywords": null
+}

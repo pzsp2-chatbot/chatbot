@@ -1,0 +1,21 @@
+{
+    "id": "WUT507c6a01477146d093eb829decec9dfa",
+    "title": "Cloze-tests generation for foreign language learning using transformer networks",
+    "created": "2025-06-11T15:35:16.312+02:00",
+    "modified": "2025-09-09T23:21:37.288+02:00",
+    "language": "en",
+    "doi": "10.15199/48.2025.03.57",
+    "url": "https://doi.org/10.15199/48.2025.03.57",
+    "authors": [
+        {
+            "full_name": "Robert Szmurło",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebstian Jędrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The aim of the paper is to evaluate the transformers network LLM for automatic generation of tests for English language learners with classical approaches. The kind of test we investigate is referred to as cloze test, which are paragraphs of text with gaps which should be filled in by the learners. In the paper, we compare recurrent neural networks to transformer networks (BERT and ELECTRA). Additionally the authors make the training and testing datasets available publicly. The approach related to application of LLMs is based on paper by Felice at al. [2]. In the presented research we extend the loss function and apply extra metrics based on Kullback-Leibler Divergence Loss to improve space distribution of the gaps.",
+    "keywords": "cloze-test\n    recurrent neural networks\n    transformer networks\n    LLM"
+}

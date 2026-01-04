@@ -1,0 +1,33 @@
+{
+    "id": "WUTf79a05a9271041a6933d1c72adcc0413",
+    "title": "Guest Editorial: Secure Communications Over the Internet of Artificially Intelligent Things: Part 2",
+    "created": "2025-02-04T14:55:58.261+01:00",
+    "modified": "2025-09-10T00:22:30.816+02:00",
+    "language": "en",
+    "doi": "10.1109/MIOT.2022.9889289",
+    "url": "https://doi.org/10.1109/MIOT.2022.9889289",
+    "authors": [
+        {
+            "full_name": "Zhihan Lv",
+            "affiliation": "Qingdao University"
+        },
+        {
+            "full_name": "Jaime Lloret Mauri",
+            "affiliation": null
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jun Shen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>With the advent of the Internet of Things (IoT), various industries have made considerable progress [1], including agriculture, utilities, manufacturing, and retail. IoT solutions help to increase productivity and efficiency in factories and workplaces. Meanwhile, in smart cities, interconnected traffic lights and parking lots are established through IoT technologies to alleviate traffic problems. It has been possible thanks to recent advances in IoT frameworks and protocols [2]. Currently, IoT security has become the main concern in practical applications [3]. In the field of Artificial Intelligence of Things (AIoT), artificial intelligence (AI) is realized through various technical supports, especially machine learning (ML) technology. ML can analyze data, learn from them, and infer or predict with specific algorithms. ML can solve practical problems that are difficult for simple rules using data and is widely used in complex tasks, such as search engine (SE), autonomous driving (AD), machine translation (MT), medical diagnosis, spam filtering, computer games, face recognition, data matching, credit rating, and even IoT traffic classification [4]. In particular, ML technology can shape the surrounding environment into a personal preference under IoT, which is very practical. </p>",
+    "keywords": null
+}

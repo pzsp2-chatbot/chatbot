@@ -1,0 +1,49 @@
+{
+    "id": "WUT67a61213441a45848adab702ba30e34c",
+    "title": "No Train but Gain: Language Arithmetic for training-free Language Adapters enhancement",
+    "created": "2025-04-09T16:42:34.891+02:00",
+    "modified": "2025-09-09T23:22:19.938+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://aclanthology.org/2025.coling-main.737/",
+    "authors": [
+        {
+            "full_name": "Owen Rambow",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leo Wanner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marianna Apidianaki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hend Al-Khalifa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barbara Di Eugenio",
+            "affiliation": null
+        },
+        {
+            "full_name": "Steven Schockaert",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Klimaszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Andruszkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alexandra Birch",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Modular deep learning is the state-of-the-art\n solution for lifting the curse of multilinguality,\n preventing the impact of negative interference\n and enabling cross-lingual performance in Mul\ntilingual Pre-trained Language Models. How\never, a trade-off of this approach is the reduc\ntion in positive transfer learning from closely\n related languages. In response, we introduce\n a novel method called language arithmetic,\n which enables training-free post-processing to\n address this limitation. Extending the task arith\nmetic framework, we apply learning via ad\ndition to the language adapters, transitioning\n the framework from a multi-task to a multi\nlingual setup. The effectiveness of the pro\nposed solution is demonstrated on three down\nstream tasks in a MAD-X-based set of cross\nlingual schemes, acting as a post-processing\n procedure. Language arithmetic consistently\n improves the baselines with significant gains,\n especially in the most challenging case of zero\nshot application. Our code and models are\n available at https://github.com/mklimasz/\n language-arithmetic.",
+    "keywords": null
+}

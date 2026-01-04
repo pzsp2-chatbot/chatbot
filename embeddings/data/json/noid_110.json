@@ -1,0 +1,37 @@
+{
+    "id": "WUT04b76b346d874ea1a9ded8ce0c3e41fa",
+    "title": "Universities as Catalysts: Advancing Ethical and Inclusive AI Governance",
+    "created": "2025-01-03T15:40:09.738+01:00",
+    "modified": "2025-09-09T23:23:59.578+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://asef.org/wp-content/uploads/2024/11/241128_ASEFInnoLab5_Publication.pdf",
+    "authors": [
+        {
+            "full_name": "Reka Tozsa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Cleo Cachapero",
+            "affiliation": null
+        },
+        {
+            "full_name": "Johannes Bleher",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rozanne Tuesday Flores",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francesco Marcelloni",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Marek Nowak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The rapid recent advancements in Artificial Intelligence (AI) offer opportunities across various domains, including medicine, engineering, education, and agriculture, but also introduce risks such as ethical dilemmas and security concerns. These risks must be managed to fully harness AI’s benefits.\nRisks can arise from the algorithms themselves or from improper use. Indeed, machine learning (ML) algorithms allow for learning AI models from data, but if the data are biased, those biases are reflected in the models. Additionally, if the data\ndo not cover all possible scenarios, AI systems may struggle with unexpected inputs. Examples of improper use of AI include social scoring, biometric surveillance, and manipulative systems. AI development must therefore address not only technical aspects, like accuracy, robustness, transparency, and performance, but also ethical, legal, and social concerns to manage these risks comprehensively.",
+    "keywords": null
+}

@@ -1,0 +1,37 @@
+{
+    "id": "WUTbc712a959aac4a09bf792189eaeec44d",
+    "title": "On the Integration of IoT and Cloud Computing  for Ultra-Reliable Spectrum Allocation in e-health",
+    "created": "2025-03-17T15:27:53.102+01:00",
+    "modified": "2025-09-09T23:23:46.160+02:00",
+    "language": "en",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Andreas Andreou",
+            "affiliation": "University of Cambridge"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        },
+        {
+            "full_name": "Athina Bourdena",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "George Mastorakis",
+            "affiliation": "Technological Educational Insitute of Crete"
+        }
+    ],
+    "abstract": "Integrating cloud computing, IoT, and computational intelligence is crucial in e-health to ensure ultra-reliable  communication, which is essential for health monitoring and  telemedicine. This paper explores the complex spectrum requirements for ultra-reliable communication in next-generation  networks, which are vital for seamless e-health applications.\n It introduces multi-operator network sharing as a solution to  the growing spectrum demands, allowing devices to connect  with base stations from multiple providers, thus improving  connectivity and reliability. Through detailed analysis, we derive closed-form equations using meta-distributions to evaluate  spectrum needs under different sharing setups, highlighting  the balance between spectrum use and reliability, particularly  in e-health scenarios. Findings indicate that multi-operator  network sharing and multi-connectivity strategies significantly\n reduce spectrum requirements for e-health services, leading  to more effective and reliable healthcare delivery. The fusion  of next-generation technology with IoT and cloud computing  marks a significant step towards advanced e-health applications,  promising high-quality, accessible, and continuous healthcare  services.",
+    "keywords": "spectrum, ultra-reliable communication, net work sharing, network-wide"
+}

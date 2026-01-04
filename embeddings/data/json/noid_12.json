@@ -1,97 +1,29 @@
 {
-    "id": "WUT649d660ed9a54acea31c164d6fcd8864",
-    "title": "Measurement of inclusive charged-particle jet production in pp and Pb collisions at √sNN = 5.02 TeV",
-    "created": "2024-10-04T17:05:01.006+02:00",
-    "modified": "2025-09-09T23:27:34.739+02:00",
+    "id": "WUT4982f653a714455d90d8529abdd8b61f",
+    "title": "Advanced High-Level Synthesis Techniques Based on Metamodel",
+    "created": "2024-11-07T11:23:48.882+01:00",
+    "modified": "2025-09-09T23:30:18.213+02:00",
     "language": "en",
-    "doi": "10.1007/JHEP05(2024)041",
-    "url": "https://doi.org/10.1007/JHEP05(2024)041",
+    "doi": "10.24425/ijet.2024.152093",
+    "url": "https://doi.org/10.24425/ijet.2024.152093",
     "authors": [
         {
-            "full_name": "S. Acharya",
+            "full_name": "Radosław Cieszewski",
             "affiliation": null
         },
         {
-            "full_name": "Jan Dubiński",
+            "full_name": "Ryszard Romaniuk",
             "affiliation": null
         },
         {
-            "full_name": "Łukasz Graczykowski",
+            "full_name": "Krzysztof Poźniak",
             "affiliation": null
         },
         {
-            "full_name": "Katarzyna Gwiździel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Md Rihan Haque",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Jakubowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Małgorzata Janik",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maja Karwowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Przemysław Karczmarczyk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Adam Kisiel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Georgy Kornakov",
-            "affiliation": null
-        },
-        {
-            "full_name": "Shirajum Monira",
-            "affiliation": null
-        },
-        {
-            "full_name": "Julian Myrcha",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Nowakowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Janusz Oleniacz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Przemysław Rokita",
-            "affiliation": null
-        },
-        {
-            "full_name": "Krystian Rosłon",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniela Ruggiano",
-            "affiliation": null
-        },
-        {
-            "full_name": "Wioleta Rzęsa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Szymkowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Trzciński",
+            "full_name": "Maciej Grzegorz Linczuk",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "This paper explores advanced techniques in highlevel synthesis (HLS) utilizing metamodel structures. Metamodels act as models of hardware models, generating internal hardware models based on parameter inputs and exploring the solution space to find optimal configurations. The focus is on enhancing HLS processes through metamodeling, enabling more efficient hardware design and optimization. Key contributions include a novel metamodel framework and a case study demonstrating its application in complex system designs. The proposed methods show significant improvements in synthesis efficiency and scalability, making them highly relevant for modern FPGA and ASIC design workflows.",
+    "keywords": "High-Level Synthesis, Metamodel, FPGA, Optimization, Hardware Design,  Digital Signal Processing, System Design"
 }

@@ -1,33 +1,53 @@
 {
-    "id": "WUT53e5a6535c64427da40c5cdd47c7154a",
-    "title": "Communicative Agents for Software Project Management and System Development",
-    "created": "2024-10-20T11:03:04.193+02:00",
-    "modified": "2025-09-09T23:23:06.322+02:00",
+    "id": "WUT9618b00846644b769a3c836bca694305",
+    "title": "On Flow-based Directed p-Cycle Design in Elastic Optical Networks",
+    "created": "2024-11-18T11:33:01.921+01:00",
+    "modified": "2025-09-10T00:11:15.912+02:00",
     "language": "en",
-    "doi": null,
-    "url": "http://www.mdai.cat/mdai2024/proc.MDAI.2024.usb.isbn.pdf",
+    "doi": "10.1109/iscc55528.2022.9912756",
+    "url": "https://doi.org/10.1109/iscc55528.2022.9912756",
     "authors": [
         {
-            "full_name": "Vicenc Torra",
+            "full_name": "Fabrice Theoleyre",
             "affiliation": null
         },
         {
-            "full_name": "Yasuo Narukawa",
+            "full_name": "Dimitrios Zorbas",
             "affiliation": null
         },
         {
-            "full_name": "Hiroaki Kikuchi",
+            "full_name": "Periklis Chatzimissios",
             "affiliation": null
         },
         {
-            "full_name": "Konrad Cinkusz",
+            "full_name": "Michele Girolami",
             "affiliation": null
         },
         {
-            "full_name": "Jarosław Chudziak",
+            "full_name": "Yuanhao Liu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fen Zhou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Pióro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tao Shang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Juan-Manuel Torres-Moreno",
+            "affiliation": null
+        },
+        {
+            "full_name": "Abderrahim Benslimane",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "As the increasing traffic patterns show asymmetric feature, directed pre-configured-cycle (p-cycle) has indicated the ability of better protection in elastic optical networks (EONs). In this paper, we investigate three different integer linear program (ILP) models of directed p-cycle without candidate cycle enumeration leveraging flow conservation. Three directed p-cycle designs are based on the same directed p-cycle strategy but differ from each other in how the flows can construct the directed p-cycles, namely individual link flow (ILF) directed p-cycle, aggregated link flows (ALF) directed p-cycle, and loop-eliminating flow (LEF) directed p-cycle, respectively. These ILPs aim to jointly minimize power consumption and spectrum usage of all directed p-cycles configured in EONs. The problem formulation involves directed p-cycle generation, modulation format (MF) selection, power consumption optimization, and spectrum allocation. Furthermore, the proposed directed p-cycle strategy is designed with a compact and novel MF adaptation relying on accurate protection path lengths. Simulations are conducted to compare the proposed ILPs with the conventional method which uses a rough upper bound on MF adaptation. Numerical results demonstrate that all of the three proposed ILPs have better performances on the joint objective, in which the improvement is up to 24.31%. Although the proposed ILPs are with the same performance on the objective due to the same directed p-cycle strategy, the LEF directed p-cycle shows the best efficiency.",
+    "keywords": "elastic optical networks (EONs),  pre-configured cycle (p-cycle), integer linear program (ILP)"
 }

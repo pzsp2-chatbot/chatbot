@@ -1,0 +1,45 @@
+{
+    "id": "WUT5066930e15ff4d15af451ca0c8573ff3",
+    "title": "Future of cyberspace: A critical review of standard security protocols in the post-quantum era",
+    "created": "2025-03-18T20:58:10.761+01:00",
+    "modified": "2025-09-09T23:18:46.035+02:00",
+    "language": "en",
+    "doi": "10.1016/j.cosrev.2025.100738",
+    "url": "https://doi.org/10.1016/j.cosrev.2025.100738",
+    "authors": [
+        {
+            "full_name": "Milad Taleby Ahvanooey",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jun Zhao",
+            "affiliation": "Nanyang Technological University"
+        },
+        {
+            "full_name": "Luca Caviglione",
+            "affiliation": "Istituto di studi sui sistemi intelligenti per l'automazione"
+        },
+        {
+            "full_name": "Kim-Kwang Raymond Choo",
+            "affiliation": "The University of Texas at San Antonio, San Antonio, USA"
+        },
+        {
+            "full_name": "Max Kigler",
+            "affiliation": "The University of Texas at San Antonio, San Antonio, USA"
+        },
+        {
+            "full_name": "Mauro Conti",
+            "affiliation": "Department of Mathematics, University of Padua, Italy"
+        },
+        {
+            "full_name": "Rafael Misoczki",
+            "affiliation": "Cryptography Team, Meta, Menlo Park, USA"
+        }
+    ],
+    "abstract": "Over the past three decades, standardizing organizations (e.g., the National Institute of Standards and Technology and Internet Engineering Task Force) have investigated the efficiency of cryptographic algorithms and provided (technical) guidelines for practitioners. For example, the (Datagram) Transport Layer Security “(D)TLS” 1.2/1.3 was designed to help industries implement and integrate such methods through underpinning infrastructures of Internet of Everything (IoE) environments with efficiency and efficacy in mind. The main goal underpinning such protocols is to protect the Internet connections between IoE machines from malicious activities such as unauthorized eavesdropping, monitoring, and tampering with messages. In theory, these protocols are supposed to be secure. Still, most existing implementations partially follow the standard features of (D)TLS 1.2/3, leaving them vulnerable to risks such as side-channel and network attacks. In this paper, we critically review the standard protocols deployed for the security management of data and connected machines, and also examine the recently discovered vulnerabilities that lead to successful zero-day attacks in IoE environments. Then, we discuss various potential countermeasures in the form of organizational policy enforcement strategies and mitigation approaches that can be used by cybersecurity practitioners, decision- and policy-makers. Finally, we identify both proactive and reactive solutions for further consideration and study, as well as propose alternative mechanisms and e-governance policies for standardizing organizations and engineers in future solution designs.",
+    "keywords": null
+}

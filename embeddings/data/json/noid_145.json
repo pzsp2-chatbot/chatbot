@@ -1,0 +1,21 @@
+{
+    "id": "WUT30ced669607d42e8880d845e40653ce7",
+    "title": "Wind Power Short-Term Time-Series Prediction Using an Ensemble of Neural Networks",
+    "created": "2025-01-14T10:11:29.285+01:00",
+    "modified": "2025-09-09T23:33:34.661+02:00",
+    "language": "en",
+    "doi": "10.3390/en17010264",
+    "url": "https://doi.org/10.3390/en17010264",
+    "authors": [
+        {
+            "full_name": "Stanisław Osowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Ciechulski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Short-term wind power forecasting has difficult problems due to the very large variety of speeds of the wind, which is a key factor in producing energy. From the point of view of the whole country, an important problem is predicting the total impact of wind power’s contribution to the country’s energy demands for succeeding days. Accordingly, efficient planning of classical power sources may be made for the next day. This paper will investigate this direction of research.\nBased on historical data, a few neural network predictors will be combined into an ensemble that is responsible for the next day’s wind power generation. The problem is difficult since wind farms are distributed in large regions of the country, where different wind conditions exist. Moreover, the information on wind speed is not available. This paper proposes and compares different structures of an ensemble combined from three neural networks. The best accuracy has been obtained with the application of an MLP combiner. The results of numerical experiments have shown a significant reduction in prediction errors compared to the naïve approach. The improvement in results with this naïve solution is close to two in the one-day-ahead prediction task.",
+    "keywords": "wind power forecasting; neural networks; LSTM; ensemble of predictors"
+}

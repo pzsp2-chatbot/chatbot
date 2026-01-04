@@ -1,0 +1,41 @@
+{
+    "id": "WUTe819ab20eecf43ce83ef3a3f671a77eb",
+    "title": "Machine learning-based filtering system for fNIRS signals analysis purpose",
+    "created": "2025-01-09T11:07:32.916+01:00",
+    "modified": "2025-09-09T23:21:01.996+02:00",
+    "language": "en",
+    "doi": "10.24425/bpasts.2024.152605",
+    "url": "https://doi.org/10.24425/bpasts.2024.152605",
+    "authors": [
+        {
+            "full_name": "Mariusz Pelc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Mikołajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Jan Luckiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Sudoł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Mendon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Edward Jacek Gorzelańczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Kawala-Sterniuk",
+            "affiliation": "Opole University of Technology"
+        }
+    ],
+    "abstract": "This paper presents a preliminary study delving into the application of machine learning-based methods for optimizing parameter\nselection in filtering techniques. The authors focus on exploring the efficacy of two prominent filtering methods: smoothing and cascade filters,\nknown for their profound impact on enhancing the quality of brain signals. The study specifically examines signals acquired through functional\nnear-infrared spectroscopy (fNIRS), a noninvasive neuroimaging modality offering valuable insights into brain activity. Through meticulous\nanalysis, the research underscores the potential of machine learning approaches in discerning optimal parameters for filtering, thereby leading\nto a significant enhancement in the quality and reliability of fNIRS-derived signals. The results demonstrate the effectiveness of machine\nlearning-based methods in optimizing parameter selection for filtering techniques, particularly in the context of fNIRS signals. By leveraging\nthese approaches, the study achieves notable improvements in the quality and reliability of brain signal data. This work sheds light on promising\navenues for refining neuroimaging methodologies and advancing the field of signal processing in neuroscience. The successful application of\nmachine learning-based techniques highlights their potential for optimizing neuroimaging data processing, ultimately contributing to a deeper\nunderstanding of brain function.",
+    "keywords": "functional near-infrared spectroscopy; biomedical signal processing; machine learning; filtering, brain signals; smoothing filtering; cascade filtering"
+}

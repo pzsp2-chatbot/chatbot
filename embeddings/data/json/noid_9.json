@@ -1,14 +1,26 @@
 {
-    "id": "WUTdd20b5469722434981dfa832a6349a2d",
-    "title": "Measurement of (anti)alpha production in central Pb–Pb collisions at s<inf>NN</inf>=5.02 TeV",
-    "created": "2024-10-04T17:00:40.602+02:00",
-    "modified": "2025-09-09T23:27:27.717+02:00",
+    "id": "WUTbd89cb41ad79484483409d4de7bdeb26",
+    "title": "Deep Generative Models for Proton Zero Degree Calorimeter Simulations in ALICE, CERN",
+    "created": "2024-11-06T15:17:36.651+01:00",
+    "modified": "2025-09-10T00:06:03.924+02:00",
     "language": "en",
-    "doi": "10.1016/j.physletb.2024.138943",
-    "url": "https://doi.org/10.1016/j.physletb.2024.138943",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
     "authors": [
         {
-            "full_name": "S. Acharya",
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Żychowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Będkowski",
             "affiliation": null
         },
         {
@@ -16,82 +28,14 @@
             "affiliation": null
         },
         {
-            "full_name": "Łukasz Graczykowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Katarzyna Gwiździel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Jakubowska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Małgorzata Janik",
-            "affiliation": null
-        },
-        {
-            "full_name": "Przemysław Karczmarczyk",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maja Karwowska",
-            "affiliation": "European Organization for Nuclear Research"
-        },
-        {
-            "full_name": "Adam Kisiel",
-            "affiliation": null
-        },
-        {
-            "full_name": "Georgy Kornakov",
-            "affiliation": null
-        },
-        {
-            "full_name": "Monika Kutyła",
-            "affiliation": null
-        },
-        {
-            "full_name": "Shirajum Monira",
-            "affiliation": null
-        },
-        {
-            "full_name": "Julian Myrcha",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Nowakowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Janusz Oleniacz",
+            "full_name": "Kamil Deja",
             "affiliation": null
         },
         {
             "full_name": "Przemysław Rokita",
             "affiliation": null
-        },
-        {
-            "full_name": "Krystian Rosłon",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniela Ruggiano",
-            "affiliation": null
-        },
-        {
-            "full_name": "Wioleta Rzęsa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maciej Szymkowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Tomasz Trzciński",
-            "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Simulating detector responses is a crucial part of understanding the\ninner-workings of particle collisions in the Large Hadron Collider at CERN.\nThe current reliance on statistical Monte-Carlo simulations strains CERN’s\ncomputational grid, underscoring the urgency for more efficient alternatives.\nAddressing these challenges, recent proposals advocate for generative machine learning methods. In this study, we present an innovative deep learning simulation approach tailored for the proton Zero Degree Calorimeter\nin the ALICE experiment. Leveraging a Generative Adversarial Network\nmodel with Selective Diversity Increase loss, we directly simulate calorimeter responses. To enhance its capabilities in modeling a broad range of\ncalorimeter response intensities, we expand the SDI-GAN architecture with\nadditional regularization. Moreover, to improve the spatial fidelity of the\ngenerated data, we introduce an auxiliary regressor network. Our method\noffers a significant speedup when comparing to the traditional Monte-Carlobased approaches.",
+    "keywords": "Generative machine learning, GAN, HEP, ALICE, CERN"
 }

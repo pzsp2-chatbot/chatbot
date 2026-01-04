@@ -1,0 +1,37 @@
+{
+    "id": "WUT2ff498a791af4c98a657ab71905e2df8",
+    "title": "FTM and PDR Based Dynamic Mapping for Indoor Localization Enhanced by Wi-Fi Aware",
+    "created": "2025-07-16T12:02:52.809+02:00",
+    "modified": "2025-09-09T23:22:56.499+02:00",
+    "language": "en",
+    "doi": "10.1109/iwcmc65282.2025.11059640",
+    "url": "https://doi.org/10.1109/iwcmc65282.2025.11059640",
+    "authors": [
+        {
+            "full_name": "Lazaros Savvidis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Houbing H. Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "George Mastorakis",
+            "affiliation": "Technological Educational Insitute of Crete"
+        }
+    ],
+    "abstract": "This paper addresses the challenge of device localization within a Wi-Fi network. It introduces a novel localization technique, using a pre-constructed map with predefined positions around an Access Point (AP). The Wi-Fi client devices (STAs), are positioned on the map utilizing the capabilities of the Fine Time Measurement (FTM) protocol (IEEE 802.11mc), and tracked using the Pedestrian Dead Reckoning (PDR) method, which leverages the device’s Micro-Electro-Mechanical Systems (MEMS). It also harnesses the capabilities of Neighbor Awareness Networking (NAN) technology, to discover the distances between Wi-Fi Aware certified devices. This method requires no additional equipment or prior setup, since one AP is sufficient to determine the STA’s position. The findings suggest that this approach provides a scalable and efficient solution for IoT applications.",
+    "keywords": "Internet of Things (IoT), Indoor Positioning, Fine Time Measurement (FTM), Neighbor Awareness Networking (NAN), Wi-Fi Aware, \nPedestrian Dead Reckoning (PDR), Micro-Electro-Mechanical Systems (MEMS)"
+}

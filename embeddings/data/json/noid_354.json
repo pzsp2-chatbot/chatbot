@@ -1,0 +1,33 @@
+{
+    "id": "WUT7d2c5c65afa1405ebd7a169892e6212e",
+    "title": "Unsupervised Feature Selection for High-Order Embedding Learning and Sparse Learning",
+    "created": "2025-04-10T09:16:09.607+02:00",
+    "modified": "2025-09-09T23:19:29.569+02:00",
+    "language": "en",
+    "doi": "10.1109/tcyb.2025.3546658",
+    "url": "https://doi.org/10.1109/tcyb.2025.3546658",
+    "authors": [
+        {
+            "full_name": "Zebiao Hu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jian Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zhongxin Ren",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nikhil R. Pal",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The majority of the unsupervised feature selection methods usually explore the first-order similarity of the data while ignoring the high-order similarity of the instances, which makes it easy to construct a suboptimal similarity graph. Furthermore, such methods, often are not suitable for performing feature selection due to their high complexity, especially when the dimensionality of the data is high. To address the above issues, a novel method, termed as unsupervised feature selection for high-order embedding learning and sparse learning (UFSHS), is proposed to select useful features. More concretely, UFSHS first takes advantage of the high-order similarity of the original input to construct an optimal similarity graph that accurately reveals the essential geometric structure of high-dimensional data. Furthermore, it constructs a unified framework, integrating high-order embedding learning and sparse learning, to learn an appropriate projection matrix with row sparsity, which helps to select an optimal subset of features. Moreover, we design a novel alternative optimization method that provides different optimization strategies according to the relationship between the number of instances and the dimensionality, respectively, which significantly reduces the computational complexity of the model. Even more amazingly, the proposed optimization strategy is shown to be applicable to ridge regression, broad learning systems and fuzzy systems. Extensive experiments are conducted on nine public datasets to illustrate the superiority and efficiency of our UFSHS.",
+    "keywords": "Embedding learning , feature selection, geometric structure, high-order similarity, sparse learning"
+}

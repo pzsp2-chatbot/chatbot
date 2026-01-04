@@ -1,0 +1,33 @@
+{
+    "id": "WUT87437e49cfcb4a70ac293fb4b3811b79",
+    "title": "HyperColor: A HyperNetwork Approach for Synthesizing Autocolored 3-D Models for Game Scenes Population",
+    "created": "2025-01-28T13:19:30.613+01:00",
+    "modified": "2025-09-09T23:35:57.812+02:00",
+    "language": "en",
+    "doi": "10.1109/tg.2022.3190792",
+    "url": "https://doi.org/10.1109/tg.2022.3190792",
+    "authors": [
+        {
+            "full_name": "Ivan Kostiuk",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Przemysław Stachura",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Sławomir K. Tadeja",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Spurek",
+            "affiliation": "Uniwersytet Jagielloński w Krakowie"
+        }
+    ],
+    "abstract": "Designing a 3-D game scene is a tedious task that often requires a substantial amount of work. Typically, this task involves the synthesis and coloring of 3-D models within the scene. To lessen this workload, we can apply machine learning to automate some aspects of the game scene development. Earlier research has already tackled automated generation of the game scene background with machine learning. However, model autocoloring remains an underexplored problem. The automatic coloring of a 3-D model is a challenging task, especially when dealing with the digital representation of a colorful, multipart object. In such a case, we have to “understand” the object's composition and coloring scheme of each part. Moreover, existing single-stage methods have their caveats. We address these limitations by proposing a two-stage training approach to synthesize autocolored 3-D models. In the first stage, we obtain a 3-D point cloud representing a 3-D object, while in the second stage, we assign colors to points within such a cloud. Next, we generate a 3-D mesh in which the surfaces are colored based on the interpolation of colored points representing vertices of a given mesh triangle. This approach allows us to develop a smooth coloring scheme.",
+    "keywords": null
+}

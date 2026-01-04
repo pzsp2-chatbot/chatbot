@@ -1,0 +1,25 @@
+{
+    "id": "WUT67a37b9f75884765ac1c9328365f5da4",
+    "title": "Melanoma recognition using deep learning and ensemble of classifiers",
+    "created": "2025-04-01T11:06:03.390+02:00",
+    "modified": "2025-09-10T00:10:20.297+02:00",
+    "language": "en",
+    "doi": "10.1109/cpee56060.2022.9919681",
+    "url": "https://doi.org/10.1109/cpee56060.2022.9919681",
+    "authors": [
+        {
+            "full_name": "Fabian Gil",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stanisław Osowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Słowińska",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper presents the special arrangement of an ensemble of classifiers for melanoma recognition. It is based on the application of deep learning. The study applies the structure of the convolutional neural network to create the numerical descriptors of dermoscopic images of melanoma. The flattened vector of image descriptors is subjected to diagnostic feature selection by applying different selection methods. As a result, different sets of a limited number of diagnostic features are generated. In the next stage, these sets of features represent the input attributes for two types of classical classifiers: support vector machine and random forest of decision trees. An additional set of softmax classifiers supplied by a set of features randomly selected from the available descriptors is also applied. By combining different selection methods with these classifiers an ensemble classification system is created and integrated by majority voting. Thanks to the fusion of results of many classifiers forming an ensemble the accuracy and all other quality measures have been significantly increased in the recognition of melanoma from non-melanoma images.",
+    "keywords": "deep learning, CNN, an ensemble of classifiers,\nfeature selection methods, melanoma"
+}

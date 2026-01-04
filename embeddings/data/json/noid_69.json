@@ -1,0 +1,25 @@
+{
+    "id": "WUT0a9fabf10d114c3aa477251836845c87",
+    "title": "The State of the Art of Natural Language Processing—A Systematic Automated Review of NLP Literature Using NLP Techniques",
+    "created": "2024-12-07T02:31:00.646+01:00",
+    "modified": "2025-09-09T23:34:55.825+02:00",
+    "language": "en",
+    "doi": "10.1162/dint_a_00213",
+    "url": "https://doi.org/10.1162/dint_a_00213",
+    "authors": [
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": "Nowadays, natural language processing (NLP) is one of the most popular areas of, broadly understood, artificial intelligence. Therefore, every day, new research contributions are posted, for instance, to the arXiv repository. Hence, it is rather difficult to capture the current “state of the field” and thus, to enter it. This brought the id-art NLP techniques to analyse the NLP-focused literature. As a result, (1) meta-level knowledge, concerning the current state of NLP has been captured, and (2) a guide to use of basic NLP tools is provided. It should be noted that all the tools and the dataset described in this contribution are publicly available. Furthermore, the originality of this review lies in its full automation. This allows easy reproducibility and continuation and updating of this research in the future as new researches emerge in the field of NLP.",
+    "keywords": "Natural language processing, Text processing, Literature survey, Keyword search, Keyphrase search, Text embeddings, Text summarizations"
+}

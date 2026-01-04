@@ -1,0 +1,77 @@
+{
+    "id": "WUTca675af7a82f495d93c9fb1f4921499f",
+    "title": "Discussion on 6G Architecture Evolution: Challenges and Emerging Technology Trends",
+    "created": "2025-01-31T15:22:46.019+01:00",
+    "modified": "2025-09-09T23:23:44.067+02:00",
+    "language": "en",
+    "doi": "10.1109/EuCNC/6GSummit60053.2024.10597056",
+    "url": "https://doi.org/10.1109/EuCNC/6GSummit60053.2024.10597056",
+    "authors": [
+        {
+            "full_name": "Ozgur Umut Akgul",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marten Ericson",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pere Garau Burguera",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bassem Arar",
+            "affiliation": "Technical University of Dresden"
+        },
+        {
+            "full_name": "Bahare M. Khorsandi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roberto Querio",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonio Varvara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hasanin Harkous",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Wanstedt",
+            "affiliation": null
+        },
+        {
+            "full_name": "Milan Groshev",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonio De La Oliva",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Pieczerak",
+            "affiliation": "Orange Poland"
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Swaraj Shekhar Nande",
+            "affiliation": "Technical University of Dresden"
+        },
+        {
+            "full_name": "Riccardo Bassoli",
+            "affiliation": "Technical University of Dresden"
+        },
+        {
+            "full_name": "Frank H. P. Fitzek",
+            "affiliation": "Technical University of Dresden"
+        }
+    ],
+    "abstract": "In addition to the many services deployed with the predecessor cellular generation, 6G is envisioned to host a large number of new services with strict KPI and QoS requirements which require the various network resources to be optimized accordingly. For example, 6G is expected to be the first generation of cellular systems with built-in sensing capabilities. The coexistence of these services on a common network infrastructure requires improvements in the network architecture to meet the required flexibility, efficiency, and autonomy. In order to provide a seamless and effective coexistence among different services, the 6G system needs to evolve the 5G Radio Access Network (RAN) and Core Network (CN). This paper discusses the different ongoing research activities on the 6G architecture and outlines the potential evolution of the different parts of the network. Moreover, the paper discusses the standardisation implications of these evolutionary changes.",
+    "keywords": "6G, SBA, network virtualization, network modularization, flexibility, efficiency, 6G evolution"
+}

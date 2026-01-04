@@ -1,0 +1,25 @@
+{
+    "id": "WUT4578ee8c01284328bf8ae50431602bdd",
+    "title": "Selected research issues in geovisualization of building interiors for the LBS",
+    "created": "2025-02-26T10:50:10.229+01:00",
+    "modified": "2025-09-09T23:22:37.603+02:00",
+    "language": "en",
+    "doi": "10.5194/ica-abs-7-46-2024",
+    "url": "https://doi.org/10.5194/ica-abs-7-46-2024",
+    "authors": [
+        {
+            "full_name": "Dariusz Gotlib",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Łobodecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł J. Kowalski",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "LBS, indoor navigation, indoor cartography, indoor map, disabled persons"
+}

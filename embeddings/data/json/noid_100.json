@@ -1,0 +1,25 @@
+{
+    "id": "WUTe85cb6afbfe04bdeb7950a222cd61bab",
+    "title": "Cost-Effective Autonomous Drone Navigation Using Reinforcement Learning: Simulation and Real-World Validation",
+    "created": "2024-12-30T11:07:35.653+01:00",
+    "modified": "2025-09-09T23:30:27.249+02:00",
+    "language": "en",
+    "doi": "10.3390/app15010179",
+    "url": "https://doi.org/10.3390/app15010179",
+    "authors": [
+        {
+            "full_name": "Tomasz Czarnecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Stawowy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Kadłubowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Artificial intelligence (AI) is used in tasks that usually require human intelligence. The motivation behind this study is the growing interest in deploying AI in public spaces, particularly in autonomous vehicles such as flying drones, to address challenges in navigation and control. The primary challenge lies in developing a robust, cost-effective system capable of autonomous navigation in real-world environments, handling obstacles, and adapting to dynamic conditions. To tackle this, we propose a novel approach integrating machine learning (ML) algorithms, specifically, reinforcement learning (RL), with a comprehensive simulation and testing framework. Reinforcement learning machine algorithms designed to solve problems requiring optimization of the solution for the highest possible reward were used. It was assumed that the algorithms do not have to be created from scratch, but they need a well-defined training environment that will appropriately reward or punish the actions taken. This study aims to develop and implement a novel approach to autonomous drone navigation using machine learning (ML) algorithms. The primary innovation lies in the comprehensive integration of ML algorithms with a real-world drone control system, encompassing both simulations and real-world testing. A vital component of this approach is creating a multi-stage training environment that accurately replicates actual flight conditions and progressively increases the complexity of scenarios, ensuring a robust evaluation of algorithm performance. This research also introduces a new approach to optimizing system cost and accessibility. It involves using commercially available, cost-effective drones and open-source or free simulation tools, significantly reducing entry barriers for potential users. A critical aspect of this study is to assess whether affordable components can provide sufficient accuracy and stability without compromising system quality. The authors developed a system capable of autonomously determining optimal flight paths and controlling the drone, allowing it to avoid obstacles and respond to dynamic conditions in real time. The performance of the trained algorithms was confirmed through simulations and real-world flights, which allowed for assessing their usefulness in practical drone navigation scenarios.",
+    "keywords": "machine learning; reinforcement learning; drone; prediction; automatization; flight navigation"
+}

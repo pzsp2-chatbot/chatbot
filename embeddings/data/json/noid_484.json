@@ -1,0 +1,49 @@
+{
+    "id": "WUT2b5e19128fdc472093cb1c859148df63",
+    "title": "Relationship between electrical, mechanical and microstructural properties of CFRPs based on thermoplastic acrylic resin",
+    "created": "2025-07-23T10:06:13.653+02:00",
+    "modified": "2025-09-09T23:19:20.165+02:00",
+    "language": "en",
+    "doi": "10.62753/ctp.2025.01.2.2",
+    "url": "https://doi.org/10.62753/ctp.2025.01.2.2",
+    "authors": [
+        {
+            "full_name": "Szymon Demski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Dydek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Krawczyk-Borysiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Sobolewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Mądry",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paulina Kozera",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Boczkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Sroka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hermann Ehrlich",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This study examines the effect of incorporating single-walled carbon nanotubes (SWCNTs) and multi-walled carbon nanotubes (MWCNTs) into carbon fiber reinforced polymers (CFRPs) based on Elium® thermoplastic acrylic resin and investigates the relationship between the studied properties. SWCNTs exhibited better dispersion in the ma-trix, which leads to better electrical conductivity (2.72 ± 0.34 S/m) and impact resistance (154 ± 14.6 kJ/m²) compared to MWCNTs. Microstructural analysis revealed a defect-free architecture of the SWCNT-modified laminates, while the MWCNT laminates showed small voids and agglomerates. The increased dispersion and interconnectivity of the SWCNTs contribute to an EMI shielding efficiency of 24.6 dB, a 30% improvement over the unmodified samples. These findings highlight the potential of SWCNTs to improve the multifunctional properties of thermoplastic CFRPs, including mechanical strength, electrical performance and EMI shielding capability, making them highly suitable for advanced aerospace, electronics and power applications. Moreover, the recyclability and lightweight nature of the Elium® resin matrix make these composites environmentally friendly and an alternative to traditional materials in a variety of industrial contexts.",
+    "keywords": "CFRP, Elium® resin, carbon nanotubes"
+}

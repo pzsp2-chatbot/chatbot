@@ -1,25 +1,45 @@
 {
-    "id": "WUTe61370bd4ea44e80931c230f50725189",
-    "title": "The Use of Language Models to Support the Development of Cartographic Descriptions of a Building’s Interior",
-    "created": "2024-10-16T09:34:44.758+02:00",
-    "modified": "2025-09-09T23:32:45.333+02:00",
+    "id": "WUT623489bbc7a1406da787c47e1dadede5",
+    "title": "Theory guided Lagrange programming neural network for subsurface flow problems",
+    "created": "2024-11-15T18:08:23.001+01:00",
+    "modified": "2025-09-09T23:22:04.015+02:00",
     "language": "en",
-    "doi": "10.3390/app14209343",
-    "url": "https://doi.org/10.3390/app14209343",
+    "doi": "10.1016/j.engappai.2024.108656",
+    "url": "https://doi.org/10.1016/j.engappai.2024.108656",
     "authors": [
         {
-            "full_name": "Krzysztof Lipka",
+            "full_name": "Jian Wang",
             "affiliation": null
         },
         {
-            "full_name": "Dariusz Gotlib",
+            "full_name": "Xiaofeng Xue",
             "affiliation": null
         },
         {
-            "full_name": "Kamil Choromański",
+            "full_name": "Zhixue Sun",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jun Yao",
+            "affiliation": null
+        },
+        {
+            "full_name": "El-Sayed M. El-Alfy",
+            "affiliation": "King Fahd University of Petroleum and Minerals"
+        },
+        {
+            "full_name": "Kai Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Witold Pedrycz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "A deep learning model can perform efficient uncertainty quantification (UQ) for reservoir flow with uncertain model parameters, but usually requires large amounts of training data to ensure accuracy. However, the cost of obtaining large amounts of data is prohibitive, and the performance will deteriorate if sufficient training data is lacking. Alternatively, more interpretable neural networks with embedded physical laws have recently been used to solve partial differential equations as well as to solve UQ problems. This approach has received a lot of attention due to its low data volume requirements and its adherence to the laws of physics during the training process. In this paper, we propose a theory-guided framework based on a bilevel programming model with hard constraints to embed physical meaning in the model. Theory guided Lagrange programming neural network (TGLPNN) combines the method of Lagrange programming neural network approach where physical laws such as stochastic partial differential equations and boundary conditions are incorporated into the training process of a convolutional neural network. At the same time, the upper-level variables are iteratively optimized. The method based on Lagrange programming neural network inherently embeds physical laws in the network. Practical applications have shown that TGLPNN can provide higher prediction accuracy compared to state-of-the-art physics-driven methods and improved efficiency compared to numerical methods.",
+    "keywords": "Lagrange programming neural network, Stochastic partial differential equations, Theory-guided"
 }

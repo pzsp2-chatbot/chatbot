@@ -1,0 +1,41 @@
+{
+    "id": "WUT0098eea84d9d4031b8cb48890eeae23d",
+    "title": "Enhancing UAV Network Efficiency through 6G<sup>+</sup> Enabled Federated Learning Algorithms and Energy optimization Techniques",
+    "created": "2025-01-29T09:51:43.788+01:00",
+    "modified": "2025-09-09T23:22:50.704+02:00",
+    "language": "en",
+    "doi": "10.1109/iwcmc61514.2024.10592391",
+    "url": "https://doi.org/10.1109/iwcmc61514.2024.10592391",
+    "authors": [
+        {
+            "full_name": "Andreas Andreou",
+            "affiliation": "University of Cambridge"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        },
+        {
+            "full_name": "Athina Bourdena",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "George Mastorakis",
+            "affiliation": "Technological Educational Insitute of Crete"
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        }
+    ],
+    "abstract": "This study presents an innovative approach to enhancing the efficiency of Unmanned Aerial Vehicles (UAV) in IoT networks. Employing UAVs as flying relays focuses on their role in data collection and support for terrestrial cellular networks. The central innovation lies in the application of Federated Learning (FL), which processes data while ensuring user privacy and reducing communication overhead. Addressing the challenge of UAVs’ limited battery life, which restricts sustained FL operations, we introduce the Enhanced UAV Network optimization Algorithm with Adaptive Spatial Play (ENUO-ASP). ENUOASP incorporates a modified Particle Swarm optimization (PSO) technique to determine optimal UAV placements, enhancing data collection by focusing on the Signal-to-Interference Ratio (SINR). Additionally, the paper utilizes the Deep Deterministic Policy Gradient (DDPG) method for dynamic resource allocation, optimizing energy consumption and reducing link latency between the UAV network and users. The findings indicate that the ENUO algorithm outperforms existing methods by achieving higher data rates and balanced SINR. Furthermore, the ASP resource allocation strategy improves FL execution, significantly lowering latency and energy use. This research contributes to the UAV-enabled communication field, offering a more efficient and performance-driven solution for advanced IoT applications.",
+    "keywords": "UAV, deep RL, Resource Allocation, IoT, Network Coverage optimization, Federated Learning"
+}

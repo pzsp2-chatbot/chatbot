@@ -1,0 +1,37 @@
+{
+    "id": "WUT794a16abc04a473eb85d9bf7f5212a6b",
+    "title": "Numerical Method of Position Estimation for Multistatic Passive Radar",
+    "created": "2025-01-05T02:54:08.001+01:00",
+    "modified": "2025-09-10T00:05:53.938+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ieeexplore.ieee.org/document/10644275",
+    "authors": [
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Peter Knott",
+            "affiliation": "Fraunhofer Institute for High Frequency Physics and Radar Techniques"
+        },
+        {
+            "full_name": "Jacek Misiurewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Gromek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Szelągowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Passive radar is a radar that does not emit signals but uses other sources of illumination. To determine the position of an object in a passive radar, distance measurements from at least three transmitter-receiver pairs are needed. The paper presents an adaptation of the maximum likelihood estimator to determine the position of an object based on multiple (three or more) bistatic or DToA (Difference Time of Arrival) measurements. The estimation quality factor was introduced. Stability of the numerical solution was analyzed. </p>",
+    "keywords": null
+}

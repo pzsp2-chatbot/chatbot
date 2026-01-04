@@ -1,29 +1,65 @@
 {
-    "id": "WUT17940f2d78b34d438c3203e45f30b921",
-    "title": "Gini-stable Lorenz curves and their relation to the generalised Pareto distribution",
-    "created": "2024-10-09T10:10:23.106+02:00",
-    "modified": "2025-09-09T23:29:43.826+02:00",
+    "id": "WUT86f26646818341ac8d755d040d653bd3",
+    "title": "Target detection, ISAR imaging and tracking capabilities of apassive radar net utilising barrage jamming signals",
+    "created": "2024-11-12T10:59:59.615+01:00",
+    "modified": "2025-09-09T23:34:35.114+02:00",
     "language": "en",
-    "doi": "10.1016/j.joi.2024.101499",
-    "url": "https://doi.org/10.1016/j.joi.2024.101499",
+    "doi": "10.1049/rsn2.12641",
+    "url": "https://doi.org/10.1049/rsn2.12641",
     "authors": [
         {
-            "full_name": "Lucio Bertoli-Barsotti",
+            "full_name": "Maciej Soszka",
+            "affiliation": "PIT-RADWAR S.A."
+        },
+        {
+            "full_name": "Piotr Szymański",
+            "affiliation": "PIT-RADWAR S.A."
+        },
+        {
+            "full_name": "Mariusz Zych",
+            "affiliation": "PIT-RADWAR S.A."
+        },
+        {
+            "full_name": "Roman Mularzuk",
+            "affiliation": "PIT-RADWAR S.A."
+        },
+        {
+            "full_name": "Michał Bartoszewski",
             "affiliation": null
         },
         {
-            "full_name": "Marek Gągolewski",
-            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
-        },
-        {
-            "full_name": "Grzegorz Siudem",
+            "full_name": "Marcin Kamil Bączyk",
             "affiliation": null
         },
         {
-            "full_name": "Barbara Żogała-Siudem",
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Maślikowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Wielgo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria-Pilar Jarabo-Amores",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nerea Rey-Maestre",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Mata-Moya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Idar Norheim-Næss",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Jammers aim to interfere with active radars during military operations. Still, they can strengthen our capabilities on the battlefield if there are proper methods to use them. This paper demonstrates the possibility of utilising a ground-based barrage jammer (to jam radars or communications) as an illumination source for passive radar detection, tracking and inverse synthetic aperture radar (ISAR) imaging. It shows the feasibility of using a jammer for cooperative (friendly jammer) and non-cooperative (hostile jammer) operations. The results come from the European Defence Agency project no B 1516 IAP2 GP entitled jammer-based passive radar. This article will present some of the outcomes of field trials conducted in June 2022 in Poland within the international electronic warfare exercises. Designed jammer demonstrators, with a maximum bandwidth of 115 MHz, were used as illuminators of opportunity and made it possible to test the operation of passive radars with five signal types (within two bands—L-band and S-band) for military targets (i.e. fighters, transport planes, helicopters). In the first part of the article, detection, ISAR imaging and tracking issues will be addressed. The second part of the article will focus on the results obtained during the project's joint field trials.",
+    "keywords": null
 }

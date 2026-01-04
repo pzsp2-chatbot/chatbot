@@ -1,0 +1,25 @@
+{
+    "id": "WUTae988f2445834f2e822132acd40c9c50",
+    "title": "Cognitive Agents Powered by Large Language Models for Agile Software Project Management",
+    "created": "2024-12-30T18:45:45.773+01:00",
+    "modified": "2025-09-09T23:30:19.778+02:00",
+    "language": "en",
+    "doi": "10.3390/electronics14010087",
+    "url": "https://doi.org/10.3390/electronics14010087",
+    "authors": [
+        {
+            "full_name": "Konrad Cinkusz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Niewiadomska-Szynkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper investigates the integration of cognitive agents powered by Large Language Models (LLMs) within the Scaled Agile Framework (SAFe) to reinforce software project management. By deploying virtual agents in simulated software environments, this study explores their potential to fulfill fundamental roles in IT project development, thereby optimizing project outcomes through intelligent automation. Particular emphasis is placed on the adaptability of these agents to Agile methodologies and their transformative impact on decision-making, problem-solving, and collaboration dynamics. The research leverages the CogniSim ecosystem, a platform designed to simulate real-world software engineering challenges, such as aligning technical capabilities with business objectives, managing interdependencies, and maintaining project agility. Through iterative simulations, cognitive agents demonstrate advanced capabilities in task delegation, inter-agent communication, and project lifecycle management. By employing natural language processing to facilitate meaningful dialogues, these agents emulate human roles and improve the efficiency and precision of Agile practices. Key findings from this investigation highlight the ability of LLM-powered cognitive agents to deliver measurable improvements in various metrics, including task completion times, quality of deliverables, and communication coherence. These agents exhibit scalability and adaptability, ensuring their applicability across diverse and complex project environments. This study underscores the potential of integrating LLM-powered agents into Agile project management frameworks as a means of advancing software engineering practices. This integration not only refines the execution of project management tasks but also sets the stage for a paradigm shift in how teams collaborate and address emerging challenges. By integrating the capabilities of artificial intelligence with the principles of Agile, the CogniSim framework establishes a foundation for more intelligent, efficient, and adaptable software development methodologies.",
+    "keywords": "cognitive agents; large language models; Agile software project management;\nscaled Agile framework; CogniSim; multi-agent systems"
+}

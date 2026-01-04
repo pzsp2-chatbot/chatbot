@@ -1,0 +1,29 @@
+{
+    "id": "WUTd32f9f8ce48a4d1b8ae94813488feeb2",
+    "title": "Harmonizing decisions in wind farm management to provide a stable energy supply",
+    "created": "2025-01-09T22:13:55.706+01:00",
+    "modified": "2025-09-09T23:26:29.887+02:00",
+    "language": "en",
+    "doi": "10.1109/mcsi63438.2024.00010",
+    "url": "https://doi.org/10.1109/mcsi63438.2024.00010",
+    "authors": [
+        {
+            "full_name": "Zixuan Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Makowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zbigniew Nahorski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Granat",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Variable renewable energy generation requires management to provide a stable energy supply. The management consists of making decisions at different time scales; harmonization of such decisions is the main challenge addressed in the paper. The paper presents a mathematical programming model supporting the harmonization of the wind farm decision-making at three different time scales: (1) one-time investment in the energy storage system, (2) annual commitment of constant electricity supply for an industrial partner, and (3) operational (hourly) decisions on energy flows within the plant. The model prototype was tested on the rational configuration of a hydrogen-based energy storage system composed of electrolyzers, hydrogen tanks, and fuel cells.The model optimization provides the set of decisions maximizing the annual revenue: (1) the number of devices (of different types of each considered kind of device), i.e., the optimal configuration of the storage system; (2) the annually committed constant hourly energy supply, and (3) the operational decisions on energy flows within the wind farm, as well as an optional use of the energy adjusting market for handling temporal energy surplus or deficit.",
+    "keywords": "Renewable energy sources; Hydrogen storage; Electricity;Hydrogen; Prototypes; Wind farms ;Wind power generation; Mathematical models; Batteries;Investment;management of volatile wind-powered generation;renewable energy system;harmonizing decisions at different time scales;hydrogen energy storage"
+}

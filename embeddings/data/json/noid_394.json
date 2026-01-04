@@ -1,0 +1,33 @@
+{
+    "id": "WUT9eb33bc9be71441a90ac9beeb9be5a9e",
+    "title": "Particle identification with machine learning in ALICE Run 3",
+    "created": "2025-05-09T10:22:49.677+02:00",
+    "modified": "2025-09-09T23:31:48.485+02:00",
+    "language": "en",
+    "doi": "10.1051/epjconf/202429509029",
+    "url": "https://doi.org/10.1051/epjconf/202429509029",
+    "authors": [
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Deja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Miłosz Kasak",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

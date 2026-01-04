@@ -1,0 +1,33 @@
+{
+    "id": "WUT9ff799950369475d863d099ff98cae60",
+    "title": "Estimating the limit state space of quasi-nonlinear Fuzzy Cognitive Maps",
+    "created": "2025-04-10T15:05:07.611+02:00",
+    "modified": "2025-09-09T23:19:17.539+02:00",
+    "language": "en",
+    "doi": "10.1016/j.asoc.2024.112604",
+    "url": "https://doi.org/10.1016/j.asoc.2024.112604",
+    "authors": [
+        {
+            "full_name": "Leonardo Concepción",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gonzalo Nápoles",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Isel Grau",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yamisleydi Salgueiro",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Quasi-Nonlinear Fuzzy Cognitive Maps (q-FCMs) generalize the classic Fuzzy Cognitive Maps (FCMs) by incorporating a nonlinearity coefficient that is related to the model’s convergence. While q-FCMs can be configured to avoid unique fixed-point attractors, there is still limited knowledge of their dynamic behavior. In this paper, we propose two iterative, mathematically-driven algorithms that allow estimating the limit state space of any q-FCM model. These algorithms produce accurate lower and upper bounds for the activation values of neural concepts in each iteration without using any information about the initial conditions. As a result, we can determine which activation values will never be produced by a neural concept regardless of the initial conditions used to perform the simulations. In addition, these algorithms could help determine whether a classic FCM model will converge to a unique fixed-point attractor. As a second contribution, we demonstrate that the covering of neural concepts decreases as the nonlinearity coefficient approaches its maximal value. However, large covering values do not necessarily translate into better approximation capabilities, especially in the case of nonlinear problems. This finding points to a trade-off between the model’s nonlinearity and the number of reachable states.",
+    "keywords": "Fuzzy Cognitive Maps, Recurrent neural networks, Modeling and simulation, Convergence analysis"
+}

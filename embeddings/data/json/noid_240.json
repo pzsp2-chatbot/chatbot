@@ -1,0 +1,41 @@
+{
+    "id": "WUTf8b2646832eb4050b393e30c04b9f287",
+    "title": "VHS-22-A Very Heterogeneous Set of Network Traffic Data for Threat Detection",
+    "created": "2025-02-03T12:58:58.504+01:00",
+    "modified": "2025-09-10T00:12:28.899+02:00",
+    "language": "en",
+    "doi": "10.1145/3528580.3532843",
+    "url": "https://doi.org/10.1145/3528580.3532843",
+    "authors": [
+        {
+            "full_name": "David Megías",
+            "affiliation": "Universitat Oberta de Catalunya, ES"
+        },
+        {
+            "full_name": "Roberto Di Pietro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joaquin Garcia-Alfaro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Szumełda",
+            "affiliation": null
+        },
+        {
+            "full_name": "Natan Orzechowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Rawski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Artur Janicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Researching new methods of detecting network threats, e.g., malware-related, requires large and diverse sets of data. In recent years, a variety of network traffic datasets have been proposed, which have been intensively used by the research community. However, most of them are quite homogeneous, which means that detecting threats using these data became relatively easy, allowing for detection accuracy close to 100%. Therefore, they are not a challenge anymore. As a remedy, in this article we propose a VHS-22 dataset-a Very Heterogeneous Set of network traffic data. We prepared it using a software network probe and a set of existing datasets. We describe the process of dataset creation, as well as its basic statistics. We also present initial experiments on attack detection, which yielded lower results than for other datasets. We claim that the data in the VHS-22 dataset are more demanding, and therefore that our dataset can better stimulate further progress in detecting network threats.",
+    "keywords": "network traffic dataset, malware detection, network traffic analysis,\nDoS attacks, botnets, machine learning"
+}

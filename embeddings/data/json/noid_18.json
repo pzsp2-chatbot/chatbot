@@ -1,41 +1,57 @@
 {
-    "id": "WUT7733d0a3a9c5483d84d899fa390626a6",
-    "title": "A Reactor for Microwave-Assisted Chemistry [Application Notes]",
-    "created": "2024-10-08T11:15:29.164+02:00",
-    "modified": "2025-09-09T23:32:18.289+02:00",
+    "id": "WUT40301263ae5f4ad48221bd584a88f29e",
+    "title": "Category Adaptation Meets Projected Distillation in Generalized Continual Category Discovery",
+    "created": "2024-11-08T13:02:15.614+01:00",
+    "modified": "2025-09-09T23:22:53.316+02:00",
     "language": "en",
-    "doi": "10.1109/mmm.2024.3408074",
-    "url": "https://doi.org/10.1109/mmm.2024.3408074",
+    "doi": "10.1007/978-3-031-73247-8_19",
+    "url": "https://doi.org/10.1007/978-3-031-73247-8_19",
     "authors": [
         {
-            "full_name": "Przemysław Korpas",
+            "full_name": "Aleš Leonardis",
             "affiliation": null
         },
         {
-            "full_name": "Magdalena Borowska (Bartosiak)",
+            "full_name": "Elisa Ricci",
             "affiliation": null
         },
         {
-            "full_name": "Małgorzata Celuch",
+            "full_name": "Stefan Roth",
             "affiliation": null
         },
         {
-            "full_name": "Daniel Gryglewski",
+            "full_name": "Olga Russakovsky",
             "affiliation": null
         },
         {
-            "full_name": "Krzysztof Jankowski",
+            "full_name": "Torsten Sattler",
             "affiliation": null
         },
         {
-            "full_name": "Sebastian Kozłowski",
+            "full_name": "Gül Varol",
             "affiliation": null
         },
         {
-            "full_name": "Wojciech Wojtasiak",
+            "full_name": "Grzegorz Rypeść",
             "affiliation": null
+        },
+        {
+            "full_name": "Daniel Marczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Cygert",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
+            "affiliation": "IDEAS NCBR Sp. z o.o."
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Generalized Continual Category Discovery (GCCD) tackles learning from sequentially arriving, partially labeled datasets while uncovering new categories. Traditional methods depend on feature distillation to prevent forgetting the old knowledge. However, this strategy restricts the model’s ability to adapt and effectively distinguish new categories. To address this, we introduce a novel technique integrating a learnable projector with feature distillation, thus enhancing model adaptability without sacrificing past knowledge. The resulting distribution shift of the previously learned categories is mitigated with the auxiliary category adaptation network. We demonstrate that while each component offers modest benefits individually, their combination – dubbed CAMP (Category Adaptation Meets Projected distillation) – significantly improves the balance between learning new information and retaining old. CAMP exhibits superior performance across several GCCD and Class Incremental Learning scenarios. The code is available on Github.",
+    "keywords": null
 }

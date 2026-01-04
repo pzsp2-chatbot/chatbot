@@ -1,0 +1,17 @@
+{
+    "id": "WUT469b3639e3274059937d115d089ef096",
+    "title": "Telekomunikacja optyczna kurczy Ziemię, część 3",
+    "created": "2025-03-24T14:19:17.457+01:00",
+    "modified": "2025-09-09T23:21:25.976+02:00",
+    "language": "pl",
+    "doi": "10.15199/59.2025.1.2",
+    "url": "https://doi.org/10.15199/59.2025.1.2",
+    "authors": [
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Obecnie, komercyjne transmisyjne systemy światłowodowe o największej przepływności działają w standardzie 100 Tbps. Wiele czołowych laboratoriów prowadzi testy nad systemami a następnie ich standaryzacją komercyjną w obszarze przepływności potencjalnie aż do 1Ebps. W prasie technicznej prowadzona jest dyskusja jakie są granice tej przepływności. Opinie są rozbieżne co do wartości 1Ebps. Warto te dane skalować do typowych standardów komercyjnych stanowiących podstawę rynku. Systemy 100 Tbps są na razie zupełnie wyjątkowe. Typowe dostępne komercyjne systemy światłowodowe działają raczej z szybkościami 100 Gbps, ewentualnie 1 Tbps. Rozrzut wymienionych szybkości jest bardzo szeroki, a więc potencjał rozwojowy wydaje się być ogromny. Zagospodarowanie pasma światłowodu ciągle wzrasta. Efektywnie łączone są optyczne obszary transmisyjne S, C i L, ale to za mało. Eksperymentalne systemy pod koniec roku 2023 korzystały z pasma ponad 20 THz. W połowie roku 2024 zbliżono się do 40 THz i to nie jest koniec. Jesteśmy świadkami dalszego ciągu rewolucji światłowodowej w telekomunikacji. Możliwe do uzyskania przepływności na razie przekraczają nasze zapotrzebowanie. Internet będzie dostępny wszędzie i zawsze przez kolejne wersje standardów satelitarnych, mobilnych WiFi i GX, a także i przyszłościowe fotoniczne wszechobecne LiFi, ale nic nie zastąpi szkieletu światłowodowego o gigantycznej przepływności zasilającego prawie wszędzie w sposób inteligentny, bezpieczny, niezawodny użytkową, gęstą abonencką warstwę mobilną. Telekomunikacja optyczna rzeczywiście kurczy Ziemię.",
+    "keywords": "telekomunikacja światłowodowa, telekomunikacja optyczna, światłowody telekomunikacyjne, fotonika, optoelektronika"
+}

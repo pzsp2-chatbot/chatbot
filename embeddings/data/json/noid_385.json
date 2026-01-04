@@ -1,0 +1,37 @@
+{
+    "id": "WUT084103ae37b545628dfba01509fcf15e",
+    "title": "Metaverse and Digital Twins for Consumer Electronics",
+    "created": "2025-05-07T14:58:28.191+02:00",
+    "modified": "2025-09-09T23:32:47.951+02:00",
+    "language": "en",
+    "doi": "10.1109/tce.2024.3411469",
+    "url": "https://doi.org/10.1109/tce.2024.3411469",
+    "authors": [
+        {
+            "full_name": "Zhihan Lyu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jaime Lloret Mauri",
+            "affiliation": null
+        },
+        {
+            "full_name": "Houbing Song",
+            "affiliation": "Department of Electrical, Computer, Software, and Systems Engineering"
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Huihui Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "James J. Park",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,33 +1,21 @@
 {
-    "id": "WUT5ea021f3dd45471f966684cadc42b6c0",
-    "title": "Particle identification with machine learning from incomplete data in the ALICE experiment",
-    "created": "2024-10-07T14:50:27.977+02:00",
-    "modified": "2025-09-09T23:31:46.940+02:00",
+    "id": "WUT9d272254e4d943748719e84ca9588be0",
+    "title": "Rammstein Concert-Induced Seismicity Signal Filtering by Time–Frequency Analysis",
+    "created": "2024-11-07T13:43:05.437+01:00",
+    "modified": "2025-09-09T23:33:10.502+02:00",
     "language": "en",
-    "doi": "10.1088/1748-0221/19/07/c07013",
-    "url": "https://doi.org/10.1088/1748-0221/19/07/c07013",
+    "doi": "10.1109/LGRS.2024.3485772",
+    "url": "https://doi.org/10.1109/LGRS.2024.3485772",
     "authors": [
         {
-            "full_name": "Maja Karwowska",
-            "affiliation": null
+            "full_name": "Maciej J. Mendecki",
+            "affiliation": "Silesian University of Technology"
         },
         {
-            "full_name": "Łukasz Graczykowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Kamil Deja",
-            "affiliation": null
-        },
-        {
-            "full_name": "Miłosz Kasak",
-            "affiliation": null
-        },
-        {
-            "full_name": "Małgorzata Janik",
+            "full_name": "Karol Abratkiewicz",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "In this letter, the focus is on vibration related to Rammstein concerts, which took place in July 2023 at the Silesian Stadium, Poland. First, the concert-induced signals underwent preliminary study in the time domain (waveforms) and the time–frequency domain (spectrograms). Next, the investigation was improved by filtering, allowing for better ambient noise band interpretation. The signal quality enhancement was confirmed by frequency and time–frequency metrics. Finally, after the filtering, Lissajous curves (2-D motion) were produced, clearly indicating the significant improvement of the signal filtering.",
+    "keywords": "Lissajous curves, man-made seismicity, spectral analysis, time–frequency analysis, urban seismology"
 }
