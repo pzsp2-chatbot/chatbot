@@ -11,56 +11,56 @@ env:
   DOCKER_IMAGE: chatbot/app
 
 jobs:
-#  lint:
-#    runs-on: ubuntu-latest
-#    container:
-#      image: python:3.12-slim
-#    steps:
-#      - uses: actions/checkout@v3
-#      - name: Install linters
-#        run: pip install --no-cache-dir --root-user-action=ignore ruff black isort mypy
-#      - name: Run linters
-#        run: |
-#          ruff check .
-#          black --check .
-#
-#
-#  build:
-#    runs-on: ubuntu-latest
-#    container:
-#      image: python:3.12-slim
-#    env:
-#      HOME: /tmp/home
-#      PIP_NO_CACHE_DIR: "1"
-#      PIP_DISABLE_PIP_VERSION_CHECK: "1"
-#    needs: lint
-#    steps:
-#      - uses: actions/checkout@v3
-#      - name: Install build dependencies
-#        run: |
-#          export DEBIAN_FRONTEND=noninteractive
-#          apt-get update -qq
-#          apt-get install -y -qq gcc build-essential python3-dev 2>&1 | grep -v "update-alternatives: warning:"
-#      - name: Install dependencies
-#        run: pip install --root-user-action=ignore -r requirements.txt
-#
-#  test:
-#    runs-on: ubuntu-latest
-#    container:
-#      image: docker:27
-#    env:
-#      QDRANT_TEST_API_KEY: ${{ secrets.QDRANT_TEST_API_KEY }}
-#    needs: build
-#    steps:
-#      - uses: actions/checkout@v3
-#      - run: docker compose -f "docker-compose.test.yml" up --abort-on-container-exit --build
-#      - run: docker compose -f "docker-compose.test.yml" down
+  lint:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.12-slim
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install linters
+        run: pip install --no-cache-dir --root-user-action=ignore ruff black isort mypy
+      - name: Run linters
+        run: |
+          ruff check .
+          black --check .
+
+
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.12-slim
+    env:
+      HOME: /tmp/home
+      PIP_NO_CACHE_DIR: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
+    needs: lint
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install build dependencies
+        run: |
+          export DEBIAN_FRONTEND=noninteractive
+          apt-get update -qq
+          apt-get install -y -qq gcc build-essential python3-dev 2>&1 | grep -v "update-alternatives: warning:"
+      - name: Install dependencies
+        run: pip install --root-user-action=ignore -r requirements.txt
+
+  test:
+    runs-on: ubuntu-latest
+    container:
+      image: docker:27
+    env:
+      QDRANT_TEST_API_KEY: ${{ secrets.QDRANT_TEST_API_KEY }}
+    needs: build
+    steps:
+      - uses: actions/checkout@v3
+      - run: docker compose -f "docker-compose.test.yml" up --abort-on-container-exit --build
+      - run: docker compose -f "docker-compose.test.yml" down
 
   docker_build:
     runs-on: ubuntu-latest
     container:
       image: docker:27
-#    needs: test
+    needs: test
     steps:
       - uses: actions/checkout@v3
       - run: docker build -f Dockerfile -t "$DOCKER_IMAGE:${{ github.sha }}" . 2>&1 | grep -v "current commit information was not captured"
