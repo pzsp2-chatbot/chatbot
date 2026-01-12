@@ -28,11 +28,18 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: python:3.12-slim
+    env:
+      HOME: /tmp/home
+      PIP_NO_CACHE_DIR: "1"
+      PIP_DISABLE_PIP_VERSION_CHECK: "1"
     needs: lint
     steps:
       - uses: actions/checkout@v3
       - name: Install build dependencies
-        run: apt-get update && apt-get install -y gcc build-essential python3-dev
+        run: |
+          export DEBIAN_FRONTEND=noninteractive
+          apt-get update -qq
+          apt-get install -y -qq gcc build-essential python3-dev 2>&1 | grep -v "update-alternatives: warning:"
       - name: Install dependencies
         run: pip install --root-user-action=ignore -r requirements.txt
 
@@ -55,4 +62,4 @@ jobs:
     needs: test
     steps:
       - uses: actions/checkout@v3
-      - run: docker build -t "$DOCKER_IMAGE:${{ github.sha }}" .
+      - run: docker build -f Dockerfile -t "$DOCKER_IMAGE:${{ github.sha }}" . 2>&1 | grep -v "current commit information was not captured"
