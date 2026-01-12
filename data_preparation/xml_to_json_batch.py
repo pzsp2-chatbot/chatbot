@@ -65,13 +65,28 @@ class AuthorProcessor:
             "externalAuthorAffiliation/fullNameEN"
         ) or author_element.findtext("externalAuthorAffiliation/fullName")
 
+    def _extract_affiliation(self, author_element: ET.Element) -> Optional[str]:
+        affiliations = []
+
+        for aff in author_element.findall("externalAuthorAffiliation"):
+            name = aff.findtext("fullNameEN") or aff.findtext("fullName")
+            affiliations.append(name.strip())
+
+        if affiliations:
+            return "; ".join(affiliations)
+        
+        return None
+
 
 class ContentExtractor:
     def __init__(self, parser: XMLParser):
         self.parser = parser
 
     def get_language(self) -> Optional[str]:
-        return self.parser.get_element_text("./ns:language/code")
+        try:
+            return self.parser.get_element_text("./ns:language/code")
+        except SyntaxError:
+            return None
 
     def get_abstract(self) -> Optional[str]:
         language = self.get_language()
