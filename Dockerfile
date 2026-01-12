@@ -3,10 +3,10 @@ FROM python:3.12-slim
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+RUN apt-get update 2>&1 | grep -v "debconf:" && apt-get install -y --no-install-recommends \
     curl \
     build-essential \
-    pkg-config \
+    pkg-config 2>&1 | grep -v "debconf:" \
  && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
