@@ -63,6 +63,4 @@ jobs:
 #    needs: test
     steps:
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-      - run: docker build -f Dockerfile -t "$DOCKER_IMAGE:${{ github.sha }}" .
+      - run: docker build -f Dockerfile -t "$DOCKER_IMAGE:${{ github.sha }}" . 2>&1 | grep -v "current commit information was not captured"
