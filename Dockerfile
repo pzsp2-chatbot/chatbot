@@ -1,8 +1,5 @@
 FROM python:3.12-slim
 
-RUN echo 'path-exclude=/usr/share/man/*' > /etc/dpkg/dpkg.cfg.d/excludes
-
-ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
 RUN apt-get update && apt-get install -y \
