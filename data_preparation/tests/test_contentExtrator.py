@@ -22,6 +22,7 @@ def create_extractor(xml: str, namespace=None):
 
 # ---------- LANGUAGE ----------
 
+
 def test_get_language_en():
     xml = """
     <root xmlns:ns="http://ii.pw.edu.pl/lib">
@@ -50,7 +51,7 @@ def test_get_language_missing_returns_none():
     xml = "<root></root>"
     extractor = create_extractor(xml, namespace={})
     assert extractor.get_language() is None
-    
+
 
 def test_get_abstract_english():
     xml = """

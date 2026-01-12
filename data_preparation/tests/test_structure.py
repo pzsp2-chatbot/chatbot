@@ -2,6 +2,7 @@ from data_preparation.structure import write_structure
 import xml.etree.ElementTree as ET
 from io import StringIO
 
+
 def test_write_structure(tmp_path):
     test_xml = """
     <root>
@@ -26,7 +27,7 @@ def test_write_structure(tmp_path):
 
     expected_output = (
         "<root>\n"
-        "  <child1 attr=\"value1\">\n"
+        '  <child1 attr="value1">\n'
         "    <subchild>\n"
         "    </subchild>\n"
         "  </child1>\n"
@@ -36,7 +37,6 @@ def test_write_structure(tmp_path):
     )
 
     assert content == expected_output
-
 
 
 def test_write_structure_single_element():
@@ -66,6 +66,7 @@ def test_write_structure_nested_elements():
     assert result[3] == "    </grandchild>"
     assert result[4] == "  </child>"
     assert result[5] == "</root>"
+
 
 def test_write_structure_with_attributes():
     elem = ET.Element("article", attrib={"type": "article", "lang": "en"})

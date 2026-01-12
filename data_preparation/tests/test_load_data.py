@@ -100,11 +100,7 @@ def test_download_saves_articles(mock_fetch, tmp_path):
     </collection>
     """
 
-    d = OmegaDownloader(
-        output_dir=str(tmp_path),
-        batch_size=2,
-        limit=2
-    )
+    d = OmegaDownloader(output_dir=str(tmp_path), batch_size=2, limit=2)
 
     total = d.download()
 
@@ -122,11 +118,7 @@ def test_download_respects_limit(mock_fetch, tmp_path):
     </collection>
     """
 
-    d = OmegaDownloader(
-        output_dir=str(tmp_path),
-        batch_size=2,
-        limit=1
-    )
+    d = OmegaDownloader(output_dir=str(tmp_path), batch_size=2, limit=1)
 
     total = d.download()
 
@@ -153,4 +145,3 @@ def test_handle_download_unexpected_error(mock_download, capsys):
 
     captured = capsys.readouterr()
     assert "Unexpected Error" in captured.out
-

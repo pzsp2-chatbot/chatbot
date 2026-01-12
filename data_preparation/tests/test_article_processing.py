@@ -1,6 +1,8 @@
-from data_preparation.xml_to_json_batch import (ArticleMetadata,
-                                                JSONOutputHandler,
-                                                ArticleParser)
+from data_preparation.xml_to_json_batch import (
+    ArticleMetadata,
+    JSONOutputHandler,
+    ArticleParser,
+)
 import json
 
 
@@ -20,9 +22,16 @@ def test_article_metadata_to_dict_keys():
 
     data = meta.to_dict()
     expected_keys = {
-        "id", "title", "created", "modified",
-        "language", "doi", "url",
-        "authors", "abstract", "keywords"
+        "id",
+        "title",
+        "created",
+        "modified",
+        "language",
+        "doi",
+        "url",
+        "authors",
+        "abstract",
+        "keywords",
     }
 
     assert set(data.keys()) == expected_keys

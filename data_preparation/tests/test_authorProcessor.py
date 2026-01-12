@@ -1,5 +1,4 @@
-from data_preparation.xml_to_json_batch import (XMLParser, 
-                                                AuthorProcessor)
+from data_preparation.xml_to_json_batch import XMLParser, AuthorProcessor
 
 
 def test_author_without_surname_is_skipped(tmp_path):
@@ -57,8 +56,8 @@ def test_author_full_extraction(tmp_path):
 
     assert authors[0]["full_name"] == "Piotr Kowalski"
     assert authors[0]["affiliation"] == "University of Warsaw"
-    
-    
+
+
 def test_author_with_multiple_affiliations(tmp_path):
     xml = """
     <root xmlns:ns="http://ii.pw.edu.pl/lib">

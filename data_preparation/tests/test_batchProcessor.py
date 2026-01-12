@@ -1,5 +1,6 @@
 from data_preparation.xml_to_json_batch import BatchProcessor
 
+
 def test_batch_processor_multiple_files(tmp_path):
     input_dir = tmp_path / "xml"
     output_dir = tmp_path / "json"

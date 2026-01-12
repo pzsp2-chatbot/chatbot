@@ -1,6 +1,7 @@
 from data_preparation.xml_to_json_batch import XMLParser
 import json
 
+
 def test_find_element_returns_none_if_missing(tmp_path):
     xml = "<root></root>"
     path = tmp_path / "test.xml"
@@ -43,7 +44,9 @@ def test_find_element_with_namespace(tmp_path):
 
 
 def test_get_element_text_with_namespace(tmp_path):
-    xml = '<root xmlns:ns="http://example.com/ns"><ns:child>text value</ns:child></root>'
+    xml = (
+        '<root xmlns:ns="http://example.com/ns"><ns:child>text value</ns:child></root>'
+    )
     path = tmp_path / "test.xml"
     path.write_text(xml)
 

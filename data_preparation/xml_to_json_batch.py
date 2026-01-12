@@ -74,7 +74,7 @@ class AuthorProcessor:
 
         if affiliations:
             return "; ".join(affiliations)
-        
+
         return None
 
 

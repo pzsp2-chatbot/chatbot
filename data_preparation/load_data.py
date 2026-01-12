@@ -74,7 +74,7 @@ class OmegaDownloader:
             for art in articles:
                 if saved >= self.limit:
                     break
-            
+
                 self.save_article(art, saved)
                 saved += 1
 
