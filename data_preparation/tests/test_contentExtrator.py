@@ -1,4 +1,3 @@
-import xml.etree.ElementTree as ET
 from data_preparation.xml_to_json_batch import XMLParser, ContentExtractor
 
 
@@ -7,7 +6,6 @@ def create_extractor(xml: str, namespace=None):
     Helper: creates ContentExtractor from XML string
     """
     import tempfile
-    from pathlib import Path
 
     if namespace is None:
         namespace = {"ns": "http://ii.pw.edu.pl/lib"}

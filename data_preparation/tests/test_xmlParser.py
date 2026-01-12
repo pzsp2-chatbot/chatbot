@@ -1,5 +1,4 @@
 from data_preparation.xml_to_json_batch import XMLParser
-import json
 
 
 def test_find_element_returns_none_if_missing(tmp_path):
