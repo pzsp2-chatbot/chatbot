@@ -3,12 +3,15 @@ FROM python:3.12-slim
 ENV DEBIAN_FRONTEND=noninteractive
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl \
-    build-essential \
-    pkg-config \
-    man-db \
- && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && \
+    (apt-get install -y \
+        curl \
+        build-essential \
+        pkg-config \
+        fakeroot \
+     2>&1 | grep -v "update-alternatives: warning:" \
+    ) && \
+    rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir --root-user-action=ignore -r requirements.txt
