@@ -10,10 +10,10 @@ RUN apt-get update && apt-get install -y \
     pkg-config 2>&1 | grep -v "update-alternatives: warning:" \
  && rm -rf /var/lib/apt/lists/*
 
+COPY .git .git
 COPY requirements.txt .
 RUN pip install --no-cache-dir --root-user-action=ignore -r requirements.txt
 
-COPY .git .git
 COPY . .
 
 ENV PYTHONPATH=/app
