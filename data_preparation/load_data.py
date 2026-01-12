@@ -72,6 +72,9 @@ class OmegaDownloader:
             articles = self.parse_batch(batch_xml)
 
             for art in articles:
+                if saved >= self.limit:
+                    break
+            
                 self.save_article(art, saved)
                 saved += 1
 
