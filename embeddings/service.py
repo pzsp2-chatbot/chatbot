@@ -7,10 +7,13 @@ DEFAULT_MODEL_NAME = os.getenv(
     "sentence-transformers/all-MiniLM-L6-v2",
 )
 
+
 @lru_cache(maxsize=1)
 def _get_model():
     from sentence_transformers import SentenceTransformer
+
     return SentenceTransformer(DEFAULT_MODEL_NAME)
+
 
 def embed(text: str, vector_size: Optional[int] = None) -> List[float]:
     text = (text or "").strip()
