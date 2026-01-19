@@ -1,0 +1,17 @@
+{
+    "id": "WUT6d11f49f927f4d59916c5969fb8b8fe3",
+    "title": "Active Learning for Biomedical Article Classification with Bag of Words and FastText Embeddings",
+    "created": "2024-12-05T13:56:32.946+01:00",
+    "modified": "2025-09-09T23:30:15.727+02:00",
+    "language": "en",
+    "doi": "10.3390/app14177945",
+    "url": "https://doi.org/10.3390/app14177945",
+    "authors": [
+        {
+            "full_name": "Paweł Cichosz",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

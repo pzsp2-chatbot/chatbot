@@ -1,0 +1,33 @@
+{
+    "id": "WUT815da4faf7744345bbb6e28e473c029b",
+    "title": "Methods of classifying voltage surges using Deep Neural Networks",
+    "created": "2025-05-07T10:23:18.570+02:00",
+    "modified": "2025-09-09T23:20:08.982+02:00",
+    "language": "en",
+    "doi": "10.15199/48.2025.03.49",
+    "url": "https://doi.org/10.15199/48.2025.03.49",
+    "authors": [
+        {
+            "full_name": "Zuzanna Krawczyk-Borysiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Kluge",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Łasica",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Sul",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Ciuba",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper focuses on exploring the potential application of neural networks for the classification of voltage surges compliance with the norm. Three potential neural network architectures were considered for the task - a convolutional neural network (further referred to as CNN), a model combining convolutional and LSTM layers (CNN+LSTM) and a transformer model. The best results were achieved by the simple transformer model (accuracy of 93% on the test dataset), followed by CNN+LSTM model (accuracy: 81%), and CNN (accuracy: 69%).",
+    "keywords": "neural networks\n    CNN\n    LSTM\n    transformer\n    voltage surges\n    signal classification"
+}

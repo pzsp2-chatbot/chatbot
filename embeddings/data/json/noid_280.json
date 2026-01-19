@@ -1,0 +1,37 @@
+{
+    "id": "WUT20bada88ee2f44bb9908cb660cd614d0",
+    "title": "Exploring Approaches to Detection of Anomalies in Streaming Data",
+    "created": "2025-02-17T11:02:59.767+01:00",
+    "modified": "2025-09-09T23:25:57.574+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-58502-9_17",
+    "url": "https://doi.org/10.1007/978-3-031-58502-9_17",
+    "authors": [
+        {
+            "full_name": "Shelly Sachdeva",
+            "affiliation": "National Institute of Technology, Delhi, India"
+        },
+        {
+            "full_name": "Yutaka Watanobe",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Damian Rakus",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Artur Bicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

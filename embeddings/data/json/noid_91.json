@@ -1,0 +1,53 @@
+{
+    "id": "WUT5f9105d4dcca489d8bf23a5227a5924e",
+    "title": "Efficiency of 3D Fractal Generation Through Raymarching",
+    "created": "2024-12-17T12:55:37.568+01:00",
+    "modified": "2025-09-09T23:24:39.391+02:00",
+    "language": "en",
+    "doi": "10.5220/0012380500003660",
+    "url": "https://doi.org/10.5220/0012380500003660",
+    "authors": [
+        {
+            "full_name": "Thomas Bashford-Rogers",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Meneveaux",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ziat Mounia",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ammi Mehdi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Janicke",
+            "affiliation": null
+        },
+        {
+            "full_name": "Helen Purchase",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kadi Bouatouch",
+            "affiliation": "IRISA, University of Rennes 1, France"
+        },
+        {
+            "full_name": "A. Augusto Sousa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Semrau",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Sawicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

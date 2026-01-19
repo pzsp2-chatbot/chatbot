@@ -1,0 +1,57 @@
+{
+    "id": "WUT20ec0c5cf653428ea4b45a9ce1320ccf",
+    "title": "6G Function Modularity: Benefits, Challenges, and Options",
+    "created": "2025-01-31T14:27:08.251+01:00",
+    "modified": "2025-09-09T23:22:47.420+02:00",
+    "language": "en",
+    "doi": "10.1109/WCNC57260.2024.10570793",
+    "url": "https://doi.org/10.1109/WCNC57260.2024.10570793",
+    "authors": [
+        {
+            "full_name": "Ozgur Umut Akgul",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mårten Ericson",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hasanin Harkous",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roberto Querio",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonio Varvara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bassem Arar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bahare M. Khorsandi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Wänstedt",
+            "affiliation": null
+        },
+        {
+            "full_name": "Riccardo Bassoli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Frank H. P. Fitzek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Network Modularization, i.e., the refactoring of the functionalities of 5G Network Functions (NFs), will be an important tool to meet future requirements in the 6G System (6GS). In particular, via network modularization, it is possible to streamline the NF compositions and the inter-Nfinteractions. However, to achieve the highest possible efficiency without loss on inter-operability, we need a clear understanding of the different Key Performance Indicators (KPIs) and modularization techniques which are required to achieve the necessary end-to-end performance. In this work, we investigate the KPIs, the modularization methods prioritized by the research community, and the industrial implications thereof. We also outline the or-chestration requirements for the successful integration of modules to 6GS and the one possible integration of quantum technology to solve the synchronization challenge.",
+    "keywords": null
+}

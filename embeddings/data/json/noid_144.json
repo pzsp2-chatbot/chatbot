@@ -1,0 +1,65 @@
+{
+    "id": "WUTf80575deebb04fa4b9b2741af229aa9b",
+    "title": "Study of Electrically Excited Photon-Photon Resonances in Self-Injection-Locked Coupled-Cavity VCSELs",
+    "created": "2025-01-13T13:07:08.145+01:00",
+    "modified": "2025-09-09T23:25:27.221+02:00",
+    "language": "en",
+    "doi": "10.1109/islc57752.2024.10717381",
+    "url": "https://doi.org/10.1109/islc57752.2024.10717381",
+    "authors": [
+        {
+            "full_name": "Paul Leisher",
+            "affiliation": null
+        },
+        {
+            "full_name": "Erwin A.J. Bente",
+            "affiliation": "Eindhoven University of Technology, The Netherlands"
+        },
+        {
+            "full_name": "Markus Lindemann",
+            "affiliation": "Ruhr-Universität Bochum"
+        },
+        {
+            "full_name": "N.C. Gerhardt",
+            "affiliation": "Ruhr-Universität Bochum"
+        },
+        {
+            "full_name": "M.R. Hofmann",
+            "affiliation": "Ruhr-Universität Bochum"
+        },
+        {
+            "full_name": "Nikolay N. Ledentsov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Vitaly A. Shchukin",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Nikolay Ledentsov Jr.",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Oleg Makarov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "V. Zerova",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "M. D'Alessandro",
+            "affiliation": "Polytechnic University of Turin"
+        },
+        {
+            "full_name": "A. Tibaldi",
+            "affiliation": "Polytechnic University of Turin"
+        },
+        {
+            "full_name": "Jarosław Piotr Turkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We investigate photon-photon resonances in laterally coupled mini-arrays of vertical-cavity surface-emitting lasers under electrical excitation. We observe resonance peaks in the frequency response of the optical signal, which we investigate for each array element and spectral modes. Furthermore, we show self-injection locking with modulation bandwidth enhancement.",
+    "keywords": "vertical-cavity surface-emitting laser, photonphoton resonance, injection-locking, coupled cavity laser"
+}

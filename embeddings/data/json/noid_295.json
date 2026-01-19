@@ -1,0 +1,33 @@
+{
+    "id": "WUT39a8f73c162c47a28217822e9a0c1126",
+    "title": "Integrating Traditional Technical Analysis with AI: A Multi-Agent LLM-Based Approach to Stock Market Forecasting",
+    "created": "2025-03-01T19:10:41.150+01:00",
+    "modified": "2025-09-09T23:23:06.687+02:00",
+    "language": "en",
+    "doi": "10.5220/0013191200003890",
+    "url": "https://doi.org/10.5220/0013191200003890",
+    "authors": [
+        {
+            "full_name": "Ana Paula Rocha",
+            "affiliation": "Univeristy of Porto"
+        },
+        {
+            "full_name": "Luc Steels",
+            "affiliation": "Universitat Pompeu Fabra and CSIC, Barcelona, Spain"
+        },
+        {
+            "full_name": "Jaap van den Herik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Wawer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Traditional technical analysis methods face limitations in accurately predicting trends in today’s complex financial markets. This paper introduces ElliottAgents, an multi-agent system that integrates the Elliott Wave Principle with AI for stock market forecasting. The inherent complexity of financial markets, characterized by non-linear dynamics, noise, and susceptibility to unpredictable external factors, poses significant challenges for accurate prediction. To address these challenges, the system employs LLMs to enhance natural language understanding and decision-making capabilities within a multi-agent framework. By leveraging technologies such as Retrieval-Augmented Generation (RAG) and Deep Reinforcement Learning (DRL), ElliottAgents performs continuous, multi-faceted analysis of market data to identify wave patterns and predict future price movements. The research explores the system’s ability to process historical stock data, recognize Elliott wave patterns, and generate acti (...)",
+    "keywords": "Multi-Agent Systems, Elliott Wave Principle, Large Language Models (LLMs), Investment Strategies, Deep Reinforcement Learning (DRL)"
+}

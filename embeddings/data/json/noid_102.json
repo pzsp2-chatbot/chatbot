@@ -1,0 +1,41 @@
+{
+    "id": "WUT43401b5121ce4e13920477e8f57a9ea2",
+    "title": "Nucleation and growth of zinc-templated mesoporous selenium nanoparticles and potential non-thermal effects during their microwave-assisted synthesis",
+    "created": "2025-01-02T09:08:05.892+01:00",
+    "modified": "2025-09-09T23:30:06.914+02:00",
+    "language": "en",
+    "doi": "10.1038/s41598-024-83124-w",
+    "url": "https://doi.org/10.1038/s41598-024-83124-w",
+    "authors": [
+        {
+            "full_name": "Magdalena Borowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Jankowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Trzaskowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Wojtasiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Korpas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Kozłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Gryglewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The effects of 5.8-GHz microwave (MW) irradiation on the synthesis of mesoporous selenium nanoparticles (mSeNPs) in aqueous medium by reduction of selenite ions with ascorbic acid, using zinc nanoparticles as a hard template and cetyltrimethylammonium bromide (CTAB) as a micellar template, are examined for the first time with a particular emphasis on MW-particle interactions and the NPs morphology. This MW-assisted synthesis is compared to 2.45 GHz MW heating method and conventional hydrothermal method at around 100 °C to produce the nanoparticles of different morphology and particle size distributions. The NPs morphology is tailored by varying the temperature ramp characteristics and the MW irradiation time. Under mild synthesis conditions only spherical particles are formed. Enhancing temperature ramp rate in the presence of CTAB micelles increases the metal–semiconductor hybrid particles growth rate and promotes the formation of nanorods and branched shapes. The effect is MW frequency dependent and non-thermal to some extent. Multi-step mechanism of mSeNPs formation is proposed based on derivative UV–Vis spectrophotometry and scanning electron microscopy (SEM) data. Both the stability of the chemical composition at a single particle level and the high efficiency of zinc template removal are determined by single particle microwave plasma optical emission spectrometry (SP-MWP-OES). After Zn template removal mSeNPs can be loaded with antifungal carbamate agent, hence the application as a nanopesticide is suggested.",
+    "keywords": null
+}

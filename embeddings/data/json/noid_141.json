@@ -1,0 +1,33 @@
+{
+    "id": "WUT3109171ebc9b4484bd7b737b2288a831",
+    "title": "MidiTok Visualizer: a tool for visualization and analysis of tokenized MIDI symbolic music",
+    "created": "2025-01-13T12:22:01.807+01:00",
+    "modified": "2025-09-09T23:26:39.837+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ismir2024program.ismir.net/lbd_455.html",
+    "authors": [
+        {
+            "full_name": "Michał Wiszenko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kacper Stefański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Malesa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Pokorzyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Symbolic music research plays a crucial role in music-\nrelated machine learning, but MIDI data can be complex\n\nfor those without musical expertise. To address this issue,\nwe present MidiTok Visualizer, a web application designed\nto facilitate the exploration and visualization of various\nMIDI tokenization methods from the MidiTok Python\n\npackage. MidiTok Visualizer offers numerous customiz-\nable parameters, enabling users to upload MIDI files to vi-\nsualize tokenized data alongside an interactive piano roll.",
+    "keywords": null
+}

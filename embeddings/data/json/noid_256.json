@@ -1,0 +1,37 @@
+{
+    "id": "WUT3c88482f5ce043de81cda73283c1a348",
+    "title": "Applying Machine Learning to Preselective Weighing of Moving Vehicles",
+    "created": "2025-02-08T13:50:47.643+01:00",
+    "modified": "2025-09-09T23:20:02.273+02:00",
+    "language": "en",
+    "doi": "10.3390/app15041743",
+    "url": "https://doi.org/10.3390/app15041743",
+    "authors": [
+        {
+            "full_name": "Paweł Kowaleczko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Kamiński",
+            "affiliation": "Road and Bridge Research Institute"
+        },
+        {
+            "full_name": "Marek Stawowy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zbigniew Kasprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Rychlicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Trzeszkowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The paper presents the general characteristics of weighing systems for vehicles in motion. A number of problems and constraints that accompany these systems to ensure adequate accuracy in the operation of these systems are pointed out. The efficient operation of WIM systems is also related to the proper preselection of vehicles for weighing in motion. The next part of the paper presents the basic classification and characteristics of machine learning algorithms, as well as examples of applications and implementations of these algorithms in various industries. The paper presents a model based on the XGBoost algorithm for estimating the weight of vehicles in motion, taking into account key characteristics of vehicles. The model was tested on large datasets from two locations in Poland, achieving high accuracy rates. The results indicate the model’s potential in optimizing preselection systems, allowing for the effective identification of overloaded vehicles. Future work will focus on testing the model at other locations to verify its scalability and operational efficiency",
+    "keywords": "weigh-in-motion system; machine learning algorithms; preselective weighing of vehicles in motion"
+}

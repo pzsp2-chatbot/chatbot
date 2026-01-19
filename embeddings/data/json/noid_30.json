@@ -1,33 +1,33 @@
 {
-    "id": "WUTea79b90ac39b4cd0a2abb6fdd8c9764a",
-    "title": "Detection of AI-Generated Emails - A Case Study",
-    "created": "2024-10-14T11:08:57.467+02:00",
-    "modified": "2025-09-09T23:23:18.803+02:00",
+    "id": "WUTe8ee54429d854a44b61673bf48083688",
+    "title": "Scheduling for Industrial Control Traffic Using Massive MIMO and Large Intelligent Surfaces",
+    "created": "2024-11-13T13:23:04.613+01:00",
+    "modified": "2025-09-09T23:26:21.875+02:00",
     "language": "en",
-    "doi": "10.1145/3664476.3670465",
-    "url": "https://doi.org/10.1145/3664476.3670465",
+    "doi": "10.1109/rndm59149.2023.10293135",
+    "url": "https://doi.org/10.1109/rndm59149.2023.10293135",
     "authors": [
         {
-            "full_name": "Paweł Gryka",
-            "affiliation": null
+            "full_name": "Mathias Fischer",
+            "affiliation": "University of Hamburg"
         },
         {
-            "full_name": "Kacper Gradoń",
-            "affiliation": null
+            "full_name": "Jacek Rak",
+            "affiliation": "Gdańsk University of Technology"
         },
         {
-            "full_name": "Marek Kozłowski",
-            "affiliation": null
+            "full_name": "Andreas Kassler",
+            "affiliation": "Deggendorf Institute of Technology"
         },
         {
-            "full_name": "Miłosz Kutyła",
-            "affiliation": null
+            "full_name": "Emma Fitzgerald",
+            "affiliation": "Faculty of Engineering"
         },
         {
-            "full_name": "Artur Janicki",
-            "affiliation": null
+            "full_name": "Michał Pióro",
+            "affiliation": "Faculty of Electronics, Telecommunications and Informatics"
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Industry 4.0, with its focus on flexibility and customizability, is pushing in the direction of wireless communication in future smart factories, in particular massive multiple-input multiple-output (MIMO), and its future evolution Large Intelligent Surfaces (LIS), which provide more reliable channel quality than previous technologies. As such, there arises the need to perform efficient scheduling of industrial control traffic in massive MIMO systems, in a way that meets its highly stringent latency and reliability requirements. In this paper, we provide mixed-integer programming optimization formulations to perform this scheduling, while minimizing the use of radio resources. We give formulations for both fixed and variable schedule frame lengths. We tested our formulations in numerical experiments with varying traffic profiles and numbers of nodes, up to a maximum of 32 nodes. For all problem instances tested, we were able to calculate an optimal schedule within less than 1 s, making our approach feasible for use in real deployment scenarios.",
+    "keywords": "industrial communications, scheduling, massive MIMO, large, intelligent surfaces, LIS, optimization"
 }

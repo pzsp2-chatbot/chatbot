@@ -1,0 +1,109 @@
+{
+    "id": "WUT8d175cfc276c44a4b2019e1ffc7f65fa",
+    "title": "Haptics and Tactile Interaction with Computers",
+    "created": "2025-01-09T10:45:21.922+01:00",
+    "modified": "2025-09-09T23:25:00.327+02:00",
+    "language": "en",
+    "doi": "10.1201/9781003490678-5",
+    "url": "https://doi.org/10.1201/9781003490678-5",
+    "authors": [
+        {
+            "full_name": "Constantine Stephanidis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gavriel Salvendy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Kawala-Sterniuk",
+            "affiliation": "Opole University of Technology"
+        },
+        {
+            "full_name": "Shaida  Kargarnovin",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christopher   Hernandez",
+            "affiliation": null
+        },
+        {
+            "full_name": "Atsuo Murata",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fernando Santos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francisco Rebelo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Erman Çakıt",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elisangela   Vilar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paulo Noriega",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dirk Reiners",
+            "affiliation": null
+        },
+        {
+            "full_name": "Carolina Cruz-Neira",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ashraf Alhujailli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Awad  Aljuaid",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Szopa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Sudoł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Jan Luckiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Radek Martinek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Sterniuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dominik Tenczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Kostro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Wilczek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Waldemar Karwowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Haptics, the science of touch and tactile feedback, enhances the user experience by adding a tangible dimension to virtual interactions. Haptic technologies seek to allow the natural extension of the human’s sensation and perception, creating a more efficient and realistic environment for the human user. The haptics and tactile interactions domain has seen rapid advancements in research due to its potential to revolutionize human–computer interactions (HCI). Integrating haptics into HCI has emerged as a pivotal development, revolutionizing how users engage with digital interfaces. This chapter consolidates the key findings, reviews application methodologies, and identifies gaps in the current literature relevant to haptics and tactile interaction with computers. The significance of implementing haptics in human–computer interaction (HCI) and exploring its applications, benefits, and challenges are also discussed.",
+    "keywords": null
+}

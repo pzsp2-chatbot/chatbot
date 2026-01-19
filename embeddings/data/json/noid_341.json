@@ -1,0 +1,29 @@
+{
+    "id": "WUTcd17298e744e45e592c31268a949d0e9",
+    "title": "Concurrent Programs, Finalizers and Cleaners in Java - Security Problems",
+    "created": "2025-04-04T12:25:59.026+02:00",
+    "modified": "2025-09-09T23:23:52.666+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-62843-6_35",
+    "url": "https://doi.org/10.1007/978-3-031-62843-6_35",
+    "authors": [
+        {
+            "full_name": "Khalid S. Soliman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Górny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Kiedrowicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

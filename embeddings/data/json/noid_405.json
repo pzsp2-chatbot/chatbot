@@ -1,0 +1,73 @@
+{
+    "id": "WUT8743c4072cc646dcb504293923694e00",
+    "title": "Key Challenges in True Multistatic OTH Radar Concepts based on HF-Radar in iFURTHER",
+    "created": "2025-05-19T12:06:06.812+02:00",
+    "modified": "2025-09-09T23:24:00.955+02:00",
+    "language": "en",
+    "doi": "10.1109/RADAR58436.2024.10993993",
+    "url": "https://doi.org/10.1109/RADAR58436.2024.10993993",
+    "authors": [
+        {
+            "full_name": "Myriam Nouvel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Florent Christophe",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dominik Bok",
+            "affiliation": "Fraunhofer Institute for High Frequency Physics and Radar Techniques"
+        },
+        {
+            "full_name": "Philippe Brouard",
+            "affiliation": "ONERA - The French Aerospace Lab"
+        },
+        {
+            "full_name": "Anna Lisa Saverino",
+            "affiliation": "National, Inter-University Consortium for Telecommunications"
+        },
+        {
+            "full_name": "Amerigo Capria",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Abratkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jean-Philippe Molinie",
+            "affiliation": "ONERA - The French Aerospace Lab"
+        },
+        {
+            "full_name": "Iole Pisciottano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alessandro Ippolito",
+            "affiliation": "Upper Atmosphere Physics and Radiopropagation, National Institute of Geophysics and Volcanology (INGV)"
+        },
+        {
+            "full_name": "Piotr Jerzy Samczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Simon Vandewalle",
+            "affiliation": "Indra Systems"
+        },
+        {
+            "full_name": "Jose-Luis Barcena-Humanes",
+            "affiliation": "Indra Systems"
+        },
+        {
+            "full_name": "Javier Rosado-Sanz",
+            "affiliation": "University of Alcalá"
+        },
+        {
+            "full_name": "Maria-Pilar Jarabo-Amores",
+            "affiliation": "University of Alcalá"
+        }
+    ],
+    "abstract": "The system concept of a multistatic network of collaborative high frequency (HF) over-the-horizon (OTH) radar nodes has been proposed and is being tested in the European Union-funded study iFURTHER. These system setups are subject to the electromagnetic situation given in the high frequency range and challenging ionospheric skywave or surface-wave propagation paths in combination with a bistatic beyond-line-of-sight (BLOS) geometry. It is foreseen to combine data from widely distributed HF sensor nodes in a cohesive OTH radar network for the coherent operation below approximately 30MHz. Inherent technical challenges affect the choice of possible system designs and the performance in terms of target tracking and localization. Being thereby distinct to a classical OTH skywave backscatter principle in (quasi-)monostatic configurations, this idea requires conceptually new and agile system architectures, which include the support by cognitive radar principles and a sensing of the ionosphere to retrieve latest supplementary information on current propagation conditions. The possibilities are enhanced by a combined hybrid skywave and surface-wave propagation with a likely support of complementary sensor data. It may benefit from an exploitation of non-cooperative illumination by transmitters of opportunity. If this system-of-systems is achieved successfully, it can likely enable strongly improved radar and sensing capabilities that are usable in a wide range of upcoming OTH applications.",
+    "keywords": "OTH, BLOS, hybrid, skywave, multistatic,  PCL"
+}

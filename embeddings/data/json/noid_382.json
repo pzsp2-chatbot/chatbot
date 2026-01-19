@@ -1,0 +1,37 @@
+{
+    "id": "WUT2099b93ff9344d378c7de4b84f73ad18",
+    "title": "Infinite dsprites for disentangled continual learning: separating memory edits from generalization",
+    "created": "2025-05-07T09:41:25.454+02:00",
+    "modified": "2025-09-09T23:30:50.313+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://proceedings.mlr.press/v274/dziadzio25a.html",
+    "authors": [
+        {
+            "full_name": "Sebastian Dziadzio",
+            "affiliation": null
+        },
+        {
+            "full_name": "Çağatay Yıldız",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gido M. van de Ven",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tinne Tuytelaars",
+            "affiliation": null
+        },
+        {
+            "full_name": "Matthias Bethge",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The ability of machine learning systems to learn continually is hindered by catastrophic forgetting, the tendency of neural networks to overwrite existing knowledge when learning a new task. Existing methods mitigate this problem through regularization, parameter isolation, or rehearsal, but they are typically evaluated on benchmarks comprising only a handful of tasks. In contrast, humans are able to learn over long time horizons in dynamic, open-world environments, effortlessly memorizing unfamiliar objects and reliably recognizing them under various transformations. To make progress towards closing this gap, we introduce Infinite dSprites, a parsimonious tool for creating continual classification and disentanglement benchmarks of arbitrary length and with full control over generative factors. We show that over a sufficiently long time horizon, the performance of all major types of continual learning methods deteriorates on this simple benchmark. This result highlights an important and previously overlooked aspect of continual learning: given a finite modelling capacity and an arbitrarily long learning horizon, efficient learning requires memorizing class-specific information and accumulating knowledge about general mechanisms. In a simple setting with direct supervision on the generative factors, we show how learning class-agnostic transformations offers a way to circumvent catastrophic forgetting and improve classification accuracy over time. Our approach sets the stage for continual learning over hundreds of tasks with explicit control over memorization and forgetting, emphasizing open-set classification and one-shot generalization.</p>",
+    "keywords": null
+}

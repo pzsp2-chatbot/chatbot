@@ -1,0 +1,41 @@
+{
+    "id": "WUT2a81d0348c994ce78f7351d4c5477062",
+    "title": "Direct RNA Oxford Nanopore sequencing distinguishes between modifications in tRNA at the U$_{34}$ position",
+    "created": "2025-07-11T14:41:39.742+02:00",
+    "modified": "2025-09-09T23:20:23.396+02:00",
+    "language": "en",
+    "doi": "10.1016/j.ijbiomac.2025.145877",
+    "url": "https://doi.org/10.1016/j.ijbiomac.2025.145877",
+    "authors": [
+        {
+            "full_name": "Wiktor Kuśmirek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Natalia Strożyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "P. Martin-Arroyo Cerpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "A. Dziergowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "G. Leszczyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Marek Nowak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Adamczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The measurement of tRNA modifications with single transcript resolution has been feasible for only a few modifications due to the lack of available methods. This limitation doesn't allow to advance studies on the dynamic nature of tRNA modification and its cellular function in time and space, neither to develop modern diagnostic tools for several already known tRNA-dependent human diseases. Oxford Nanopore Sequencing (ONS) is a method that has proven to be efficient for the study of mRNA. The analysis of tRNA modifications by ONS is still under development. We have developed new methods to synthesise modified tRNA macromolecules with xcm5U and xcm5s2U modifications at the anticodon loop. We have investigated the efficacy of ONS to discriminate between complex modifications of uridine 34 in singly modified tRNA, that are difficult to accurately predict. ONS captures the features produced by uridine with a thiol group (s2U) and without thiol when present on synthetic tRNA. Thus, ONS has a great potential for developing strategies to accurately identify the modification status of the tRNA anticodon loop, which encompasses the most complex modifications on uridine-containing RNA motifs. Thio-modification of U34 in tRNA is associated with a group of deadliest diseases.",
+    "keywords": null
+}

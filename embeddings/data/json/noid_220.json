@@ -1,0 +1,49 @@
+{
+    "id": "WUT9798cb9ce5804b988d462cce3e6c535b",
+    "title": "Clustering Analysis",
+    "created": "2025-01-30T14:27:34.482+01:00",
+    "modified": "2025-09-09T23:26:55.970+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_4",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_4",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>This chapter is devoted to presentation of results, which were obtained for the data considered with the use of clustering algorithms. Clustering consists in grouping of similar observations, while separating the dissimilar ones. (The groups obtained therefrom are referred to, exactly, as clusters.) Hence, we might suspect that the observations we analyse should fall into different clusters, and that first of all depending upon whether they represent “bot” or “human” behavior, based on the apparently obvious assumption that bots are more similar to (at least some) bots than to humans and that humans are more similar to (at least some) humans than to bots. Therefrom the attempts we report on in the present chapter.</p>",
+    "keywords": null
+}

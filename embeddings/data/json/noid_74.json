@@ -1,0 +1,33 @@
+{
+    "id": "WUT7506614561884869b1f785f6a5a7c2b7",
+    "title": "Comparative Analysis of Graph Neural Networks and Transformers for Robust Fake News Detection: A Verification and Reimplementation Study",
+    "created": "2024-12-11T00:33:26.881+01:00",
+    "modified": "2025-09-09T23:32:43.796+02:00",
+    "language": "en",
+    "doi": "10.3390/electronics13234784",
+    "url": "https://doi.org/10.3390/electronics13234784",
+    "authors": [
+        {
+            "full_name": "Soveatin Kuntur",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Wróblewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Maciej Krzywda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This study compares Transformer-based models and Graph Neural Networks (GNNs) for fake news detection across three datasets: FakeNewsNet, ISOT, and WELFake. Transformer models (BERT, RoBERTa, GPT-2) demonstrated superior performance, achieving mean accuracies above 85% on FakeNewsNet and exceeding 98% on ISOT and WELFake. Specifically, RoBERTa achieved 86.16% accuracy on FakeNewsNet and 99.99% on ISOT, while GPT-2 reached 99.72% on WELFake. In contrast, GNNs (GCN, GraphSAGE, GIN, GAT) exhibited lower performance. GCN achieved 71% accuracy on FakeNewsNet but dropped to 53.30% on ISOT and 50.28% on WELFake, with F1 scores reflecting similar trends. Other GNNs, like GraphSAGE, showed even lower results, particularly on ISOT and WELFake, where performance hovered around 50%. Our findings indicate that while Transformers provide exceptional accuracy and reliability, GNNs offer potential efficiency benefits for resource-constrained scenarios despite their lower predictive performance. This study informs model selection for fake news detection tasks and encourages the exploration of hybrid approaches to balance accuracy and computational efficiency.",
+    "keywords": "fake news detection; comparative analysis; transformers; graph neural networks (GNNs); RoBERTa; GPT-2; graph convolutional networks (GCNs); GAT; FakeNewsNet; ISOT dataset"
+}

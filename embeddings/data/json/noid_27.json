@@ -1,41 +1,21 @@
 {
-    "id": "WUT13d0d8c047964f6d992d6d5c6514ae23",
-    "title": "Synergy of remote sensing data collected with low-cost mobile mapping platform for detection and prediction of damages: a park alley case study",
-    "created": "2024-10-11T11:51:55.612+02:00",
-    "modified": "2025-09-09T23:33:40.106+02:00",
+    "id": "WUT75b03a8dc0af47cea6a0f8ad9f888c80",
+    "title": "Adversarial attacks and defenses in explainable artificial intelligence: A survey",
+    "created": "2024-11-12T13:43:00.095+01:00",
+    "modified": "2025-09-09T23:29:55.748+02:00",
     "language": "en",
-    "doi": "10.24425/ace.2024.151006",
-    "url": "https://doi.org/10.24425/ace.2024.151006",
+    "doi": "10.1016/j.inffus.2024.102303",
+    "url": "https://doi.org/10.1016/j.inffus.2024.102303",
     "authors": [
         {
-            "full_name": "Magdalena Pilarska-Mazurek",
+            "full_name": "Przemysław Biecek",
             "affiliation": null
         },
         {
-            "full_name": "Krzysztof Bakuła",
+            "full_name": "Hubert Baniecki",
             "affiliation": null
-        },
-        {
-            "full_name": "Jakub Górka",
-            "affiliation": null
-        },
-        {
-            "full_name": "Paweł Czernic",
-            "affiliation": null
-        },
-        {
-            "full_name": "Anna Lejzerowicz",
-            "affiliation": null
-        },
-        {
-            "full_name": "Wojciech Ostrowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Borys Chetverikov",
-            "affiliation": "Lviv Polytechnic National University"
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Explainable artificial intelligence (XAI) methods are portrayed as a remedy for debugging and trusting statistical and deep learning models, as well as interpreting their predictions. However, recent advances in adversarial machine learning (AdvML) highlight the limitations and vulnerabilities of state-of-the-art explanation methods, putting their security and trustworthiness into question. The possibility of manipulating, fooling or fairwashing evidence of the model’s reasoning has detrimental consequences when applied in high-stakes decision-making and knowledge discovery. This survey provides a comprehensive overview of research concerning adversarial attacks on explanations of machine learning models, as well as fairness metrics. We introduce a unified notation and taxonomy of methods facilitating a common ground for researchers and practitioners from the intersecting research fields of AdvML and XAI. We discuss how to defend against attacks and design robust interpretation methods. We contribute a list of existing insecurities in XAI and outline the emerging research directions in adversarial XAI (AdvXAI). Future work should address improving explanation methods and evaluation protocols to take into account the reported safety issues.",
+    "keywords": "artificial intelligence"
 }

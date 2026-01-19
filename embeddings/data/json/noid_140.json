@@ -1,0 +1,29 @@
+{
+    "id": "WUT3d0775fff3c64bf488f2813b0b6aaf55",
+    "title": "Symbotunes: unified hub for symbolic music generative models",
+    "created": "2025-01-13T12:19:25.008+01:00",
+    "modified": "2025-09-09T23:26:38.674+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ismir2024program.ismir.net/lbd_453.html",
+    "authors": [
+        {
+            "full_name": "Paweł Skierś",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maksymilian Łazarski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Kopeć",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Implementations of popular symbolic music generative\nmodels often differ significantly in terms of the libraries\nutilized and overall project structure. Therefore, directly\ncomparing the methods or becoming acquainted with them\n\nmay present challenges. To mitigate this issue we intro-\nduce Symbotunes, an open-source unified hub for sym-\nbolic music generative models. Symbotunes contains mod-\nern Python implementations of well-known methods for\n\nsymbolic music generation, as well as a unified pipeline\nfor generating and training.",
+    "keywords": null
+}

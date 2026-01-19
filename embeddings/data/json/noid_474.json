@@ -1,0 +1,69 @@
+{
+    "id": "WUT33ead157977d435ca7b098bc2834c146",
+    "title": "Single mesa multiaperture VCSELs for high data rate transmission over multimode fiber",
+    "created": "2025-07-16T14:23:09.795+02:00",
+    "modified": "2025-09-09T23:17:52.464+02:00",
+    "language": "en",
+    "doi": "10.1117/12.3038844",
+    "url": "https://doi.org/10.1117/12.3038844",
+    "authors": [
+        {
+            "full_name": "Kent D. Choquette",
+            "affiliation": "University of Illinois Urbana-Champaign"
+        },
+        {
+            "full_name": "Luke A. Graham",
+            "affiliation": "Dallas Quantum Devices"
+        },
+        {
+            "full_name": "Nikolay N. Ledentsov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Vitaly A. Shchukin",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Nikolay Ledentsov Jr.",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Vladimir P. Kalosha",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Oleg Makarov",
+            "affiliation": "Vertically Integrated Systems GmbH"
+        },
+        {
+            "full_name": "Ilya E. Titkov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alexander Ledentsov",
+            "affiliation": "Vertically Integrated Systems GmbH (VIS)"
+        },
+        {
+            "full_name": "Łukasz Chorchos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Piotr Turkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xin-Nan Chen",
+            "affiliation": "Corning Incorporated"
+        },
+        {
+            "full_name": "Jason E. Hurley",
+            "affiliation": "Corning Incorporated"
+        },
+        {
+            "full_name": "Ming-Jun Li",
+            "affiliation": "Corning Incorporated"
+        }
+    ],
+    "abstract": "Vertical-cavity surface-emitting lasers (VCSELs) having a small aperture and operating in a single transverse mode (SM) are known to reach high relaxation oscillation frequencies of 30-90GHz and, thus, can offer intrinsic modulation bandwidth beyond 100GHz, once photon damping and electric parasitic effects are minimized. In modern SM VCSELs, however, high resistance and high capacitance limit parasitic bandwidth, while low output power at optimal current densities make their industrial applications questionable. To overcome the problem a compact single mesa VCSELs based on multiple oxide-confined SM apertures (MA) are proposed and realized. The approach allows intrinsic modulation bandwidth of ~45GHz applying 4 apertures at a small aperture diameter ~2µm and a small pitch ~10µm. Narrow spectral width (root mean squared, RMS, ~0.1nm), 50-60Ω differential resistance, polarization stability and ~ 5mW optical power at 7mA at a low bias voltage (2.2V) are demonstrated. Such performance overcomes the deficiencies of conventional SM VCSELs at small apertures. 95% performance yield is achieved for SM MA VCSELs over 4´´ wafers at all shortwave wavelength division multiplexing (SWDM) wavelengths (850nm, 880nm, 910nm, 940nm). Due to favorable laser-chromatic dispersion interaction, which is similar to SM VCSELs, 56Gbaud (NRZ, PAM4) transmission beyond 200m of multimode fiber (MMF) is demonstrated, whereas the fiber was selected to have the modal bandwidth moderately lower than OM4 threshold. Under actual launch conditions whereas the requirement of encircled flux are fulfilled, OM4 fiber allows 200/100 Gbps/lane transmission over 100/200 m. The approach can be scaled beyond 200Gbps per lane by going to ultimately small apertures and extending a parasitic cutoff frequency. An increase in modulation bandwidth is possible in strongly coupled apertures by built-in self-injection locking effect, which enables lasing in a single supermode over two coupled apertures and accompanied by a significant increase in the intrinsic modulation bandwidth beyond 50-70GHz. For top-illuminated PIN photodiodes uni-travelling carrier design with separated absorption (p+p) region and undoped (i) region for electron transport in the electric field enables low capacitance in combination with a short time-of-flight of non-equilibrium electrons. 25µm PIN photodiodes at 70GHz optical bandwidth for industrial 15Ω amplifiers are available matching already 150-200Gbaud requirements and a spectral range 400-1600nm.",
+    "keywords": "vertical-cavity surface-emitting lasers (VCSELs), optical interconnections, high-speed data transmission, multimode fiber, PIN photodiode"
+}

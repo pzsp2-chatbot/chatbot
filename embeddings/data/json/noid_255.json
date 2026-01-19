@@ -1,0 +1,53 @@
+{
+    "id": "WUT32562d32d7fc41ea84962c4a3593f552",
+    "title": "MAGMAX: Leveraging Model Merging for Seamless Continual Learning",
+    "created": "2025-02-05T14:49:31.708+01:00",
+    "modified": "2025-09-09T23:22:35.182+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-73013-9_22",
+    "url": "https://doi.org/10.1007/978-3-031-73013-9_22",
+    "authors": [
+        {
+            "full_name": "Aleš Leonardis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elisa Ricci",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Roth",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olga Russakovsky",
+            "affiliation": null
+        },
+        {
+            "full_name": "Torsten Sattler",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gül Varol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Marczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Cygert",
+            "affiliation": "Gdańsk University of Technology"
+        }
+    ],
+    "abstract": "This paper introduces a continual learning approach named MagMax, which utilizes model merging to enable large pre-trained models to continuously learn from new data without forgetting previously acquired knowledge. Distinct from traditional continual learning methods that aim to reduce forgetting during task training, MagMax combines sequential fine-tuning with a maximum magnitude weight selection for effective knowledge integration across tasks. Our initial contribution is an extensive examination of model merging techniques, revealing that simple approaches like weight averaging and random weight selection surprisingly hold up well in various continual learning contexts. More importantly, we present MagMax, a novel model-merging strategy that enables continual learning of large pre-trained models for successive tasks. Our thorough evaluation demonstrates the superiority of MagMax in various scenarios, including class- and domain-incremental learning settings. The code is available on github.",
+    "keywords": null
+}

@@ -1,0 +1,41 @@
+{
+    "id": "WUT9b26732b0dff448aa4b6b2282697c37a",
+    "title": "The Glu86 Residue in TBX4 Proves Critical for Human Lung Development",
+    "created": "2025-01-27T09:43:24.434+01:00",
+    "modified": "2025-09-09T23:34:47.956+02:00",
+    "language": "en",
+    "doi": "10.1002/ajmg.a.63936",
+    "url": "https://doi.org/10.1002/ajmg.a.63936",
+    "authors": [
+        {
+            "full_name": "Przemyslaw Szafranski",
+            "affiliation": "Department of Molecular and Human Genetics"
+        },
+        {
+            "full_name": "Tomasz Gambin",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gail Deutsch",
+            "affiliation": "University of Washington School of Medicine"
+        },
+        {
+            "full_name": "Salma A. Nassef",
+            "affiliation": "Baylor College of Medicine"
+        },
+        {
+            "full_name": "Mary Clay Bailey",
+            "affiliation": "Baylor College of Medicine"
+        },
+        {
+            "full_name": "Debra L. Kearney",
+            "affiliation": "Baylor College of Medicine"
+        },
+        {
+            "full_name": "Paweł Stankiewicz",
+            "affiliation": "Baylor College of Medicine"
+        }
+    ],
+    "abstract": "T-box transcription factors are a group of evolutionarily conserved T-box-containing regulators of mesoderm specification and development. Heterozygous single nucleotide variants (SNVs) or copy-number variant (CNV) deletions involving dosage-sensitive TBX4 have been associated with pulmonary arterial hypertension (PAH), ischiocoxopodopatellar syndrome with or without PAH, and lethal lung developmental disorders (LLDDs), including acinar dysplasia (AcDys), congenital alveolar dysplasia (CAD), and other unspecified primary pulmonary hypoplasias. Loss- and gain-of-function variants have been proposed to cause pediatric PAH and LLDDs, and adult forms of PAH, respectively. Of more than 50 missense SNVs scattered across the entire TBX4, only three have been reported in patients with LLDDs, all mapping to the T-box domain. Here, we report a recurrence of a pathogenic substitution Glu86Lys identified in an unrelated patient with AcDys. In silico predictions of the conformational changes of TBX4 resulting from this and another substitution, Glu86Gln, suggest the loss of most intermolecular hydrogen bonds involving residue 86, including those with Tyr230 that directly interact with DNA. Functional assays on the TBX4 variants in fetal lung fibroblasts confirmed their deleterious character. We propose that Glu86 is critically involved in maintaining TBX4 structure and function essential for airway branching during early stages of human lung development. Substitutions of this residue may act in a dominant negative manner, leading to AcDys and CAD.",
+    "keywords": null
+}

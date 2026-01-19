@@ -1,0 +1,45 @@
+{
+    "id": "WUTfa20b9e4b7d34bbeb64010b51295fea6",
+    "title": "MISS: Multiclass Interpretable Scoring Systems",
+    "created": "2025-01-29T13:15:06.430+01:00",
+    "modified": "2025-09-09T23:23:22.449+02:00",
+    "language": "en",
+    "doi": "10.1137/1.9781611978032.7",
+    "url": "https://doi.org/10.1137/1.9781611978032.7",
+    "authors": [
+        {
+            "full_name": "Shashi Shekhar",
+            "affiliation": "University of Minnesota"
+        },
+        {
+            "full_name": "Vagelis Papalexakis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jing Gao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zhe Jiang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Matteo Riondato",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał K. Grzeszczyk",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arkadiusz Sitek",
+            "affiliation": "Harvard Medical School, Boston, MA, USA"
+        }
+    ],
+    "abstract": "In this work, we present a novel, machine-learning approach for constructing Multiclass Interpretable Scoring Systems (MISS) - a fully data-driven methodology for generating single, sparse, and user-friendly scoring systems for multiclass classification problems. Scoring systems are commonly utilized as decision support models in healthcare, criminal justice, and other domains where interpretability of predictions and ease of use are crucial. Prior methods for data-driven scoring, such as SLIM (Supersparse Linear Integer Model), were limited to binary classification tasks and extensions to multiclass domains were primarily accomplished via one-versus-all-type techniques. The scores produced by our method can be easily transformed into class probabilities via the softmax function. We demonstrate techniques for dimensionality reduction and heuristics that enhance the training efficiency and decrease the optimality gap, a measure that can certify the optimality of the model. Our approach has been extensively evaluated on datasets from various domains, and the results indicate that it is competitive with other machine learning models in terms of classification performance metrics and provides well-calibrated class probabilities.",
+    "keywords": null
+}

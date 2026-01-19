@@ -1,0 +1,21 @@
+{
+    "id": "WUT48d753b76a8742c88e326005200876ca",
+    "title": "Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)",
+    "created": "2025-01-30T13:21:54.241+01:00",
+    "modified": "2025-09-10T00:15:35.391+02:00",
+    "language": "en",
+    "doi": "10.1609/aaai.v36i11.21590",
+    "url": "https://doi.org/10.1609/aaai.v36i11.21590",
+    "authors": [
+        {
+            "full_name": "Hubert Baniecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>We introduce a model-agnostic algorithm for manipulating SHapley Additive exPlanations (SHAP) with perturbation of tabular data. It is evaluated on predictive tasks from healthcare and financial domains to illustrate how crucial is the context of data distribution in interpreting machine learning models. Our method supports checking the stability of the explanations used by various stakeholders apparent in the domain of responsible AI; moreover, the result highlights the explanations' vulnerability that can be exploited by an adversary.</p>",
+    "keywords": null
+}

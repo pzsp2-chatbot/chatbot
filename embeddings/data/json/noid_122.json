@@ -1,0 +1,25 @@
+{
+    "id": "WUT26bffbf715c1468ab770f708b76b6a29",
+    "title": "Time-of-Day-Aware Slice Admission Control",
+    "created": "2025-01-08T20:31:48.253+01:00",
+    "modified": "2025-09-09T23:27:22.526+02:00",
+    "language": "en",
+    "doi": "10.1109/meditcom58224.2023.10266645",
+    "url": "https://doi.org/10.1109/meditcom58224.2023.10266645",
+    "authors": [
+        {
+            "full_name": "Robert Kołakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lechosław Tomaszewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Network slicing is expected to be a core feature of modern telecommunication networks as it enables the creation of multiple virtual networks sharing a common infrastructure. An efficient Slice Admission Control (SAC) mechanism is critical for the massive deployment of network slices. This paper presents a novel, Deep Reinforcement Learning-based SAC algorithm that considers network users’ activity patterns and resulting daily resource demand changes to make admission decisions. Compared to conventional approaches, the proposed solution enables a higher slice admission rate with limited customer Service Level Agreement (SLA) violations due to more efficient usage of available resources, thus facilitating the increase of operator revenue.",
+    "keywords": null
+}

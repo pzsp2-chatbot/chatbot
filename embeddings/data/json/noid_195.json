@@ -1,0 +1,77 @@
+{
+    "id": "WUT7a9a0a21df88452096a4756e66b0b459",
+    "title": "A Signature of 14 Long Non-Coding RNAs (lncRNAs) as a Step towards Precision Diagnosis for NSCLC",
+    "created": "2025-01-30T10:58:04.273+01:00",
+    "modified": "2025-09-10T00:21:03.866+02:00",
+    "language": "en",
+    "doi": "10.3390/cancers14020439",
+    "url": "https://doi.org/10.3390/cancers14020439",
+    "authors": [
+        {
+            "full_name": "Anetta Sulewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Niklinski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Radoslaw Charkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Karabowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hubert Baniecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Oksana Kowalczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mirosław Kozłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patrycja Modzelewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Majewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elzbieta Tryniszewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Reszec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zofia Dzieciol-Anikiej",
+            "affiliation": null
+        },
+        {
+            "full_name": "Cezary Piwkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Gryczka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rodryg Ramlau",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>LncRNAs have arisen as new players in the world of non-coding RNA. Disrupted expression of these molecules can be tightly linked to the onset, promotion and progression of cancer. The present study estimated the usefulness of 14 lncRNAs (HAGLR, ADAMTS9-AS2, LINC00261, MCM3AP-AS1, TP53TG1, C14orf132, LINC00968, LINC00312, TP73-AS1, LOC344887, LINC00673, SOX2-OT, AFAP1-AS1, LOC730101) for early detection of non-small-cell lung cancer (NSCLC). The total RNA was isolated from paired fresh-frozen cancerous and noncancerous lung tissue from 92 NSCLC patients diagnosed with either adenocarcinoma (LUAD) or lung squamous cell carcinoma (LUSC). The expression level of lncRNAs was evaluated by a quantitative real-time PCR (qPCR). Based on Ct and delta Ct values, logistic regression and gradient boosting decision tree classifiers were built. The latter is a novel, advanced machine learning algorithm with great potential in medical science. The established predictive models showed that a set of 14 lncRNAs accurately discriminates cancerous from noncancerous lung tissues (AUC value of 0.98 ± 0.01) and NSCLC subtypes (AUC value of 0.84 ± 0.09), although the expression of a few molecules was statistically insignificant (SOX2-OT, AFAP1-AS1 and LOC730101 for tumor vs. normal tissue; and TP53TG1, C14orf132, LINC00968 and LOC730101 for LUAD vs. LUSC). However for subtypes discrimination, the simplified logistic regression model based on the four variables (delta Ct AFAP1-AS1, Ct SOX2-OT, Ct LINC00261, and delta Ct LINC00673) had even stronger diagnostic potential than the original one (AUC value of 0.88 ± 0.07). Our results demonstrate that the 14 lncRNA signature can be an auxiliary tool to endorse and complement the histological diagnosis of non-small-cell lung cancer.</p>",
+    "keywords": null
+}

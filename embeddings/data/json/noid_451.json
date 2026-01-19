@@ -1,0 +1,29 @@
+{
+    "id": "WUT8836adf2144b43ff89689e2ebfe673c6",
+    "title": "Passive Radar for Drone Detection and Classification",
+    "created": "2025-07-07T13:41:48.764+02:00",
+    "modified": "2025-09-09T23:17:50.579+02:00",
+    "language": "en",
+    "doi": "10.23919/IRS64527.2025.11046011",
+    "url": "https://doi.org/10.23919/IRS64527.2025.11046011",
+    "authors": [
+        {
+            "full_name": "Galina Lange",
+            "affiliation": "German Institute of Navigation"
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Piotr Malanowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Kamil Bączyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The proliferation of drones in civilian and military applications has increased the needfor effective detection and classification systems that can work 24/7 in all weather conditions. Passive radar systems, exploiting existing radio frequency emitters, offer a cost-effective and covert solution for this challenge. This paper uses micro-Doppler signatures induced by drone propellers as a distinctive feature for drone detection and classification. The detailed analysis of micro-Doppler effects is presented in the paper, together with the implementation guidelines and real-life example data analyses. Experimental results highlight the system's capability to detect and classify drones based on their micro-Doppler characteristics, offering a promising approach to enhancing situational awareness and security in civilian and military applications.",
+    "keywords": "Passive radar, Propellers, Airborne radar, Radar detection, Lighting, Feature extraction, Security, Drones, Meteorology, Guidelines"
+}

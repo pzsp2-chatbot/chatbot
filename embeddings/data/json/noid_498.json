@@ -1,0 +1,21 @@
+{
+    "id": "WUTa263aaa2b49e4730a6a46755bdde04a4",
+    "title": "DeltaHedge: A Multi-Agent Framework for Portfolio Options Optimization",
+    "created": "2025-08-01T13:50:17.948+02:00",
+    "modified": "2025-09-09T23:22:05.227+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://aisel.aisnet.org/pacis2025/aiandml/aiandml/25/",
+    "authors": [
+        {
+            "full_name": "Feliks Bańka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In volatile financial markets, balancing risk and return remains a significant challenge.\nTraditional approaches often focus solely on equity allocation, overlooking the strategic\nadvantages of options trading for dynamic risk hedging. This work presents\nDeltaHedge, a multi-agent framework that integrates options trading with AI-driven\nportfolio management. By combining advanced reinforcement learning techniques with\nan ensembled options-based hedging strategy, DeltaHedge enhances risk-adjusted\nreturns and stabilizes portfolio performance across varying market conditions.\nExperimental results demonstrate that DeltaHedge outperforms traditional strategies\nand standalone models, underscoring its potential to transform practical portfolio\nmanagement in complex financial environments. Building on these findings, this paper\ncontributes to the fields of quantitative finance and AI-driven portfolio optimization\nby introducing a novel multi-agent system f",
+    "keywords": "Artificial Intelligence, Machine Learning, Multi-Agent Systems, Portfolio\nManagement, Options Trading"
+}

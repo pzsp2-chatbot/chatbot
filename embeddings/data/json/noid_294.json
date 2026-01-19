@@ -1,0 +1,33 @@
+{
+    "id": "WUT75b586ca197741eea019fb32eb8d8319",
+    "title": "GAIus: Combining Genai with Legal Clauses Retrieval for Knowledge-Based Assistant",
+    "created": "2025-03-01T19:09:32.845+01:00",
+    "modified": "2025-09-09T23:22:41.560+02:00",
+    "language": "en",
+    "doi": "10.5220/0013191800003890",
+    "url": "https://doi.org/10.5220/0013191800003890",
+    "authors": [
+        {
+            "full_name": "Ana Paula Rocha",
+            "affiliation": "Univeristy of Porto"
+        },
+        {
+            "full_name": "Luc Steels",
+            "affiliation": "Universitat Pompeu Fabra and CSIC, Barcelona, Spain"
+        },
+        {
+            "full_name": "Jaap van den Herik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Matak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper we discuss the capability of large language models to base their answer and provide proper ref-erences when dealing with legal matters of non-english and non-chinese speaking country. We discuss the history of legal information retrieval, the difference between case law and statute law, its impact on the legal tasks and analyze the latest research in this field. Basing on that background we introduce gAIus, the architecture of the cognitive LLM-based agent, whose responses are based on the knowledge retrieved from certain legal act, which is Polish Civil Code. We propose a retrieval mechanism which is more explainable, human-friendly and achieves better results than embedding-based approaches. To evaluate our method we create special dataset based on single-choice questions from entrance exams for law apprenticeships conducted in Poland. The proposed architecture critically leveraged the abilities of used large language models, improving the gpt-3.5-turbo-0125 by 419%,...",
+    "keywords": "Legal Technologies, Knowledge-Based Systems, Explainable Artificial Intelligence, Cognitive Systems"
+}

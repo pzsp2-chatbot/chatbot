@@ -1,0 +1,17 @@
+{
+    "id": "WUT07ec3ee87a574fef8f4a9cb93304d7c0",
+    "title": "Collision chemistry impact on Townsend’s avalanche development",
+    "created": "2025-01-10T11:19:39.775+01:00",
+    "modified": "2025-09-09T23:32:49.220+02:00",
+    "language": "en",
+    "doi": "10.15199/48.2024.06.04",
+    "url": "https://doi.org/10.15199/48.2024.06.04",
+    "authors": [
+        {
+            "full_name": "Wiktor Łodyga",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This article explores the impact of collision chemistry on Townsend’s avalanche development through an innovative computational approach. By combining the Particle-in-Cell algorithm and Monte Carlo Collisions, we determine the )rst Townsend coef)cient for Helium gas. Further, we investigate the in*uence of a variable number of excitation collisions to achieve accurate compliance with experimental results. This work involves the use of a custom-built meta-programming library in the Julia programming language, enabling automatic code generation for enhanced ef)ciency and reproducibility",
+    "keywords": null
+}

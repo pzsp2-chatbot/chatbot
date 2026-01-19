@@ -1,21 +1,21 @@
 {
-    "id": "WUTe1a058e2cf394d07957576ca737685a2",
-    "title": "Recognizing User Emotion Based on Keystroke Dynamics",
-    "created": "2024-10-28T12:24:29.475+01:00",
-    "modified": "2025-09-09T23:32:58.073+02:00",
+    "id": "WUTe065284fe33f4a4987b8faf6ac79d990",
+    "title": "Relabeling the imperfect labeled data to improve recognition of face images using CNN",
+    "created": "2024-11-27T10:40:39.130+01:00",
+    "modified": "2025-09-09T23:34:49.546+02:00",
     "language": "en",
-    "doi": "10.15199/48.2024.06.03",
-    "url": "https://doi.org/10.15199/48.2024.06.03",
+    "doi": "10.15199/48.2024.06.05",
+    "url": "https://doi.org/10.15199/48.2024.06.05",
     "authors": [
         {
-            "full_name": "Michał Malinowski",
+            "full_name": "Robert Szmurło",
             "affiliation": null
         },
         {
-            "full_name": "Zuzanna Krawczyk-Borysiak",
+            "full_name": "Stanisław Osowski",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The paper considers the problem of improving the recognition of not-perfectly labeled face images using CNN networks. The proposed solution is based on relabeling the samples of images by applying the KNN classification principle based on the distance between the samples. The original images are first converted to the features and the KNN principle is applied to them. The classes of sample images are relabeled according to the class represented by most neighbors indicated by KNN. The developed system was tested on the problem of face recognition. The dataset was composed of 68 classes of grayscale images. The results of experiments have shown significant improvement in the recognition rate of not perfectly labeled images. © 2024 Wydawnictwo SIGMA-NOT. All rights reserved.",
+    "keywords": "relabeling, CNN, KNN, face recognition, feature analysis, deep networks"
 }

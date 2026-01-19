@@ -1,0 +1,21 @@
+{
+    "id": "WUTc0b2654b91514252b264c48e726163ff",
+    "title": "Toward Predictive Stock Trading with Hidformer Integrated into Reinforcement Learning Strategy",
+    "created": "2025-01-29T17:27:27.514+01:00",
+    "modified": "2025-09-09T23:24:50.181+02:00",
+    "language": "en",
+    "doi": "10.1109/ICTAI62512.2024.00039",
+    "url": "https://doi.org/10.1109/ICTAI62512.2024.00039",
+    "authors": [
+        {
+            "full_name": "Kamil Ł. Szydłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents the Hidformer model, a Transformer-type neural network, integrated with reinforcement learning (RL) strategies for enhanced stock trading performance. By leveraging the Hidformer model's predictive capabilities, we aim to improve the decision-making processes of RL agents in financial markets. Our approach extends state observations with future stock price predictions, allowing for more informed trading actions. Experimental results demonstrate that the enhanced RL strategy outperforms traditional methods across multiple metrics, including annual return, cumulative return, and risk-adjusted measures such as the Sharpe and Calmar ratios. Although statistical significance was not achieved, the consistent improvement trends, especially when considering visual analysis, underscore the potential of combining advanced time series forecasting models with RL techniques. This integration suggests a promising direction for developing robust and profitable automated trading systems. Furthermore, our findings provide further understanding of the practical use of Transformer architectures in finance and risk management, emphasizing their potential to enhance algorithmic trading strategies and potentially enable investors to achieve excess earnings.",
+    "keywords": "Measurement;Visualization;Time series analysis;Neural networks;Reinforcement learning;Predictive models;Transformers;Prediction algorithms;Market research;Risk management;Automated stock trading;Stock price prediction;Transformer;Hidformer;Deep reinforcement learning;Actor-critic framework"
+}

@@ -1,0 +1,21 @@
+{
+    "id": "WUTa5b4c6dd3cb44eb68d82e965f7b8b52c",
+    "title": "Deep Learning Methods for Abstract Visual Reasoning: A Survey on Raven's Progressive Matrices",
+    "created": "2025-04-09T15:40:22.749+02:00",
+    "modified": "2025-09-09T23:20:33.022+02:00",
+    "language": "en",
+    "doi": "10.1145/3715093",
+    "url": "https://doi.org/10.1145/3715093",
+    "authors": [
+        {
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "abstract visual reasoning; Deep learning; Raven's Progressive Matrices"
+}

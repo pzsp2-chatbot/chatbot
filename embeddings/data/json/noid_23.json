@@ -1,37 +1,25 @@
 {
-    "id": "WUTd5aac37e11284e17aa31df53c8973afc",
-    "title": "Coevolutionary Algorithm for Building Robust Decision Trees under Minimax Regret",
-    "created": "2024-10-10T10:51:43.041+02:00",
-    "modified": "2025-09-09T23:25:08.503+02:00",
+    "id": "WUT5439f8147412420cadcbb1255ead372f",
+    "title": "Unveiling novel aspects of SARS-CoV-2 to combat COVID-19",
+    "created": "2024-11-12T13:04:51.108+01:00",
+    "modified": "2025-09-09T23:33:51.401+02:00",
     "language": "en",
-    "doi": "10.1609/aaai.v38i19.30188",
-    "url": "https://doi.org/10.1609/aaai.v38i19.30188",
+    "doi": "10.3389/fgene.2024.1383640",
+    "url": "https://doi.org/10.3389/fgene.2024.1383640",
     "authors": [
         {
-            "full_name": "Wooldridge Michael",
+            "full_name": "Dariusz Plewczyński",
             "affiliation": null
         },
         {
-            "full_name": "Dy Jennifer",
-            "affiliation": null
+            "full_name": "Indrajit Saha",
+            "affiliation": "National Institute of Technical Teachers’ Training and Research, Kolkata, West Bengal, India"
         },
         {
-            "full_name": "Natarajan Sriraam",
-            "affiliation": null
-        },
-        {
-            "full_name": "Adam Żychowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Andrew Perrault",
-            "affiliation": "The Ohio State University, Columbus, USA"
-        },
-        {
-            "full_name": "Jacek Mańdziuk",
-            "affiliation": null
+            "full_name": "Nimisha Ghosh",
+            "affiliation": "Institute of Technical Education and Research, Siksha “O” Anusandhan (Deemed to be) University, Bhubaneswar, Odisha, India"
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Four years ago, the whole world was forced to come at a standstill due to SARS-CoV-2 virus, the causative agent of the COVID-19 pandemic. For more than 2 years, after incessant trials and tribulations by the scientific community and the common people alike, the spread of the virus and the deaths caused by the same are finally under control. This has been possible due to the efforts of the researchers which led to the development of several vaccines like Pfizer-BioNTech, Oxford-AstraZeneca, Novovax, Covaxin, Moderna (now called Spikevax), Comirnaty, Sputnik V, and Johnson & Johnson. However, in the initial days of the pandemic the knowledge about this deadly virus was very scarce. To mitigate this problem, whole genome analysis was carried out to better understand the virus. Thus, the knowledge that have been gained through rigorous research that is still ongoing may help to prevent such outbreaks in the future as well. Keeping all these factors in mind, in continuation of our earlier issue related to “SARS-CoV-2: From Genetic Variability to Vaccine Design”, we have further extended our service through the Research Topic “Unveiling novel aspects of SARS-CoV-2 to combat COVID-19” for the benefit of the scientific community. The articles covered in this Research Topic are discussed in subsequent sections.",
+    "keywords": "covid-19, sars-cov-2"
 }

@@ -1,0 +1,29 @@
+{
+    "id": "WUT52dc6ca671294096bc5fb7e93a14a3e7",
+    "title": "3D Visualization of High-Resolution Radar-Measured Vital Sign Signatures Using Range-Time-Frequency Representation",
+    "created": "2025-07-16T17:54:37.110+02:00",
+    "modified": "2025-09-09T23:17:34.984+02:00",
+    "language": "en",
+    "doi": "10.1109/EUROCON64445.2025.11073320",
+    "url": "https://doi.org/10.1109/EUROCON64445.2025.11073320",
+    "authors": [
+        {
+            "full_name": "Bartosz Falęcki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Abratkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pedro Gomez del Hoyo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Jerzy Samczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The subject of this paper is a method of representing micro-Doppler radar signatures using a 3 -dimensional function dependent on range, time, and frequency. The analyzed motion signature comes from the measurement of human vital signs. The device used to provide data is the FMCW radar operating at a frequency of 122 GHz with centimeter-scale range resolution. The main idea of signal processing is the time-frequency analysis for each range cell in a selected distance interval. The result was presented as a point cloud reflecting the so-called spatial spectrogram, which contains more information than a standard spectrogram from a single range cell. This allowed for the simultaneous representation of the shape of the signature and its distribution along the range cells. Both respiratory and heart activity were observed in the spatial spectrogram, confirming the effectiveness of the proposed method.",
+    "keywords": "FMCW radar, vital signs, micro-Doppler, timefrequency analysis"
+}

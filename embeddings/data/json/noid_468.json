@@ -1,0 +1,25 @@
+{
+    "id": "WUT01d694bb42c74ece9240ca4fc050ec56",
+    "title": "Enhancing adaptive beamforming by enhanced MUSIC algorithm for urban environments in O-RAN architecture",
+    "created": "2025-07-16T11:08:21.704+02:00",
+    "modified": "2025-09-09T23:20:35.580+02:00",
+    "language": "en",
+    "doi": "10.1186/s13638-025-02470-z",
+    "url": "https://doi.org/10.1186/s13638-025-02470-z",
+    "authors": [
+        {
+            "full_name": "Mustafa Mohammed Mohsin Mayyahi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        }
+    ],
+    "abstract": "The advent of 5G and the progression toward 6G have driven significant advancements in wireless communication technologies, emphasizing higher data rates, ultra-reliable low-latency communications (URLLC), and enhanced network flexibility. The open radio access network (O-RAN) architecture is critical in this transformation, offering a more innovative and customizable network infrastructure. This paper presents a novel predictive model for angle of arrival (AoA) estimation integrated within O-RAN to tackle the dynamic challenges posed by high user mobility in dense urban networks. By leveraging the accuracy of the multiple signal classification (MUSIC) algorithm combined with predictive linear regression (LR) and support vector regression (SVR) models, our approach significantly enhances the MUSIC algorithm and accelerates the generation of beam weights for the beamforming system. This enhancement reduces the latency associated with beamforming adjustments, improves AoA accuracy, and optimizes beam direction preemptively, thereby improving network efficiency and user connectivity. Integrating precoding functions directly within the open radio unit (O-RU) and strategically using predictive AoA modeling streamlines network operations, reduces operational costs, and improves the overall user experience. Our findings demonstrate that the proposed model significantly enhances signal-to-noise ratio (SNR) and reduces network load by dynamically adapting beam width in response to user movement, offering a robust solution for future wireless communication systems. This paper details the system modeling, algorithmic strategies, and empirical validations that substantiate the efficacy of our approach in a real-world O-RAN environment.",
+    "keywords": null
+}

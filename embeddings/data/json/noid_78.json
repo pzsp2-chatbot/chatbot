@@ -1,0 +1,101 @@
+{
+    "id": "WUT7889b3d1a01441e9a8c885f6783559a4",
+    "title": "Air quality and transport behaviour: sensors, field, and survey data from Warsaw, Poland",
+    "created": "2024-12-12T07:31:55.885+01:00",
+    "modified": "2025-09-09T23:31:19.612+02:00",
+    "language": "en",
+    "doi": "10.1038/s41597-024-04111-4",
+    "url": "https://doi.org/10.1038/s41597-024-04111-4",
+    "authors": [
+        {
+            "full_name": "Amirhossein Hassani",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Nicińska",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "Arkadiusz Drabicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Zawojska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gabriela Sousa Santos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Kula",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "Henrik Grythe",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Zawieska",
+            "affiliation": "Szkoła Główna Handlowa w Warszawie"
+        },
+        {
+            "full_name": "Joanna Jaczewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Rachubik",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "Katarzyna Archanowicz-Kudelska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Zagórska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Grzenda",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magdalena Kubecka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Luckner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Jakubczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Wolański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nuria Castell",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gora",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pål Wilter Skedsmo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Satia Rożynek",
+            "affiliation": "University of Warsaw"
+        },
+        {
+            "full_name": "Szymon Horosiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The present study describes the data sets produced in Warsaw, Poland with the aim of developing tools and methods for the implementation of human-centred and data-driven solutions to the enhancement of sustainable mobility transition. This study focuses on school commutes and alternatives to private cars for children drop off and pick up from primary schools. The dataset enables the complex analysis of interactions between determinants of transport mode choice, revealed choices, and air quality impact. We draw on four data collection methods, namely, (i) air quality and noise sensors’ measurements, (ii) in-person observations of transport behaviours, (iii) travel diaries, and (iv) social surveys. Moreover, all trip data from travel diaries are complemented with the calculated attributes of alternative travel modes. The data produced in the project can be also combined with publicly available information on air quality, public transport schedules, and traffic flows. The present data sets help to open new venues for interdisciplinary analyses of sustainable mobility transition effectiveness and efficiency.",
+    "keywords": "data science; transport; solution"
+}

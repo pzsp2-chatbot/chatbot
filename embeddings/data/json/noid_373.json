@@ -1,0 +1,77 @@
+{
+    "id": "WUT071c98f5270f4bd6a122a858c9b5ecfa",
+    "title": "Design and Characterization of Antibacterial Peptide Nanofibrils as Components of Composites for Biomaterial Applications",
+    "created": "2025-04-25T17:27:02.814+02:00",
+    "modified": "2025-09-09T23:21:28.441+02:00",
+    "language": "en",
+    "doi": "10.2174/0113892037353453241219185311",
+    "url": "https://doi.org/10.2174/0113892037353453241219185311",
+    "authors": [
+        {
+            "full_name": "Justyna Sawicka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Bollin",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Sylla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mirosława Małgorzata Panasiuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michalina Wilkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lidia Ciołek",
+            "affiliation": "Łukasiewicz Research Network - Institute of Ceramics and Building Materials"
+        },
+        {
+            "full_name": "Mateusz Leśniewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Konopka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Struniawski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gabriela Całka-Kuc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Liwo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Hańczyc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Kozak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Beata Gromadzka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Biernat",
+            "affiliation": "Łukasiewicz Research Network - Institute of Ceramics and Building Materials"
+        },
+        {
+            "full_name": "Sylwia Rodziewicz-Motowidło",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Purpose: The purpose of this study was to design and synthesize the ug46 peptide, incorporate its fibrils into composite materials, and evaluate its structural and antimicrobial properties. Another objective was to utilize spectroscopy and molecular simulation, enhanced by Machine Vision methods, to monitor the aggregation process of the ug46 peptide and assess its potential as a scaffold for an antimicrobial peptide.\n\nMethod: The structural analysis of the ug46 peptide reveals its dynamic conformational changes. Initially, the peptide exhibits a disordered structure with minimal α-helix content, but as incubation progresses, it aggregates into fibrils rich in β-sheets. This transformation was validated by CD and ThT assays, which showed decreased molar ellipticity and an increase in ThT fluorescence.\n\nResults: Laser-induced fluorescence and molecular dynamics simulations further revealed the transition from a compact native state to extended “worm-like” filament structures, influenced by peptide concentration and temperature. TEM and AFM confirmed these changes, showing the evolution of protofibrils into mature fibrils with characteristic twists. When incorporated into chitosan- bioglass composites, these fibrils significantly enhanced antimicrobial activity against pathogens such as Staphylococcus aureus and Pseudomonas aeruginosa.\n\nConclusion: Overall, ug46 peptide fibrils show promise as a multifunctional scaffold with structural and antimicrobial benefits in composite biomaterials.",
+    "keywords": "Peptides, fibrils, antimicrobial properties, chitosan-bioglass, biomaterial applications, composite biomaterials"
+}

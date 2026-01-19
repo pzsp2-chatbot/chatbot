@@ -1,0 +1,25 @@
+{
+    "id": "WUTf439de7332c04783b96461a37e8d0bd6",
+    "title": "Software-Oriented Adjustable Concentration of ISAR Images – Towards Super-Resolution",
+    "created": "2025-04-16T10:45:08.059+02:00",
+    "modified": "2025-09-09T23:18:13.606+02:00",
+    "language": "en",
+    "doi": "10.1109/jsen.2025.3559155",
+    "url": "https://doi.org/10.1109/jsen.2025.3559155",
+    "authors": [
+        {
+            "full_name": "Karol Abratkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Kamil Bączyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Jerzy Samczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This article presents the concept of adjustable inverse synthetic aperture radar (ISAR) image concentration using the Levenberg-Marquardt optimization algorithm and the windowed 2-D Fourier transform (W2D-FT). A recently developed method for strong ISAR focusing is revised, allowing the user to obtain a stronger or weaker concentration of energy reflected from scatterers. As a result, the target image obtained using the proposed method can be of an intermediate resolution, leading to a target shape perception that outperforms other methods. The proposed technique fits the current software-oriented ISAR image resolution trend, as the whole method is based on efficient implementation and can work in real-world systems. The presented technique is validated using both simulated and real-life data employing bistatic radar for target imaging. The open-source MATLAB code for the software-oriented ISAR image improvement is also provided.",
+    "keywords": "Adjustable inverse synthetic aperture radar (ISAR) concentration, radar imaging, windowed 2-D Fourier transform (W2D-FT)"
+}

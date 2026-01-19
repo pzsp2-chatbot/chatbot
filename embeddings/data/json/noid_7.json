@@ -1,8 +1,8 @@
 {
-    "id": "WUT3730dd1cce4e4f6384746ad688a7c751",
-    "title": "Comparison of deep learning approaches to violence detection in videos",
-    "created": "2024-10-04T16:46:59.805+02:00",
-    "modified": "2025-09-10T00:06:00.069+02:00",
+    "id": "WUTff8e2d951c2d4b20b56dd6864f495404",
+    "title": "Prediction of amino acids mutations in SARS-CoV-2 spike protein using neural networks",
+    "created": "2024-11-05T14:44:24.987+01:00",
+    "modified": "2025-09-10T00:06:24.583+02:00",
     "language": "en",
     "doi": null,
     "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
@@ -20,14 +20,14 @@
             "affiliation": null
         },
         {
-            "full_name": "Filip Adamiok",
+            "full_name": "Filip Korzeniewski",
             "affiliation": null
         },
         {
-            "full_name": "Artur Wilkowski",
+            "full_name": "Tomasz Gambin",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "This study addresses the need for effective SARS-CoV-2 vaccines\nby focusing on predicting mutations in the spike (S) protein, crucial for vaccine development. We developed a method that predicts which mutations are\nlikely to occur in the next periods using historical spike protein sequence\ndata. The main challenges were to process the data SARS-CoV-2 strains in\na way it can be later processed by Recurrent Neural Network and to create\nappropriate models based on RNN able to predict mutations. Results indicate high performance of proposed method in epitope mutation prediction\nand further confirm the potential of machine learning in COVID-19 vaccine\ndevelopment.",
+    "keywords": "bioinformatics, SARS-CoV-2, neural networks, attention"
 }

@@ -1,0 +1,61 @@
+{
+    "id": "WUT6070611b6af44e0abd7fb8fa03b999c3",
+    "title": "A Generic Taxonomy for Steganography Methods",
+    "created": "2025-04-14T15:13:05.592+02:00",
+    "modified": "2025-09-09T23:21:48.179+02:00",
+    "language": "en",
+    "doi": "10.1145/3729165",
+    "url": "https://doi.org/10.1145/3729165",
+    "authors": [
+        {
+            "full_name": "Steffen Wendzel",
+            "affiliation": "Worms University of Applied Science"
+        },
+        {
+            "full_name": "Luca Caviglione",
+            "affiliation": "Istituto di studi sui sistemi intelligenti per l'automazione"
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Mileva",
+            "affiliation": "University Goce Delcev"
+        },
+        {
+            "full_name": "Jana Dittmann",
+            "affiliation": "University of Magedeburg, DE"
+        },
+        {
+            "full_name": "Christian Krätzer",
+            "affiliation": "Otto von Guericke University Magdeburg"
+        },
+        {
+            "full_name": "Kevin Lamshöft",
+            "affiliation": "Otto von Guericke University Magdeburg"
+        },
+        {
+            "full_name": "Claus Vielhauer",
+            "affiliation": "TH Brandenburg, DE"
+        },
+        {
+            "full_name": "Laura Hartmann",
+            "affiliation": "Worms University of Applied Sciences, DE"
+        },
+        {
+            "full_name": "Jörg Keller",
+            "affiliation": "University of Hagen"
+        },
+        {
+            "full_name": "Tom Neubert",
+            "affiliation": "TH Brandenburg, DE"
+        },
+        {
+            "full_name": "Sebastian Zillien",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "Steganography, covert channels, information hiding, side channels"
+}

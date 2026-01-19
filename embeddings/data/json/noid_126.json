@@ -1,0 +1,41 @@
+{
+    "id": "WUT4d41700391334b3cbbf53940ec108480",
+    "title": "ML-Powered Biomedical Signals Processing using Hybrid Filters",
+    "created": "2025-01-09T10:58:20.098+01:00",
+    "modified": "2025-09-09T23:25:50.246+02:00",
+    "language": "en",
+    "doi": "10.1109/PAEE63906.2024.10701444",
+    "url": "https://doi.org/10.1109/PAEE63906.2024.10701444",
+    "authors": [
+        {
+            "full_name": "Mariusz Pelc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Mikołajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Mendoń",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Jan Luckiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Sudoł",
+            "affiliation": null
+        },
+        {
+            "full_name": "Edward Jacek Gorzelańczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Kawala-Sterniuk",
+            "affiliation": "Opole University of Technology"
+        }
+    ],
+    "abstract": "This paper deals with the problem of signals filtering using hybrid filters. Such solutions may prove to be especially beneficial in the context of biomedical signals filtering where the signals’ amplitudes are typically not very high and they can be easily affected by different kinds of disturbances. Having a number of different types of filters tuned for some specific purposes we will show how the best filter choice is affected by selecting one ML model over another.",
+    "keywords": null
+}

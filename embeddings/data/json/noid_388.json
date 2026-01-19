@@ -1,0 +1,57 @@
+{
+    "id": "WUT44d50c4dbb1c4a5dac4dab659f7c6080",
+    "title": "Decellularized Liver Matrices for Expanding the Donor Pool—An Evaluation of Existing Protocols and Future Trends",
+    "created": "2025-05-07T15:28:20.043+02:00",
+    "modified": "2025-09-09T23:20:43.172+02:00",
+    "language": "en",
+    "doi": "10.3390/biom15010098",
+    "url": "https://doi.org/10.3390/biom15010098",
+    "authors": [
+        {
+            "full_name": "Marcin Morawski",
+            "affiliation": "Department of General, Transplant, and Liver Surgery"
+        },
+        {
+            "full_name": "Maciej Krasnodębski",
+            "affiliation": "Department of General, Transplant, and Liver Surgery"
+        },
+        {
+            "full_name": "Jakub Rochoń",
+            "affiliation": "Katedra i Klinika Chirurgii Ogólnej i Transplantacyjnej"
+        },
+        {
+            "full_name": "Hubert Kubiszewski",
+            "affiliation": "Katedra i Klinika Chirurgii Ogólnej i Transplantacyjnej"
+        },
+        {
+            "full_name": "Michał Marzęcki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dominik Topyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kacper Murat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Staszewski",
+            "affiliation": "Katedra i Klinika Chirurgii Ogólnej i Transplantacyjnej"
+        },
+        {
+            "full_name": "Jacek Szczytko",
+            "affiliation": "Faculty of Physics"
+        },
+        {
+            "full_name": "Marek Maleszewski",
+            "affiliation": "Faculty of Biology"
+        },
+        {
+            "full_name": "Michał Grąt",
+            "affiliation": "Katedra i Klinika Chirurgii Ogólnej i Transplantacyjnej"
+        }
+    ],
+    "abstract": "Liver transplantation is the only curative option for end-stage liver disease and is necessary for an increasing number of patients with advanced primary or secondary liver cancer. Many patient groups can benefit from this treatment, however the shortage of liver grafts remains an unsolved problem. Liver bioengineering offers a promising method for expanding the donor pool through the production of acellular scaffolds that can be seeded with recipient cells. Decellularization protocols involve the removal of cells using various chemical, physical, and enzymatic steps to create a collagenous network that provides support for introduced cells and future vascular and biliary beds. However, the removal of the cells causes varying degrees of matrix damage, that can affect cell seeding and future organ performance. The main objective of this review is to present the existing techniques of producing decellularized livers, with an emphasis on the assessment and definition of acellularity. Decellularization agents are discussed, and the standard process of acellular matrix production is evaluated. We also introduce the concept of the stepwise assessment of the matrix during decellularization through decellularization cycles. This method may lead to shorter detergent exposure times and less scaffold damage. The introduction of apoptosis induction in the field of organ engineering may provide a valuable alternative to existing long perfusion protocols, which lead to significant matrix damage. A thorough understanding of the decellularization process and the action of the various factors influencing the final composition of the scaffold is essential to produce a biocompatible matrix, which can be the basis for further studies regarding recellularization and retransplantation.",
+    "keywords": "bioengineered organs; decellularized liver; liver transplantation; tissue engineering; regenerative medicine"
+}

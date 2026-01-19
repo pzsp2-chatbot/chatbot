@@ -1,0 +1,37 @@
+{
+    "id": "WUT2c4e948c0e5040a89528612cf2413498",
+    "title": "Multiple Dimensional Encoding/Modulation Shift-and-Addition Design for Distributed Systems",
+    "created": "2025-01-28T13:30:11.413+01:00",
+    "modified": "2025-09-10T00:16:36.880+02:00",
+    "language": "en",
+    "doi": "10.1155/2022/5615041",
+    "url": "https://doi.org/10.1155/2022/5615041",
+    "authors": [
+        {
+            "full_name": "Mingjun Dai",
+            "affiliation": "Shenzhen University"
+        },
+        {
+            "full_name": "Chanting Zhang",
+            "affiliation": "Shenzhen University"
+        },
+        {
+            "full_name": "Zhaoyan Hong",
+            "affiliation": "Shenzhen University"
+        },
+        {
+            "full_name": "Paweł Wawrzyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xiaohui Lin",
+            "affiliation": "Shenzhen University"
+        }
+    ],
+    "abstract": "<p>In distributed computing/storage/machine learning system, the method of encoding and decoding combing shift-and-addition (SA) and zigzag decoding (ZD) is proposed to solve the problem of high computational complexity. However, in each encoded packet, one element takes part in the encoding only once, so the obtained overhead is extremely high. In this work, based on the idea of multidimensional encoding/modulation, we propose to employ one element of the encoding process multiple times when constructing one encoded packet based on the Cauchy matrix, thereby leveraging the favourable properties of the code based on Cauchy matrix. The overhead is reduced from square to logarithmic in certain parameters. Compared with the overhead of the existing square computational complexity, it is greatly reduced. </p>",
+    "keywords": null
+}

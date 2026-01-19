@@ -1,0 +1,17 @@
+{
+    "id": "WUT46e7ae8d585b4d0290bb5c6d2ee464e6",
+    "title": "Emerging Trends in Radar: 5G/6G Joint Communication and Active & Passive Sensing",
+    "created": "2025-01-29T14:08:29.778+01:00",
+    "modified": "2025-09-09T23:20:31.960+02:00",
+    "language": "en",
+    "doi": "10.1109/MAES.2025.3533943",
+    "url": "https://doi.org/10.1109/MAES.2025.3533943",
+    "authors": [
+        {
+            "full_name": "Radosław Maksymiuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In recent years, radar sensing technology has witnessed significant expansion, transitioning from its traditional military applications to various domains. Consequently, this proliferation has led to the emergence of numerous research topics that require exploration. Of these topics, Joint Communication and Sensing (JCAS) is of particular interest. Many scientific papers devoted to this topic have recently been published. However, JCAS is a very wide concept and still immature. It requires intensive study, going beyond theory and simulations, and overcoming a wide variety of practical challenges, not limited to technological type. One specific approach to JCAS is to extend the functionality of a communication system to have sensing capability. This work focuses on such a promising trend related to 5G mobile telephony (with the possibility of applying it in the coming 6G standard). This work summarizes the current state of the art of research in the field of 5G-based JCAS and spreads the vision of the maturation of this technology. Special attention is paid to the fusion of active and passive 5G-based sensing. Future challenges are highlighted and suggestions for the 6G standardization are included",
+    "keywords": "JCAS, passive radar, data fusion, 5G"
+}

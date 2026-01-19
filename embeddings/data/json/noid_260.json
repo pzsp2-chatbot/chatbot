@@ -1,0 +1,37 @@
+{
+    "id": "WUT33ff5af1ca2d4fbb8e1d3e779d14211c",
+    "title": "Dynamic Modification of Agent Behaviors Without Disrupting a Running System",
+    "created": "2025-02-13T15:11:08.958+01:00",
+    "modified": "2025-09-09T23:23:11.099+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-70415-4_25",
+    "url": "https://doi.org/10.1007/978-3-031-70415-4_25",
+    "authors": [
+        {
+            "full_name": "Philippe Mathieu",
+            "affiliation": "University of Lille"
+        },
+        {
+            "full_name": "Fernando De La Prieta",
+            "affiliation": "University of Salamanca"
+        },
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Wasielewska-Michniewska",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": "<p>One of the important research areas is a modification of agent behaviors within a running system. Although this topic has been addressed in the past, the typical focus was on agent reasoning, where adaptability was concerned mostly with selecting appropriate pre-defined agent behaviors. While this approach allows agents to respond to environmental changes, it does not adequately address issues with (1) a dynamic introduction of previously unknown behaviors, and (2) execution of modifications without disrupting the remaining processes. Therefore, these two aspects become the core of the following contribution. The work shows how agent behaviors can be represented and modified using Rule-based Expert Systems with Expression Languages, where the adaptations are possible without interrupting agent system operation. The implemented solution is demonstrated using an example of a simple multi-agent restaurant recommendation system.</p>",
+    "keywords": null
+}

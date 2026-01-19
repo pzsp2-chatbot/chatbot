@@ -1,33 +1,33 @@
 {
-    "id": "WUT1eed12fc20d24416bc1d188f864789f7",
-    "title": "Unsupervised Anomaly Detection in Time Series with Evolving Spiking Neural Networks and Empirical Mode Decomposition",
-    "created": "2024-10-15T10:33:54.293+02:00",
-    "modified": "2025-09-10T00:06:28.549+02:00",
+    "id": "WUT2ad87269554847f4b67165565df2577a",
+    "title": "Expertise-informed Bayesian convolutional neural network for oil production forecasting",
+    "created": "2024-11-15T17:59:18.564+01:00",
+    "modified": "2025-09-09T23:22:29.387+02:00",
     "language": "en",
-    "doi": null,
-    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
+    "doi": "10.1016/j.geoen.2024.213061",
+    "url": "https://doi.org/10.1016/j.geoen.2024.213061",
     "authors": [
+        {
+            "full_name": "Jianpeng Zang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jian Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kai Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "El-Sayed M. El-Alfy",
+            "affiliation": "King Fahd University of Petroleum and Minerals"
+        },
         {
             "full_name": "Jacek Mańdziuk",
             "affiliation": null
-        },
-        {
-            "full_name": "Adam Żychowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Mikołaj Małkiński",
-            "affiliation": null
-        },
-        {
-            "full_name": "Mariusz Paluch",
-            "affiliation": null
-        },
-        {
-            "full_name": "Piotr Maciąg",
-            "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "This paper presents a novel machine-learning multi-well production forecasting model embedded with expertise, which has strong interpretability and generalization. Expertise is not only reflected in the incorporation of water drive characteristic curves in the model but also in the creation of high-order input features. Furthermore, some parameters of the model loss function are set based on the development experience, which introduces human practical knowledge into the model’s training. These designs enhance the interpretability of the model. In the modeling process, only the production data available on-site are used, which makes the model of practical value. The model is constructed based on Bayesian convolution and fully connected neural networks with regularization effects in structure, which can provide a range of forecasted values that are more in line with practical needs. Simulation results show that the average R-squared (R^2) score of the proposed model on the testing set can reach 0.9164. Compared to the scores of typical machine learning models such as XGBoost (0.5170), LSTM (0.6623), and CNN (0.4623), the proposed expertise-informed model has stronger generalization performance. In addition, the experimental results of the proposed model in scenarios containing errors indicate that it has high stability, with the average R^2  in the training set and testing set are 0.9439 and 0.9569, respectively.",
+    "keywords": "Production forecating, Machine learning, Interpretability, Human experience, Bayesian neural networks, Physics-informed neural networks"
 }

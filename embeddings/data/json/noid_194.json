@@ -1,0 +1,61 @@
+{
+    "id": "WUT005c7cc8008741f9985e0f83839b6e24",
+    "title": "Co-Targeting of DTYMK and PARP1 as a Potential Therapeutic Approach in Uveal Melanoma",
+    "created": "2025-01-30T10:57:24.932+01:00",
+    "modified": "2025-09-09T23:33:35.964+02:00",
+    "language": "en",
+    "doi": "10.3390/cells13161348",
+    "url": "https://doi.org/10.3390/cells13161348",
+    "authors": [
+        {
+            "full_name": "Sylwia Oziębło",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Mizera",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agata Górska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Krzyziński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Karpiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Markiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Małgorzata Sąsiadek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bożena Romanowska-Dixon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mai P. Hoang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonina J. Mazur",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Donizy",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Uveal melanoma (UM) is the most common primary intraocular tumor in adults, with no standardized treatment for advanced disease. Based on preliminary bioinformatical analyses DTYMK and PARP1 were selected as potential therapeutic targets. High levels of both proteins were detected in uveal melanoma cells and correlated with increased tumor growth and poor prognosis. In vitro tests on MP41 (BAP1 positive) and MP46 (BAP1 negative) cancer cell lines using inhibitors pamiparib (PARP1) and Ymu1 (DTYMK) demonstrated significant cytotoxic effects. Combined treatment had synergistic effects in MP41 and additive in MP46 cell lines, reducing cell proliferation and inhibiting the mTOR signaling pathway. Furthermore, the applied inhibitors in combination decreased cell motility and migration speed, especially for BAP1-negative cell lines. Our hypothesis of the double hit into tumoral DNA metabolism as a possible therapeutic option in uveal melanoma was confirmed since combined targeting of DTYMK and PARP1 affected all tested cytophysiological parameters with the highest efficiency. Our in vitro findings provide insights into novel therapeutic avenues for managing uveal melanoma, warranting further exploration in preclinical and clinical settings.</p>",
+    "keywords": null
+}

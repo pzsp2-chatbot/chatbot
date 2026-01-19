@@ -1,0 +1,29 @@
+{
+    "id": "WUT8d1fd294fa16428a8add409fc00aaa11",
+    "title": "ConsensuSV-ONT – A modern method for accurate structural variant calling",
+    "created": "2025-05-18T23:57:44.579+02:00",
+    "modified": "2025-09-09T23:21:07.226+02:00",
+    "language": "en",
+    "doi": "10.1038/s41598-025-01486-1",
+    "url": "https://doi.org/10.1038/s41598-025-01486-1",
+    "authors": [
+        {
+            "full_name": "Antoni Wiktor Pietryga",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Chiliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sachin Gadakh",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Improvements in sequencing technology make the development of new tools for detection of structural variance more and more common. However, since the tools available for the long-read Oxford Nanopore sequencing are limited, and the selection of the optimal tool presents a challenge, there is a need to create a tool based on Consensus that combines existing work to identify a set of high-quality, reliable structural variants that can be used for further downstream analysis. The field has also been subject to revolution in machine learning techniques, especially deep learning. To address the aforementioned need and developments, we propose a novel, fully automated ConsensuSV-ONT algorithm. The method uses six independent, state-of-the-art structural variant callers for long-read sequencing along with a convolutional neural network for filtering high-quality variants. We provide a runtime environment in the form of a docker image, wrapping a nextflow pipeline for efficient processing using parallel computing. The solution is complete in its form and is ready to use not only by computer scientists but accessible and easy to use for everyone working with Oxford Nanopore long-read sequencing data.",
+    "keywords": null
+}

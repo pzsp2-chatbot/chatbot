@@ -1,0 +1,21 @@
+{
+    "id": "WUT04c12038e0344700ae87d9ce17f91682",
+    "title": "Enhancing Prediction Models with Reinforcement Learning",
+    "created": "2025-02-24T19:57:25.707+01:00",
+    "modified": "2025-09-09T23:21:15.098+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://ceur-ws.org/Vol-3929/",
+    "authors": [
+        {
+            "full_name": "Karol Radziszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Ociepka",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We present a large-scale news recommendation system implemented at Ringier Axel Springer Polska, focusing\non enhancing prediction models with reinforcement learning techniques. The system, named Aureus, integrates\na variety of algorithms, including multi-armed bandit methods and deep learning models based on large language\nmodels (LLMs). We detail the architecture and implementation of Aureus, emphasizing the significant\nimprovements in online metrics achieved by combining ranking prediction models with reinforcement learning.\nThe paper further explores the impact of different models mixing on key business performance indicators. Our\napproach effectively balances the need for personalized recommendations with the ability to adapt to rapidly\nchanging news content, addressing common challenges such as the cold start problem and content freshness.\nThe results of online evaluation demonstrate the effectiveness of the proposed system in a real-world production\nenvironment.",
+    "keywords": "Personalization, News recommendations, Reinforcement Learning, Deep Learning"
+}

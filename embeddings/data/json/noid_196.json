@@ -1,0 +1,25 @@
+{
+    "id": "WUT5ece5e6a6fc74965bb84cec0083d6147",
+    "title": "The Effect of Balancing Methods on Model Behavior in Imbalanced Classification Problems",
+    "created": "2025-01-30T10:58:14.457+01:00",
+    "modified": "2025-09-09T23:38:19.268+02:00",
+    "language": "en",
+    "doi": null,
+    "url": null,
+    "authors": [
+        {
+            "full_name": "Adrian Stańdo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mustafa Cavus",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Imbalanced data poses a significant challenge in classification as model performance is affected by insufficient learning from minority classes. Balancing methods are often used to address this problem. However, such techniques can lead to problems such as overfitting or loss of information. This study addresses a more challenging aspect of balancing methods - their impact on model behavior. To capture these changes, Explainable Artificial Intelligence tools are used to compare models trained on datasets before and after balancing. In addition to the Variable Importance method, this study uses Partial Dependence and Accumulated Local Effects profiles. Real and simulated datasets are tested, and an open-source Python package edgaro is developed to facilitate this analysis. The results obtained show significant changes in model behavior due to balancing methods, which can lead to biased models toward a balanced distribution. These findings confirm that balancing analysis should go beyond model performance comparisons to achieve higher reliability of machine learning models. Therefore, we propose a new method performance gain plot for informed data balancing strategy to make an optimal selection of balancing method by analyzing the measure of change in model behavior versus performance gain.</p>",
+    "keywords": null
+}

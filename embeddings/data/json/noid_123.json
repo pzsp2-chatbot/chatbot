@@ -1,0 +1,105 @@
+{
+    "id": "WUT6260ee80b6d141db98ba097691a2d379",
+    "title": "Rapidity dependence of antideuteron coalescence in pp collisions at s=13 TeV with ALICE",
+    "created": "2025-01-08T20:47:43.005+01:00",
+    "modified": "2025-09-09T23:18:41.395+02:00",
+    "language": "en",
+    "doi": "10.1016/j.physletb.2024.139191",
+    "url": "https://doi.org/10.1016/j.physletb.2024.139191",
+    "authors": [
+        {
+            "full_name": "S. Acharya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pritam Chakraborty",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Anna Chochulska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Czarnynoga",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Gwiździel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Kisiel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Georgy Kornakov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirajum Monira",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julian Myrcha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Nowakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Oleniacz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Rosłon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniela Ruggiano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wioleta Rzęsa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Szymkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The production yields of antideuterons and antiprotons are measured in pp collisions at a center-of-mass energy of s=13 TeV, as a function of transverse momentum (p<sub>T</sub>) and rapidity (y), for the first time rapidity-differentially up to |y|=0.7. The measured spectra are used to study the p<sub>T</sub> and rapidity dependence of the coalescence parameter B<sub>2</sub>, which quantifies the coalescence probability of antideuterons. The p<sub>T</sub> and rapidity dependence of the obtained B<sub>2</sub> is extrapolated for p<sub>T</sub>>1.7 GeV/c and |y|>0.7 using the phenomenological antideuteron production model implemented in PYTHIA 8.3 as well as a baryon coalescence afterburner model based on EPOS 3. Such measurements are of interest to the astrophysics community, since they can be used for the calculation of the flux of antinuclei from cosmic rays, in combination with coalescence models.</p>",
+    "keywords": null
+}

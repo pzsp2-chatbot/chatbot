@@ -1,0 +1,105 @@
+{
+    "id": "WUTf744ff190d3947049964240d4dfa2f5b",
+    "title": "Measurement of the production and elliptic flow of (anti)nuclei in Xe-Xe collisions at sNN =5.44 TeV",
+    "created": "2025-01-14T12:35:53.145+01:00",
+    "modified": "2025-09-09T23:27:48.503+02:00",
+    "language": "en",
+    "doi": "10.1103/PhysRevC.110.064901",
+    "url": "https://doi.org/10.1103/PhysRevC.110.064901",
+    "authors": [
+        {
+            "full_name": "S. Acharya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pritam Chakraborty",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Anna Chochulska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Czarnynoga",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Gwiździel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Kisiel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Georgy Kornakov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirajum Monira",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julian Myrcha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Nowakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Oleniacz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Rosłon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniela Ruggiano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wioleta Rzęsa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Szymkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Measurements of (anti)deuteron and (anti)He3 production in the rapidity range |y|<0.5 as a function of the transverse momentum and event multiplicity in Xe-Xe collisions at a center-of-mass energy per nucleon-nucleon pair of sNN=5.44 TeV are presented. The coalescence parameters B2 and B3 are measured as a function of the transverse momentum per nucleon. The ratios between (anti)deuteron and (anti)He3 yields and those of (anti)protons and pions are reported as a function of the mean charged-particle multiplicity density and compared with two implementations of the statistical hadronization model and with coalescence predictions. The elliptic flow of (anti)deuterons is measured for the first time in Xe-Xe collisions and shows features similar to those already observed in Pb-Pb collisions, i.e., the mass ordering at low transverse momentum and the meson-baryon grouping at intermediate transverse momentum. The production of nuclei is particularly sensitive to the chemical freeze-out temperature of the system created in the collision, which is extracted from a grand-canonical-ensemble-based thermal fit, performed for the first time including light nuclei along with light-flavor hadrons in Xe-Xe collisions. The extracted chemical freeze-out temperature Tchem=(154.2±1.1) MeV in Xe-Xe collisions is similar to that observed in Pb-Pb collisions and close to the crossover temperature predicted by lattice quantum chromodynamics calculations.</p>",
+    "keywords": null
+}

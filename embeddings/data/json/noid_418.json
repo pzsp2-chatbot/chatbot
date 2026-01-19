@@ -1,0 +1,45 @@
+{
+    "id": "WUT605e6ceb8a6146789ef6c808a677d6f7",
+    "title": "Cyber4OT dataset: Network traces for cyber-security vulnerability evaluation in industrial control systems",
+    "created": "2025-06-06T21:27:42.779+02:00",
+    "modified": "2025-09-09T23:19:07.597+02:00",
+    "language": "en",
+    "doi": "10.1016/j.softx.2025.102196",
+    "url": "https://doi.org/10.1016/j.softx.2025.102196",
+    "authors": [
+        {
+            "full_name": "Krzysztof Cabaj",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Plamowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Chaber",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Ławryńczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Marusak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Nebeluk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Wojtulewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Zarzycki",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The article introduces the Cyber4OT dataset containing network traces concerning normal and simulated\nattacker-hostile activity in an Industrial Control System (ICS) environment. As many as 96 traces contain\nover 4.25 million packets and have over 385 MB capacity. The simulated attacks have been performed\non a dedicated laboratory testbed. The testbed mimics industrial plants’ Information Technology (IT) and\nOperational Technology (OT) infrastructure. The testbed deliberately uses continuous and binary control\nprocesses of fast and slow dynamics. Industrial Programmable Logic Controllers (PLCs) are used to control the\nprocesses. A dedicated industrial network provides the communication between the ICS equipment, Supervisory\nControl and Data Acquisition (SCADA) system and Human Machine Interface (HMI) panels. The communication\nis configured to test multiple communication protocols, including the standard industrial Modbus protocol.\nThe entire industrial infrastructure is connected to an external office network. Since the infrastructure and its\ncomponents are typical of industrial solutions, the described dataset collected using such a realistic testbed\ncould be beneficial for a broad scope of researchers to evaluate the vulnerability of ICSs to cyber attacks using\nclassical and artificial intelligence methods.",
+    "keywords": "Dataset\nNetwork security\nNetwork attacks\nIndustrial control systems\nSCADA\nPL"
+}

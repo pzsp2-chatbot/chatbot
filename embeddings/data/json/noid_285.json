@@ -1,0 +1,29 @@
+{
+    "id": "WUT8fd4217d3aee4878916fc5eacb6351ce",
+    "title": "Enhancing Creativity in Software Architecture: Exploring Creative Architecting Limiters and Enablers Through Practitioner Insights",
+    "created": "2025-02-23T21:34:16.489+01:00",
+    "modified": "2025-09-09T23:20:26.062+02:00",
+    "language": "en",
+    "doi": "10.1109/ms.2025.3540158",
+    "url": "https://doi.org/10.1109/ms.2025.3540158",
+    "authors": [
+        {
+            "full_name": "Filip Kwiatkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Mazur",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Rostkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Klara Borowa",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Creativity is crucial for software practitioners who solve complex problems daily. Despite existing guidelines for architectural decision-making, creativity in software architecture remains unexplored. To address this, we conducted twelve semi-structured interviews, which we analyzed using reflexive thematic analysis. We found that due to the inherently interesting nature of architectural decision-making, architects naturally strive to be creative. However, this drive can be hindered by various Limiters, notably time pressure. Additionally, we found a set of creativity Enablers related to team organization and workplace design. These findings can help practitioners in enhancing creative architecting in their companies.",
+    "keywords": "Creativity,    Interviews, Software,    Employment,     Companies,\n    Encoding,     Training,    Telecommunications,    Software architecture,    Guidelines"
+}

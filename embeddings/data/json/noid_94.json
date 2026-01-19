@@ -1,0 +1,29 @@
+{
+    "id": "WUTd4edd9241f014d869d86aa1ccdbbe591",
+    "title": "Optimizing Electrocardiogram Signal Augmentation for Realistic Synthetic Data in Deep Learning Model",
+    "created": "2024-12-19T18:07:12.738+01:00",
+    "modified": "2025-09-09T23:26:04.130+02:00",
+    "language": "en",
+    "doi": "10.23919/spa61993.2024.10715629",
+    "url": "https://doi.org/10.23919/spa61993.2024.10715629",
+    "authors": [
+        {
+            "full_name": "Muhammad Farhan Safdar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Pałka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ahmed Al Faresi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Marek Nowak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Electrocardiograms (ECG) are non-invasive signals and have proven useful in assessing the heart condition. Given the necessity for extensive datasets in ECG classification using deep learning (DL) models, there is a critical imperative to devise data augmentation methods capable of generating synthetic but realistic dataset suitable for training DL model. In this study, we propose a novel approach for augmenting ECG signals, aiming to produce realistic signals while optimizing memory usage and resource requirements. Building upon our previous work in ECG signal augmentation, we revisit the methodology to address limitations observed in the generation of synthetic signals. The existing method segmented ECG signals into fixed-length segments and combined them, occasionally resulting in unrealistic heart cycles within the signals in extreme condition. To address this issue, our proposed technique incorporates R peak detection, signal segmentation, and reordering based on the R-peaks information. We evaluated the proposed method using three benchmark datasets, including PTB-XL, Chapman-Shaoxin from PhysioNet, and the dataset from China Physiological Signal Challenge 2018 (CPSC-2018), for classifying atrial fibrillation from normal samples. Our approach achieved an accuracy of 0.83, sensitivity of 0.86, specificity of 0.80,F1-score of 0.83, and precision of 0.80. These results underscore the effectiveness and efficiency of our method in augmenting ECG signals for various applications in healthcare and biomedical research.",
+    "keywords": "Electrocardiogram classification,\n    Data Augmentation,\n    Convolutional Neural Network,\n    Time-Shift,\n    Atrial Fibrillation Diagnostic"
+}

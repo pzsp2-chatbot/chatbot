@@ -1,0 +1,33 @@
+{
+    "id": "WUT31d26348b63942a1a3e0dc561370e476",
+    "title": "Interpretable machine learning for time-to-event prediction in medicine and healthcare",
+    "created": "2025-01-28T10:00:00.081+01:00",
+    "modified": "2025-09-09T23:18:51.360+02:00",
+    "language": "en",
+    "doi": "10.1016/j.artmed.2024.103026",
+    "url": "https://doi.org/10.1016/j.artmed.2024.103026",
+    "authors": [
+        {
+            "full_name": "Hubert Baniecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartlomiej Sobieski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Szatkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemyslaw Bombinski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

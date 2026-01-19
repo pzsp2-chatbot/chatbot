@@ -1,0 +1,25 @@
+{
+    "id": "WUT2353a625a3f346f3896d04b026779d87",
+    "title": "Assessing the Threat of Neural Network Enhanced Obfuscation in Malware",
+    "created": "2025-06-21T22:03:57.297+02:00",
+    "modified": "2025-09-09T23:22:09.399+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-87772-8_26",
+    "url": "https://doi.org/10.1007/978-3-031-87772-8_26",
+    "authors": [
+        {
+            "full_name": "Leonard Barolli",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Brodzik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Malware is definitely one of the greatest threats to modern computer systems. A successful attack can have catastrophic financial consequences for companies and government institutions. To remain under the radar, attackers practically always use some code obfuscation method. The techniques utilized are becoming increasingly sophisticated and are no longer limited to compression or encryption. The newest trend is to apply solutions based on Artificial Intelligence algorithms. In this paper, we investigate to what extent such techniques can be used to obfuscate malicious code. To this aim, sample implementations of malicious programs that use neural networks to obfuscate their code are presented and analyzed. Additionally, potential countermeasures for such threats are proposed. The obtained results prove that NN enhanced malware is an issue for the existing detection systems. Moreover, the introduced dedicated detection approach is effective, however, the attacker can still adapt and avoid disclosure.",
+    "keywords": null
+}

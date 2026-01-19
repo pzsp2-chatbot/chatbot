@@ -1,0 +1,41 @@
+{
+    "id": "WUT06e9e355d47a417fa61454160df2e142",
+    "title": "Advancements in DNA Tagging and Storage: Techniques, Applications, and Future Implications",
+    "created": "2025-07-21T22:46:38.908+02:00",
+    "modified": "2025-09-09T23:20:24.856+02:00",
+    "language": "en",
+    "doi": "10.1002/wcms.70040",
+    "url": "https://doi.org/10.1002/wcms.70040",
+    "authors": [
+        {
+            "full_name": "Adam Kuzdraliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Miśkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hubert Szczerba",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Ociepa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Lechowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bogdan Księżopolski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "DNA-based technologies for object authentication and data storage are becoming an interesting alternative to classic identifi-\ncation systems, yet their practical implementation faces fundamental technical and commercial barriers that limit widespread\nadoption. This review presents an analysis of DNA tagging and storage technologies, assessing their technical features, cost-\neffectiveness, and real-world applicability through comparison of competing approaches. We demonstrate that DNA tagging\nand data storage applications exhibit fundamentally different requirements, necessitating divergent technological strategies\nrather than unified solutions. DNA tagging faces severe cost disadvantages ($1–$100 per authentication versus $0.01–$0.10 for\nestablished technologies) and extended verification times (30 min to 6+ hours versus instant readout), limiting viability to high-\nsecurity, low-volume markets such as pharmaceuticals and luxury goods. Current commercial implementations frequently lack\npeer-reviewed validation, creating an evidence deficit that undermines enterprise confidence. Among current approaches, iso-\nthermal amplification methods (LAMP, RPA) combined with colorimetric detection represent the most promising pathway for\nfield-deployable authentication, while Illumina sequencing platforms provide optimal performance for data storage applications.\nThe absence of standardization frameworks fundamentally constrains commercial adoption across both domains, preventing\ninteroperability and enabling unsubstantiated performance claims. We conclude that successful commercialization requires\nstrategic reorientation toward application-specific optimization and integrative approaches where DNA serves as secondary au-\nthentication combined with established identifiers, rather than competing directly on speed and cost metrics.",
+    "keywords": "DNA labelling | DNA storage | DNA tagging | DNA- of-things | molecular computing"
+}

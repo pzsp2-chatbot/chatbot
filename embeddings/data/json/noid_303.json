@@ -1,0 +1,29 @@
+{
+    "id": "WUT364ba363da4e464ba58513a4ebdeee47",
+    "title": "Perception Systems for Autonomous Mobile Robots: Selecting and Mitigating Limits",
+    "created": "2025-03-17T11:32:37.724+01:00",
+    "modified": "2025-09-09T23:19:18.839+02:00",
+    "language": "en",
+    "doi": "10.14313/par_255/5",
+    "url": "https://doi.org/10.14313/par_255/5",
+    "authors": [
+        {
+            "full_name": "Konrad Cop",
+            "affiliation": null
+        },
+        {
+            "full_name": "Morteza Haghbeigi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "A well-designed perception system is crucial for the proper operation of an autonomous mobile robot however it is not trivial to engineer. For a comprehensive system not only the sensors’ features must be considered but also the way their data are utilised for robotic operation. In this paper, we present a set of tightly coupled strategies that allow the creation of an end-to-end perception system utilising 3D representation in the form of point clouds. Our proposal is generic enough to be applied to various mobile robots as it is aware of the context of robotic operation and accounts for hardware constraints. As the first strategy, we introduce a formalised sensors selection process formulated as a multi-objective optimization problem with metrics relaxation which allows to choose an optimal set of sensors within budgetary limitations. Secondly, we validate various data filtration strategies and their combination in the context of the navigation system to find a trade-off between accuracy and computational effort. Finally, to mitigate the suboptimal field of view of combined sensors and augment the perception system we introduce a new concept for the occupancy grid layer which utilises motion information in the occupancy calculation. For these strategies, we conduct experimental verification and apply the results in an autonomous cleaning robot.",
+    "keywords": "autonomous robot, data filtration, navigation, robotic perception, robotic sensors, robotics"
+}

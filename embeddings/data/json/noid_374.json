@@ -1,0 +1,49 @@
+{
+    "id": "WUTe5c33bdd758b48b3a3e3c2d6af8707f7",
+    "title": "Simulating Oxford-Style Debates with LLM-Based Multi-Agent Systems",
+    "created": "2025-04-25T22:36:41.924+02:00",
+    "modified": "2025-09-09T23:22:16.827+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-96-6008-7_21",
+    "url": "https://doi.org/10.1007/978-981-96-6008-7_21",
+    "authors": [
+        {
+            "full_name": "Ngoc Thanh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tokuro Matsuo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ford Lumban Gaol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yannis Manolopoulos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hamido Fujita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tzung-pei Hong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Wojtkiewicz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Yarolsav Harbar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Debates are widely recognized as a powerful tool for fostering critical thinking and communication skills, which are essential for decision-making and problem-solving across various contexts. However, integrating debates into educational settings is challenging due to variability in outcomes influenced by student engagement, instructor preparation, and the difficulty of consistent performance assessment. To address these challenges, this work outlines a conceptual multi-agent system architecture intended to simulate Oxford-style debates by modelling human-like reasoning processes. The framework envisions incorporating audience analysis, argument evaluation, and rhetorical strategies to support coherent and adaptable debate simulations. Key contributions include an exploration of theoreti cal and practical techniques for implementing multi-agent Oxford-style debates, as well as the identification of open research questions and challenges in this domain.",
+    "keywords": null
+}

@@ -1,0 +1,41 @@
+{
+    "id": "WUT7c870fcadbf24bb19e632389334e055f",
+    "title": "Data Generation for Machine Learning Classification of Coincidence Events for Siemens Biograph Vision Quadra PET",
+    "created": "2025-07-16T18:16:58.841+02:00",
+    "modified": "2025-09-09T23:17:57.762+02:00",
+    "language": "en",
+    "doi": "10.1109/eurocon64445.2025.11073394",
+    "url": "https://doi.org/10.1109/eurocon64445.2025.11073394",
+    "authors": [
+        {
+            "full_name": "Michał Obara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Klimaszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Bała",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roman Y. Shopa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lech Raczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Krzemień",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper describes the generation and labeling of simulated Positron Emission Tomography (PET) data for the Siemens Biograph Vision Quadra scanner geometry using the GATE Monte Carlo toolkit. Simulations were performed using an XCAT phantom containing 50 MBq of [18 F]FDG activity, with a 10 -second acquisition time and an energy window of 435585 keV. The generated coincidence events were categorized into four classes: true, phantom-scatter, detector-scatter, and random. A dedicated labeling procedure was developed to distinguish true events from detector-scattered events through a detailed analysis of photon interactions within detector crystals. The resulting labeled dataset provides a foundation for future machine learning-based classification studies aimed at improving scatter and random event correction in PET imaging.",
+    "keywords": "Positron Emission Tomography, PET, Siemens Biograph Vision Quadra, GATE simulation, scatter correction, random coincidences, machine learning, event classification"
+}

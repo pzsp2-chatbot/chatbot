@@ -1,0 +1,21 @@
+{
+    "id": "WUT88efeafd5b25456c886294600eb71114",
+    "title": "QUANTUM ARTIFICIAL INTELLIGENCE IN MANAGEMENT OF SELECTED BUSINESS PROCESSES",
+    "created": "2025-03-19T09:57:25.846+01:00",
+    "modified": "2025-09-09T23:29:30.576+02:00",
+    "language": "en",
+    "doi": "10.29119/1641-3466.2024.208.1",
+    "url": "https://doi.org/10.29119/1641-3466.2024.208.1",
+    "authors": [
+        {
+            "full_name": "Jerzy Balicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Honorata Balicka",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The aim of the article is to present potential applications of Quantum Artificial Intelligence (QAI) in enhancing Business Process Management (BPM), with a particular focus on predictive analytics. Deep neural network testing was conducted to identify efficient predictors and detectors for BPM systems. In addition, intensive computational experiments were carried out to analyze the quality of solutions defined by the proposed quantum-inspired algorithms.",
+    "keywords": "Quantum Computing, Artificial Intelligence,  Management of Business Processes"
+}

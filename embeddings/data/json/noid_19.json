@@ -1,29 +1,21 @@
 {
-    "id": "WUT1e1b4a7f043945429445eea09fe54a7b",
-    "title": "Equivalence of inequality indices in the three-dimensional model of informetric impact",
-    "created": "2024-10-09T10:09:58.786+02:00",
-    "modified": "2025-09-09T23:29:42.323+02:00",
+    "id": "WUTfa6b43ef31e54a16aa39968c3901e918",
+    "title": "Application of Artificial Intelligence in Support of NAFLD Diagnosis",
+    "created": "2024-11-08T13:02:17.640+01:00",
+    "modified": "2025-09-09T23:33:53.984+02:00",
     "language": "en",
-    "doi": "10.1016/j.joi.2024.101566",
-    "url": "https://doi.org/10.1016/j.joi.2024.101566",
+    "doi": "10.3390/app142210237",
+    "url": "https://doi.org/10.3390/app142210237",
     "authors": [
         {
-            "full_name": "Lucio Bertoli-Barsotti",
+            "full_name": "Jakub Płudowski",
             "affiliation": null
         },
         {
-            "full_name": "Marek Gągolewski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Grzegorz Siudem",
-            "affiliation": null
-        },
-        {
-            "full_name": "Barbara Żogała-Siudem",
+            "full_name": "Jan Mulawka",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": "artificial intelligence; machine learning; diagnosis support system; explainable artificial intelligence; data analysis"
 }

@@ -1,0 +1,25 @@
+{
+    "id": "WUT16e161e3e194422dbffe33aba8172e51",
+    "title": "Selection of Signal Sources Influence at Indoor Positioning System",
+    "created": "2025-01-29T13:41:34.198+01:00",
+    "modified": "2025-09-09T23:32:46.804+02:00",
+    "language": "en",
+    "doi": "10.1109/twc.2023.3275537",
+    "url": "https://doi.org/10.1109/twc.2023.3275537",
+    "authors": [
+        {
+            "full_name": "Marcin Luckner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Sowik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Peter Brida",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The indoor positioning task is an exciting problem because of the practical applications and the scientific challenges. This work emphasises the impact of signal source selection on the effectiveness of positioning models relying on Wi-Fi received signal strength data by eliminating unstable signal sources such as mobile access points. Two localisation algorithms, based on k-Nearest Neighbour and Random Forest, were applied to data from three academic buildings to test the effectiveness of various access points (APs) selection filters. Additionally, new hierarchical selection models were proposed. The methods divide building into zones to improve the characteristics of the positioning error by a local selection of APs. Hierarchical methods reduced the median number of AP to 67 in comparison to over 100 selected by existing methods, obtaining a statistically similar median error of 6.01 m.",
+    "keywords": "feature selection; Indoor positioning system; mobile device positioning; Wi-Fi networks"
+}

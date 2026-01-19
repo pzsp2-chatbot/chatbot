@@ -1,0 +1,29 @@
+{
+    "id": "WUTf8c2b690435d485ead29bc8cdab94780",
+    "title": "Multiple Redundant Weighted Clustered Scheme with Dynamic Weights Adjustment for Damaged S-UAV",
+    "created": "2025-07-16T12:17:23.231+02:00",
+    "modified": "2025-09-09T23:25:03.967+02:00",
+    "language": "en",
+    "doi": "10.1109/camad62243.2024.10943009",
+    "url": "https://doi.org/10.1109/camad62243.2024.10943009",
+    "authors": [
+        {
+            "full_name": "Grace Khayat",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andreas Pitsillides",
+            "affiliation": "University of Cyprus"
+        }
+    ],
+    "abstract": "Swarm of UAVs (S-UAVs) refers to an assembly of unmanned aerial vehicles (UAVs) working together to accomplish prearranged missions. In emergency scenarios, such as a fire, any UAV is susceptible to damage. Among the routing algorithms that S-UAVs utilize the most frequently is clustering, where UAVs are divided into clusters. Each cluster consists of a cluster head (CH) and cluster members (CM). The selection of the CH is a topic of continuous research because of its crucial significance in inter-cluster communication. We propose a clustered weighted method with dynamic weight modification and redundancy to ensure end-to-end communication despite non-functional CH. Interspace, speed, and performance indicators are combined into a weighted metric that is used to select the CH, redundant CHs, and CMs. The suggested technique optimizes UAV role selection by dynamically and autonomously adjusting the weights. Based on the results of the executed simulation, this is a promising strategy that minimizes data loss in an emergency situation and minimizes delay.",
+    "keywords": "swarm of unmanned aerial vehicles, cluster routing protocol, crisis scenario, weighted calculation"
+}

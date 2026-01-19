@@ -1,0 +1,49 @@
+{
+    "id": "WUT1f21dbb6d2a04119b827a4d4136e0433",
+    "title": "Options Pricing Platform with Neural Networks, LLMs and Reinforcement Learning",
+    "created": "2025-04-26T15:47:43.876+02:00",
+    "modified": "2025-09-09T23:22:06.408+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-96-5881-7_16",
+    "url": "https://doi.org/10.1007/978-981-96-5881-7_16",
+    "authors": [
+        {
+            "full_name": "Ngoc Thanh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "T. Matsuo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ford Lumban Gaol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yannis Manolopoulos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hamido Fujita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tzung-pei Hong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Wojtkiewicz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Feliks Bańka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Financial markets have evolved significantly due to technological advancements and increased data availability, leading to increased complexity. Options trading relies on accurate pricing, which is challenging in volatile and fast-moving markets. Traditional models like Black-Scholes often fail to adapt to these dynamics. This paper presents a hybrid option pricing model that integrates neural networks, reinforcement learning, advanced GARCH volatility modeling, and real-time market sentiment analysis using large language models (LLMs). By combining technical analysis, volatility estimates, and sentiment data, our RL agent optimizes pricing predictions and trading strategies in real time. This research contributes to intelligent financial systems by introducing a robust and adaptive approach to option pricing. Experimental results demonstrate that the proposed hybrid model outperforms conventional methods by enhancing prediction accuracy and adaptability to market dynamics.",
+    "keywords": null
+}

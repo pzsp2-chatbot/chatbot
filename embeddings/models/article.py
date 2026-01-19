@@ -13,20 +13,27 @@ class Article:
     doi: Optional[str]
     url: Optional[str]
     authors: List[Author]
-    abstract_pl: Optional[str]
-    abstract_en: Optional[str]
+    abstract: Optional[str]
+    keywords: List[str]
 
     def to_text(self) -> str:
         authors = ", ".join(a.full_name for a in self.authors)
-        affiliations = ", ".join(a.affiliation or "" for a in self.authors)
+        affiliations = ", ".join(a.affiliation for a in self.authors if a.affiliation)
+
         parts = [
             f"Title: {self.title}",
             f"Authors: {authors}",
-            f"Affiliations: {affiliations}",
-            f"Language: {self.language}",
         ]
-        if self.abstract_en:
-            parts.append(f"Abstract (EN): {self.abstract_en}")
-        if self.abstract_pl:
-            parts.append(f"Abstract (PL): {self.abstract_pl}")
+
+        if affiliations:
+            parts.append(f"Affiliations: {affiliations}")
+
+        parts.append(f"Language: {self.language}")
+
+        if self.abstract:
+            parts.append(f"Abstract: {self.abstract}")
+
+        if self.keywords:
+            parts.append(f"Keywords: {', '.join(self.keywords)}")
+
         return "\n".join(parts)

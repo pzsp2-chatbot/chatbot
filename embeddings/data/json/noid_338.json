@@ -1,0 +1,33 @@
+{
+    "id": "WUTd8705fcccd014d9fb50c3ac5eb23fc84",
+    "title": "Artificial Intelligence and Terrestrial Point Clouds for Forest Monitoring",
+    "created": "2025-04-02T14:55:07.145+02:00",
+    "modified": "2025-09-09T23:20:15.642+02:00",
+    "language": "en",
+    "doi": "10.1007/s40725-024-00234-4",
+    "url": "https://doi.org/10.1007/s40725-024-00234-4",
+    "authors": [
+        {
+            "full_name": "Maksymilian Kulicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Carlos Cabo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Będkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Stereńczak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Purpose of Review This paper provides an overview of integrating artificial intelligence (AI), particularly deep learning (DL), with ground-based LiDAR point clouds for forest monitoring. It identifies trends, highlights advancements, and discusses future directions for AI-supported forest monitoring.\nRecent Findings Recent studies indicate that DL models significantly outperform traditional machine learning methods in forest inventory tasks using terrestrial LiDAR data. Key advancements have been made in areas such as semantic\nsegmentation, which involves labeling points corresponding to different vegetation structures (e.g., leaves, branches, stems), individual tree segmentation, and species classification. Main challenges include a lack of standardized evaluation metrics, limited code and data sharing, and reproducibility issues. A critical issue is the need for extensive reference data, which hinders the development and evaluation of robust AI models. Solutions such as the creation of large-scale benchmark datasets and the use of synthetic data generation are proposed to address these challenges. Promising AI paradigms like Graph Neural\nNetworks, semi-supervised learning, self-supervised learning, and generative modeling have shown potential but are not yet fully explored in forestry applications.\nSummary The review underscores the transformative role of AI, particularly DL, in enhancing the accuracy and efficiency of forest monitoring using ground-based 3D point clouds. To advance the field, there is a critical need for comprehensive\nbenchmark datasets, open-access policies for data and code, and the exploration of novel DL architectures and learning paradigms. These steps are essential for improving research reproducibility, facilitating comparative studies, and unlocking\nnew insights into forest management and conservation",
+    "keywords": "Deep learning, Machine learning, Forest inventory, Tree characteristics, Open data, Precision forestry, LiDAR , TLS"
+}

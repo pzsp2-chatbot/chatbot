@@ -1,0 +1,21 @@
+{
+    "id": "WUT2961664c5d9848c482cbe421491c52f0",
+    "title": "Bootstrapped Kolmogorov-Smirnov Test for Epistemic Fuzzy Data",
+    "created": "2025-02-04T09:50:37.185+01:00",
+    "modified": "2025-09-10T00:10:29.954+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-08974-9_39",
+    "url": "https://doi.org/10.1007/978-3-031-08974-9_39",
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>A typical two-sample problem we deal with in statistical reasoning is to conclude whether the distributions of these samples differ significantly. In other words, we want to know if the given two samples come from the same distribution. To cope with this task one can utilize the Kolmogorov-Smirnov test which is probably the most popular goodness-of-fit two-sample test for real-valued observations. However, quite often the results of an experiment cannot be observed precisely and their imprecise outcomes are recorded as fuzzy numbers. Hence the main goal of this paper is to generalize the Kolmogorov-Smirnov test for fuzzy data. We propose a new version of this goodness-of-fit test based on the so-called epistemic bootstrap and designed for the fuzzy random samples analysis.</p>",
+    "keywords": null
+}

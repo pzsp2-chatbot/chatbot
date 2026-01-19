@@ -1,61 +1,53 @@
 {
-    "id": "WUTd080d469a08340e3841ce627e96c4562",
-    "title": "Hyperspectral Image Super-Resolution: Task-Based Evaluation",
-    "created": "2024-10-09T10:50:11.324+02:00",
-    "modified": "2025-09-09T23:31:53.260+02:00",
+    "id": "WUT23b5607bdb9f415bb9d374e06887d6a8",
+    "title": "Verifying the Selected Completely at Random Assumption in Positive-Unlabeled Learning",
+    "created": "2024-11-12T12:52:19.520+01:00",
+    "modified": "2025-09-09T23:24:51.367+02:00",
     "language": "en",
-    "doi": "10.1109/jstars.2024.3475644",
-    "url": "https://doi.org/10.1109/jstars.2024.3475644",
+    "doi": "10.3233/FAIA240675",
+    "url": "https://doi.org/10.3233/FAIA240675",
     "authors": [
         {
-            "full_name": "Michal Kawulok",
+            "full_name": "Ulle Endriss",
             "affiliation": null
         },
         {
-            "full_name": "Paweł Kowaleczko",
+            "full_name": "Francisco Melo",
             "affiliation": null
         },
         {
-            "full_name": "Maciej Ziaja",
+            "full_name": "Kerstin Bach",
             "affiliation": null
         },
         {
-            "full_name": "Jakub Nalepa",
+            "full_name": "Alberto Bugarín-Diz",
             "affiliation": null
         },
         {
-            "full_name": "Daniel Kostrzewa",
+            "full_name": "José Alonso-Moral",
             "affiliation": null
         },
         {
-            "full_name": "Daniele Latini",
+            "full_name": "Senén Barro",
             "affiliation": null
         },
         {
-            "full_name": "Davide De Santis",
+            "full_name": "Fredrik Heintz",
             "affiliation": null
         },
         {
-            "full_name": "Giorgia Salvucci",
+            "full_name": "Paweł Roman Teisseyre",
             "affiliation": null
         },
         {
-            "full_name": "Ilaria Petracca",
+            "full_name": "Konrad Furmańczyk",
             "affiliation": null
         },
         {
-            "full_name": "Valeria La Pegna",
-            "affiliation": null
-        },
-        {
-            "full_name": "Zoltan Bartalis",
-            "affiliation": null
-        },
-        {
-            "full_name": "Fabio Del Frate",
+            "full_name": "Jan Mielniczuk",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The goal of positive-unlabeled (PU) learning is to train a binary classifier on the basis of training data containing positive and unlabeled instances, where unlabeled observations can belong either to the positive class or to the negative class. Modeling PU data requires certain assumptions on the labeling mechanism that describes which positive observations are assigned a label. The simplest assumption, considered in early works, is SCAR (Selected Completely at Random Assumption), according to which the propensity score function, defined as the probability of assigning a label to a positive observation, is constant. Alternatively, a much more realistic assumption is SAR (Selected at Random), which states that the propensity function solely depends on the observed feature vector. SCAR-based algorithms are much simpler and computationally much faster compared to SAR-based algorithms, which usually require challenging estimation of the propensity score. In this work, we propose a relatively simple and computationally fast test that can be used to determine whether the observed data meet the SCAR assumption. Our test is based on generating artificial labels conforming to the SCAR scenario, which in turn allows to mimic the distribution of the test statistic under the null hypothesis of SCAR. We justify our method theoretically. In experiments, we demonstrate that the test successfully detects various deviations from SCAR scenario and at the same time it is possible to effectively control the type I error. The proposed test can be recommended as a pre-processing step to decide which final PU algorithm to choose in cases when nature of labeling mechanism is not known.",
+    "keywords": "PU data, classification, SCAR assumption"
 }

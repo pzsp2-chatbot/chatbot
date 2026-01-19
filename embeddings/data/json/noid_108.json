@@ -1,0 +1,37 @@
+{
+    "id": "WUTe1c874a09c7d470c96f8292b0c5ac857",
+    "title": "Curriculum reinforcement learning for quantum architecture search under hardware errors",
+    "created": "2025-01-03T11:20:38.415+01:00",
+    "modified": "2025-09-09T23:24:20.607+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://openreview.net/forum?id=rINBD8jPoP#",
+    "authors": [
+        {
+            "full_name": "Yash J. Patel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Akash Kundu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Ostaszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xavier Bonet-Monroig",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vedran Dunjko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Onur Danaci",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

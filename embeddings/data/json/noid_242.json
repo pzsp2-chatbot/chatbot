@@ -1,0 +1,17 @@
+{
+    "id": "WUT94673abe14274503b6800f8c8846ad63",
+    "title": "Emerging Trends in Radar: Passive Radiolocation of Space Objects in Low-Earth Orbits",
+    "created": "2025-02-04T09:18:43.507+01:00",
+    "modified": "2025-09-09T23:19:30.877+02:00",
+    "language": "en",
+    "doi": "10.1109/MAES.2025.3533944",
+    "url": "https://doi.org/10.1109/MAES.2025.3533944",
+    "authors": [
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Recently, the growing number of satellites in low-Earth orbit (LEO) has heightened concerns about the increasing risk of collisions with space debris. This has amplified the need for advanced systems focused on space situational awareness and satellite tracking. Radiolocation of LEO satellites presents considerable challenges, including detecting extremely weak signals over vast distances and managing the high velocities of these objects. While active radar systems have traditionally been used, passive radar systems are emerging as a promising, cost-effective alternative. Research efforts in Australia and Poland have concentrated on utilizing terrestrial transmitters and large antenna arrays for passive detection of LEO satellites. Recent studies have successfully demonstrated techniques for detecting and tracking space objects, correcting satellite orbital parameters, and addressing signal processing challenges. Nevertheless, the field still faces significant obstacles, such as the need for multi-hypothesis searching of possible motion parameters of LEO objects, optimization of antenna arrays for the reception of very weak signals, and development of efficient methods for passive radar system calibration and signal transmission. Further advancements are essential to enhance passive radar systems for more effective LEO satellite tracking and debris detection.",
+    "keywords": "Bistatic radar, LEO, low earth orbit satellites, multistatic radar, passive radar"
+}

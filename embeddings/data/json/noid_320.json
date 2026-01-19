@@ -1,0 +1,29 @@
+{
+    "id": "WUT5cb430140ce64b29aea8fb8cb4500755",
+    "title": "Evaluation of new CORDIC algorithms implemented on FPGA for the Givens Rotator",
+    "created": "2025-03-27T13:58:50.061+01:00",
+    "modified": "2025-09-09T23:21:10.081+02:00",
+    "language": "en",
+    "doi": "10.1016/j.jocs.2025.102567",
+    "url": "https://doi.org/10.1016/j.jocs.2025.102567",
+    "authors": [
+        {
+            "full_name": "Pawel Poczekajlo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leonid Moroz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Deelman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

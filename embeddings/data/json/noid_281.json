@@ -1,0 +1,45 @@
+{
+    "id": "WUT8ea4f968848940cb8a5c715f95e75ce8",
+    "title": "Regularization for Uplift Regression",
+    "created": "2025-02-17T11:16:43.389+01:00",
+    "modified": "2025-09-10T00:08:14.257+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-43412-9_35",
+    "url": "https://doi.org/10.1007/978-3-031-43412-9_35",
+    "authors": [
+        {
+            "full_name": "Danai Koutra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Claudia Plant",
+            "affiliation": null
+        },
+        {
+            "full_name": "Claudia Plant",
+            "affiliation": null
+        },
+        {
+            "full_name": "Manuel Gomez Rodriguez",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elena Baralis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francesco Bonchi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Rudaś",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Jaroszewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

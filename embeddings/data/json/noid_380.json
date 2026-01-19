@@ -1,0 +1,21 @@
+{
+    "id": "WUT86be820481d44a0c8304f502e39f321c",
+    "title": "Patient-Tailored Dementia Diagnosis with CNN-Based Brain MRI Classification",
+    "created": "2025-05-05T18:55:04.129+02:00",
+    "modified": "2025-09-09T23:19:44.952+02:00",
+    "language": "en",
+    "doi": "10.3390/app15094652",
+    "url": "https://doi.org/10.3390/app15094652",
+    "authors": [
+        {
+            "full_name": "Zofia Knapińska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Mulawka",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "dementia; Alzheimer’s disease (AD); mild cognitive impairment (MCI); deep learning (DL); convolutional neural networks (CNNs); dementia diagnosis; dementia management; clinical decision support system (CDSS); brain; magnetic resonance imaging (MRI)"
+}

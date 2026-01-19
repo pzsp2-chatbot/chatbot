@@ -1,0 +1,21 @@
+{
+    "id": "WUTb584a4222bf34855ab91ac6dcb68887d",
+    "title": "Bootstrap Methods for Fuzzy Data",
+    "created": "2025-02-04T09:50:30.988+01:00",
+    "modified": "2025-09-10T00:10:28.589+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-030-95929-6_3",
+    "url": "https://doi.org/10.1007/978-3-030-95929-6_3",
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The bootstrap has been recognized as a universal method supporting statistical inference in situations where other approaches fail. In particular, the bootstrap appears also useful in fuzzy data analysis. In this paper, we make a review of the bootstrap methods oriented on statistical reasoning with random fuzzy samples. Moreover, we suggest a new flexible bootstrap approach designed for asymmetrical random fuzzy numbers. Finally, we compare the existing bootstrap approaches to provide some hints for practitioners.</p>",
+    "keywords": null
+}

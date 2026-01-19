@@ -1,0 +1,49 @@
+{
+    "id": "WUT3de2389af0c94c2f85d6ffb1ea52fdfd",
+    "title": "Speech Deepfake Recognition with Data-Efficient Vision Transformers",
+    "created": "2025-03-17T20:40:47.230+01:00",
+    "modified": "2025-09-09T23:22:44.646+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-81596-6_10",
+    "url": "https://doi.org/10.1007/978-3-031-81596-6_10",
+    "authors": [
+        {
+            "full_name": "Leszek Rutkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafal Scherer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Korytkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Witold Pedrycz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Tadeusiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek M. Zurada",
+            "affiliation": "University of Louisville, Louisville, USA"
+        },
+        {
+            "full_name": "Mateusz Modrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Skarzyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Multimedia deepfake detection is an increasingly important task due to the rapid development of generative models and broad possibilities of malicious usage. In this paper, we propose a method of speech deepfake detection using data-efficient image transformers (DeiT) and spectrogram representations. We compare our solution with existing approaches and show that our solution improves on the previously reported state of the art results. Our results show that data-efficient image transformers work well for several methods of generating synthetic speech. Furthermore, our proposed approach is applicable in low-compute scenarios, as it requires only a single consumer grade GPU.",
+    "keywords": null
+}

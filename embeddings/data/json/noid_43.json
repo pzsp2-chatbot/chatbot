@@ -1,33 +1,53 @@
 {
-    "id": "WUT80e096bf3fbc482e90da09ec87072069",
-    "title": "Hidformer: Transformer-Style Neural Network in Stock Price Forecasting",
-    "created": "2024-10-22T12:59:22.780+02:00",
-    "modified": "2025-09-09T23:24:49.014+02:00",
+    "id": "WUTf23be9bfaf264fdf8e8ec902e074149f",
+    "title": "Revisiting Supervision for Continual Representation Learning",
+    "created": "2024-11-18T11:38:18.378+01:00",
+    "modified": "2025-09-09T23:22:36.894+02:00",
     "language": "en",
-    "doi": null,
-    "url": "http://www.mdai.cat/mdai2024/proc.MDAI.2024.usb.isbn.pdf",
+    "doi": "10.1007/978-3-031-72658-3_11",
+    "url": "https://doi.org/10.1007/978-3-031-72658-3_11",
     "authors": [
         {
-            "full_name": "Vicenc Torra",
+            "full_name": "Aleš Leonardis",
             "affiliation": null
         },
         {
-            "full_name": "Yasuo Narukawa",
+            "full_name": "Elisa Ricci",
             "affiliation": null
         },
         {
-            "full_name": "Hiroaki Kikuchi",
+            "full_name": "Stefan Roth",
             "affiliation": null
         },
         {
-            "full_name": "Kamil L. Szydłowski",
+            "full_name": "Olga Russakovsky",
             "affiliation": null
         },
         {
-            "full_name": "Jarosław Chudziak",
+            "full_name": "Torsten Sattler",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gül Varol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Marczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sebastian Cygert",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "In the field of continual learning, models are designed to learn tasks one after the other. While most research has centered on supervised continual learning, there is a growing interest in unsupervised continual learning, which makes use of the vast amounts of unlabeled data. Recent studies have highlighted the strengths of unsupervised methods, particularly self-supervised learning, in providing robust representations. The improved transferability of those representations built with self-supervised methods is often associated with the role played by the multi-layer perceptron projector. In this work, we depart from this observation and reexamine the role of supervision in continual representation learning. We reckon that additional information, such as human annotations, should not deteriorate the quality of representations. Our findings show that supervised models when enhanced with a multi-layer perceptron head, can outperform self-supervised models in continual representation learning. This highlights the importance of the multi-layer perceptron projector in shaping feature transferability across a sequence of tasks in continual learning. The code is available on github.",
+    "keywords": null
 }

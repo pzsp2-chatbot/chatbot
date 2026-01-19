@@ -1,0 +1,29 @@
+{
+    "id": "WUT89ab1a13fbec430eba0bc5a9e3bda004",
+    "title": "Studies on Human Identity Verification Using EEG Sub-band Features with Machine Learning",
+    "created": "2025-07-16T18:02:32.507+02:00",
+    "modified": "2025-09-09T23:18:02.505+02:00",
+    "language": "en",
+    "doi": "10.1109/eurocon64445.2025.11073373",
+    "url": "https://doi.org/10.1109/eurocon64445.2025.11073373",
+    "authors": [
+        {
+            "full_name": "Renata Plucińska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Urszula Malinowska",
+            "affiliation": "Nencki Institute of Experimental Biology"
+        },
+        {
+            "full_name": "Jacek Rogala",
+            "affiliation": "University of Warsaw"
+        }
+    ],
+    "abstract": "This paper focuses on biometric identity recognition, which involves the automatic recognition of individuals based on their unique physical or behavioral characteristics. Specifically, it examines the impact of different frequency sub-band features on identity verification. Selecting the appropriate frequency sub-bands reduces the number of input features for the classifier, improving efficiency by shortening both training and decision-making time. The study investigates the influence of five fundamental EEG rhythms (delta, theta, alpha, beta, and gamma) and their combinations on the result of verifying (confirming) the identity of people. For this, resting state signals with eyes open were recorded for 29 participants across 20 separate recording sessions, where data were recorded using 19 active electrodes. The results indicate that the best results were achieved using a combination of delta, alpha, beta, and gamma rhythms, resulting in an accuracy of 97.8%.",
+    "keywords": "EEG sub-bands, biometry, identity verification, neural networks"
+}

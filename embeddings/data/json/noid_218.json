@@ -1,0 +1,49 @@
+{
+    "id": "WUT420bcf9ccf7b41c8bdd3de498f6f1769",
+    "title": "Building the Classifiers",
+    "created": "2025-01-30T14:27:17.324+01:00",
+    "modified": "2025-09-09T23:26:54.171+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_5",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_5",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Classification is a decision-making problem, in which we aim at the assignment of a correct class label to an observation. In the typical scenario, the set of available class labels is fixed beforehand and remains unchanged. Advanced data processing streams allow for a more flexible definition of this task. Typically, they admit the existence of a “novelty” class, to which some observations may be assigned.</p>",
+    "keywords": null
+}

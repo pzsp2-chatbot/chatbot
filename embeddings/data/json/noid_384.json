@@ -1,0 +1,69 @@
+{
+    "id": "WUTf7116c4673ca4ccca079dbb8bf84ca37",
+    "title": "Empowering Beyond 5G Networks: An Experimental Assessment of Zero-Touch Management and Orchestration",
+    "created": "2025-05-07T14:12:13.336+02:00",
+    "modified": "2025-09-09T23:29:34.568+02:00",
+    "language": "en",
+    "doi": "10.1109/access.2024.3510804",
+    "url": "https://doi.org/10.1109/access.2024.3510804",
+    "authors": [
+        {
+            "full_name": "Sergio Barrachina-Munoz",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Farhad Rezazadeh",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Luis Blanco",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": "Orange Poland"
+        },
+        {
+            "full_name": "Engin Zeydan",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Ashima Chawla",
+            "affiliation": "Ericsson Ireland"
+        },
+        {
+            "full_name": "Lanfranco Zanzi",
+            "affiliation": "NEC Laboratories Europe GmbH"
+        },
+        {
+            "full_name": "Francesco Devoti",
+            "affiliation": "NEC Laboratories Europe GmbH"
+        },
+        {
+            "full_name": "Vasiliki Vlahodimitropoulou",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Ioannis Chochliouros",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Anne-Marie Bosneag",
+            "affiliation": "Ericsson Ireland"
+        },
+        {
+            "full_name": "Sihem Cherrared",
+            "affiliation": "Orange France"
+        },
+        {
+            "full_name": "Luca Vettori",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Josep Mangues-Bafalluy",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        }
+    ],
+    "abstract": "Effective zero-touch management and orchestration (ZSM&O) is crucial for scaling network slicing, particularly transitioning toward Beyond 5G (B5G) and 6G networks. This paper empirically validates the network slicing framework developed under the European Union Horizon 2020 MonB5G project. Building on three years of academia-industry collaboration, MonB5G introduces a flexible slicing model featuring umbrella slices that orchestrate modular, specialized slices across multi-domain environments to address next-generation service demands. For the first time, we evaluate its practicality in a 5G cloud-native testbed through a virtual reality (VR) streaming use case, supported by solutions such as federated learning-based CPU forecasting, anomaly detection, and deep reinforcement learning (DRL) for radio access network (RAN) optimization. The paper offers insights from technically demanding experimental tests and highlights challenges and development paths for managing next-generation mobile networks.",
+    "keywords": "Network slicing, scalability, network management, orchestration, \nB5G, testbed"
+}

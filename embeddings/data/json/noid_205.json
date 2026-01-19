@@ -1,0 +1,29 @@
+{
+    "id": "WUT0c66c7f29e8648ec80fae40f7de98bcd",
+    "title": "SRFAMap: A Method for Mapping Integrated Gradients of a CNN Trained with Statistical Radiomic Features to Medical Image Saliency Maps",
+    "created": "2025-01-30T13:13:24.704+01:00",
+    "modified": "2025-09-09T23:24:20.239+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-63803-9_1",
+    "url": "https://doi.org/10.1007/978-3-031-63803-9_1",
+    "authors": [
+        {
+            "full_name": "Oleksandr Davydko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vladimir Pavlov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Luca Longo",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Many explainable AI methods for generating medical image saliency maps exist, but most are devoted to working on trained neural network-based models. At the same time, many medical image classification neural networks use as input radiomic features derived from images. The mathematics for radiomic feature computations are not always represented by a differentiable function, which makes it impossible to apply existing saliency map methods to obtain input image pixel attributions because they heavily rely on gradient calculation possibility. For this reason, a novel method (SRFAMap) is introduced to map the statistical radiomic feature attributions derived by applying the Integrated Gradients methods, often used in explainable AI, to image saliency maps. In detail, integrated gradients are used to compute radiomic feature attributions of chest X-ray scans for a ResNet-50 convolutional network model trained to distinguish healthy lungs from tuberculosis lesions. These are subsequently mapped to saliency maps over the original scans to facilitate their interpretation for diagnostics. Findings show that, in most cases, SRFAMap can generate saliency maps with an acceptable level of faithfulness. The increase-in-confidence metric reached at least 34%, while the Average Drop reached 38% at most. Finally, the percentage of the statistically significant target class score increases reached at least 71% on 20 random folds for the grey-level co-occurrence matrix and higher for other methods when only pixels under positive saliency map values were revealed on the blurred image. The main contribution is a method of mapping integrated gradients to saliency maps to facilitate the visual interpretation of the relevant statistical radiomic features of X-ray scans of lungs responsible for discriminating types of lesions.</p>",
+    "keywords": null
+}

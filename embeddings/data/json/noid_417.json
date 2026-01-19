@@ -1,0 +1,25 @@
+{
+    "id": "WUTfbc5c31b767f48019ff1e8d4343d7ff3",
+    "title": "HyTract: Advancing tractography for neurosurgical planning with a hybrid method integrating neural networks and a path search algorithm",
+    "created": "2025-06-06T19:35:37.669+02:00",
+    "modified": "2025-09-09T23:19:51.370+02:00",
+    "language": "en",
+    "doi": "10.1016/j.neunet.2025.107624",
+    "url": "https://doi.org/10.1016/j.neunet.2025.107624",
+    "authors": [
+        {
+            "full_name": "Mateusz Koryciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Andrzej Ciecierski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Niewiadomska-Szynkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The advent of advanced MRI techniques has opened up promising avenues for exploring the intricacies of brain neurophysiology, including the network of neural connections. A more comprehensive understanding of this network provides invaluable insights into the human brain’s underlying structural architecture and dynamic functionalities. Consequently, determining the location of the neural fibers, known as tractography, has emerged as a subject of significant interest to both basic scientific research and practical domains, such as preoperative planning. This work presents a novel tractography method, HyTract, constructed using artificial neural networks and a path search algorithm. Our findings demonstrate that this method can accurately identify the location of nerve fibers in close proximity to the surgical field. Compared with well established methods, tracts computed with HyTract show Mean Euclidean Distance of 9 or lower, indicating a good accuracy in tract reconstruction. Furthermore, its architecture ensures the explainability of the obtained tracts and facilitates adaptation to new tasks.",
+    "keywords": "Tractography\nArtificial neural networks\nDTI\nMRI\nPath search"
+}

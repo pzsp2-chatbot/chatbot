@@ -1,0 +1,105 @@
+{
+    "id": "WUT5034e2b496c44c6fab17812d96d799ec",
+    "title": "Investigating strangeness enhancement in jet and medium via 𝜙⁡(1020) production in 𝑝-Pb collisions at √𝑠𝑁⁢𝑁=5.02TeV",
+    "created": "2025-01-14T12:28:48.936+01:00",
+    "modified": "2025-09-09T23:27:10.277+02:00",
+    "language": "en",
+    "doi": "10.1103/PhysRevC.110.064912",
+    "url": "https://doi.org/10.1103/PhysRevC.110.064912",
+    "authors": [
+        {
+            "full_name": "S. Acharya",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pritam Chakraborty",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zuzanna Anna Chochulska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Czarnynoga",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Dubiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Graczykowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Gwiździel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Jakubowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Małgorzata Janik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maja Karwowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Kisiel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Georgy Kornakov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Monika Kutyła",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirajum Monira",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julian Myrcha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Nowakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Oleniacz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Rokita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Rosłon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniela Ruggiano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wioleta Rzęsa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Szymkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>This work aims to differentiate strangeness produced from hard processes (jetlike) and softer processes (underlying event) by measuring the angular correlation between a high-momentum trigger hadron ((Formula presented)) acting as a jet proxy and a produced strange hadron [(Formula presented) meson]. Measuring (Formula presented) correlations at midrapidity in (Formula presented)-Pb collisions at (Formula presented) as a function of event multiplicity provides insight into the microscopic origin of strangeness enhancement in small collision systems. The jetlike and the underlying-event-like strangeness production are investigated as a function of event multiplicity. They are also compared between a lower and higher momentum region. The evolutions of the per-trigger yields within the near-side (aligned with the trigger hadron) and away-side (in the opposite direction of the trigger hadron) jets are studied separately, allowing for the characterization of two distinct jetlike production regimes. Furthermore, the (Formula presented) correlations within the underlying event give access to a production regime dominated by soft production processes, which can be compared directly to the in-jet production. Comparisons between (Formula presented) and dihadron correlations show that the observed strangeness enhancement is largely driven by the underlying event, where the (Formula presented) ratio is significantly larger than within the jet regions. As multiplicity increases, the fraction of the total (Formula presented) yield coming from jets decreases compared to the underlying event production, leading to high-multiplicity events being dominated by the increased strangeness production from the underlying event.</p>",
+    "keywords": null
+}

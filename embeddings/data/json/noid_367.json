@@ -1,0 +1,49 @@
+{
+    "id": "WUTc11c38824d514fadbd97139cf4eb40d4",
+    "title": "PWEITINLP at SemEval-2024 Task 3: Two Step Emotion Cause Analysis",
+    "created": "2025-04-16T09:01:30.705+02:00",
+    "modified": "2025-09-09T23:25:25.847+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://aclanthology.org/2024.semeval-1.159/",
+    "authors": [
+        {
+            "full_name": "Atul Kr. Ojha",
+            "affiliation": null
+        },
+        {
+            "full_name": "A. Seza Doğruöz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Harish Tayyar Madabushi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giovanni Da San Martino",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sara Rosenthal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aiala Rosá",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sofiia Levchenko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Wolert",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Andruszkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>ECPE (emotion cause pair extraction) task was introduced to solve the shortcomings of ECE (emotion cause extraction). Models with sequential data processing abilities or complex architecture can be utilized to solve this task. Our contribution to solving Subtask 1: Textual Emotion-Cause Pair Extraction in Conversations defined in the SemEval-2024 Task 3: The Competition of Multimodal Emotion Cause Analysis in Conversations is to create a two-step solution to the ECPE task utilizing GPT-3 for emotion classification and SpanBERT for extracting the cause utterances.</p>",
+    "keywords": null
+}

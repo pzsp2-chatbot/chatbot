@@ -1,0 +1,29 @@
+{
+    "id": "WUT8d6432e1410b40beb1bf24e2743bd85e",
+    "title": "playOmics: A multi-omics pipeline for interpretable predictions and biomarker discovery",
+    "created": "2025-01-12T20:55:45.203+01:00",
+    "modified": "2025-09-09T23:22:36.460+02:00",
+    "language": "en",
+    "doi": "10.1101/2024.03.12.584088",
+    "url": "https://doi.org/10.1101/2024.03.12.584088",
+    "authors": [
+        {
+            "full_name": "Jagoda Głowacka-Walas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sijko Kamil",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Wojdan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Gambin",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Background\nMulti-omics analysis is increasingly popular in biomedical research. While promising, these analyses confront challenges in data integration, management, and interpretation due to their complexity, diversity, and volume. Moreover, achieving transparency, reproducibility, and repeatability in multi-omics analyses is essential for facilitating scientific collaboration and validation of complex datasets.\nResults\nWe introduce playOmics, an open-source R package tailored for omics data analysis. It facilitates data management and biomarker discovery through various visualizations, statistics and explanations for boosted interpretability. playOmics identifies significant prognostic markers and iteratively constructs logistic regression models, identifying combinations with high predictive\nperformance. Our tool enables users to make direct, model-driven predictions by inputting new data into the selected pre-trained model. playOmics performed well in handling extensive datasets and missing data, showing a mean validation MCC of 0.773.\nConclusions\nplayOmics demonstrates the balance between model complexity and interpretability, crucial in biomedical research for understanding model decisions. playOmics’ approach promotes a flexible model selection process, encouraging exploration and hypothesis generation in biomarker discovery. The dockerized setup and intuitive graphical interface of playOmics support its\nadoption in a wide range of research and clinical settings, adhering to principles of open science, enhancing reproducibility and transparency",
+    "keywords": "multi-omics; machine learning; explainable AI"
+}

@@ -1,0 +1,41 @@
+{
+    "id": "WUT64a1c726709e4b02b9cf184499723bfa",
+    "title": "Explorations in Active Learning Applied to Image Classification",
+    "created": "2025-04-10T09:25:19.646+02:00",
+    "modified": "2025-09-09T23:27:18.803+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-28350-5_2",
+    "url": "https://doi.org/10.1007/978-3-031-28350-5_2",
+    "authors": [
+        {
+            "full_name": "Shelly Sachdeva",
+            "affiliation": "National Institute of Technology, Delhi, India"
+        },
+        {
+            "full_name": "Yutaka Watanobe",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Subhash Bhalla",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Adriana Klimczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcel Wenka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": "While development of very large models is the core of today’s artificial intelligence, very often the cost of model training is being raised. In this context, active learning is pointed to as a method to maximize model quality, while minimizing the amount of resources needed to train it. The aim of this contribution is to systematically compare performance of active learning applied to the image classification task for three datasets.",
+    "keywords": "Active learning; Frugal AI; Image classification; Neural networks"
+}

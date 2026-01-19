@@ -1,0 +1,49 @@
+{
+    "id": "WUTf9b170fbb2744972b877b5b18ec82101",
+    "title": "Simulating Human Communication Games: Transactional Analysis in LLM Agent Interactions",
+    "created": "2025-04-26T15:51:45.155+02:00",
+    "modified": "2025-09-09T23:23:15.863+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-96-5881-7_14",
+    "url": "https://doi.org/10.1007/978-981-96-5881-7_14",
+    "authors": [
+        {
+            "full_name": "Ngoc Thanh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "T. Matsuo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ford Lumban Gaol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yannis Manolopoulos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hamido Fujita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tzung-pei Hong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Wojtkiewicz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Monika Zamojska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Large Language Models (LLMs) have significantly advanced in replicating human-like conversational abilities. However, their potential to emulate intricate interpersonal dynamics, particularly the psychologically nuanced ‘games’ described in Eric Berne’s Transactional Analysis, remains underexplored. This study investigates the capacity of LLM-based agents to simulate such interactions, focusing on the dialogue-driven game “Why Don’t You - Yes But”, characterized by specific transactional structures and predictable communication patterns. By designing a scenario to evoke this interactions and fine-tuning agent behaviors based on personality traits, we allow the agents to produce dialogue largely independently, without explicit instructions on how to react. The analysis examines how closely the simulated dialogues align with Berne’s game structures. It highlights both successes and limitations, including challenges in maintaining consistent emotional depth and personality traits. These findings provide valuable insights into the development of advanced LLM-based agents capable of engaging in complex, psychologically-informed interactions. They also offer a foundation for future research to improve behavioral fidelity and realism.",
+    "keywords": null
+}

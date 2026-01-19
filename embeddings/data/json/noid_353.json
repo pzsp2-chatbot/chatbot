@@ -1,0 +1,101 @@
+{
+    "id": "WUTeec0fb8b426049d7b94e88646def7f74",
+    "title": "Evolutionary divergence in CTCF-mediated chromatin topology drives transcriptional innovation in humans",
+    "created": "2025-04-10T08:49:08.448+02:00",
+    "modified": "2025-09-09T23:21:51.958+02:00",
+    "language": "en",
+    "doi": "10.1038/s41467-025-58275-7",
+    "url": "https://doi.org/10.1038/s41467-025-58275-7",
+    "authors": [
+        {
+            "full_name": "Xia Wu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dan Xiong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rong Liu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xingqiang Lai",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yuhan Tian",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ziying Xie",
+            "affiliation": null
+        },
+        {
+            "full_name": "Li Chen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lanqi Hu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jingjing Duan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xinyu Gao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xian Zeng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wei Dong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ting Xu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fang Fu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xin Yang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xinlai Cheng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Minji Kim",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wenjun Xin",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tianyun Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andy Peng Xiang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zhonghui Tang",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Chromatin topology can impact gene regulation, but how evolutionary divergence in chromatin topology has shaped gene regulatory landscapes for distinctive human traits remains poorly understood. CTCF sites determine chromatin topology by forming domains and loops. Here, we show evolutionary divergence in CTCF-mediated chromatin topology at the domain and loop scales during primate evolution, elucidating distinct mechanisms for shaping regulatory landscapes. Human-specific divergent domains lead to a broad rewiring of transcriptional landscapes. Divergent CTCF loops concord with species-specific enhancer activity, influencing enhancer connectivity to target genes in a concordant yet constrained manner. Under this concordant mechanism, we establish the role of human-specific CTCF loops in shaping transcriptional isoform diversity, with functional implications for disease susceptibility. Furthermore, we validate the function of these human-specific CTCF loops using human forebrain organoids. This study advances our understanding of genetic evolution from the perspective of genome architecture.",
+    "keywords": null
+}

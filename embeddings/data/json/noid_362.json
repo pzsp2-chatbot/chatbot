@@ -1,0 +1,65 @@
+{
+    "id": "WUT943d55e4b6624730b55682ab53e918ac",
+    "title": "Gelsolin traps ribosomal protein SA (RPSA) within lipid nanodomains of the plasma membrane and modulates the level of protein synthesis in the submembranous region of human skin melanoma cells",
+    "created": "2025-04-15T08:47:55.720+02:00",
+    "modified": "2025-09-09T23:20:37.022+02:00",
+    "language": "en",
+    "doi": "10.1016/j.bbadis.2025.167686",
+    "url": "https://doi.org/10.1016/j.bbadis.2025.167686",
+    "authors": [
+        {
+            "full_name": "Ewa Mazurkiewicz-Stanek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Machnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Iryna Kopernyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Wiertelak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dorota Maszczak-Seneczko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Estera Jeruzalska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Biernatowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Makowiecka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Majkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trombik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Donizy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonina J. Mazur",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The connection between the F-actin and ribosome docking to the PM has been reported, but the exact mechanism has remained unclear. Previously, we discovered that gelsolin (GSN) forms complexes with numerous ribosomal proteins, including ribosomal protein SA (RPSA). Now, we have unraveled the mechanism of ribosome recruitment to the lipid nanodomains of the PM, with GSN playing a pivotal role in this process. We demonstrate that GSN directly interacts with RPSA, and microscopic analyses reveal their colocalization in the cell's submembranous region. Through spot variation fluorescence correlation spectroscopy, we confirm that GSN is responsible for trapping RPSA within PM's lipid nanodomains, a process dependent on F-actin. Importantly, we establish a correlation between the GSN level and the level of protein synthesis in melanoma cells. Furthermore, we present compelling evidence that high levels of GSN and RPSA are associated with the progression of cutaneous melanoma and a poorer prognosis for patients.",
+    "keywords": "Gelsolin (GSN), Ribosomal protein SA (RPSA), Ribosome, Skin melanoma, Lipid nanodomains (lipid rafts), Translation level, Cancer, Cancer metabolism"
+}

@@ -1,0 +1,33 @@
+{
+    "id": "WUT2ca7492f80f648a9b2192127b6bf640b",
+    "title": "Multistatic Localisation in Passive Radar System for LEO Space Objects Observation Using Terrestrial Illuminators and LOFAR Radio Telescope",
+    "created": "2025-03-25T11:31:14.564+01:00",
+    "modified": "2025-09-09T23:19:32.155+02:00",
+    "language": "en",
+    "doi": "10.1049/rsn2.70009",
+    "url": "https://doi.org/10.1049/rsn2.70009",
+    "authors": [
+        {
+            "full_name": "Konrad Jędrzejewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Piotr Malanowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Płotka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Kulpa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Pożoga",
+            "affiliation": "Polish Academy of Sciences"
+        }
+    ],
+    "abstract": "The paper introduces and discusses the concept and findings of experimental trials focused on the passive multistatic radar localisation of low-Earth orbit (LEO) space objects using terrestrial illuminators and a LOFAR (LOw-Frequency ARray) radio telescope. In the considered solution, commercial terrestrial digital radio transmitters operating in the VHF band served as illuminators of opportunity, whereas the LOFAR radio telescope was employed as a surveillance receiver. The extensive antenna array of the LOFAR radio telescope enables the detection of relatively weak echo signals reflected from space objects moving in LEO. Reference signals were captured using software-defined radio receivers placed near the illuminators of opportunity. By combining bistatic measurement results from three pairs of illuminator-receiver, the position of a space object was estimated in a Cartesian coordinate system. The experimental results validate the feasibility of determining the position of space objects using a passive radar system that employs antenna arrays, such as the one in the LOFAR radio telescope, along with commercial terrestrial transmitters as illuminators of opportunity. The results of the performed simulations confirmed the accuracy of the object position estimation achieved in real-life experiments.",
+    "keywords": null
+}

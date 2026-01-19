@@ -1,25 +1,17 @@
 {
-    "id": "WUTa39a7922d4ba4b119c77363f8a42bcec",
-    "title": "Applying artificial intelligence techniques in computed tomography for supporting liver cancer diagnosis",
-    "created": "2024-10-25T08:24:04.074+02:00",
-    "modified": "2025-09-09T23:24:02.889+02:00",
-    "language": "en",
-    "doi": "10.1109/paee63906.2024.10701445",
-    "url": "https://doi.org/10.1109/paee63906.2024.10701445",
+    "id": "WUT5b533bc9ab304c4ab9e4a3e9bc7ee5d6",
+    "title": "Inżynieria Internetu Rzeczy: innowacyjne podejście do kształcenia inżynierów",
+    "created": "2024-11-19T13:12:25.259+01:00",
+    "modified": "2025-09-09T23:32:36.212+02:00",
+    "language": "pl",
+    "doi": null,
+    "url": null,
     "authors": [
         {
-            "full_name": "Justyna Budzyńska",
-            "affiliation": null
-        },
-        {
-            "full_name": "Maria Kujawa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Radosław Roszczyk",
+            "full_name": "Andrzej Kraśniewski",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Opracowanie oraz uruchomienie na Wydziale Elektroniki i Technik Informacyjnych Politechniki Warszawskiej  programu studiów na kierunku Inżynieria Internetu Rzeczy, będące przedmiotem artykułu, okazało się pod wieloma względami innowacyjne i unikatowe. Unikatowość ta ma dwa wymiary. Pierwszy z nich dotyczy zakresu \ntematycznego kształcenia – w chwili uruchamiania studiów (2020 r.) w żadnej z polskich uczelni publicznych nie były jeszcze prowadzone studia dotyczące wspomnianej tematyki (wg wiedzy autorów jest to nadal przedsięwzięcie wyjątkowe w skali kraju). Drugi wymiar natomiast stanowi sama innowacyjna struktura programu studiów – wyróżnia ją realizowany w semestrach 1–6 moduł zespołowych zajęć projektowo-warsztatowych o znacznym wymiarze godzinowym.",
+    "keywords": null
 }

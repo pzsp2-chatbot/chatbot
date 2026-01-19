@@ -1,0 +1,33 @@
+{
+    "id": "WUT0cd2725a4fd94bea8e54cedcae00132f",
+    "title": "TRIZ Agents: A Multi-Agent LLM Approach for TRIZ-Based Innovation",
+    "created": "2025-03-01T19:16:41.446+01:00",
+    "modified": "2025-09-09T23:23:02.188+02:00",
+    "language": "en",
+    "doi": "10.5220/0013321900003890",
+    "url": "https://doi.org/10.5220/0013321900003890",
+    "authors": [
+        {
+            "full_name": "Ana Paula Rocha",
+            "affiliation": "Univeristy of Porto"
+        },
+        {
+            "full_name": "Luc Steels",
+            "affiliation": "Universitat Pompeu Fabra and CSIC, Barcelona, Spain"
+        },
+        {
+            "full_name": "Jaap van den Herik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Szczepanik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "TRIZ, the Theory of Inventive Problem Solving, is a structured, knowledge-based framework for innovation and abstracting problems to find inventive solutions. However, its application is often limited by the complexity and deep interdisciplinary knowledge required. Advancements in Large Language Models (LLMs) have revealed new possibilities for automating parts of this process. While previous studies have explored single LLMs in TRIZ applications, this paper introduces a multi-agent approach. We propose an LLM-based multi-agent system, called TRIZ agents, each with specialized capabilities and tool access, collaboratively solving inventive problems based on the TRIZ methodology. This multi-agent system leverages agents with various domain expertise to efficiently navigate TRIZ steps. The aim is to model and simulate an inventive process with language agents. We assess the effectiveness of this team of agents in addressing complex innovation challenges based on a selected case study i ...",
+    "keywords": "Large Language Model, LLM Agents, Multi-Agent Systems, TRIZ, Problem-Solving."
+}

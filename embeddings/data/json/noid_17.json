@@ -1,29 +1,29 @@
 {
-    "id": "WUT3a1ff259175c428aba3dbf973d2a72e2",
-    "title": "ReModels: Quantile Regression Averaging models",
-    "created": "2024-10-07T17:28:19.440+02:00",
-    "modified": "2025-09-09T23:22:26.362+02:00",
+    "id": "WUT406c615aec344e98b572f2534cb8756b",
+    "title": "Systematic Prototyping Using TRIZ",
+    "created": "2024-11-07T21:57:19.642+01:00",
+    "modified": "2025-09-09T23:24:13.951+02:00",
     "language": "en",
-    "doi": "10.1016/j.softx.2024.101905",
-    "url": "https://doi.org/10.1016/j.softx.2024.101905",
+    "doi": "10.1007/978-3-031-75923-9_18",
+    "url": "https://doi.org/10.1007/978-3-031-75923-9_18",
     "authors": [
         {
-            "full_name": "Grzegorz Zakrzewski",
+            "full_name": "Denis Cavallucci",
             "affiliation": null
         },
         {
-            "full_name": "Kacper Skonieczka",
+            "full_name": "Stelian Brad",
             "affiliation": null
         },
         {
-            "full_name": "Mikołaj Małkiński",
+            "full_name": "Pavel Livotov",
             "affiliation": null
         },
         {
-            "full_name": "Jacek Mańdziuk",
+            "full_name": "Jerzy Chrząszcz",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "A typical TRIZ project aimed to develop or improve a system consists of the problem analysis, solution generation and solution substantiation phases. The last phase may vary in approach and scope, ranging from expert assessment to physical prototypes and digital twins. Prototyping activities are often iterative, and the results achieved with one prototype are typically used to develop another. The order of modifications may significantly affect the total cost, time, and effort of prototyping, so adequately managing this process seems to be a vital challenge.\n\nThis paper proposes a systematic approach to prototyping navigation using TRIZ tools, such as Function Analysis and Value Analysis. If a new solution is to fail eventually during the substantiation, we would prefer it to fail fast and minimize the efforts required to obtain this result. Prototyping a successful solution, on the contrary, may benefit from a systematic approach by postponing the most significant investments to the latest stages when the design seems sufficiently reliable. The paper introduces the notions of prototyping attractiveness, uncertainty zone, and uncertainty time and provides simple guidelines for navigating the prototyping process, which are illustrated by a real-world example.",
+    "keywords": null
 }

@@ -1,0 +1,61 @@
+{
+    "id": "WUTc540a4cbd94742bfaf02a3679838eb14",
+    "title": "Reconstruction of the Botanical Trees from Single-View Images Using Signed Distance Functions",
+    "created": "2025-06-22T19:38:27.717+02:00",
+    "modified": "2025-09-09T23:22:57.989+02:00",
+    "language": "en",
+    "doi": "10.5220/0013335300003912",
+    "url": "https://doi.org/10.5220/0013335300003912",
+    "authors": [
+        {
+            "full_name": "Thomas Bashford-Rogers",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Meneveaux",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mehdi Ammi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mounia Ziat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefan Jänicke",
+            "affiliation": null
+        },
+        {
+            "full_name": "Helen Purchas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Petia Radeva",
+            "affiliation": null
+        },
+        {
+            "full_name": "Furnari Antonino",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kadi Bouatouch",
+            "affiliation": "IRISA, University of Rennes 1, France"
+        },
+        {
+            "full_name": "A. Augusto Sousa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Semrau",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Sawicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

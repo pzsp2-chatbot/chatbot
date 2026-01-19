@@ -1,0 +1,25 @@
+{
+    "id": "WUTd6bce98474464621af2afe8b557bf1c5",
+    "title": "Bayesianize fuzziness in the statistical analysis of fuzzy data",
+    "created": "2025-06-30T17:37:28.673+02:00",
+    "modified": "2025-09-09T23:19:09.710+02:00",
+    "language": "en",
+    "doi": "10.1016/j.ijar.2025.109495",
+    "url": "https://doi.org/10.1016/j.ijar.2025.109495",
+    "authors": [
+        {
+            "full_name": "Antonio Calcagnì",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Fuzzy data, prevalent in social sciences and other fields, capture uncertainties arising from subjective evaluations and measurement imprecision. Despite significant advancements in fuzzy statistics, a unified inferential regression-based framework remains undeveloped. Hence, we propose a novel approach for analyzing bounded fuzzy variables within a regression framework. Building on the premise that fuzzy data result from a process analogous to statistical coarsening, we introduce a conditional probabilistic approach that links observed fuzzy statistics (e.g., mode, spread) to the underlying, unobserved statistical model, which depends on external covariates. The inferential problem is addressed using Approximate Bayesian methods, mainly through a Gibbs sampler incorporating a quadratic approximation of the posterior distribution. Simulation studies and applications involving external validations are employed to evaluate the eﬀectiveness of the proposed approach for fuzzy data analysis. By reintegrating fuzzy data analysis into a more traditional statistical framework, this work provides a significant step toward enhancing the interpretability and applicability of fuzzy statistical methods in many applicative contexts.",
+    "keywords": "Fuzzy data analysis, Approximate Bayesian methods, Regression analysis"
+}

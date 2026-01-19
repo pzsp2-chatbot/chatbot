@@ -1,65 +1,29 @@
 {
-    "id": "WUT28c9deb8442e47ff9f769cdfcc4e56b9",
-    "title": "Impact of Spelling and Editing Correctness on Detection of LLM-Generated Emails",
-    "created": "2024-10-14T14:45:03.734+02:00",
-    "modified": "2025-09-09T23:23:20.442+02:00",
+    "id": "WUTf6ff477002bc4da6ae58641add7a084b",
+    "title": "Random generation of linearly constrained fuzzy measures and domain coverage performance evaluation",
+    "created": "2024-11-15T17:37:56.177+01:00",
+    "modified": "2025-09-09T23:31:06.089+02:00",
     "language": "en",
-    "doi": "10.15439/2024F8906",
-    "url": "https://doi.org/10.15439/2024F8906",
+    "doi": "10.1016/j.ins.2023.120080",
+    "url": "https://doi.org/10.1016/j.ins.2023.120080",
     "authors": [
         {
-            "full_name": "Marek Bolanowski",
-            "affiliation": "Rzeszów University of Technology"
-        },
-        {
-            "full_name": "Maria Ganzha",
-            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
-        },
-        {
-            "full_name": "Leszek A. Maciaszek",
-            "affiliation": "Wroclaw University of Economics"
-        },
-        {
-            "full_name": "Marcin Paprzycki",
-            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
-        },
-        {
-            "full_name": "Dominik Ślęzak",
+            "full_name": "Marek Gągolewski",
             "affiliation": null
         },
         {
-            "full_name": "Maria Ganzha",
+            "full_name": "Simon James",
             "affiliation": null
         },
         {
-            "full_name": "Leszek A. Maciaszek",
+            "full_name": "Gleb Beliakov",
             "affiliation": null
         },
         {
-            "full_name": "Marcin Paprzycki",
-            "affiliation": null
-        },
-        {
-            "full_name": "Paweł Gryka",
-            "affiliation": null
-        },
-        {
-            "full_name": "Kacper Gradoń",
-            "affiliation": null
-        },
-        {
-            "full_name": "Marek Kozłowski",
-            "affiliation": null
-        },
-        {
-            "full_name": "Miłosz Kutyła",
-            "affiliation": null
-        },
-        {
-            "full_name": "Artur Janicki",
+            "full_name": "Jian-Zhang Wu",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "The random generation of fuzzy measures under complex linear constraints holds significance in various fields, including optimization solutions, machine learning, decision making, and property investigation. However, most existing random generation methods primarily focus on addressing the monotonicity and normalization conditions inherent in the construction of fuzzy measures, rather than the linear constraints that are crucial for representing special families of fuzzy measures and additional preference information. In this paper, we present two categories of methods to address the generation of linearly constrained fuzzy measures using linear programming models. These methods enable a comprehensive exploration and coverage of the entire feasible convex domain. The first category involves randomly selecting a subset and assigning measure values within the allowable range under given linear constraints. The second category utilizes convex combinations of constrained extreme fuzzy measures and vertex fuzzy measures. Then we employ some indices of fuzzy measures, objective functions, and distances to domain boundaries to evaluate the coverage performance of these methods across the entire feasible domain. We further provide enhancement techniques to improve the coverage ratios. Finally, we discuss and demonstrate potential applications of these generation methods in practical scenarios.",
+    "keywords": "fuzzy measure, random generation"
 }

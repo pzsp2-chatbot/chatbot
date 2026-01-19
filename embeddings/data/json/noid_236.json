@@ -1,0 +1,37 @@
+{
+    "id": "WUTa624ebff78f64213a6c7f620b9ca8842",
+    "title": "Solving the Mountain Car Problem Using Genetic Algorithms",
+    "created": "2025-02-03T09:39:04.879+01:00",
+    "modified": "2025-09-09T23:23:49.093+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-56208-2_23",
+    "url": "https://doi.org/10.1007/978-3-031-56208-2_23",
+    "authors": [
+        {
+            "full_name": "Amelia Badica",
+            "affiliation": "University of Craiova, Craiova, Romania"
+        },
+        {
+            "full_name": "Costin Bădică",
+            "affiliation": "University of Craiova, Craiova, Romania"
+        },
+        {
+            "full_name": "Ion Buligiu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Liviu Ion Ciora",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

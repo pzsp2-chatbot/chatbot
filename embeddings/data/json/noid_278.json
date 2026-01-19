@@ -1,0 +1,65 @@
+{
+    "id": "WUTe8bcb378fdb748988d0940f34b97b171",
+    "title": "Ensemble Deep Learning Models for Segmentation of Prostate Zonal Anatomy and Pathologically Suspicious Areas",
+    "created": "2025-02-17T10:10:16.935+01:00",
+    "modified": "2025-09-09T23:25:38.725+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-66955-2_15",
+    "url": "https://doi.org/10.1007/978-3-031-66955-2_15",
+    "authors": [
+        {
+            "full_name": "Moi Hoon Yap",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kendrick Connah",
+            "affiliation": null
+        },
+        {
+            "full_name": "A Behera",
+            "affiliation": null
+        },
+        {
+            "full_name": "T Cootes",
+            "affiliation": null
+        },
+        {
+            "full_name": "R Zwiggelaar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Mitura",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Janusz Jóźwiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Kazimierz Mycka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ihor Mykhalevych",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Gonet",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Sobecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Lorenc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Tupikowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

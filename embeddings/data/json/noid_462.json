@@ -1,0 +1,21 @@
+{
+    "id": "WUT262ea96ffb754603b2220d05d371007f",
+    "title": "Adapting ordered fuzzy numbers to the evaluation of the isolation level of slices",
+    "created": "2025-07-14T13:05:13.237+02:00",
+    "modified": "2025-09-09T23:20:50.333+02:00",
+    "language": "en",
+    "doi": "10.1016/j.ins.2025.122487",
+    "url": "https://doi.org/10.1016/j.ins.2025.122487",
+    "authors": [
+        {
+            "full_name": "Tomasz Nowak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zbigniew Kotulski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "A fuzzy logic approach is suitable for modeling problems where some elements (mutual and external relations of components, their properties, parameters, etc.) are subject to non-statistical uncertainty. The ordered fuzzy numbers proved an effective tool for quantitatively analyzing such problems. In this paper, we propose applying ordered fuzzy numbers to evaluate the security isolation level of slices in contemporary computer networks, especially 5G networks. Based on the earlier studies, we introduce the idea of the isolation of slices and examples of evaluating the isolation level (experimentally and by numerical calculations). We propose using the ordered fuzzy numbers to describe the parameters of security isolation of the network's components and, then, to estimate the security isolation level of the whole slice. We also propose some practical approaches to evaluating the isolation level and give an illustrative example of how such an approach works in practice.",
+    "keywords": "Ordered fuzzy number (OFN)5G slicesSecurity isolation levelAggregation of OFNsDefuzzification operationQuadratic programming"
+}

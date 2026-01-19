@@ -1,0 +1,49 @@
+{
+    "id": "WUT43b23331dabd43aeabf007d4bd82c2e3",
+    "title": "Leveraging a Multi-agent LLM-Based System to Educate Teachers in Hate Incidents Management",
+    "created": "2025-07-31T14:51:49.119+02:00",
+    "modified": "2025-09-09T23:22:13.607+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-98462-4_42",
+    "url": "https://doi.org/10.1007/978-3-031-98462-4_42",
+    "authors": [
+        {
+            "full_name": "Alexandra I. Cristea",
+            "affiliation": "Durham University, Durham, UK"
+        },
+        {
+            "full_name": "Erin Walker",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lu Yu",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olga C. Santos",
+            "affiliation": "UNED, Madrid, Spain"
+        },
+        {
+            "full_name": "Isotani Seiji",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewelina Gajewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Wawer",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Budzyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Computer-aided teacher training is a state-of-the-art method designed to enhance teachers’ professional skills effectively while minimising concerns related to costs, time constraints, and geographical limitations. We investigate the potential of large language models (LLMs) in teacher education, using a case of teaching hate incidents management in schools. To this end, we create a multi-agent LLM-based system that mimics realistic situations of hate, using a combination of retrieval-augmented prompting and persona modelling. It is designed to identify and analyse hate speech patterns, predict potential escalation, and propose effective intervention strategies. By integrating persona modelling with agentic LLMs, we create contextually diverse simulations of hate incidents, mimicking real-life situations. The system allows teachers to analyse and understand the dynamics of hate incidents in a safe and controlled environment, providing valuable insights and practical knowledge to manage such situations confidently in real life. Our pilot evaluation demonstrates teachers’ enhanced understanding of the nature of annotator disagreements and the role of context in hate speech interpretation, leading to the development of more informed and effective strategies for addressing hate in classroom settings.",
+    "keywords": null
+}

@@ -1,0 +1,65 @@
+{
+    "id": "WUT6e1728518d704f7bba375305d93b493f",
+    "title": "TabMixer: Noninvasive Estimation of the Mean Pulmonary Artery Pressure via Imaging and Tabular Data Mixing",
+    "created": "2025-01-29T13:14:59.231+01:00",
+    "modified": "2025-09-09T23:23:23.851+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-72086-4_63",
+    "url": "https://doi.org/10.1007/978-3-031-72086-4_63",
+    "authors": [
+        {
+            "full_name": "Marius George Linguraru",
+            "affiliation": null
+        },
+        {
+            "full_name": "Qi Dou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aasa Feragen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stamatia Giannarou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ben Glocker",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karim Lekadir",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julia Schnabel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał K. Grzeszczyk",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Przemysław Korzeniowski",
+            "affiliation": "Sano Centre for Computational Medicine"
+        },
+        {
+            "full_name": "Samer Alabed",
+            "affiliation": "University of Sheffield"
+        },
+        {
+            "full_name": "Andrew Swift",
+            "affiliation": "University of Sheffield"
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Arkadiusz Sitek",
+            "affiliation": "Harvard Medical School, Boston, MA, USA"
+        }
+    ],
+    "abstract": "Right Heart Catheterization is a gold standard procedure for diagnosing Pulmonary Hypertension by measuring mean Pulmonary Artery Pressure (mPAP). It is invasive, costly, time-consuming and carries risks. In this paper, for the first time, we explore the estimation of mPAP from videos of noninvasive Cardiac Magnetic Resonance Imaging. To enhance the predictive capabilities of Deep Learning models used for this task, we introduce an additional modality in the form of demographic features and clinical measurements. Inspired by all-Multilayer Perceptron architectures, we present TabMixer, a novel module enabling the integration of imaging and tabular data through spatial, temporal and channel mixing. Specifically, we present the first approach that utilizes Multilayer Perceptrons to interchange tabular information with imaging features in vision models. We test TabMixer for mPAP estimation and show that it enhances the performance of Convolutional Neural Networks, 3D-MLP and Vision Transformers while being competitive with previous modules for imaging and tabular data. Our approach has the potential to improve clinical processes involving both modalities, particularly in noninvasive mPAP estimation, thus, significantly enhancing the quality of life for individuals affected by Pulmonary Hypertension. We provide a source code for using TabMixer at https://github.com/SanoScience/TabMixer.",
+    "keywords": null
+}

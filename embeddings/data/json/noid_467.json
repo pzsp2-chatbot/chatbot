@@ -1,0 +1,29 @@
+{
+    "id": "WUTd31de464cac24b468c451d276060020a",
+    "title": "Distributed Prediction-Enhanced Beamforming Using LR/SVR Fusion and MUSIC Refinement in 5G O-RAN Systems",
+    "created": "2025-07-16T10:54:39.503+02:00",
+    "modified": "2025-09-09T23:20:34.174+02:00",
+    "language": "en",
+    "doi": "10.3390/app15137428",
+    "url": "https://doi.org/10.3390/app15137428",
+    "authors": [
+        {
+            "full_name": "Mustafa Mohammed Mohsin Mayyahi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Zurek",
+            "affiliation": "Instytut Łączności - Państwowy Instytut Badawczy"
+        },
+        {
+            "full_name": "Piotr Krawiec",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Low-latency and robust beamforming are vital for sustaining signal quality and spectral efficiency in emerging high-mobility 5G and future 6G wireless networks. Conventional beam management approaches, which rely on periodic Channel State Information feedback and static codebooks, as outlined in 3GPP standards, are insufficient in rapidly varying propagation environments. In this work, we propose a Dominance-Enforced Adaptive Clustered Sliding Window Regression (DE-ACSW-R) framework for predictive beamforming in O-RAN Split 7-2x architectures. DE-ACSW-R leverages a sliding window of recent angle of arrival (AoA) estimates, applying in-window change-point detection to segment user trajectories and performing both Linear Regression (LR) and curvature-adaptive Support Vector Regression (SVR) for short-term and non-linear prediction. A confidence-weighted fusion mechanism adaptively blends LR and SVR outputs, incorporating robust outlier detection and a dominance-enforced selection regime to address strong disagreements. The Open Radio Unit (O-RU) autonomously triggers localised MUSIC scans when prediction confidence degrades, minimising unnecessary full-spectrum searches and saving delay. Simulation results demonstrate that the proposed DE-ACSW-R approach significantly enhances AoA tracking accuracy, beamforming gain, and adaptability under realistic high-mobility conditions, surpassing conventional LR/SVR baselines. This AI-native modular pipeline aligns with O-RAN architectural principles, enabling scalable and real-time beam management for next-generation wireless deployments.",
+    "keywords": "O-RAN; 5G; beamforming; angle of arrival; radio management"
+}

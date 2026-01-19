@@ -1,0 +1,29 @@
+{
+    "id": "WUT8fe170b48f634e80bb093d0e3567350c",
+    "title": "Diagnosis test selection for distributed systems under communication and privacy constraints",
+    "created": "2025-04-15T12:25:40.374+02:00",
+    "modified": "2025-09-09T23:21:38.632+02:00",
+    "language": "en",
+    "doi": "10.1007/s10489-025-06543-w",
+    "url": "https://doi.org/10.1007/s10489-025-06543-w",
+    "authors": [
+        {
+            "full_name": "Anna Sztyber-Betley",
+            "affiliation": null
+        },
+        {
+            "full_name": "Elodie Chanthery",
+            "affiliation": "Higher Education  and Research  in Toulouse Midi-Pyrénées"
+        },
+        {
+            "full_name": "Louise Travé-Massuyès",
+            "affiliation": "University of Toulouse"
+        },
+        {
+            "full_name": "Carlos Gustavo Pérez-Zuñiga",
+            "affiliation": "Pontifical Catholic University of Peru"
+        }
+    ],
+    "abstract": "Distribution is often necessary for large-scale systems because it makes monitoring and diagnosis more manageable from both computational and communication costs perspectives. Decomposing the system into subsystems may also be required to satisfy geographic, functional, or privacy constraints. The selection of diagnosis tests guaranteeing some level of diagnosability must adhere to this decomposition by remaining as local as possible in terms of the required sensor variables. This helps minimize communication costs. In practical terms, this means that the number of interconnections between subsystems should be minimized while keeping diagnosability, i.e., fault isolation capability, at its maximum. This paper differentiates itself from existing literature by leveraging flexibility in forming the subsystems. Through structural analysis and graph partitioning, we address the combined challenges of constrained decomposition of a large-scale system into subsystems and the selection of diagnosis tests that achieve maximal diagnosability with minimal subsystem interconnection. The proposed solution is implemented through an iterative algorithm, which is proven to converge. Its efficiency is demonstrated using a case study in the domain of water networks.",
+    "keywords": "Diagnosis test selection, Structural analysis, System decomposition, Communication and privacy constraints, Distributed diagnosis"
+}

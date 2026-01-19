@@ -1,0 +1,41 @@
+{
+    "id": "WUTcf7897caa6d041d5b1da149ca61bb786",
+    "title": "On Floating Point Approximation of the Reciprocal Cube Root Function",
+    "created": "2025-07-08T00:39:44.085+02:00",
+    "modified": "2025-09-09T23:23:05.212+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-97570-7_9",
+    "url": "https://doi.org/10.1007/978-3-031-97570-7_9",
+    "authors": [
+        {
+            "full_name": "Maciej Paszyński",
+            "affiliation": "University of Science and Technology"
+        },
+        {
+            "full_name": "Amanda S. Barnard",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yongjie Jessica Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Cezary Walczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hatem Ltaief",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nataliia Gavkalova",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The digital signal processing (DSP) of Internet of Things (IoT) devices using edge-based machine learning (ML) requires fast arithmetic operations and high energy efficiency. Hardware implementations of transcendental functions in ML and deep learning chips are impractical, necessitating effective software algorithms for functions like \n across precision levels. This paper analyzes approximation, introducing algorithms that use magic numbers and piecewise linear approximation to optimize relative error, precision, and computation speed. A mathematical analysis determines key algorithm parameters, with single-precision implementations in C. These algorithms were tested on various hardware platforms and compared for speed, accuracy, and relative errors.",
+    "keywords": null
+}

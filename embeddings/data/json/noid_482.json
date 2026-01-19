@@ -1,0 +1,29 @@
+{
+    "id": "WUT0485df0cf0014da381778e3c75a380bd",
+    "title": "A novel framework for assessing determinant risk factors on cyber (dis)trust behaviors of netizens in deepfakes",
+    "created": "2025-07-21T20:46:43.270+02:00",
+    "modified": "2025-09-09T23:21:40.061+02:00",
+    "language": "en",
+    "doi": "10.1016/j.engappai.2025.111319",
+    "url": "https://doi.org/10.1016/j.engappai.2025.111319",
+    "authors": [
+        {
+            "full_name": "Milad Taleby Ahvanooey",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zefan Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jun Zhao",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Nowadays, Generative Artificial Intelligence (GenAI) tools or trainable agents can craft synthetic media (hereafter referred to as deepfakes) in the form of realistic texts, images, videos, and audios, incorporating events or things that never occurred in real life. These GenAI tools empower marketers and malicious actors to create deepfakes, both authorized and weaponized multimedia, which allows them to include celebrities without appearing in front of cameras or creating seductive phishing scams. Although GenAI tools can reduce the cost of content construction, they enable new risky opportunities (e.g., deepfake phishing and cyberbullying) that negatively impact netizens’ learning and (dis)trust behaviors in cyberspace. To address such risks, this study proposes a Multi-Criteria-Multi-Decision-Makers (MCMDM)-based Deepfake Risk Assessment Framework (DeepFakeR-MF) to evaluate determinant factors that impact the cyber (dis)trust behaviors of netizens in deepfakes. Moreover, DeepFakeR-MF deploys a combination of a novel optimized spherical fuzzy analytic hierarchy process method and a game theory-based MCMDM approach to prioritize and recommend alternative strategies that can be taken by five management sectors (e.g., industrial enterprises, governmental organizations, media outlets, social non-profit, and educational institutes) to mitigate GenAI-associated risks. Then, we collect 100 experts’ judgments by analyzing their responses to our questionnaire and prioritize the importance of determinant factors considering their preferences. To validate the prioritized factors on the performance of DeepFakeR-MF, we conduct a sensitivity analysis applying Monte Carlo statistical modeling. Finally, our results confirm that DeepFakeR-MF provides effective strategic alternatives for policymakers, educators, media professionals, engineers, and netizens, hopefully reducing the socio-economic risks of deepfakes.",
+    "keywords": "Multi-criteria-multi-decision makers\nSpherical fuzzy sets\nStrategic information management\nSocio-economic risks of deepfakes\nGenerative artificial intelligence risks\nGame-theoretic framework"
+}

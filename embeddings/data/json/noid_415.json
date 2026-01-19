@@ -1,0 +1,21 @@
+{
+    "id": "WUT7a3bbdbb82dd43feadcc71d5d34d06a8",
+    "title": "Trusted computing in the internet of things: securing the edge through hardware-enforced trust",
+    "created": "2025-06-03T10:08:17.193+02:00",
+    "modified": "2025-09-09T23:20:40.617+02:00",
+    "language": "en",
+    "doi": "10.15199/13.2025.5.4",
+    "url": "https://doi.org/10.15199/13.2025.5.4",
+    "authors": [
+        {
+            "full_name": "Daniel  Migwi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Proliferation of Internet of Things (IoT) devices has introduced new and complex security challenges. Due to constrained-resources, IoT devices are vulnerable to a wide range of attacks; including code injection, identity spoofing, supply chain tampering and many more. This study explores how Trusted Computing Concepts can enhance security in IoT devices. We will also develop a detailed threat model using PASTA modelling framework illustrating the attack vectors through which adversaries may compromise IoT devices. In response to these threats, we will propose a lightweight trusted computing architecture tailored for IoT deployments. The architecture will enable device identity provisioning, boot-time integrity verification, and runtime remote attestation while remaining efficient enough for application in low power microcontroller devices. Our findings highlight both the feasibility and limitations of trusted computing in IoT. We also identified future open research areas including attestation scalability, post-quantum readiness, and secure device lifecycle management. This study contributes to a foundational model for embedding verifiable trust in future IoT ecosystems.",
+    "keywords": "Trusted Computing Concepts, Threat Model, TPM, TEE, IoT Lifecycle"
+}

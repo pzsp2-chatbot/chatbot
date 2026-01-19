@@ -1,25 +1,21 @@
 {
-    "id": "WUT510adafdc12544378d951c93fdb9fe57",
-    "title": "Antenna System for Passive Radar Operating in DVB-T Band",
-    "created": "2024-10-28T14:14:26.932+01:00",
-    "modified": "2025-09-09T23:25:22.599+02:00",
-    "language": "en",
-    "doi": "10.23919/MIKON60251.2024.10634003",
-    "url": "https://doi.org/10.23919/MIKON60251.2024.10634003",
+    "id": "WUT36463119feff46d0af735cc4dfee850e",
+    "title": "Two-Step Reinforcement Learning for Multistage Strategy Card Game",
+    "created": "2024-11-27T15:42:22.366+01:00",
+    "modified": "2025-09-09T23:31:11.259+02:00",
+    "language": "pl",
+    "doi": "10.24425/bpasts.2024.151376",
+    "url": "https://doi.org/10.24425/bpasts.2024.151376",
     "authors": [
         {
-            "full_name": "Krzysztof Kulpa",
+            "full_name": "Konrad Godlewski",
             "affiliation": null
         },
         {
-            "full_name": "Łukasz Januszkiewicz",
-            "affiliation": "Lodz University of Technology"
-        },
-        {
-            "full_name": "Karol Kropidłowski",
-            "affiliation": "Lodz University of Technology"
+            "full_name": "Bartosz Sawicki",
+            "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": null
 }

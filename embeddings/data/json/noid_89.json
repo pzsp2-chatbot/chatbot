@@ -1,0 +1,37 @@
+{
+    "id": "WUTa7c768327fa7420eb733db1643bec19e",
+    "title": "Scalability of Extended Green Cloud Simulator",
+    "created": "2024-12-17T07:15:01.996+01:00",
+    "modified": "2025-09-09T23:25:02.001+02:00",
+    "language": "en",
+    "doi": "10.1109/INISTA62901.2024.10683841",
+    "url": "https://doi.org/10.1109/INISTA62901.2024.10683841",
+    "authors": [
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Stanisław Krzyżanowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Amelia Badica",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stefka Fidanova",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In recent years, there has been an increase in interest in carbon-aware computing. Here, the Green Edge Processing project inspired the development of the Extended Green Cloud Simulator (EGCS), which serves as an agent-based digital twin, facilitating the simulation of cloud infrastructure powered, in part, by renewable energy sources. Given that cloud systems must operate efficiently for a large number of clients, the following contribution briefly describes the design of the EGCS and discusses the results of the experimental assessment of its scalability.",
+    "keywords": "multi-agent system , extended cloud , simulation , scalability"
+}

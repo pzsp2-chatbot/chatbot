@@ -1,0 +1,33 @@
+{
+    "id": "WUTe5e4d2506a3e4579a89ad6dfe85936ef",
+    "title": "Modelling Low-Resource Accents Without Accent-Specific TTS Frontend",
+    "created": "2025-02-05T13:23:20.666+01:00",
+    "modified": "2025-09-10T00:08:30.649+02:00",
+    "language": "en",
+    "doi": "10.1109/icassp49357.2023.10095773",
+    "url": "https://doi.org/10.1109/icassp49357.2023.10095773",
+    "authors": [
+        {
+            "full_name": "Georgi Tinchev",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marta Czarnowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Deja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kayoko Yanagisawa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marius Cotescu",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This work focuses on modelling a speaker’s accent that does not have a dedicated text-to-speech (TTS) frontend, including a grapheme-to-phoneme (G2P) module. Prior work on modelling accents assumes a phonetic transcription is available for the target accent, which might not be the case for low-resource, regional accents. In our work, we propose an approach whereby we first augment the target accent data to sound like the donor voice via voice conversion, then train a multi-speaker multi-accent TTS model on the combination of recordings and synthetic data, to generate the donor’s voice speaking in the target accent. Throughout the procedure, we use a TTS frontend developed for the same language but a different accent. We show qualitative and quantitative analysis where the proposed strategy achieves state-of-the-art results compared to other generative models. Our work demonstrates that low resource accents can be modelled with relatively little data and without developing an accent-specific TTS frontend. Audio samples of our model converting to multiple accents are available on our web page3.",
+    "keywords": null
+}

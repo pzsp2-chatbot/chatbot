@@ -1,0 +1,53 @@
+{
+    "id": "WUTa6e067f7cbb04bfaa185a1b3707a144f",
+    "title": "Swin SMT: Global Sequential Modeling for Enhancing 3D Medical Image Segmentation",
+    "created": "2024-12-11T01:02:45.687+01:00",
+    "modified": "2025-09-09T23:22:56.401+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-72111-3_65",
+    "url": "https://doi.org/10.1007/978-3-031-72111-3_65",
+    "authors": [
+        {
+            "full_name": "Aasa Feragen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Qi Dou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Stamatia Giannarou",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ben Glocker",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karim Lekadir",
+            "affiliation": null
+        },
+        {
+            "full_name": "Julia Schnabel",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marius George Linguraru",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Chrabąszcz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Płotka",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Recent advances in Vision Transformers (ViTs) have significantly enhanced medical image segmentation by facilitating the learning of global relationships. However, these methods face a notable challenge in capturing diverse local and global long-range sequential feature representations, particularly evident in whole-body CT (WBCT) scans. To overcome this limitation, we introduce Swin Soft Mixture Transformer (Swin SMT), a novel architecture based on Swin UNETR. This model incorporates a Soft Mixture-of-Experts (Soft MoE) to effectively handle complex and diverse long-range dependencies. The use of Soft MoE allows for scaling up model parameters maintaining a balance between computational complexity and segmentation performance in both training and inference modes. We evaluate Swin SMT on the publicly available TotalSegmentator-V2 dataset, which includes 117 major anatomical structures in WBCT images. Comprehensive experimental results demonstrate that Swin SMT outperforms several state-of-the-art methods in 3D anatomical structure segmentation, achieving an average Dice Similarity Coefficient of 85.09%. The code and pre-trained weights of Swin SMT are publicly available at https://github.com/MI2DataLab/SwinSMT.",
+    "keywords": "machine learning"
+}

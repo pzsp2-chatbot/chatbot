@@ -1,0 +1,33 @@
+{
+    "id": "WUTb6c209846cab4031a14459e962d6d7f4",
+    "title": "Explainable AI Methods - A Brief Overview",
+    "created": "2025-01-30T13:14:25.154+01:00",
+    "modified": "2025-09-10T00:10:32.543+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-04083-2_2",
+    "url": "https://doi.org/10.1007/978-3-031-04083-2_2",
+    "authors": [
+        {
+            "full_name": "Andreas Holzinger",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Saranti",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christoph Molnar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Samek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Explainable Artificial Intelligence (xAI) is an established field with a vibrant community that has developed a variety of very successful approaches to explain and interpret predictions of complex machine learning models such as deep neural networks. In this article, we briefly introduce a few selected methods and discuss them in a short, clear and concise way. The goal of this article is to give beginners, especially application engineers and data scientists, a quick overview of the state of the art in this current topic. The following 17 methods are covered in this chapter: LIME, Anchors, GraphLIME, LRP, DTD, PDA, TCAV, XGNN, SHAP, ASV, Break-Down, Shapley Flow, Textual Explanations of Visual Models, Integrated Gradients, Causal Models, Meaningful Perturbations, and X-NeSyL.</p>",
+    "keywords": null
+}

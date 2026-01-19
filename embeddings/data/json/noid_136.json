@@ -1,0 +1,21 @@
+{
+    "id": "WUT07ac46490ca740bf860e2f27797572e3",
+    "title": "Neural Network Based on Direct Inverse Control for Electro-Hydraulic Servo Drive",
+    "created": "2025-01-13T08:54:02.328+01:00",
+    "modified": "2025-09-09T23:22:09.787+02:00",
+    "language": "en",
+    "doi": "10.12693/aphyspola.146.406",
+    "url": "https://doi.org/10.12693/aphyspola.146.406",
+    "authors": [
+        {
+            "full_name": "Arkadiusz Winnicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Guś",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper describes the use of the nonlinear autoregressive with exogenous inputs neural network for the control of electro−hydraulic servo drive. The direct inverse controller was trained on a real object in an online way with the use of a programmable logic controller before starting work on a real object, and appropriate tests were performed in the MATLAB/Simulink environment in order to select the right structure of the neural network. Also, the paper includes various network learning algorithms: gradient descent, resilient backpropagation, and adaptive moment estimation, which belong to backpropagation algorithms. In order to compare the suitability of the direct inverse controller, the controller was implemented on a real electro−hudraulic test stand, and its performance was compared with the performance of a proportional−integral−derivative controller.",
+    "keywords": "artificial neural network (ANN), control engineering, direct inverse control, electro−hydraulic servo drive"
+}

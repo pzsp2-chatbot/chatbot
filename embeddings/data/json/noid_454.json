@@ -1,0 +1,73 @@
+{
+    "id": "WUTe1b90d55430947edbd77e778d046ec28",
+    "title": "A comparative study of deep End-to-End Automatic Speech Recognition models for doctor-patient conversations in Polish in a real-life acoustic environment",
+    "created": "2025-07-10T11:42:00.082+02:00",
+    "modified": "2025-09-09T23:21:11.506+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153609",
+    "url": "https://doi.org/10.24425/ijet.2025.153609",
+    "authors": [
+        {
+            "full_name": "Karolina Pondel-Sycz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Bilski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Bobiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leszek Morzyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Lewandowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Emil Kozłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Szczepański",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Jasiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Makarewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Paula Pietrzak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Buchowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Mazurek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Bilski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Olejnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Iwona Olejnik",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

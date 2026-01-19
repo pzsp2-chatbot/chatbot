@@ -1,0 +1,29 @@
+{
+    "id": "WUT8ecb44ecf3c44d9a9516720bf371a26a",
+    "title": "Applying Named Entity Recognition and Graph Networks to Extract Common Interests from Thematic Subfora on Reddit",
+    "created": "2024-12-02T16:46:43.782+01:00",
+    "modified": "2025-09-09T23:34:20.623+02:00",
+    "language": "en",
+    "doi": "10.3390/app14051696",
+    "url": "https://doi.org/10.3390/app14051696",
+    "authors": [
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Yutaka Watanobe",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

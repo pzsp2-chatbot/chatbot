@@ -1,0 +1,57 @@
+{
+    "id": "WUTcf6e7ad56f6a4c4898230720e0753d71",
+    "title": "Exploiting Activation Sparsity with Dense to Dynamic-k Mixture-of-Experts Conversion",
+    "created": "2025-04-01T16:09:39.597+02:00",
+    "modified": "2025-09-09T23:23:00.864+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/4c2092ec0b1370cce3fb5965ab255fae-Paper-Conference.pdf",
+    "authors": [
+        {
+            "full_name": "A. Globerson",
+            "affiliation": null
+        },
+        {
+            "full_name": "L. Mackey",
+            "affiliation": null
+        },
+        {
+            "full_name": "D. Belgrave",
+            "affiliation": null
+        },
+        {
+            "full_name": "A. Fan",
+            "affiliation": null
+        },
+        {
+            "full_name": "U. Paquet",
+            "affiliation": null
+        },
+        {
+            "full_name": "J. Tomczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "C. Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Filip Szatkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Wójcik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mikołaj Piórczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Simone Scardapane",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

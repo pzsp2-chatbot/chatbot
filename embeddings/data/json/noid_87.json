@@ -1,0 +1,33 @@
+{
+    "id": "WUTd49db61e1731449d861ac81d23d210ee",
+    "title": "A New Artificial Duroc Pigs Optimization Method Used for the Optimization of Functions",
+    "created": "2024-12-17T06:54:25.157+01:00",
+    "modified": "2025-09-09T23:30:28.565+02:00",
+    "language": "en",
+    "doi": "10.3390/electronics13071372",
+    "url": "https://doi.org/10.3390/electronics13071372",
+    "authors": [
+        {
+            "full_name": "Jacek Czerniak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dawid Ewald",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Stefka Fidanova",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Abstract\nIn this contribution, a novel optimization approach, derived from the behavioral patterns exhibited by Duroc pig herds, is proposed. In the developed metaheuristic, termed Artificial Duroc Pigs Optimization (ADPO), Ordered Fuzzy Numbers (OFN) have been applied to articulate and elucidate the behavioral dynamics of the pig herd. A series of experiments has been conducted, using eight standard benchmark functions, characterized by multiple extrema. To facilitate a comprehensive comparative analysis, experiments employing Particle Swarm Optimization (PSO), Bat Algorithm (BA), and Genetic Algorithm (GA), were executed on the same set of functions. It was found that, in the majority of cases, ADPO outperformed the alternative methods.",
+    "keywords": "fuzzy logic; OFN; ADPO; GA; PSO; BA"
+}

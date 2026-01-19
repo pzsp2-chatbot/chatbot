@@ -1,0 +1,29 @@
+{
+    "id": "WUT9d9f8cdaf16a4d78a0087a6a1f4c098f",
+    "title": "Active Learning for Medical Article Classification with Bag of Words and Bag of Concepts Embeddings",
+    "created": "2025-07-17T13:14:15.444+02:00",
+    "modified": "2025-09-09T23:21:13.705+02:00",
+    "language": "en",
+    "doi": "10.3390/app15147955",
+    "url": "https://doi.org/10.3390/app15147955",
+    "authors": [
+        {
+            "full_name": "Radosław Pytlak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Cichosz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Fajdek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bogdan Jastrzębski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Systems supporting systematic literature reviews often use machine learning algorithms to create classification models to assess the relevance of articles to study topics. The proper choice of text representation for such algorithms may have a significant impact on their predictive performance. This article presents an in-depth investigation of the utility of the bag of concepts representation for this purpose, which can be considered an enhanced form of the ubiquitous bag of words representation, with features corresponding to ontology concepts rather than words. Its utility is evaluated in the active learning setting, in which a sequence of classification models is created, with training data iteratively expanded by adding articles selected for human screening. Different versions of the bag of concepts are compared with bag of words, as well as with combined representations, including both word-based and concept-based features. The evaluation uses the support vector machine, naive Bayes, and random forest algorithms and is performed on datasets from 15 systematic medical literature review studies. The results show that concept-based features may have additional predictive value in comparison to standard word-based features and that the combined bag of concepts and bag of words representation is the most useful overall.",
+    "keywords": null
+}

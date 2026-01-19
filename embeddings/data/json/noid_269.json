@@ -1,0 +1,21 @@
+{
+    "id": "WUTfe94c75d20e24c3a8b364289df0ada24",
+    "title": "Shrinkage Estimators for the Intercept in Linear and Uplift Regression",
+    "created": "2025-02-14T10:06:28.834+01:00",
+    "modified": "2025-09-09T23:35:23.605+02:00",
+    "language": "en",
+    "doi": "10.7561/sacs.2023.1.35",
+    "url": "https://doi.org/10.7561/sacs.2023.1.35",
+    "authors": [
+        {
+            "full_name": "Szymon Jaroszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Rudaś",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,25 +1,37 @@
 {
-    "id": "WUTe57092011f874e15acb6664443d72ba3",
-    "title": "Analysis of Dataset Limitations in Semantic Knowledge-Driven Multi-Variant Machine Translation",
-    "created": "2024-10-04T16:02:17.186+02:00",
-    "modified": "2025-09-09T23:34:37.213+02:00",
+    "id": "WUT07ae69ff314a483694e5966278108c51",
+    "title": "Towards Efficient Generation of Data Using Mixed Domains for Segmentation of 3D LiDAR Point Clouds",
+    "created": "2024-11-05T14:32:43.340+01:00",
+    "modified": "2025-09-10T00:06:07.999+02:00",
     "language": "en",
-    "doi": "10.14313/JAMRIS/3-2024/20",
-    "url": "https://doi.org/10.14313/JAMRIS/3-2024/20",
+    "doi": null,
+    "url": "https://pages.mini.pw.edu.pl/~estatic/pliki/PP-RAI_2024_proceedings.pdf",
     "authors": [
         {
-            "full_name": "Marcin Sowański",
+            "full_name": "Jacek Mańdziuk",
             "affiliation": null
         },
         {
-            "full_name": "Jakub Hościłowicz",
+            "full_name": "Adam Żychowski",
             "affiliation": null
         },
         {
-            "full_name": "Artur Janicki",
+            "full_name": "Mikołaj Małkiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Konrad Cop",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Sułek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Semantic segmentation is important for robots navigating with\n3D LiDARs but the generation of training datasets requires tedious manual effort. In this paper, we introduce a method to efficiently generate large\ndatasets by locally augmenting available empty scenes with navigation-relevant\nobstacles. Our approach uses a combination of real and synthetic data and\nleads to satisfactory segmentation performance with no manual annotation\nor no objects of interest whatsoever. We validate the proposed method on\nthe underground parking scans and compare it with available open-source\ndatasets. Our solution is suitable for direct application in robotic systems\nand opens new research areas.",
+    "keywords": "deep learning for visual perception, semantic segmentation, 3D\nLiDAR, robotic perception"
 }

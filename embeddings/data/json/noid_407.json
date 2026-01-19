@@ -1,0 +1,37 @@
+{
+    "id": "WUTa2cfa8a49a72485e94dd9f85dc069d33",
+    "title": "ElliottAgents: A Natural Language-Driven Multi-Agent System for Stock Market Analysis and Prediction",
+    "created": "2025-05-19T16:12:00.592+02:00",
+    "modified": "2025-09-09T23:23:04.983+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "http://isli.khu.ac.kr/paclic/pdfs/38/2024.paclic-1.91.pdf",
+    "authors": [
+        {
+            "full_name": "Nathaniel Oco",
+            "affiliation": null
+        },
+        {
+            "full_name": "Shirley N.  Dita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ariane Macalinga  Borlongan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jong-Bok Kim",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Chudziak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Wawer",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper presents ElliottAgents, a multiagent system leveraging natural language processing (NLP) and large language models\n(LLMs) to analyze complex stock market data.\nThe system combines AI-driven analysis with\nthe Elliott Wave Principle to generate humancomprehensible predictions and explanations.\nA key feature is the natural language dialogue\nbetween agents, enabling collaborative analysis\nrefinement. The LLM-enhanced architecture\nfacilitates advanced language understanding,\nreasoning, and autonomous decision-making.\nExperiments demonstrate the system’s effectiveness in pattern recognition and generating\nnatural language descriptions of market trends.\nElliottAgents contributes to NLP applications\nin specialized domains, showcasing how AIdriven dialogue systems can enhance collaborative analysis in data-intensive fields. This research bridges the gap between complex financial data and human understanding, addressing\nthe need for interpretable and adaptive prediction systems in finance.",
+    "keywords": null
+}

@@ -1,0 +1,17 @@
+{
+    "id": "WUTc5f613a8f3e1415cb226ebbd889841e3",
+    "title": "The use of Kalman filters in human gait analysis using depth sensors",
+    "created": "2025-05-07T15:08:56.013+02:00",
+    "modified": "2025-09-09T23:21:42.898+02:00",
+    "language": "en",
+    "doi": "10.1016/j.measen.2024.101736",
+    "url": "https://doi.org/10.1016/j.measen.2024.101736",
+    "authors": [
+        {
+            "full_name": "Jakub Wagner",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Four variants of the Kalman filter, based on different mathematical models of movement, have been used for denoising measurement data representative of human gait. A modification of the Kalman filter, aimed at detecting and suppressing errors of a kind typically corrupting data acquired using depth sensors, has been proposed and studied. The considered variants of the Kalman filter have been tested using real-world and semi-synthetic data. The experimental results indicate that the Kalman filter, combined with a suitable model of movement and the proposed modification, allows for effectively denoising data from depth sensors and may yield better results than the commonly used Butterworth filter.</p>",
+    "keywords": null
+}

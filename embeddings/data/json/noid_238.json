@@ -1,0 +1,21 @@
+{
+    "id": "WUTc9ae0937efe94df1be0f183157182b83",
+    "title": "Enabling end-to-end security of networks with 5G segment",
+    "created": "2025-02-03T12:17:57.252+01:00",
+    "modified": "2025-09-09T23:27:55.431+02:00",
+    "language": "en",
+    "doi": "10.1109/TELFOR59449.2023.10372743",
+    "url": "https://doi.org/10.1109/TELFOR59449.2023.10372743",
+    "authors": [
+        {
+            "full_name": "Milica Pejanović-Djurišić",
+            "affiliation": "University of Montenegro"
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper describes end-to-end security issues of heterogeneous wireless networks which have a 5G network as one of the its segments. To that end, the internal 5G network security mechanisms of 5G Standalone (SA) and Non-Standalone (NSA) are analysed first, as well as the existing standardized specifications for the integration of 5G with other networks. On that basis, security mechanisms for non-5G segments of an end-to-end complex wireless network are proposed, with the aim of obtaining a similar level of security as provided by 5G. Thus, modifications related with the existing 5G security architecture are presented, while the analysis given in this paper could also be used for the definition of the 6G security architecture.",
+    "keywords": null
+}

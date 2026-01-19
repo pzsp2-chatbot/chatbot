@@ -1,0 +1,45 @@
+{
+    "id": "WUTedcc383af80e4835b737f1f8b9448e80",
+    "title": "An Explainable Deep Learning Classifier of Bovine Mastitis Based on Whole-Genome Sequence Data—Circumventing the p &gt;&gt; n Problem",
+    "created": "2025-01-30T13:21:23.922+01:00",
+    "modified": "2025-09-09T23:32:21.978+02:00",
+    "language": "en",
+    "doi": "10.3390/ijms25094715",
+    "url": "https://doi.org/10.3390/ijms25094715",
+    "authors": [
+        {
+            "full_name": "Krzysztof Kotlarz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Magda Mielczarek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Wojdak-Maksymiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Suchocki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Topolski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Jagusiak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Szyda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The serious drawback underlying the biological annotation of whole-genome sequence data is the p >> n problem, which means that the number of polymorphic variants (p) is much larger than the number of available phenotypic records (n). We propose a way to circumvent the problem by combining a LASSO logistic regression with deep learning to classify cows as susceptible or resistant to mastitis, based on single nucleotide polymorphism (SNP) genotypes. Among several architectures, the one with 204,642 SNPs was selected as the best. This architecture was composed of two layers with, respectively, 7 and 46 units per layer implementing respective drop-out rates of 0.210 and 0.358. The classification of the test data resulted in AUC = 0.750, accuracy = 0.650, sensitivity = 0.600, and specificity = 0.700. Significant SNPs were selected based on the SHapley Additive exPlanation (SHAP). As a final result, one GO term related to the biological process and thirteen GO terms related to molecular function were significantly enriched in the gene set that corresponded to the significant SNPs. Our findings revealed that the optimal approach can correctly predict susceptibility or resistance status for approximately 65% of cows. Genes marked by the most significant SNPs are related to the immune response and protein synthesis.</p>",
+    "keywords": null
+}

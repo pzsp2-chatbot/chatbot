@@ -1,0 +1,17 @@
+{
+    "id": "WUT413a5f4cff634cf885b601c8a3cc8292",
+    "title": "Joint feature selection and classification for positive unlabelled multi-label data using weighted penalized empirical risk minimization",
+    "created": "2025-02-17T11:48:12.124+01:00",
+    "modified": "2025-09-10T00:21:25.612+02:00",
+    "language": "en",
+    "doi": "10.34768/amcs-2022-0023",
+    "url": "https://doi.org/10.34768/amcs-2022-0023",
+    "authors": [
+        {
+            "full_name": "Paweł Roman Teisseyre",
+            "affiliation": null
+        }
+    ],
+    "abstract": "We consider the positive-unlabelled multi-label scenario in which multiple target variables are not observed directly. Instead, we observe surrogate variables indicating whether or not the target variables are labelled. The presence of a label means that the corresponding variable is positive. The absence of the label means that the variable can be either positive or negative. We analyze embedded feature selection methods based on two weighted penalized empirical risk minimization frameworks. In the first approach, we introduce weights of observations. The idea is to assign larger weights to observations for which there is a consistency between the values of the true target variable and the corresponding surrogate variable. In the second approach, we consider a weighted empirical risk function which corresponds to the risk function for the true unobserved target variables. The weights in both the methods depend on the unknown propensity score functions, whose estimation is a challenging problem. We propose to use very simple bounds for the propensity score, which leads to relatively simple forms of weights. In the experiments we analyze the predictive power of the methods considered for different labelling schemes.",
+    "keywords": "positive and unlabelled data, multi-label classification, feature selection, empirical risk minimization"
+}

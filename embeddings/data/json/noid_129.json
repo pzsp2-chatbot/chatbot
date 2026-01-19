@@ -1,0 +1,21 @@
+{
+    "id": "WUT819e6cc0758f468a855851318391e528",
+    "title": "Low-Code Development Using Requirements and Knowledge Representation Models",
+    "created": "2025-01-09T15:12:46.107+01:00",
+    "modified": "2025-09-09T23:34:12.905+02:00",
+    "language": "en",
+    "doi": "10.2298/CSIS230102024R",
+    "url": "https://doi.org/10.2298/CSIS230102024R",
+    "authors": [
+        {
+            "full_name": "Kamil Rybiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Śmiałek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Low-Code Development is a new software development paradigm which is typically used to generate web applications from high-level visual notations. These notations allow to express the User Interface and Application Logic (usersystem interactions) in a way which is understandable by the end-users. Using certain model-driven approaches, the low-code environments allow for generating the front-end layer and basic CRUD operations in the back-end. Yet still, non-standard domain logic (data processing) operations still necessitate the use of traditional programming. In this article we present a visual language, called RSL-DL that can be used to represent such non-standard domain logic in a visual form. It allows to capture domain knowledge with complex domain rules aligned with requirements models. The language synthesises and extends approaches found in knowledge representation (ontologies) and software modelling language engineering. The development environment of RSL-DL enables fully automatic generation of domain logic code by reasoning over and reusing domain knowledge. The environment includes a dedicated model editor and a transformation engine. The language’s abstract syntax is defined using a meta-model expressed in MOF. Its semantics is expressed with several translational rules that map RSL-DL models onto typical programming language constructs. The article presents a list of these rules in an informal way, and then introduces their formalisation using a graphical transformation notation. The RSL-DL environment includes an inference engine that enables processing queries to domain models and selecting appropriate invocations to generated code. It was also initially validated through studies that involve understandability, operability and complexity assessment. Based on these results, we conclude that declarative knowledge representations can be successfully used to produce imperative backend code with non-trivial logic.",
+    "keywords": "low-code, model-driven web engineering, knowledge representation, ontologies, code generation"
+}

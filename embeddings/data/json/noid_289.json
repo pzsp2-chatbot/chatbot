@@ -1,0 +1,69 @@
+{
+    "id": "WUT51f310cc17284c39998ff4f873aca7e5",
+    "title": "Utilizing IoT Sensors and Spatial Data Mining for Analysis of Urban Space Actors’ Behavior in University Campus Space Design",
+    "created": "2025-02-25T12:29:09.915+01:00",
+    "modified": "2025-09-09T23:19:56.543+02:00",
+    "language": "en",
+    "doi": "10.3390/s25051393",
+    "url": "https://doi.org/10.3390/s25051393",
+    "authors": [
+        {
+            "full_name": "Krzysztof Koszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Olszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Pałka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Renata Walczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Korpas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karolina Dąbrowska-Żółtak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Wyszomirski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olga Czeranowska-Panufnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Manujło",
+            "affiliation": null
+        },
+        {
+            "full_name": "Urszula Szczepankowska-Bednarek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joanna Kuźmicz-Kubiś",
+            "affiliation": null
+        },
+        {
+            "full_name": "Anna Szalwa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Ejsmont",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Czernic",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper discusses the use of IoT sensor networks and spatial data mining methods to support the design process in the revitalization of the university campus of the Warsaw University of Technology (WUT) in the spirit of universal design. The aim of the research was to develop a methodology for the use of IoT and edge computing for the acquisition of spatial knowledge based on spatial big data, as well as for the development of an open (geo)information society that shares the responsibility for the process of shaping the spaces of smart cities. The purpose of the article is to verify the hypothesis on whether it is possible to obtain spatial–temporal quantitative data that are useful in the process of designing the space of a university campus using low-cost Internet of Things sensors, i.e., already existing networks of CCTV cameras supported by simple installed beam-crossing sensors. The methodological approach proposed in the article combines two main areas—the use of IT technologies (IoT, big data, spatial data mining) and data-driven design based on analysis of urban space actors’ behavior for participatory revitalization of a university campus. The research method applied involves placing a network of locally communicating heterogeneous IoT sensors in the space of a campus. These sensors collect data on the behavior of urban space actors: people and vehicles. The data collected and the knowledge gained from its analysis are used to discuss the shape of the campus space. The testbed of the developed methodology was the central campus of the WUT (Warsaw University of Technology), which made it possible to analyze the time-varying use of the selected campus spaces and to identify the premises for the revitalization project in accordance with contemporary trends in the design of the space of HEIs (higher education institutions), as well as the needs of the academic community and the residents of the capital. The results are used not only to optimize the process of redesigning the WUT campus, but also to support the process of discussion and activation of the community in the development of deliberative democracy and participatory shaping of space in general.",
+    "keywords": "IoT networks, data management and analytics, smart cities, urban design,\ndata-driven design, spatial data mining"
+}

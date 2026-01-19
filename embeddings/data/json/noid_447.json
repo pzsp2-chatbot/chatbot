@@ -1,0 +1,33 @@
+{
+    "id": "WUT9add84533c264b85ac5d719e85e7360c",
+    "title": "Hyperspectral Pansharpening Enhanced With Multi-Image Super-Resolution for PRISMA Data",
+    "created": "2025-07-04T14:01:19.210+02:00",
+    "modified": "2025-09-09T23:21:57.708+02:00",
+    "language": "en",
+    "doi": "10.1109/jstars.2025.3581741",
+    "url": "https://doi.org/10.1109/jstars.2025.3581741",
+    "authors": [
+        {
+            "full_name": "Maciej Ziaja",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Kowaleczko",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Tarasiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniel Kostrzewa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michal Kawulok",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

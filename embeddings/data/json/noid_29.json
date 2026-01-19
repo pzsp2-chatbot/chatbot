@@ -1,25 +1,21 @@
 {
-    "id": "WUT353c269e134745718a35878efde3bd76",
-    "title": "Improved Small-Footprint ASR-Based Solution for Open Vocabulary Keyword Spotting",
-    "created": "2024-10-14T10:55:42.926+02:00",
-    "modified": "2025-09-09T23:34:00.990+02:00",
+    "id": "WUT5e08edc7ed9c414ead039a2be8ba3ee7",
+    "title": "Scheduling of Industrial Control Traffic for Dynamic RAN Slicing with Distributed Massive MIMO",
+    "created": "2024-11-13T12:55:16.507+01:00",
+    "modified": "2025-09-09T23:30:55.060+02:00",
     "language": "en",
-    "doi": "10.1109/access.2024.3421605",
-    "url": "https://doi.org/10.1109/access.2024.3421605",
+    "doi": "10.3390/fi16030071",
+    "url": "https://doi.org/10.3390/fi16030071",
     "authors": [
         {
-            "full_name": "Mikołaj Pudo",
-            "affiliation": "Samsung Electronics Polska Sp. z o.o."
+            "full_name": "Emma Fitzgerald",
+            "affiliation": "Faculty of Engineering"
         },
         {
-            "full_name": "Mateusz Wosik",
-            "affiliation": "Samsung Electronics Polska Sp. Z O.o."
-        },
-        {
-            "full_name": "Artur Janicki",
+            "full_name": "Michał Pióro",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Industry 4.0, with its focus on flexibility and customizability, is pushing in the direction of wireless communication in future smart factories, in particular, massive multiple-input-multiple-output (MIMO) and its future evolution of large, intelligent surfaces (LIS), which provide more reliable channel quality than previous technologies. At the same time, network slicing in 5G and beyond systems provides easier management of different categories of users and traffic, and a better basis for providing quality of service, especially for demanding use cases such as industrial control. In previous works, we have presented solutions for scheduling industrial control traffic in LIS and massive MIMO systems. We now consider the case of dynamic slicing in the radio access network, where we need to not only meet the stringent latency and reliability requirements of industrial control traffic, but also minimize the radio resources occupied by the network slice serving the control traffic, ensuring resources are available for lower-priority traffic slices. In this paper, we provide mixed-integer programming optimization formulations for radio resource usage minimization for dynamic network slicing. We tested our formulations in numerical experiments with varying traffic profiles and numbers of nodes, up to a maximum of 32 nodes. For all problem instances tested, we were able to calculate an optimal schedule within 1 s, making our approach feasible for use in real deployment scenarios.",
+    "keywords": "industrial communications; scheduling; massive MIMO; large intelligent surfaces; LIS; network slicing"
 }

@@ -1,0 +1,41 @@
+{
+    "id": "WUTf0b80ffe235744c49dfe717de3540b82",
+    "title": "Comparison of Multi-Agent Platform Usability for Industrial-Grade Applications",
+    "created": "2024-12-17T06:46:54.643+01:00",
+    "modified": "2025-09-09T23:22:19.014+02:00",
+    "language": "en",
+    "doi": "10.3390/app142210124",
+    "url": "https://doi.org/10.3390/app142210124",
+    "authors": [
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Wiesław Pawłowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Angelo Ferrando",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giacomo Cabri",
+            "affiliation": null
+        },
+        {
+            "full_name": "Costin Bădică",
+            "affiliation": "University of Craiova, Craiova, Romania"
+        }
+    ],
+    "abstract": "Modern systems often employ decentralised and distributed approaches. This can be attributed, among others, to the increasing complexity of system processes, which go beyond the capabilities of singular components. Additionally, with the growth in demand for system automation and high-level coordination, solutions belonging to the decentralised Artificial Intelligence and collaborative decision-making are often applied. It can be observed that these concerns fall within the domain of multi-agent systems. However, even though MAS concepts emerged more than 40 years ago, despite their obvious advantages and continuous efforts of the scientific community, agents remain rarely used in industrial-grade applications. In this context, the goal of this contribution is to analyse the reasons for the lack of adoption of agent solutions in the real world. During the analysis, all pertinent aspects of the modern software development life cycle are examined and compared to what is currently available in the agent system domain. Specifically, the study focuses on identifying gaps that are often overlooked when it comes to scientific applications of MAS, but are critical in terms of potential for large-scale system development in practice.",
+    "keywords": "agent systems, industrial-grade systems, agent oriented, software engineering, SDLC"
+}

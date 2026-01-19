@@ -1,25 +1,45 @@
 {
-    "id": "WUT24595cdf9e2d4c10958fda1e6b557595",
-    "title": "The joint orchestration of edge applications and UPF CNFs over edge-cloud continuum infrastructure in 6G",
-    "created": "2024-10-28T10:02:46.778+01:00",
-    "modified": "2025-09-15T10:05:05.345+02:00",
+    "id": "WUT5e0857e2298e43099204d668f3054585",
+    "title": "Global Counterfactual Directions",
+    "created": "2024-11-25T01:11:26.303+01:00",
+    "modified": "2025-09-09T23:24:40.836+02:00",
     "language": "en",
-    "doi": "10.24425/ijet.2024.152082",
-    "url": "https://doi.org/10.24425/ijet.2024.152082",
+    "doi": "10.1007/978-3-031-73036-8_5",
+    "url": "https://doi.org/10.1007/978-3-031-73036-8_5",
     "authors": [
         {
-            "full_name": "Witold Jóźwiak",
+            "full_name": "Aleš Leonardis",
             "affiliation": null
         },
         {
-            "full_name": "Andrzej Bęben",
+            "full_name": "Elisa Ricci",
             "affiliation": null
         },
         {
-            "full_name": "Maciej Sosnowski",
+            "full_name": "Stefan Roth",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olga Russakovsky",
+            "affiliation": null
+        },
+        {
+            "full_name": "Torsten Sattler",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gül Varol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barłomiej Sobieski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": null,
+    "keywords": "artificial intelligence"
 }

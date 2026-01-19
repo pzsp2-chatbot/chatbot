@@ -1,0 +1,33 @@
+{
+    "id": "WUT74d056e1deff4705890e38302cc8af11",
+    "title": "Preference-free exploration of Pareto-efficient solutions",
+    "created": "2025-01-11T19:29:56.053+01:00",
+    "modified": "2025-09-09T23:24:07.532+02:00",
+    "language": "en",
+    "doi": "10.1109/codit62066.2024.10708226",
+    "url": "https://doi.org/10.1109/codit62066.2024.10708226",
+    "authors": [
+        {
+            "full_name": "Marek Makowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Granat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrii Shekhovtsov",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zbigniew Nahorski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jinyang Zhao",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Multiple-Criteria Model Analysis (MCMA) is the well established area of research, with rich collection of diverse methods and successful applications in science, and in model-based decision-making support in industry, economy, and policy-making. Solutions of multiple-criteria problems are objectively incomparable. Therefore, the solution choice depends on the preferences, and consequently, the MCMA research focused on methods based on the user preferences.However, scientific problem analysis should be objective, i.e., preference-free in terms of reaching a better goal for some criterion while compromising (necessary when a change of Pareto-efficient solution is considered) another goal. Hence, scientific MCMA requires a uniform representation of all Pareto-efficient solutions.The contribution discusses the novel method for effective generation of the Pareto-set representation, and shows its relations with the user-guided Pareto-front exploration methods. The presented method is illustrated by the model supporting technology choice for the liquid fuel production in China. The software implementation of the method is available under the GNU General Public License v2.0.",
+    "keywords": "Industries\n,\nAnalytical models\n,\nLiquids\n,\nProduction\n,\nDocumentation\n,\nLicenses\n,\nSoftware\n,\nFuels\n,\nInformation technology\n,\nPython"
+}

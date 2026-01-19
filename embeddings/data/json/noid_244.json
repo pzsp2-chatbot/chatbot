@@ -1,0 +1,29 @@
+{
+    "id": "WUT9f12d7178d514e4197578de47866cfb0",
+    "title": "A New Look at the Entropy of Interval-Valued Fuzzy Sets - Theory and Applications",
+    "created": "2025-02-04T09:50:22.938+01:00",
+    "modified": "2025-09-09T23:35:12.746+02:00",
+    "language": "en",
+    "doi": "10.1109/FUZZ52849.2023.10309780",
+    "url": "https://doi.org/10.1109/FUZZ52849.2023.10309780",
+    "authors": [
+        {
+            "full_name": "Przemysław Grzegorzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barbara Pekala",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Dyczkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dawid Kosior",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Entropy measures are of great interest to researchers and are widely used to study the degree of uncertainty of data. The history of entropy dating back to Shannon's information theory is developed in other fields including Zadeh's fuzzy set theory and its various extensions. In this paper, we examine two types of entropy (the so-called interval entropy and 2D-entropy) dedicated to interval-valued fuzzy sets. We study their properties and interrelations, and usefulness in data analysis, with particular emphasis on reasoning with missing data.</p>",
+    "keywords": null
+}

@@ -1,0 +1,45 @@
+{
+    "id": "WUTc60dcb237d5e4202af922f3ec06aea15",
+    "title": "Automatic Identification of Cataract by Analyzing Fundus Images Using VGG19 Model",
+    "created": "2025-02-14T12:33:49.287+01:00",
+    "modified": "2025-09-09T23:27:29.750+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-28350-5_11",
+    "url": "https://doi.org/10.1007/978-3-031-28350-5_11",
+    "authors": [
+        {
+            "full_name": "Shelly Sachdeva",
+            "affiliation": "National Institute of Technology, Delhi, India"
+        },
+        {
+            "full_name": "Yutaka Watanobe",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Subhash Bhalla",
+            "affiliation": "University of Aizu, Aizu-wakamatsu city, Japan"
+        },
+        {
+            "full_name": "Rakesh Kumar",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vatsala Anand",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sheifali Gupta",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

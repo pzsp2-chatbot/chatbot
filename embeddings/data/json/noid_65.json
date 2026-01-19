@@ -1,0 +1,49 @@
+{
+    "id": "WUT09b97ed88841445eb90d0c0fbfc82305",
+    "title": "Infrastructure and Tools for Testing the Vulnerability of Control Systems to Cyberattacks: A Coal Mine Industrial Facility Case",
+    "created": "2024-12-05T10:32:14.562+01:00",
+    "modified": "2025-09-09T23:33:45.116+02:00",
+    "language": "en",
+    "doi": "10.3390/app142311325",
+    "url": "https://doi.org/10.3390/app142311325",
+    "authors": [
+        {
+            "full_name": "Sebastian Plamowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Chaber",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Ławryńczuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Nebeluk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewa Niewiadomska-Szynkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Suchorab",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Zarzycki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adam Andrzej Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Stachurski",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "cybersecurity; cyberattack; testing infrastructure; industrial control system"
+}

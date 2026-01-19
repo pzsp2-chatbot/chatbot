@@ -1,0 +1,45 @@
+{
+    "id": "WUT2986e0ff52314f219a85b2b1dea19743",
+    "title": "Improved cohesin HiChIP protocol and bioinformatic analysis for robust detection of chromatin loops and stripes",
+    "created": "2025-03-24T23:46:00.237+01:00",
+    "modified": "2025-09-09T23:19:33.889+02:00",
+    "language": "en",
+    "doi": "10.1038/s42003-025-07847-w",
+    "url": "https://doi.org/10.1038/s42003-025-07847-w",
+    "authors": [
+        {
+            "full_name": "Karolina Jodkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zofia Tojek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Abhishek Agarwal",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michał Denkiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sevastianos Korsak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Chiliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Banecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Chromosome Conformation Capture (3 C) methods, including Hi-C (a high-throughput variation of 3 C), detect pairwise interactions between DNA regions, enabling the reconstruction of chromatin architecture in the nucleus. HiChIP is a modification of the Hi-C experiment that includes a chromatin immunoprecipitation (ChIP) step, allowing genome-wide identification of chromatin contacts mediated by a protein of interest. In mammalian cells, cohesin protein complex is one of the major players in the establishment of chromatin loops. We present an improved cohesin HiChIP experimental protocol. Using comprehensive bioinformatic analysis, we show that a dual chromatin fixation method compared to the standard formaldehyde-only method, results in a substantially better signal-to-noise ratio, increased ChIP efficiency and improved detection of chromatin loops and architectural stripes. Additionally, we propose an automated pipeline called nf-HiChIP (<jats:ext-link xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"https://github.com/SFGLab/hichip-nf-pipeline\" ext-link-type=\"uri\">https://github.com/SFGLab/hichip-nf-pipeline</jats:ext-link>) for processing HiChIP samples starting from raw sequencing reads data and ending with a set of significant chromatin interactions (loops), which allows efficient and timely analysis of multiple samples in parallel, without requiring additional ChIP-seq experiments. Finally, using advanced approaches for biophysical modelling and stripe calling we generate accurate loop extrusion polymer models for a region of interest and provide a detailed picture of architectural stripes, respectively.",
+    "keywords": null
+}

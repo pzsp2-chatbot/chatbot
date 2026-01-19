@@ -1,0 +1,33 @@
+{
+    "id": "WUT0da6b41a33cc4719ab7959dfa015029e",
+    "title": "The TechDebt Game - Enabling Discussions about Technical Debt",
+    "created": "2025-06-12T12:35:53.429+02:00",
+    "modified": "2025-09-09T23:23:08.163+02:00",
+    "language": "en",
+    "doi": "10.1109/techdebt66644.2025.00010",
+    "url": "https://doi.org/10.1109/techdebt66644.2025.00010",
+    "authors": [
+        {
+            "full_name": "Marion Wiese",
+            "affiliation": null
+        },
+        {
+            "full_name": "Angelina Heinrichs",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nino Rusieshvili",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rodrigo  Rebouças de Almeida",
+            "affiliation": null
+        },
+        {
+            "full_name": "Klara Borowa",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Context. Technical Debt (TD), defined as software constructs that are beneficial in the short term but may hinder future change, is a frequently used term in software development practice. Nevertheless, practitioners do not always fully understand its definition and, in particular, conceptual model. Previous research highlights that communication about TD is challenging, especially with non-technical stakeholders. Discussions on this topic often cause conflicts due to misunderstandings related to other stakeholders’ perspectives. Goal. We designed a board game to emulate TD concepts to make them tangible to all stakeholders, including nontechnical ones. The game aims to encourage discussions about TD in an emulated and safe environment, thereby avoiding real-life conflicts. Method. To evaluate the game’s effectiveness, we surveyed 46 practitioners from diverse domains, positions, and experience levels who played the game in 13 sessions following extensive testing during its development. In addition to the players’ general feedback, we examined situations where players recognized new insights about TD or connected game scenarios to real-life experiences. Results. Overall, the feedback on the game and its enjoyment factor were highly positive. While developers and software architects often connected game situations to their real-world experiences, non-technical stakeholders, such as scrum masters, product owners, and less experienced developers, encountered multiple new insights on TD. Numerous players have shifted their attitudes toward TD and have outlined a plan to modify their behavior regarding TD management. Conclusions. Although the game may not lead to long-term behavior change among stakeholders, participants’ feedback provides evidence that it might serve as a valuable starting point for team discussions on technical debt management.",
+    "keywords": "Technical Debt,\nTechnical Debt Management,\nGame-Based Learning"
+}

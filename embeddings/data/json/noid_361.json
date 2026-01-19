@@ -1,0 +1,25 @@
+{
+    "id": "WUT7300f6f44f994716b71b3797f429ba96",
+    "title": "Macroeconomic nowcasting (st)ability: Evidence from vintages of time-series data",
+    "created": "2025-04-15T08:42:01.614+02:00",
+    "modified": "2025-09-09T23:19:35.867+02:00",
+    "language": "en",
+    "doi": "10.1016/j.eswa.2024.126307",
+    "url": "https://doi.org/10.1016/j.eswa.2024.126307",
+    "authors": [
+        {
+            "full_name": "Elżbieta Jowik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Gonzalo Nápoles",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Nowcasting is a time series analysis task aiming to forecast the current state of an observed phenomenon. It is essential for complex systems in which obtaining immediate measurements is formidable. Prominent domains that rely on nowcasting algorithms include earth sciences and economics. For macroeconomic data, one aspect that sets nowcasting apart from other forecasting applications is the structure of the underlying information set, known as a data vintage. This refers to the way data are published, initially released as provisional values and then progressively revised over time. These revisions increase the challenge as they may cause shifts in the dynamics and interactions between variables. We explore the concept of substitution bias, which occurs when the specifications of models derived from different vintages of the same time series vary, leading to different forecasting results. We empirically demonstrate that pseudo-real-time forecasting is not a substitute for an actual real-time approach. In contrast to other studies that use current vintage observations as a stand-in for real-time readings, our findings suggest that it is not pseudo-real-time data but provisional data that may serve as a viable substitute when real-time releases are unavailable or difficult to obtain. We conclude that the approach to predictive analysis should depend on whether the objective is to predict an early or a late release. In this regard, aligning the revision status of the training and evaluation datasets leads to substantial gains in accuracy and reductions in forecasting errors. Essentially, real-time methods are preferable for generating accurate forecasts of provisional releases. This is relevant for most real-world applications, as timeliness is important for market participants, even if it means accepting some degree of bias. Conversely, pseudo-real-time methods are more suitable for predicting data that have undergone further revisions and is less biased. These methods are preferred for applications where minimizing noise is more important than maintaining a real-time data flow. An extensive case study of macroeconomic data supports this premise. Assuming that early releases represent the true estimates of the dependent variables, relative to the provisional series values, forecasts generated using models trained on actual real-time data show a Spearman's Rho correlation of 0.9511(±0.0332) and a Pearson product-moment correlation coefficient of 0.9528(±0.0622). Models trained on provisional data yield similar performance, with a Spearman's Rho of 0.952(±0.029) and a Pearson correlation of 0.9488(±0.0638). In contrast, models based on current vintage training slightly fall behind, with a Spearman's Rho of 0.9046(±0.1047) and a Pearson correlation of 0.876(±0.1607).",
+    "keywords": "Data staging; Nowcasting; Short-term forecasting; Substitution bias; Time series; Vintage"
+}

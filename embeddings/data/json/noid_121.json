@@ -1,0 +1,41 @@
+{
+    "id": "WUTc6c5ddc2d5f94dabbec6e8838b184427",
+    "title": "On the Efficient Architecture for 6G System",
+    "created": "2025-01-08T20:15:19.214+01:00",
+    "modified": "2025-09-09T23:24:53.005+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-63227-3_10",
+    "url": "https://doi.org/10.1007/978-3-031-63227-3_10",
+    "authors": [
+        {
+            "full_name": "Ilias Maglogiannis",
+            "affiliation": "University of Piraeus"
+        },
+        {
+            "full_name": "Lazaros Iliadis",
+            "affiliation": " Δημοκρίτειο Πανεπιστήμιο Θράκης"
+        },
+        {
+            "full_name": "Ioannis Karydis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonios Papaleonidas",
+            "affiliation": " Δημοκρίτειο Πανεπιστήμιο Θράκης"
+        },
+        {
+            "full_name": "Ioannis Chochliouros",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Lechosław Tomaszewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Kołakowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper discusses the proposed approaches to the 6G System architecture against the background of the fundamental principles of the 5G network and challenges towards 6G network, focusing also on drawbacks of already adopted solutions and their further impact on the future 6G System performance. The user-centric architectural framework, based on a dynamic stateless procedural approach, extending the organic core concept, has been proposed that simplifies and accelerates Control Plane interactions, introducing also the mechanisms of network self-cognition, self-awareness, and self-control into the new core.",
+    "keywords": null
+}

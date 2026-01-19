@@ -1,0 +1,61 @@
+{
+    "id": "WUT04fff61d92454876a02ba7c31bf0aa04",
+    "title": "Multimodal Machine Learning Analysis of fNIRS Signals Using LSTM and KNN Models for Cognitive States and Brain Activation Patterns Prediction",
+    "created": "2025-04-29T20:17:51.838+02:00",
+    "modified": "2025-09-09T23:22:33.168+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-96-5887-9_20",
+    "url": "https://doi.org/10.1007/978-981-96-5887-9_20",
+    "authors": [
+        {
+            "full_name": "Li Gang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joaquim Filipe",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xu Zhiwei",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Jan Luckiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Mikolajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Radosław Roszczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Siwek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kajdanowicz Tomasz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Mariusz Pelc",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Sterniuk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Edward J. Gorzelanczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Aleksandra Kawala-Sterniuk",
+            "affiliation": "Opole University of Technology"
+        }
+    ],
+    "abstract": "In this study, the authors focused on analyzing fNIRS (functional\nnear-infrared spectroscopy) signals with the use of a multimodal\nmachine learning scheme to predict cognitive states and brain activation\npatterns. The data set consists of fNIRS recordings from 10 selected\nchannels over a period of 1000 seconds, with a focus on the parameter\nHbO (oxygenated hemoglobin). Two machine learning models were used:\na Deep Learning LSTM (Long Short-Term Memory) model and a KNN\n(K-Nearest Neighbors) algorithm. The results indicate that the LSTM\nmodel outperforms KNN in predicting brain activation events, achieving\nan accuracy of 88.52%, compared to KNN’s accuracy of 82.35%. The\nmodel is continually being refined to enhance its predictive accuracy and multimodality. This work highlights the potential of deep learning\nmodels in data analysis and underscores the importance of multimodal\napproaches for understanding complex brain functions.",
+    "keywords": "fNIRS · LSTM · KNN · ML"
+}

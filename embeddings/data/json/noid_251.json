@@ -1,0 +1,53 @@
+{
+    "id": "WUT0b1041d3dc4847a79f98a9761a6241b1",
+    "title": "Prospects for neutrino astrophysics with Hyper-Kamiokande",
+    "created": "2025-02-05T08:52:35.757+01:00",
+    "modified": "2025-09-10T00:21:21.558+02:00",
+    "language": "en",
+    "doi": "10.22323/1.395.1193",
+    "url": "https://doi.org/10.22323/1.395.1193",
+    "authors": [
+        {
+            "full_name": "Yano Takatomi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Buchowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Galiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Kurjata",
+            "affiliation": null
+        },
+        {
+            "full_name": "Janusz Marzec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Obrębski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Pastuszak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Rychter",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Zaremba",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Ziembicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Hyper-Kamiokande is a multi-purpose next generation neutrino experiment. The detector is a two-layered cylindrical shape ultra-pure water tank, with its height of 64 m and diameter of 71 m. The inner detector will be surrounded by tens of thousands of twenty-inch photosensors and multi-PMT modules to detect water Cherenkov radiation due to the charged particles and provide our fiducial volume of 188 kt. This detection technique is established by Kamiokande and Super-Kamiokande. As the successor of these experiments, Hyper-K will be located deep underground, 600 m below Mt. Tochibora at Kamioka in Japan to reduce cosmic-ray backgrounds. Besides our physics program with accelerator neutrino, atmospheric neutrino and proton decay, neutrino astrophysics is an important research topic for Hyper-K. With its fruitful physics research programs, Hyper-K will play a critical role in the next neutrino physics frontier. It will also provide important information via astrophysical neutrino measurements, i.e., solar neutrino, supernova burst neutrinos and supernova relic neutrino. Here, we will discuss the physics potential of Hyper-K neutrino astrophysics.",
+    "keywords": null
+}

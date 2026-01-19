@@ -1,0 +1,41 @@
+{
+    "id": "WUT42895b88510841a19295a673ca590b0c",
+    "title": "EXPLORE THE DETERMINANTS OF CUSTOMERS TIME TO PAY HOUSE OWNERSHIP LOAN ON DATA WITH HIGH MULTICOLLINEARITY  WITH PCA-COX REGRESSION",
+    "created": "2025-02-03T15:45:19.085+01:00",
+    "modified": "2025-09-09T23:34:02.514+02:00",
+    "language": "en",
+    "doi": "10.14710/medstat.17.2.117-127",
+    "url": "https://doi.org/10.14710/medstat.17.2.117-127",
+    "authors": [
+        {
+            "full_name": "Rangga Ramadhan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adfi Bio Fimba",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adji Achmad Rinaldo Fernandes",
+            "affiliation": null
+        },
+        {
+            "full_name": "Solimun Solimun",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fachira Haneinanda Junianto",
+            "affiliation": null
+        },
+        {
+            "full_name": "Devi Veda Amanda",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rauzan Sumara",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<jats:p>One of the models in survival analysis is the Cox proportional hazards model. This method ignores assumptions regarding the distribution of survival times studied. If there are indications of multicollinearity in data handling, one way that can be done is to use PCA (Principal Component Analysis). PCA-Cox regression is a combination of survival analysis and PCA which can be an alternative in analyzing multicollinearity survival data. The large number of cases of bad credit means that customers must be careful in providing credit to prospective customers. Character, capacity, capital and collateral variables are thought to influence the length of time customers pay house ownership loans at the bank. The data used is secondary data (n=100) regarding the assessment of character variables, capacity, capital and collateral, credit collectibility, and time to pay customer house ownership loans at the bank. The results of the analysis using PCA-Cox regression show that the variables character, capacity, capital and collateral have a significant effect on the length of house ownership loan payment time for Bank X customers. The originality of this research is the use of the PCA-Cox regression integration model in bank credit risk analysis.</jats:p>",
+    "keywords": null
+}

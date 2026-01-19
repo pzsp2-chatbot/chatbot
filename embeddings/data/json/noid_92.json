@@ -1,0 +1,37 @@
+{
+    "id": "WUT452e1488129249c1941a8506ba97cdce",
+    "title": "Alternative Step-Size Adaptation Rule for the Matrix Adaptation Evolution Strategy",
+    "created": "2024-12-18T21:48:51.232+01:00",
+    "modified": "2025-09-09T23:24:57.578+02:00",
+    "language": "en",
+    "doi": "10.5220/0013012800003837",
+    "url": "https://doi.org/10.5220/0013012800003837",
+    "authors": [
+        {
+            "full_name": "Francesco Marcelloni",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kurosh Madani",
+            "affiliation": null
+        },
+        {
+            "full_name": "Niki van Stein",
+            "affiliation": null
+        },
+        {
+            "full_name": "Joaquim Filipe",
+            "affiliation": null
+        },
+        {
+            "full_name": "Eryk Warchulski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jarosław Arabas",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In this paper, we present a comparison of various step-size adaptation rules for the Matrix Adaptation Evolution Strategy (MA-ES) algorithm, which is a lightweight version of the Covariance Matrix Adaptation Evolution Strategy (CMA-ES). In contrast to CMA-ES, MA-ES does not require to invoke numerically complex covariance matrix factorization. We take a step further in this direction and provide a quantitative assessment of alternative step-size rules to Cumulative Step Adaptation (CSA), which is considered to be a state-of-the-art method. Our study shows that generalized 1/5-th success rules like the Previous Population Midpoint Fitness rule (PPMF) or Population Success Rule (PSR) exhibit comparable or superior performance to the CSA rule on standard benchmark problems, including the CEC benchmark suites.",
+    "keywords": "Evolution Strategies, Step-Size Adaptation, Optimization."
+}

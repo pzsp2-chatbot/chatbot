@@ -1,0 +1,81 @@
+{
+    "id": "WUT2aad56c3d11f454688689f984fa741db",
+    "title": "Tri-omic single-cell mapping of the 3D epigenome and transcriptome in whole mouse brains throughout the lifespan",
+    "created": "2025-05-14T14:54:46.844+02:00",
+    "modified": "2025-09-09T23:19:11.465+02:00",
+    "language": "en",
+    "doi": "10.1038/s41592-025-02658-7",
+    "url": "https://doi.org/10.1038/s41592-025-02658-7",
+    "authors": [
+        {
+            "full_name": "Haoxi Chai",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xingyu Huang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Guangzhou Xiong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jiaxiang Huang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Karolina Pels",
+            "affiliation": null
+        },
+        {
+            "full_name": "Lingyun Meng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jin Han",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dongmei Tang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Guanjing Pan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Liang Deng",
+            "affiliation": null
+        },
+        {
+            "full_name": "Qin Xiao",
+            "affiliation": null
+        },
+        {
+            "full_name": "Xiaotao Wang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Meng Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krzysztof Banecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Plewczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Chia-Lin Wei",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yijun Ruan",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Exploring the genomic basis of transcriptional programs has been a long-standing research focus. Here we report a single-cell method, ChAIR, to map chromatin accessibility, chromatin interactions and RNA expression simultaneously. After validating in cultured cells, we applied ChAIR to whole mouse brains and delineated the concerted dynamics of epigenome, three-dimensional (3D) genome and transcriptome during maturation and aging. In particular, gene-centric chromatin interactions and open chromatin states provided 3D epigenomic mechanism underlying cell-type-specific transcription and revealed spatially resolved specificity. Importantly, the composition of short-range and ultralong chromatin contacts in individual cells is remarkably correlated with transcriptional activity, open chromatin state and genome folding density. This genomic property, along with associated cellular properties, differs in neurons and non-neuronal cells across different anatomic regions throughout the lifespan, implying divergent nuclear mechano-genomic mechanisms at play in brain cells. Our results demonstrate ChAIR’s robustness in revealing single-cell 3D epigenomic states of cell-type-specific transcription in complex tissues.",
+    "keywords": null
+}

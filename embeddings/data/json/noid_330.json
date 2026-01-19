@@ -1,0 +1,57 @@
+{
+    "id": "WUTc3d9e18cce7c4ca18ad5a49b21e58293",
+    "title": "Students’ view of Quantum Information Technologies, part 4",
+    "created": "2025-03-31T14:51:17.318+02:00",
+    "modified": "2025-09-09T23:20:00.484+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153565",
+    "url": "https://doi.org/10.24425/ijet.2025.153565",
+    "authors": [
+        {
+            "full_name": "Maciej Kowalczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Urszula  Wardzyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewelina Borkowska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karina Klekowiecka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mateusz Kłodnicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Siarhei Kuzmich",
+            "affiliation": null
+        },
+        {
+            "full_name": "Rafał Łuszczyński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Filip Mańka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Żarnovsky",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kinga Hacaś",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Students attending the lecture on quantum information technology are mostly at the level of completing their master’s theses in the disciplines of AEEiTK or ITT. The task is to write a short essay by each student on the hypothetical addition\nof a narrowly applicable QIT layer to the actual implementation of the thesis, if possible. In most cases, this is possible because QITs cover a very wide range of potential technical applications.\nWhere this is not possible, or in the case of an undefined thesis topic, students should write a more general essay or write their personal opinion on what they think about the future of QIT.\nThe current article is another part of a series of works on this\ntopic with subsequent student groups.",
+    "keywords": "ICT, QIT, biomedical engineering, electronics and communications engineering, sensors, quantum Internet, quantum computing, cybersecurity, quantum networks, quantum sensors"
+}

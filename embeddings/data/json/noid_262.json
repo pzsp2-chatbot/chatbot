@@ -1,0 +1,25 @@
+{
+    "id": "WUT3b1f338617f14525a97f551486466b1b",
+    "title": "Impact of Misclassification and Imperfect Serological Tests in Association Analyses of ME/CFS Applied to COVID-19 Data",
+    "created": "2025-02-13T15:26:47.377+01:00",
+    "modified": "2025-09-10T00:18:51.395+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-12766-3_15",
+    "url": "https://doi.org/10.1007/978-3-031-12766-3_15",
+    "authors": [
+        {
+            "full_name": "João Malato",
+            "affiliation": null
+        },
+        {
+            "full_name": "Luís Graça",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nuno Henriques dos Santos de Sepúlveda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The diagnosis of ME/CFS is problematic due to the absence of a disease specific biomarker. As such, it is conducted under uncertainty using symptom-based criteria and the exclusion of known diseases. The possibility of misdiagnosing patients reduces the power to detect new and previously identified factors that can be associated with the disease. To investigate this problem, we previously conducted a simulation study to estimate the power of case-control association studies as a function of the misdiagnosed rate. Here we extended this simulation study to the more general situation where there is also the possibility of having misclassification in a binary factor related to a previous exposure to a given infection. Given the suggested link between ME/CFS and past viral infections including SARS-CoV-2 (which causes COVID-19), we performed the simulation study in the specific context of serological testing of this new coronavirus using published data from Portuguese, Spanish and Iranian seroepidemiological studies.</p>",
+    "keywords": null
+}

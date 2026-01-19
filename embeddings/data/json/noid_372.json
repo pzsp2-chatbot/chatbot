@@ -1,0 +1,45 @@
+{
+    "id": "WUT68faf3c23e3243999da549374c3a6fd5",
+    "title": "Jaccard Distance Under Incompleteness",
+    "created": "2025-04-24T12:22:34.436+02:00",
+    "modified": "2025-09-09T23:22:30.269+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-96-6008-7_27",
+    "url": "https://doi.org/10.1007/978-981-96-6008-7_27",
+    "authors": [
+        {
+            "full_name": "Ngoc Thanh Nguyen",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tokuro Matsuo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ford Lumban Gaol",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yannis Manolopoulos",
+            "affiliation": null
+        },
+        {
+            "full_name": "Hamido Fujita",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tzung-pei Hong",
+            "affiliation": null
+        },
+        {
+            "full_name": "Krystian Wojtkiewicz",
+            "affiliation": "Wroclaw University of Science and Technology"
+        },
+        {
+            "full_name": "Marzena Kryszkiewicz",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Jaccard similarity and its counterpart - Jaccard distance - are frequently used, especially in chemistry, bioinformatics, information retrieval, and text mining, to compare objects based on sets of their features. While Jaccard similarity between two objects is defined as ratio of the number of features common to both objects to the total number of features of both objects, Jaccard distance equals 1 – Jaccard similarity. Unlike Jaccard similarity, Jaccard distance preserves the triangle inequality. This property of Jaccard distance enables efficient search of least distant objects in terms of this measure, and by this, directly, efficient search of most similar objects in terms of Jaccard similarity.\n\nThe classical definition of similarity and Jaccard distance, however, does not cover the case when it is not known whether a given object possesses a given feature. In this paper we tackle this case. In particular, we introduce strict upper bound on the value of Jaccard distance in presence of features about which it is not known if they belong to an object or not. We also prove that this bound on Jaccard distance under incompleteness fulfills the triangle inequality property, which enables using efficient methods of searching least distant objects with respect to this bound. In addition, we show that the variant of Jaccard distance that ignores uncertain features does not satisfy the triangle inequality property and its values do not exceed corresponding values of the strict upper bound on Jaccard distance under incompleteness.",
+    "keywords": null
+}

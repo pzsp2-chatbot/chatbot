@@ -1,0 +1,45 @@
+{
+    "id": "WUT9c1861ea922a43edbe10079bc126443e",
+    "title": "Redundant Weighted Clustered Scheme with Dynamic Weights Adjustment for Damaged S-UAV",
+    "created": "2025-01-29T10:17:33.201+01:00",
+    "modified": "2025-09-09T23:23:39.999+02:00",
+    "language": "en",
+    "doi": "10.1109/icc51166.2024.10622966",
+    "url": "https://doi.org/10.1109/icc51166.2024.10622966",
+    "authors": [
+        {
+            "full_name": "Matthew Valenti",
+            "affiliation": null
+        },
+        {
+            "full_name": "David Reed",
+            "affiliation": null
+        },
+        {
+            "full_name": "Melissa Torres",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grace Khayat",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Constandinos X. Mavromoustakis",
+            "affiliation": "Πανεπιστήμιο Λευκωσίας"
+        },
+        {
+            "full_name": "Andreas Pitsillides",
+            "affiliation": "University of Cyprus"
+        },
+        {
+            "full_name": "Jordi Mongay Batalla",
+            "affiliation": null
+        },
+        {
+            "full_name": "Evangelos K. Markakis",
+            "affiliation": "Hellenic Mediterranean University"
+        }
+    ],
+    "abstract": "Swarm of UAVs (S-UAVs) is the term used to describe an unplanned gathering of un-manned aerial vehicles (UAVs) that collaborate to complete predefined missions. Any UAV has a risk of being damaged in crisis situations like fire. Clustering is one of the most often used routing algorithms in S-UAVs. The clustering scheme divides the UAVs into clusters, with a cluster head (CH) and cluster members (CM) in each cluster. The CH plays a critical role within inter-cluster communication, and because of this, its selection is an ongoing area of study. A clustered weighted scheme with redundancy and dynamic weight adjustment is proposed in this paper. The selection of the principal CH, redundant CHs, and CMs is based on a weighted formula composed of distance, speed, and rewarding index. Whenever the primary CH is damaged, the redundant CH takes its place immediately. After the first clustering process, the proposed scheme dynamically and autonomously adjusts the weights to optimize the UAV role selection. According to the outcomes of the carried-out simulation, this is a promising scheme that reduces data loss in a crisis-case scenario and optimizes the time delay through the dynamic adjustments of the weights.",
+    "keywords": "swarm of unmanned aerial vehicles, cluster routing scheme, cluster head, cluster members, crisis scenario, dynamic weights"
+}

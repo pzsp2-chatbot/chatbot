@@ -1,0 +1,57 @@
+{
+    "id": "WUT9f0f9951271e49c7a4e8cbf9a0858722",
+    "title": "A robust framework to investigate the reliability and stability of explainable artificial intelligence markers of Mild Cognitive Impairment and Alzheimer’s Disease",
+    "created": "2025-01-30T10:56:53.259+01:00",
+    "modified": "2025-09-10T00:18:35.636+02:00",
+    "language": "en",
+    "doi": "10.1186/s40708-022-00165-5",
+    "url": "https://doi.org/10.1186/s40708-022-00165-5",
+    "authors": [
+        {
+            "full_name": "Angela Lombardi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Domenico Diacono",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nicola Amoroso",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alfonso Monaco",
+            "affiliation": null
+        },
+        {
+            "full_name": "Loredana Bellantuono",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ester Pantaleo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giancarlo Logroscino",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roberto De Blasi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sabina Tangaro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roberto Bellotti",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>In clinical practice, several standardized neuropsychological tests have been designed to assess and monitor the neurocognitive status of patients with neurodegenerative diseases such as Alzheimer’s disease. Important research efforts have been devoted so far to the development of multivariate machine learning models that combine the different test indexes to predict the diagnosis and prognosis of cognitive decline with remarkable results. However, less attention has been devoted to the explainability of these models. In this work, we present a robust framework to (i) perform a threefold classification between healthy control subjects, individuals with cognitive impairment, and subjects with dementia using different cognitive indexes and (ii) analyze the variability of the explainability SHAP values associated with the decisions taken by the predictive models. We demonstrate that the SHAP values can accurately characterize how each index affects a patient’s cognitive status. Furthermore, we show that a longitudinal analysis of SHAP values can provide effective information on Alzheimer’s disease progression.</p>",
+    "keywords": null
+}

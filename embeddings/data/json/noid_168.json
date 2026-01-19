@@ -1,0 +1,73 @@
+{
+    "id": "WUT7c33d4d34236433d8dc225f161aedd95",
+    "title": "AI-Driven Framework for Scalable Management of Network Slices",
+    "created": "2025-01-28T12:55:06.531+01:00",
+    "modified": "2025-09-09T23:34:14.056+02:00",
+    "language": "en",
+    "doi": "10.1109/MCOM.005.2300147",
+    "url": "https://doi.org/10.1109/MCOM.005.2300147",
+    "authors": [
+        {
+            "full_name": "Luis Blanco",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Engin Zeydan",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Farhad Rezazadeh",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Ashima Chawla",
+            "affiliation": "Ericsson Ireland"
+        },
+        {
+            "full_name": "Lanfranco Zanzi",
+            "affiliation": "NEC Laboratories Europe GmbH"
+        },
+        {
+            "full_name": "Francesco Devoti",
+            "affiliation": "NEC Laboratories Europe GmbH"
+        },
+        {
+            "full_name": "Robert Kołakowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Vasiliki Vlahodimitropoulou",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Ioannis Chochliouros",
+            "affiliation": "Hellenic Telecommunications Organization S.A."
+        },
+        {
+            "full_name": "Anne-Marie Bosneag",
+            "affiliation": "Ericsson Ireland"
+        },
+        {
+            "full_name": "Sihem Cherrared",
+            "affiliation": "Orange France"
+        },
+        {
+            "full_name": "Luis A. Garrido",
+            "affiliation": "Iquadrat"
+        },
+        {
+            "full_name": "Sergio Barrachina-Munoz",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        },
+        {
+            "full_name": "Josep Mangues",
+            "affiliation": "Centre Tecnològic de Telecomunicacions de Catalunya"
+        }
+    ],
+    "abstract": "This article describes a scalable solution for orchestrating and managing a massive number of network slices that leverages Artificial Intelligence (AI) techniques to design robust and sustainable networks. To achieve this goal, the proposed approach decomposes the management and orchestration (M&O) plane using separation of concerns and uses AI techniques to automate M&O operations. The M&O automation is achieved through the use of multiple, distributed and AI-driven control loops. The control loops have different goals and may work on the node level, slice level, inter-slice level or orchestration domain level. We also present a case study of using the proposed distributed intelligent components to scale, optimize and improve the network infrastructure. Finally, we briefly describe some challenges and future directions for scalable M&O on the road to 6G.",
+    "keywords": null
+}

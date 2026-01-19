@@ -1,0 +1,37 @@
+{
+    "id": "WUT332663c7d2ca421194431c66d3561a46",
+    "title": "Reinforcement Learning Meets Microeconomics: Learning to Designate Price-Dependent Supply and Demand for Automated Trading",
+    "created": "2025-01-31T13:20:28.631+01:00",
+    "modified": "2025-09-09T23:23:59.469+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-70378-2_23",
+    "url": "https://doi.org/10.1007/978-3-031-70378-2_23",
+    "authors": [
+        {
+            "full_name": "Albert Bifet",
+            "affiliation": "University of Waikato, Hamilton, New Zealand and LTCI, Paris, France"
+        },
+        {
+            "full_name": "Tomas Krilavičius",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ioanna Miliou",
+            "affiliation": "Stockholm University, Kista, Sweden"
+        },
+        {
+            "full_name": "Sławomir Nowaczyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Lepak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Wawrzyński",
+            "affiliation": "Ideas NCBR Sp. z o.o."
+        }
+    ],
+    "abstract": "The ongoing energy transition towards renewable sources increases the importance of energy exchanges and creates demand for automated trading tools on these exchanges. Day-ahead exchanges play a prominent role in this area. Participants in these exchanges place buy/sell bids collections before each trading day. However, machine learning-based approaches to automated trading are based on placing a single bid for each time instant. The bid is either executed or not, depending on the relation between the market price and the bid price. This is contrary to economic rationality, which usually requires buying more when the market price is lower and selling more when it is higher. Single bids do not allow the expression of such preferences. In this paper, we fill this gap and design a policy that translates the information available to the trading agent into price-dependent supply and demand curves. Also, we demonstrate how to train this policy with reinforcement learning and real-life data. Our proposed method is now being deployed in a real system for energy storage management. Here, we demonstrate how it performs in four data-driven simulations. The proposed method outperforms alternatives in all cases.",
+    "keywords": null
+}

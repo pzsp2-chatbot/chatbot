@@ -1,0 +1,53 @@
+{
+    "id": "WUT32d040dc1add413496cd10b7f351c559",
+    "title": "AI-driven Orchestration for 6G Networking: the Hexa-X vision",
+    "created": "2025-01-31T15:44:14.916+01:00",
+    "modified": "2025-09-09T23:24:21.964+02:00",
+    "language": "en",
+    "doi": "10.1109/GCWkshps56602.2022.10008726",
+    "url": "https://doi.org/10.1109/GCWkshps56602.2022.10008726",
+    "authors": [
+        {
+            "full_name": "Jesus Peerez-Valero",
+            "affiliation": null
+        },
+        {
+            "full_name": "Antonio Virdis",
+            "affiliation": null
+        },
+        {
+            "full_name": "Adrian Gallego Sanchez",
+            "affiliation": null
+        },
+        {
+            "full_name": "Christos Ntogkas",
+            "affiliation": null
+        },
+        {
+            "full_name": "Pablo Serrano",
+            "affiliation": null
+        },
+        {
+            "full_name": "Giada Landi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Kukliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ceedric Morin",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ignacio Labrador Pavon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bessem Sayadi",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Mobile networks are adopting disaggregation and modularisation to support flexibility. However, large modular networks with a wide range of heterogeneous components have many degrees of freedom, making its Management and Orchestration complex. The use of Machine Learning techniques is expected to improve the efficiency of the operation of 6G networks, by introducing data-driven approaches into their Management and Orchestration. In this paper, we review the current best practices of ML usage to support Management and Orchestration, and we present the H2020 European project Hexa-X Management and Orchestration architecture. We then identify the main challenges ahead to fully embrace a Machine Learning driven operation.",
+    "keywords": null
+}

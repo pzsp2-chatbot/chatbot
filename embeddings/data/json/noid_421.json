@@ -1,0 +1,37 @@
+{
+    "id": "WUTb7a30d41c6bc433ba3bb04cb62d03073",
+    "title": "Analytics for Rhetorical Arguments in Discussions on Polarised Issues",
+    "created": "2025-06-16T13:22:28.549+02:00",
+    "modified": "2025-09-09T23:24:32.115+02:00",
+    "language": "en",
+    "doi": "10.3233/FAIA240335",
+    "url": "https://doi.org/10.3233/FAIA240335",
+    "authors": [
+        {
+            "full_name": "Chris Reed",
+            "affiliation": null
+        },
+        {
+            "full_name": "Matthias Thimm",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tjitze Rienstra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ewelina Gajewska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Budzyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Barbara Konat",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This paper demonstrates LEPAn, Logos-Ethos-Pathos Analytics, which offers analysis of statistical patterns in the use of rhetorical arguments in public discussions on polarised issues. It is available at https://newethos.org/technologies/.",
+    "keywords": null
+}

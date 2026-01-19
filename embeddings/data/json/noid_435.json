@@ -1,0 +1,33 @@
+{
+    "id": "WUTe61ea4f6da974f74bf9b67c02205d127",
+    "title": "Flow and thermal modelling of the argon volume in the DarkSide-20k TPC",
+    "created": "2025-06-29T09:34:27.508+02:00",
+    "modified": "2025-09-09T23:18:17.112+02:00",
+    "language": "en",
+    "doi": "10.1088/1748-0221/20/06/p06046",
+    "url": "https://doi.org/10.1088/1748-0221/20/06/p06046",
+    "authors": [
+        {
+            "full_name": "F. Acerbi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Buchowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Galiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Grzegorz Krzysztof Nieradka",
+            "affiliation": "Centrum Astronomiczne im. Mikołaja Kopernika Polskiej Akademii Nauk"
+        },
+        {
+            "full_name": "Grzegorz Pastuszak",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

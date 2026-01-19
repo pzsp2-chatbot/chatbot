@@ -1,0 +1,49 @@
+{
+    "id": "WUTb7650e0d94004146ad6985bf473f19b1",
+    "title": "The Hybrid Cluster-And-Classify Approach",
+    "created": "2025-01-30T14:27:10.195+01:00",
+    "modified": "2025-09-09T23:26:57.730+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-32503-8_6",
+    "url": "https://doi.org/10.1007/978-3-031-32503-8_6",
+    "authors": [
+        {
+            "full_name": "Janusz Kacprzyk",
+            "affiliation": null
+        },
+        {
+            "full_name": "Agnieszka Jastrzębska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan W. Owsiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Karol Opara",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marek Gajewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Olgierd Hryniewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mariusz Kozakiewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sławomir Zadrożny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Zwierzchowski",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>When dealing with challenging, real-world datasets, one may turn to hybrid data processing approaches that join several kinds of data analysis algorithms. The hybrid data analysis techniques are popular in the literature, where we may find fusions of optimization and classification algorithms, clustering and classification algorithms.</p>",
+    "keywords": null
+}

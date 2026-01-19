@@ -1,25 +1,25 @@
 {
-    "id": "WUT6122c1c5e2df499682ce6e4b2f9b7762",
-    "title": "Advancements and future directions in single-cell Hi-C based 3D chromatin modeling",
-    "created": "2024-10-27T16:23:35.144+01:00",
-    "modified": "2025-09-09T23:29:31.780+02:00",
+    "id": "WUT312380a4f19049c38a8bac01412f8781",
+    "title": "Post-mortem iris biometrics – Field, applications and methods",
+    "created": "2024-11-19T16:49:08.736+01:00",
+    "modified": "2025-09-09T23:34:54.810+02:00",
     "language": "en",
-    "doi": "10.1016/j.csbj.2024.09.026",
-    "url": "https://doi.org/10.1016/j.csbj.2024.09.026",
+    "doi": "10.1016/j.forsciint.2024.112293",
+    "url": "https://doi.org/10.1016/j.forsciint.2024.112293",
     "authors": [
         {
-            "full_name": "Krzysztof Banecki",
+            "full_name": "Mateusz Trokielewicz",
             "affiliation": null
         },
         {
-            "full_name": "Dariusz Plewczyński",
+            "full_name": "Piotr Maciejewicz",
             "affiliation": null
         },
         {
-            "full_name": "Sevastianos Korsak",
+            "full_name": "Adam Czajka",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "Post-mortem iris recognition (PMIR) is a recently developed area of expertise falling into the broader category of\nbiometric methods utilizing human iris features for the purpose of automatic or semi-automatic establishing or\nconfirming one’s identity. Yet, contrary to traditional iris recognition applied to living individuals, post-mortem\nbiometrics presents forensic experts and scientists with challenges that have previously been unknown and\nrequire novel approaches and development of new skills. This paper summarizes the current state of the art of\nresearch in this area, both with respect to studies exploring the feasibility of iris recognition in a forensic setting,\nas well as the challenges still pervasive in the scientific community and potential ways to overcome them. We\nargue that post-mortem iris biometrics can serve both as a way for improving iris recognition, as well as provide\nforensic examiners tools for extending knowledge and skills in their respective field.",
+    "keywords": "Biometrics\nIris recognition\nPost-mortem identification"
 }

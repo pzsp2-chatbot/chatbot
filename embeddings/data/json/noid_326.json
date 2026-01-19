@@ -1,0 +1,45 @@
+{
+    "id": "WUT1cb394bbb2774646b8f1babd380dc0ed",
+    "title": "Influence of IQT on Research in ICT, Part 3",
+    "created": "2025-03-31T14:08:10.496+02:00",
+    "modified": "2025-09-09T23:18:47.872+02:00",
+    "language": "en",
+    "doi": "10.24425/ijet.2025.153567",
+    "url": "https://doi.org/10.24425/ijet.2025.153567",
+    "authors": [
+        {
+            "full_name": "Daniel Al-Burgan",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zinelabidine Leghelimi",
+            "affiliation": null
+        },
+        {
+            "full_name": "Zan Li",
+            "affiliation": null
+        },
+        {
+            "full_name": "Łukasz Nowicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Mehdi Raji",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Sendłak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Minyu Zhang",
+            "affiliation": null
+        },
+        {
+            "full_name": "Ryszard Romaniuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The advanced Quantum Information Technologies subject for Ph.D. students in Electronics Engineering and ICT consists of three parts. A few review lectures concentrate on topics which may be of interest for the students due to their fields of research done individually in their theses. The lectures indicate the diversity of the QIT field, resting on physics and applied mathematics, but possessing wide application range in quantum computing, communications and metrology. The individual IQT seminars prepared by Ph.D. students are as closely related to\ntheir real theses as possible. An important part of the seminar is a discussion among the students. The task was to enrich, possibly with a quantum layer, the current research efforts in ICT. And to imagine, what value such a quantum enrichment adds to the research. The result is sometimes astonishing, especially in such cases when quantum layer may be functionally deeply embedded.\nThe final part was to write a short paragraph to a common paper related to individual quantum layer addition to the own research.\nThe paper presents some results of such an experiment and is a continuation of previous papers of the same style.",
+    "keywords": "ICT, QIT, biomedical engineering, electronics and communications engineering, sensors, quantum machine learning, quantum Internet, quantum computing, cybersecurity, quantum networks, quantum sensors"
+}

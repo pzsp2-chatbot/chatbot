@@ -1,0 +1,33 @@
+{
+    "id": "WUT731698fe151f4eb6a2ee98a2c38b9564",
+    "title": "Hospital Length of Stay Prediction Based on Multi-modal Data Towards Trustworthy Human-AI Collaboration in Radiomics",
+    "created": "2025-01-30T13:06:18.113+01:00",
+    "modified": "2025-09-09T23:25:54.962+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-34344-5_9",
+    "url": "https://doi.org/10.1007/978-3-031-34344-5_9",
+    "authors": [
+        {
+            "full_name": "Hubert Baniecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartlomiej Sobieski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Bombiński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patryk Szatkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Przemysław Biecek",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>To what extent can the patient’s length of stay in a hospital be predicted using only an X-ray image? We answer this question by comparing the performance of machine learning survival models on a novel multi-modal dataset created from 1235 images with textual radiology reports annotated by humans. Although black-box models predict better on average than interpretable ones, like Cox proportional hazards, they are not inherently understandable. To overcome this trust issue, we introduce time-dependent model explanations into the human-AI decision making process. Explaining models built on both: human-annotated and algorithm-extracted radiomics features provides valuable insights for physicians working in a hospital. We believe the presented approach to be general and widely applicable to other time-to-event medical use cases. For reproducibility, we open-source code and the tlos dataset at https://github.com/mi2datalab/xlungs-trustworthy-los-prediction.</p>",
+    "keywords": null
+}

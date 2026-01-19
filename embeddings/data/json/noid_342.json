@@ -1,0 +1,37 @@
+{
+    "id": "WUT0462278d8f0347e7b5565fbce89b4e29",
+    "title": "Access Control Mechanisms in Java Applications",
+    "created": "2025-04-07T09:28:41.186+02:00",
+    "modified": "2025-09-09T23:22:26.537+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-79086-7_19",
+    "url": "https://doi.org/10.1007/978-3-031-79086-7_19",
+    "authors": [
+        {
+            "full_name": "Khalid S. Soliman",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jerzy Krawiec",
+            "affiliation": null
+        },
+        {
+            "full_name": "Piotr Górny",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Kiedrowicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Gepner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leonid Moroz",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

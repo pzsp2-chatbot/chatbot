@@ -1,0 +1,17 @@
+{
+    "id": "WUT5cf8780ff9f247a5b8d322a3419bf8c3",
+    "title": "Adaptive Finite Element Implementation in Julia",
+    "created": "2025-01-13T11:37:32.202+01:00",
+    "modified": "2025-09-09T23:26:09.415+02:00",
+    "language": "en",
+    "doi": "10.1109/CPEE64152.2024.10720416",
+    "url": "https://doi.org/10.1109/CPEE64152.2024.10720416",
+    "authors": [
+        {
+            "full_name": "Jacek Starzyński",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>This paper presents the implementation of a simple adaptive 3D finite element code in the Julia programming language. The library was developed to build a tool for the automated creation of numerous simulations, forming a database for deep neural network training. The author aims to present Julia as an extremely useful tool for fast finite element code development.</p>",
+    "keywords": null
+}

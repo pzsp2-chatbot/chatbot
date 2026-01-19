@@ -1,0 +1,33 @@
+{
+    "id": "WUT197507f92dbf4692991e504dd49b5c41",
+    "title": "Towards Frugal Artificial Intelligence: Exploring Neural Network Pruning and Binarization",
+    "created": "2025-04-10T12:49:24.312+02:00",
+    "modified": "2025-09-09T23:27:20.111+02:00",
+    "language": "en",
+    "doi": "10.1007/978-981-19-8094-7_2",
+    "url": "https://doi.org/10.1007/978-981-19-8094-7_2",
+    "authors": [
+        {
+            "full_name": "Adrianna Klimczak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcel Wenka",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Jacek Mańdziuk",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

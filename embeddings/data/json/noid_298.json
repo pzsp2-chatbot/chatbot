@@ -1,0 +1,21 @@
+{
+    "id": "WUT063aa089d10b422489a26d15364208dc",
+    "title": "A virtual environment designed for testing location-based services based on navigation simulation in the digital twin",
+    "created": "2025-03-03T12:17:33.059+01:00",
+    "modified": "2025-09-09T23:22:39.712+02:00",
+    "language": "en",
+    "doi": "10.5194/ica-abs-7-93-2024",
+    "url": "https://doi.org/10.5194/ica-abs-7-93-2024",
+    "authors": [
+        {
+            "full_name": "Jakub Łobodecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dariusz Gotlib",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "indoor cartography, indoor navigation, map design, Unreal Engine, digital twin, virtual reality"
+}

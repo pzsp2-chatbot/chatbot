@@ -1,0 +1,33 @@
+{
+    "id": "WUT5b22fad27e7445a182a54b91735f3e00",
+    "title": "Modern intercom system in the COVID-19 period",
+    "created": "2025-04-03T15:15:51.253+02:00",
+    "modified": "2025-09-09T23:21:30.865+02:00",
+    "language": "en",
+    "doi": "10.15199/48.2025.01.16",
+    "url": "https://doi.org/10.15199/48.2025.01.16",
+    "authors": [
+        {
+            "full_name": "Dariusz Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jacek Rydzewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Szwelnik",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jakub Kaliski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Józef Mamza",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>The COVID-19 pandemic has forced many restrictions in public space. It is also seen in appropriate Human – Computer Interaction (HCI) solutions in the consumer devices space. We present the design of an advanced intercom system in which we tried to take into account modern HCI capabilities and also social aspects. A specific distributed control and measurement system was created where \"tailor-made\" solutions allowed for the correct implementation of the project. The usability assessment of the operating intercom system confirmed the social expectations of users.</p>",
+    "keywords": "intercom system\n    human-computer interaction\n    voice control\n    COVID-19 period"
+}

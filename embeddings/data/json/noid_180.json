@@ -1,0 +1,29 @@
+{
+    "id": "WUT7ec1c7a465df47e58dbdfa518dcb99bf",
+    "title": "A Short Survey and Comparison of CNN-Based Music Genre Classification Using Multiple Spectral Features",
+    "created": "2025-01-29T13:00:49.030+01:00",
+    "modified": "2025-09-09T23:34:25.593+02:00",
+    "language": "en",
+    "doi": "10.1109/access.2023.3346883",
+    "url": "https://doi.org/10.1109/access.2023.3346883",
+    "authors": [
+        {
+            "full_name": "Wangduk Seo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Sung-Hyun Cho",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Roman Teisseyre",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jaesung Lee",
+            "affiliation": null
+        }
+    ],
+    "abstract": "The goal of music genre classification is to identify the genre of given feature vectors representing certain characteristics of music clips. In addition, to improve the accuracy of music genre classification, considerable research has been conducted on extracting spectral features, which contain critical information for genre classification, from music clips and feeding these features into training models. In particular, recent studies argue that classification accuracy can be enhanced by employing multiple spectral features simultaneously. Consequently, fusing information from multiple spectral features is a critical consideration in designing music genre classification models. Hence, this paper provides a short survey of recent studies on music genre classification and compares the performance of the most recent CNN-based models with a newly devised model that employs a late fusion strategy for the multiple spectral features. Our empirical study of 12 public datasets, including Ballroom, ISMIR04, and GTZAN, showed that the late fusion CNN model outperforms other compared methods. Additionally, we performed an in-depth analysis to validate the effectiveness of the late fusion strategy in music genre classification",
+    "keywords": "convolutional neural network; late fusion strategy; Music genre classification; spectral feature"
+}

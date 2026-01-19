@@ -1,0 +1,61 @@
+{
+    "id": "WUT6649bffc5f154f239132edd9d38edb8b",
+    "title": "Sex and disease severity-based analysis of steroid hormones in ME/CFS",
+    "created": "2024-12-02T17:39:25.286+01:00",
+    "modified": "2025-09-09T23:33:43.357+02:00",
+    "language": "en",
+    "doi": "10.1007/s40618-024-02334-1",
+    "url": "https://doi.org/10.1007/s40618-024-02334-1",
+    "authors": [
+        {
+            "full_name": "Cornelia Pipper",
+            "affiliation": null
+        },
+        {
+            "full_name": "Linda Bliem",
+            "affiliation": null
+        },
+        {
+            "full_name": "Luis León",
+            "affiliation": null
+        },
+        {
+            "full_name": "Daniela Mennickent",
+            "affiliation": null
+        },
+        {
+            "full_name": "Claudia Bodner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Enrique Guzmán‑Gutiérrez",
+            "affiliation": null
+        },
+        {
+            "full_name": "Michael Stingl",
+            "affiliation": null
+        },
+        {
+            "full_name": "Eva Untersmayr",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bernhard Wagner",
+            "affiliation": null
+        },
+        {
+            "full_name": "Romina Bertinat",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francisco Westermeier",
+            "affiliation": null
+        },
+        {
+            "full_name": "Nuno Henriques dos Santos de Sepúlveda",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Purpose: Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a debilitating disease characterized by persistent fatigue and decreased daily activity following physical and/or cognitive exertion. While ME/CFS affects both sexes, there is a higher prevalence in women. However, studies evaluating this sex-related bias are limited.\n\nMethods: Circulating steroid hormones, including mineralocorticoids (aldosterone), glucocorticoids (cortisol, corticosterone, 11-deoxycortisol, cortisone), androgens (androstenedione, testosterone), and progestins (progesterone, 17α-hydroxyprogesterone), were measured in plasma samples using ultra-high performance liquid chromatography-tandem mass spectrometry (UHPLC-MS/MS). Samples were obtained from mild/moderate (ME/CFSmm; females, n=20; males, n=8), severely affected patients (ME/CFSsa; females, n=24; males, n=6), and healthy controls (HC, females, n=12; males, n=17).\n\nResults: After correction for multiple testing, we observed that circulating levels of 11-deoxycortisol, 17α-hydroxyprogesterone in females, and progesterone in males were significantly different between HC, ME/CFSmm, and ME/CFSsa. Comparing two independent groups, we found that female ME/CFSsa had higher levels of 11-deoxycortisol (vs. HC and ME/CFSmm) and 17α-hydroxyprogesterone (vs. HC). In addition, female ME/CFSmm showed a significant increase in progesterone levels compared to HC. In contrast, our study found that male ME/CFSmm had lower circulating levels of cortisol and corticosterone, while progesterone levels were elevated compared to HC. In addition to these univariate analyses, our correlational and multivariate approaches identified differential associations between our study groups. Also, using two-component partial least squares discriminant analysis (PLS-DA), we were able to discriminate ME/CFS from HC with an accuracy of 0.712 and 0.846 for females and males, respectively.\n\nConclusion: Our findings suggest the potential value of including steroid hormones in future studies aimed at improving stratification in ME/CFS. Additionally, our results provide new perspectives to explore the clinical relevance of these differences within specific patient subgroups.",
+    "keywords": "Myalgic encephalomyelitis/chronic fatigue syndrome; Sex-related differences; Steroid hormones."
+}

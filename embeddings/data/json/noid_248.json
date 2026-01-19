@@ -1,0 +1,41 @@
+{
+    "id": "WUT082c9db30abc49f9ad0ec4d6a85d9285",
+    "title": "Overview of Software Agent Platforms Available in 2023",
+    "created": "2025-02-04T13:14:21.247+01:00",
+    "modified": "2025-09-10T00:05:23.451+02:00",
+    "language": "en",
+    "doi": "10.3390/info14060348",
+    "url": "https://doi.org/10.3390/info14060348",
+    "authors": [
+        {
+            "full_name": "Zofia Wrona",
+            "affiliation": null
+        },
+        {
+            "full_name": "Wojciech Buchwald",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": "Systems Research Institute of the Polish Academy of Sciences"
+        },
+        {
+            "full_name": "Florin Leon",
+            "affiliation": null
+        },
+        {
+            "full_name": "Noman Noor",
+            "affiliation": null
+        },
+        {
+            "full_name": "Constantin-Valentin Pal",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": "agent systems; agent-based systems; multi-agent systems; agent platforms; modeling; simulation; swarm intelligence; artificial intelligence"
+}

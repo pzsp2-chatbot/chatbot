@@ -1,0 +1,41 @@
+{
+    "id": "WUTeecd8c1e08154b6c93110ec1eda08244",
+    "title": "Analytics for Linguistically Characterising Rephrased Arguments",
+    "created": "2025-05-16T16:28:14.505+02:00",
+    "modified": "2025-09-09T23:26:16.397+02:00",
+    "language": "en",
+    "doi": "10.3233/FAIA240345",
+    "url": "https://doi.org/10.3233/FAIA240345",
+    "authors": [
+        {
+            "full_name": "Chris Reed",
+            "affiliation": null
+        },
+        {
+            "full_name": "Matthias Thimm",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tjitze Rienstra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Maciej Bartosz Uberna",
+            "affiliation": null
+        },
+        {
+            "full_name": "Katarzyna Budzyńska",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Koszowy",
+            "affiliation": null
+        },
+        {
+            "full_name": "Patrick Saint-Dizier",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This demo paper presents a platform designed to process changes of\nethotic and sentiment load in argumentation when speakers rephrase what has been said. Our aim is to produce a linguistic analysis and a linguistic model from corpus analysis with the ultimate goal of the development of a natural language system which is capable of identifying the facets of rephrase.",
+    "keywords": "rephrased arguments, ethos and sentiment, linguistic analysis, analytics\ntechnology"
+}

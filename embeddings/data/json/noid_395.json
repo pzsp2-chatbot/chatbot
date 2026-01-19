@@ -1,0 +1,61 @@
+{
+    "id": "WUT0e0678e1d3ec40ca9440972fb6faea53",
+    "title": "Zero-Waste Machine Learning",
+    "created": "2025-05-09T10:24:06.550+02:00",
+    "modified": "2025-09-09T23:24:54.529+02:00",
+    "language": "en",
+    "doi": "10.3233/faia240466",
+    "url": "https://doi.org/10.3233/faia240466",
+    "authors": [
+        {
+            "full_name": "Ulle Endriss",
+            "affiliation": null
+        },
+        {
+            "full_name": "Francisco Melo",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kerstin Bach",
+            "affiliation": null
+        },
+        {
+            "full_name": "Alberto Bugarín-Diz",
+            "affiliation": null
+        },
+        {
+            "full_name": "José Alonso-Moral",
+            "affiliation": null
+        },
+        {
+            "full_name": "Senén Barro",
+            "affiliation": null
+        },
+        {
+            "full_name": "Fredrik Heintz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Trzciński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartłomiej Twardowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Zieliński",
+            "affiliation": null
+        },
+        {
+            "full_name": "Kamil Adamczewski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Bartosz Wójcik",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

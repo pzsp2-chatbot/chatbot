@@ -1,33 +1,21 @@
 {
-    "id": "WUT24e78e77157040ccb695916966bed42c",
-    "title": "Toward Task-Driven Satellite Image Super-Resolution",
-    "created": "2024-10-02T14:33:39.102+02:00",
-    "modified": "2025-09-09T23:26:31.241+02:00",
+    "id": "WUT7705d4ffeed1487f8e55ef28f3734710",
+    "title": "The ASL Dataset for Real-Time Recognition and Integration with LLM Services",
+    "created": "2024-11-01T21:38:41.512+01:00",
+    "modified": "2025-09-09T23:30:14.517+02:00",
     "language": "en",
-    "doi": null,
-    "url": "https://ieeexplore.ieee.org/document/10642397",
+    "doi": "10.24425/ijet.2024.152513",
+    "url": "https://doi.org/10.24425/ijet.2024.152513",
     "authors": [
         {
-            "full_name": "Maciej Ziaja",
+            "full_name": "Michał Chwesiuk",
             "affiliation": null
         },
         {
-            "full_name": "Paweł Kowaleczko",
-            "affiliation": null
-        },
-        {
-            "full_name": "Daniel Kostrzewa",
-            "affiliation": null
-        },
-        {
-            "full_name": "Nicolas Longépé",
-            "affiliation": null
-        },
-        {
-            "full_name": "Michal Kawulok",
+            "full_name": "Piotr Popis",
             "affiliation": null
         }
     ],
-    "abstract_pl": null,
-    "abstract_en": null
+    "abstract": "This study aims to investigate the impact of hand\ngesture recognition techniques on the efficiency of American Sign\nLanguage (ASL) interpretation, addressing a critical gap in the\nexisting literature. The research seeks new insights into the chal-\nlenges of automated sign language recognition, contributing to a\ndeeper understanding of accessibility in communication for the\ndeaf and hard-of-hearing community. The study employs a quan-\ntitative approach, using a dataset comprising hand gesture images\nrepresenting the static letters of the ASL alphabet collected from\nmultiple users. Data were collected from various individuals to\nensure diversity and analyzed using machine learning models\nto evaluate their effectiveness in recognizing ASL signs. The\nresults reveal that the machine learning models implemented\nachieved a high accuracy rate in recognizing hand gestures,\nindicating that person-specific variations do not significantly\nhinder performance. These findings provide evidence that the\nproposed dataset and methodologies can improve the reliability\nof sign language recognition systems, offering significant impli-\ncations for the development of more inclusive communication\ntechnologies. This research offers a novel perspective on sign\nlanguage recognition, providing valuable insight that extends the\ncurrent understanding of gesture-based communication systems.\nThe study’s findings contribute to advancements in accessibility\ntechnologies, highlighting areas for future research and practical\napplications in improving communication for the Deaf and hard\nof hearing community.",
+    "keywords": "dataset; gesture recognition; hand landmarks; machine learning; human-computer interaction; american sign language"
 }

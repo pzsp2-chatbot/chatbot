@@ -1,0 +1,25 @@
+{
+    "id": "WUT4027745d79a24f9882124117a286bf25",
+    "title": "The technical debt gamble: A case study on technical debt in a large-scale industrial microservice architecture",
+    "created": "2025-07-23T10:23:05.117+02:00",
+    "modified": "2025-09-09T23:19:03.124+02:00",
+    "language": "en",
+    "doi": "10.1016/j.jss.2025.112547",
+    "url": "https://doi.org/10.1016/j.jss.2025.112547",
+    "authors": [
+        {
+            "full_name": "Klara Borowa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Andrzej Ratkowski",
+            "affiliation": null
+        },
+        {
+            "full_name": "Roberto Verdecchia",
+            "affiliation": null
+        }
+    ],
+    "abstract": "Microservice architectures provide an intuitive promise of high maintainability and evolvability due to loose \ncoupling. However, these quality attributes are notably vulnerable to technical debt (TD). Few studies address \nTD in microservice systems, particularly on a large scale. This research explores how TD manifests in a large\nscale microservice-based industrial system. The research is based on a mixed-method case study of a project \nincluding over 100 microservices and serving over 15k locations. Results are collected via a quantitative method \nbased static code analyzers combined with qualitative insights derived from a focus group discussion with the \ndevelopment team and a follow-up interview with the lead architect of the case study system. Results show that \n(1) simple static source code analysis can be an efficient and effective entry point for holistic TD discovery, \n(2) inadequate communication significantly contributes to TD, (3) misalignment between architectural and \norganizational structures can exacerbate TD accumulation, (4) microservices can rapidly cycle through TD \naccumulation and resolution, a phenomenon referred to as ‘‘microservice architecture technical debt gamble’’. \nFinally, we identify a set of fitting strategies for TD management in microservice architectures.",
+    "keywords": "Technical debt,  Microservices,  Case study,  Mixed-method empirical study"
+}

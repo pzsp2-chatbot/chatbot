@@ -1,0 +1,21 @@
+{
+    "id": "WUT7ae0151441cd4bc2826f015ef01b3019",
+    "title": "Decoding gender bias through a textual exploration of Reddit /r/MensRights community",
+    "created": "2025-06-30T18:01:09.559+02:00",
+    "modified": "2025-09-09T23:34:22.084+02:00",
+    "language": "en",
+    "doi": "10.26881/bp.2024.1.06",
+    "url": "https://doi.org/10.26881/bp.2024.1.06",
+    "authors": [
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Dagmara Solska",
+            "affiliation": null
+        }
+    ],
+    "abstract": "With a specific focus on the /r/MensRights  subreddit, the linguistic landscape of the “manosphere” is examined to identify and analyze patterns  of  sexist  rhetoric.    The  “manosphere”  on  Reddit  refers  to a collection of communities that discuss perceived men’s issues, often characterized by themes of men’s rights activism and anti-feminism. Employing  natural  language  processing  techniques  and  transformer models  for  sentiment  analysis,  the  research  uncoversprevalent  lan-guage structures indicative of gender bias within this community. Uti-lizing n-gram analysis, the aim is to provide insights into the language dynamics contributing to the perpetuation of gender-based discourse. By examining the framing of gender issues and opinionated language, the research aims to shed light on how members of the men’s rights community discuss gender issues, including attitudes towards femi-nism, perceptions of male-related issues, and overall perspective sur-rounding  men  and  women.  This  study  strives  to  contribute  to a broader understanding of online communities and their influence on shaping attitudes towards gender.",
+    "keywords": "manosphere,  sexism,  gender  bias,  reddit,  social  media  discourse, language patterns, natural language processing"
+}

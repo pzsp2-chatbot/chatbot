@@ -1,0 +1,29 @@
+{
+    "id": "WUT433e5e883ea24d0a800813a09d0e96f9",
+    "title": "Text embeddings and clustering for characterizing online communities on Reddit",
+    "created": "2024-12-07T02:26:52.848+01:00",
+    "modified": "2025-09-09T23:37:56.742+02:00",
+    "language": "en",
+    "doi": "10.15439/2023F6275",
+    "url": "https://doi.org/10.15439/2023F6275",
+    "authors": [
+        {
+            "full_name": "Maria Ganzha",
+            "affiliation": null
+        },
+        {
+            "full_name": "Leszek A. Maciaszek",
+            "affiliation": null
+        },
+        {
+            "full_name": "Marcin Paprzycki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jan Sawicki",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This work analyses Reddit, the largest public, topic-centered social forum. In the experiments, contextualized text embeddings, obtained using DistilBERT, represented subreddit content. Next, clustering was performed, using an unsupervised K-means algorithm and evaluated with multiple clustering metrics. The obtained clusters were analyzed. Moreover, changes of cluster structure, between 2019 and 2022 have been examined.",
+    "keywords": "Reddit, text embeddings, social media, clustering"
+}

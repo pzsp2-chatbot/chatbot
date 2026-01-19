@@ -1,0 +1,25 @@
+{
+    "id": "WUTf9ac7ad5a99e4fda961ac9c9435c50ec",
+    "title": "Continuous prediction of a time intervals-related pattern’s completion",
+    "created": "2025-01-28T08:44:02.929+01:00",
+    "modified": "2025-09-09T23:35:22.234+02:00",
+    "language": "en",
+    "doi": "10.1007/s10115-023-01910-w",
+    "url": "https://doi.org/10.1007/s10115-023-01910-w",
+    "authors": [
+        {
+            "full_name": "Nevo Itzhak",
+            "affiliation": null
+        },
+        {
+            "full_name": "Szymon Jaroszewicz",
+            "affiliation": null
+        },
+        {
+            "full_name": "Robert Moskovitch",
+            "affiliation": null
+        }
+    ],
+    "abstract": "In many daily applications, such as meteorology or patient data, the starting and ending times of the events are stored in a database, resulting in time interval data. Discovering patterns from time interval data can reveal informative patterns, in which the time intervals are related by temporal relations, such as before or overlaps. When multiple temporal variables are sampled in a variety of forms, and frequencies, as well as irregular events that may or may not have a duration, time intervals patterns can be a powerful way to discover temporal knowledge, since these temporal variables can be transformed into a uniform format of time intervals. Predicting the completion of such patterns can be used when the pattern ends with an event of interest, such as the recovery of a patient, or an undesirable event, such as a medical complication. In recent years, an increasing number of studies have been published on time intervals-related patterns (TIRPs), their discovery, and their use as features for classification. However, as far as we know, no study has investigated the prediction of the completion of a TIRP. The main challenge in performing such a completion prediction occurs when the time intervals are coinciding and not finished yet which introduces uncertainty in the evolving temporal relations, and thus on the TIRP’s evolution process. To overcome this challenge, we propose a new structure to represent the TIRP’s evolution process and calculate the TIRP’s completion probabilities over time. We introduce two continuous prediction models (CPMs), segmented continuous prediction model (SCPM), and fully continuous prediction model (FCPM) to estimate the TIRP’s completion probability. With the SCPM, the TIRP’s completion probability changes only at the TIRP’s time intervals’ starting or ending point. The FCPM incorporates, in addition, the duration between the TIRP’s time intervals’ starting and ending time points. A rigorous evaluation of four real-life medical and non-medical datasets was performed. The FCPM outperformed the SCPM and the baseline models (random forest, artificial neural network, and recurrent neural network) for all datasets. However, there is a trade-off between the prediction performance and their earliness since the new TIRP’s time intervals’ starting and ending time points are revealed over time, which increases the CPM’s prediction performance.",
+    "keywords": "Continuous prediction; Time interval data; Time interval patterns"
+}

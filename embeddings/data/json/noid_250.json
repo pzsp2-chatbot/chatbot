@@ -1,0 +1,33 @@
+{
+    "id": "WUT7804878aad0c4d81a98c33f21d7748ff",
+    "title": "Guest editorial: Information security methodology and replication studies",
+    "created": "2025-02-04T15:01:37.127+01:00",
+    "modified": "2025-09-10T00:22:34.467+02:00",
+    "language": "en",
+    "doi": "10.1515/itit-2022-0016",
+    "url": "https://doi.org/10.1515/itit-2022-0016",
+    "authors": [
+        {
+            "full_name": "Steffen Wendzel",
+            "affiliation": "Worms University of Applied Science"
+        },
+        {
+            "full_name": "Luca Caviglione",
+            "affiliation": "Istituto di studi sui sistemi intelligenti per l'automazione"
+        },
+        {
+            "full_name": "Aleksandra Mileva",
+            "affiliation": "University Goce Delcev"
+        },
+        {
+            "full_name": "Jean-François Lalande",
+            "affiliation": "National Center for Scientific Research"
+        },
+        {
+            "full_name": "Wojciech Mazurczyk",
+            "affiliation": null
+        }
+    ],
+    "abstract": "This special issue presents five articles that address the topic of replicability and scientific methodology in information security research, featuring two extended articles from the 2021 International Workshop on Information Security Methodology and Replication Studies (IWSMR). This special issue also comprises two distinguished dissertations.",
+    "keywords": null
+}

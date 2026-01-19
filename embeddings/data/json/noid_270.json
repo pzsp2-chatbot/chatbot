@@ -1,0 +1,33 @@
+{
+    "id": "WUTe34a71e7f58b48e297acb41a15a10abd",
+    "title": "Cost-constrained Group Feature Selection Using Information Theory",
+    "created": "2025-02-14T11:58:35.405+01:00",
+    "modified": "2025-09-09T23:27:21.334+02:00",
+    "language": "en",
+    "doi": "10.1007/978-3-031-33498-6_8",
+    "url": "https://doi.org/10.1007/978-3-031-33498-6_8",
+    "authors": [
+        {
+            "full_name": "Vicenç Torra",
+            "affiliation": null
+        },
+        {
+            "full_name": "Yasuo Narukawa",
+            "affiliation": null
+        },
+        {
+            "full_name": "Tomasz Klonecki",
+            "affiliation": null
+        },
+        {
+            "full_name": "Paweł Roman Teisseyre",
+            "affiliation": null
+        },
+        {
+            "full_name": "Jaesung Lee",
+            "affiliation": null
+        }
+    ],
+    "abstract": null,
+    "keywords": null
+}

@@ -1,0 +1,33 @@
+{
+    "id": "WUTb17649a015724824a37b3217494af833",
+    "title": "Fisher Information Matrix for Generalized Poisson Regression: Evaluation of the Log-Likelihood Function",
+    "created": "2025-01-30T08:15:38+01:00",
+    "modified": "2025-09-09T23:30:40.100+02:00",
+    "language": "en",
+    "doi": null,
+    "url": "https://future-in-tech.net/Volume19.4.htm",
+    "authors": [
+        {
+            "full_name": "Riski Nur Istiqomah Dinnullah",
+            "affiliation": "Brawijaya University"
+        },
+        {
+            "full_name": "Sobri Abusini",
+            "affiliation": "Brawijaya University"
+        },
+        {
+            "full_name": "Rahma Fitriani",
+            "affiliation": "Brawijaya University"
+        },
+        {
+            "full_name": "Trija Fayeldi",
+            "affiliation": "Universitas PGRI Kanjuruhan Malang"
+        },
+        {
+            "full_name": "Rauzan Sumara",
+            "affiliation": null
+        }
+    ],
+    "abstract": "<p>Fisher information is an essential element in statistical modeling and is required for a matrix-based parameter estimator to find the optimal solution. The information matrix is calculated by subtracting the expectation value matrix of the function to be maximized by a given amount. Positive semidefiniteness is observed in this matrix with regard to each parameter value. The Fisher information matrix (FIM) shows how parameters in a probabilistic model are related to each other. It is an inherent consequence of the procedure of maximum likelihood estimation (MLE). In this paper, we perform an analytical evaluation of the FIM for Generalized Poisson Regression (GPR). In the previous stage, we analyzed the expectation of the second derivative, where the evaluation function is the log-likelihood function for the GPR model.</p>",
+    "keywords": null
+}
