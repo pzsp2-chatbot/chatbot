@@ -11,3 +11,4 @@ isort
 mypy
 gensim>=4.3.2
 sentence_transformers
+torch
