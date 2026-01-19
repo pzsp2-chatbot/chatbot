@@ -2,16 +2,15 @@ from embeddings.infrastructure.st_embedder import STEmbedder
 from embeddings.infrastructure.gensim_embedder import GensimEmbedder
 from embeddings.interfaces.embedder import IEmbedder
 
+
 class EmbedderFactory:
     @staticmethod
     def create(name: str) -> IEmbedder:
         name = name.lower()
-
         if name == "st_mpnet":
             return STEmbedder(
                 "sentence-transformers/paraphrase-multilingual-mpnet-base-v2"
             )
-
         if name == "st_labse":
             return STEmbedder("sentence-transformers/LaBSE")
 
@@ -25,4 +24,3 @@ class EmbedderFactory:
             return GensimEmbedder("glove-wiki-gigaword-300")
 
         raise ValueError(f"Unknown embedder name: {name}")
-
