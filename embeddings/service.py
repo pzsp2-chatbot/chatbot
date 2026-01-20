@@ -1,18 +1,29 @@
-import hashlib
-import math
+import os
+from functools import lru_cache
+from typing import List, Optional
 
-DEFAULT_VECTOR_SIZE = 256
+DEFAULT_MODEL_NAME = os.getenv(
+    "EMBEDDING_MODEL",
+    "sentence-transformers/all-MiniLM-L6-v2",
+)
 
 
-def embed(text: str, vector_size: int = DEFAULT_VECTOR_SIZE) -> list[float]:
-    text = (text or "").lower().strip()
-    vec = [0.0] * vector_size
+@lru_cache(maxsize=1)
+def _get_model():
+    from sentence_transformers import SentenceTransformer
 
-    for token in text.split():
-        h = hashlib.sha256(token.encode("utf-8")).digest()
-        idx = int.from_bytes(h[:4], "little") % vector_size
-        sign = 1.0 if (h[4] % 2 == 0) else -1.0
-        vec[idx] += sign
+    return SentenceTransformer(DEFAULT_MODEL_NAME)
 
-    norm = math.sqrt(sum(x * x for x in vec)) or 1.0
-    return [x / norm for x in vec]
+
+def embed(text: str, vector_size: Optional[int] = None) -> List[float]:
+    text = (text or "").strip()
+    model = _get_model()
+    vec = model.encode(text, normalize_embeddings=True)
+
+    vec = vec.tolist()
+    if vector_size is not None and vector_size != len(vec):
+        raise ValueError(
+            f"vector_size mismatch: got {vector_size}, but model returns {len(vec)}. "
+            f"Use --vector-size {len(vec)} or recreate collection with that size."
+        )
+    return vec
